@@ -1,4 +1,5 @@
 import { prisma } from "@/lib/db";
+import { isBuildTimeRuntime } from "@/lib/build-runtime";
 
 type AuthSettingTuple = readonly [key: string, defaultValue: string, label: string, description: string];
 
@@ -78,6 +79,7 @@ export const authSettingGroups = [
 export const authSettingKeys = authSettingGroups.flatMap((group) => group.settings.map(([key]) => key));
 
 export async function ensureAuthSettings() {
+  if (isBuildTimeRuntime()) return;
   for (const group of authSettingGroups) {
     for (const [key, value, label, description] of group.settings) {
       await prisma.setting.upsert({
@@ -90,6 +92,9 @@ export async function ensureAuthSettings() {
 }
 
 export async function getAuthSettingsMap() {
+  if (isBuildTimeRuntime()) {
+    return new Map(authSettingGroups.flatMap((group) => group.settings.map(([key, value]) => [key, value])));
+  }
   await ensureAuthSettings();
   const settings = await prisma.setting.findMany({
     where: { key: { in: authSettingKeys } }

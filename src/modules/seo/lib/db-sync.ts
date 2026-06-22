@@ -1,4 +1,5 @@
 import { prisma } from "@/lib/db";
+import { isBuildTimeRuntime } from "@/lib/build-runtime";
 import { seoLandingPagesMock, seoRedirectsMock } from "@/modules/seo/mock/landing-pages";
 import {
   seoArticleCategoriesMock,
@@ -15,6 +16,7 @@ function toDate(value?: string | null) {
 }
 
 export async function ensureSeoDatabaseSeeded() {
+  if (isBuildTimeRuntime()) return;
   if (initialized) return;
 
   const [landingCount, articleCount, settingsCount] = await Promise.all([

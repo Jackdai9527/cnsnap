@@ -12,6 +12,7 @@ import {
   type SeoLocale
 } from "../../../config/i18n";
 import { prisma } from "@/lib/db";
+import { isBuildTimeRuntime } from "@/lib/build-runtime";
 
 const LOCALE_CONFIGS_SETTING_KEY = "locale_configs_json";
 
@@ -52,6 +53,7 @@ function normalizeConfigs(input: LocaleConfig[]) {
 }
 
 export const getLocaleConfigsSnapshot = cache(async (): Promise<LocaleConfig[]> => {
+  if (isBuildTimeRuntime()) return normalizeConfigs(localeConfigs);
   const setting = await prisma.setting.findUnique({ where: { key: LOCALE_CONFIGS_SETTING_KEY } }).catch(() => null);
   if (!setting?.value) return normalizeConfigs(localeConfigs);
 
@@ -65,6 +67,7 @@ export const getLocaleConfigsSnapshot = cache(async (): Promise<LocaleConfig[]> 
 });
 
 export async function saveLocaleConfigsSnapshot(configs: LocaleConfig[]) {
+  if (isBuildTimeRuntime()) return;
   const normalized = normalizeConfigs(configs);
   const payload = JSON.stringify(normalized);
   await prisma.setting.upsert({

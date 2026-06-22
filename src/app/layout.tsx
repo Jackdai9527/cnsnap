@@ -9,6 +9,7 @@ import { MainContentFrame } from "@/components/layout/MainContentFrame";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { MobileBottomNav } from "@/components/mobile/navigation/MobileBottomNav";
 import { ThemeSync } from "@/components/layout/ThemeSync";
+import { isBuildTimeRuntime } from "@/lib/build-runtime";
 import { prisma } from "@/lib/db";
 import { ensureExchangeRatesFresh, getExchangeRateSettings, getLatestExchangeRateSnapshot, startExchangeRateScheduler } from "@/lib/exchange-rates";
 import { getFrontendI18nState } from "@/lib/i18n/frontend";
@@ -79,9 +80,11 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
     : frontendI18nState.locale;
   const publicLocale = await isSeoLocaleRuntime(seoLocaleHeader) ? seoLocaleHeader! : undefined;
   const currentUser = await getCurrentUser();
-  const supportSettings = await prisma.setting.findMany({
-    where: { key: { in: ["support_email", "smtp_from_email", "floating_app_qr_code_url", "floating_ios_download_url", "floating_android_download_url", "floating_discord_url"] } }
-  });
+  const supportSettings = isBuildTimeRuntime()
+    ? []
+    : await prisma.setting.findMany({
+        where: { key: { in: ["support_email", "smtp_from_email", "floating_app_qr_code_url", "floating_ios_download_url", "floating_android_download_url", "floating_discord_url"] } }
+      });
   const messages = await getMergedMessages(resolvedLocale, ["frontend"]);
   const supportMap = new Map(supportSettings.map((setting) => [setting.key, setting.value]));
   const supportEmail = supportMap.get("support_email") || supportMap.get("smtp_from_email") || "support@cnsnap.com";
