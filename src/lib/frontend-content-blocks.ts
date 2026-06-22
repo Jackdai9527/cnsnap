@@ -1,4 +1,5 @@
 import { prisma } from "@/lib/db";
+import { isBuildTimeRuntime } from "@/lib/build-runtime";
 import { footerSectionSettings } from "@/lib/footer-settings";
 import { getNamespaceMessages } from "@/lib/i18n/messages";
 import { getEnabledFrontendLocaleConfigsRuntime } from "@/lib/i18n/locale-config-store";
@@ -159,6 +160,7 @@ async function buildLocalizedFooterFallback(locale: string) {
 }
 
 export async function ensureFooterContentBlocks() {
+  if (isBuildTimeRuntime()) return;
   const settings = await prisma.setting.findMany({
     where: { key: { in: footerSectionSettings.map(([key]) => key) } }
   });
@@ -201,6 +203,21 @@ export async function ensureFooterContentBlocks() {
 }
 
 export async function getFooterContentBlocks() {
+  if (isBuildTimeRuntime()) {
+    const fallback = await buildLocalizedFooterFallback(DEFAULT_FALLBACK_LOCALE);
+    return footerSectionSettings.map(([blockKey], index) => ({
+      blockKey,
+      blockType: "footer_html",
+      status: "enabled",
+      sortOrder: index + 1,
+      translations: {
+        [DEFAULT_FALLBACK_LOCALE]: {
+          content: fallback[blockKey as FooterBlockKey] || "",
+          translationStatus: "published" as TranslationStatus
+        }
+      } as Record<string, { content: string; translationStatus: TranslationStatus }>
+    }));
+  }
   await ensureFooterContentBlocks();
   const blocks = await prisma.frontendContentBlock.findMany({
     where: { groupKey: FOOTER_GROUP_KEY },

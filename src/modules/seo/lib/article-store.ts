@@ -1,5 +1,6 @@
 import { cache } from "react";
 import { unstable_noStore as noStore } from "next/cache";
+import { isBuildTimeRuntime } from "@/lib/build-runtime";
 import { prisma } from "@/lib/db";
 import { getAppLocaleBySeoLocale, isSeoLocale, type SeoLocale } from "../../../../config/i18n";
 import { stripSeoLocale } from "@/modules/seo/lib/locale-routing";
@@ -67,29 +68,39 @@ function buildArticleTagMap() {
 }
 
 async function loadDbArticles() {
-  await ensureSeoDatabaseSeeded();
-  const articles = await prisma.seoArticle.findMany({
-    include: {
-      descriptions: {
-        orderBy: { languageCode: "asc" }
-      }
-    },
-    orderBy: [{ updatedAt: "desc" }]
-  });
-  return articles;
+  if (isBuildTimeRuntime()) return [];
+  try {
+    await ensureSeoDatabaseSeeded();
+    const articles = await prisma.seoArticle.findMany({
+      include: {
+        descriptions: {
+          orderBy: { languageCode: "asc" }
+        }
+      },
+      orderBy: [{ updatedAt: "desc" }]
+    });
+    return articles;
+  } catch {
+    return [];
+  }
 }
 
 async function loadDbLandingPages() {
-  await ensureSeoDatabaseSeeded();
-  const pages = await prisma.seoLandingPage.findMany({
-    include: {
-      descriptions: {
-        orderBy: { languageCode: "asc" }
-      }
-    },
-    orderBy: [{ updatedAt: "desc" }]
-  });
-  return pages;
+  if (isBuildTimeRuntime()) return [];
+  try {
+    await ensureSeoDatabaseSeeded();
+    const pages = await prisma.seoLandingPage.findMany({
+      include: {
+        descriptions: {
+          orderBy: { languageCode: "asc" }
+        }
+      },
+      orderBy: [{ updatedAt: "desc" }]
+    });
+    return pages;
+  } catch {
+    return [];
+  }
 }
 
 function hydrateArticleFromDb(article: DbArticle & {
@@ -929,24 +940,29 @@ export async function upsertSeoArticleTag(_tag: SeoArticleTag) {}
 export async function deleteSeoArticleTag(_id: string) {}
 
 export async function getSeoSettingsFromStore(): Promise<SeoSettings> {
-  await ensureSeoDatabaseSeeded();
-  const setting = await prisma.seoSetting.findFirst({ orderBy: { id: "asc" } });
-  return setting ? {
-    id: String(setting.id),
-    siteName: setting.siteName,
-    defaultTitle: setting.defaultTitle,
-    titleTemplate: setting.titleTemplate,
-    defaultDescription: setting.defaultDescription,
-    defaultOgImage: setting.defaultOgImage || "",
-    defaultTwitterImage: setting.defaultTwitterImage || "",
-    defaultRobots: normalizeRobots(setting.defaultRobots),
-    canonicalBaseUrl: setting.canonicalBaseUrl,
-    googleSiteVerification: setting.googleSiteVerification || "",
-    googleAnalyticsId: setting.googleAnalyticsId || "",
-    googleTagManagerId: setting.googleTagManagerId || "",
-    createdAt: setting.createdAt.toISOString(),
-    updatedAt: setting.updatedAt.toISOString()
-  } : seoSettingsMock;
+  if (isBuildTimeRuntime()) return seoSettingsMock;
+  try {
+    await ensureSeoDatabaseSeeded();
+    const setting = await prisma.seoSetting.findFirst({ orderBy: { id: "asc" } });
+    return setting ? {
+      id: String(setting.id),
+      siteName: setting.siteName,
+      defaultTitle: setting.defaultTitle,
+      titleTemplate: setting.titleTemplate,
+      defaultDescription: setting.defaultDescription,
+      defaultOgImage: setting.defaultOgImage || "",
+      defaultTwitterImage: setting.defaultTwitterImage || "",
+      defaultRobots: normalizeRobots(setting.defaultRobots),
+      canonicalBaseUrl: setting.canonicalBaseUrl,
+      googleSiteVerification: setting.googleSiteVerification || "",
+      googleAnalyticsId: setting.googleAnalyticsId || "",
+      googleTagManagerId: setting.googleTagManagerId || "",
+      createdAt: setting.createdAt.toISOString(),
+      updatedAt: setting.updatedAt.toISOString()
+    } : seoSettingsMock;
+  } catch {
+    return seoSettingsMock;
+  }
 }
 
 export function calculateReadingTime(content: string) {

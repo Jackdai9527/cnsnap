@@ -1,4 +1,5 @@
 import { prisma } from "@/lib/db";
+import { isBuildTimeRuntime } from "@/lib/build-runtime";
 import { ensureHelpArticleDescriptions } from "@/lib/content-localization";
 import { helpFaqs, helpCategories, helpArticles } from "@/components/frontend/help/help-center-data";
 import type { HelpArticle, HelpCategory, HelpFaq } from "@/types/help";
@@ -97,6 +98,7 @@ function buildLocalizedKeywords(seed: (typeof helpArticles)[number] | undefined,
 }
 
 export async function ensureHelpFaqSeed() {
+  if (isBuildTimeRuntime()) return;
   const helpMessagesEn = await getHelpMessages(DEFAULT_LOCALE);
   const count = await prisma.faqItem.count();
   if (count > 0) {
@@ -145,6 +147,7 @@ export async function ensureHelpFaqSeed() {
 }
 
 export async function ensureHelpCategoryKeys() {
+  if (isBuildTimeRuntime()) return;
   const categoryMap = new Map(helpArticles.map((item) => [item.slug, item.categoryId]));
   const articles = await prisma.helpArticle.findMany();
   for (const article of articles) {
@@ -158,7 +161,49 @@ export async function ensureHelpCategoryKeys() {
   }
 }
 
-export async function getHelpCenterData(locale: string) {
+export async function getHelpCenterData(locale: string): Promise<{
+  categories: HelpCategory[];
+  articles: HelpArticle[];
+  faqs: HelpFaq[];
+}> {
+  if (isBuildTimeRuntime()) {
+    const helpMessages = await getHelpMessages(locale);
+    const categories: HelpCategory[] = helpCategories.map((category) => ({
+      id: category.id,
+      slug: slugifyCategoryId(category.id),
+      title: getMessageText(helpMessages, category.titleKey, titleCaseFromKey(category.id)),
+      description: getMessageText(helpMessages, category.descriptionKey, titleCaseFromKey(category.id)),
+      icon: category.icon,
+      articleCount: helpArticles.filter((item) => item.categoryId === category.id).length
+    }));
+    const categoryMap = new Map(categories.map((category) => [category.id, category]));
+    const articles: HelpArticle[] = helpArticles.map((item) => ({
+      id: item.id,
+      slug: item.slug,
+      title: getMessageText(helpMessages, item.titleKey, item.slug),
+      summary: getMessageText(helpMessages, item.summaryKey, item.slug),
+      content: getMessageText(helpMessages, item.contentKey, item.slug),
+      categoryId: item.categoryId,
+      category: categoryMap.get(item.categoryId)?.title || item.categoryId,
+      keywords: buildLocalizedKeywords(item, locale),
+      isPopular: Boolean(item.isPopular),
+      updatedAt: new Date().toISOString().slice(0, 10)
+    }));
+
+    const faqs: HelpFaq[] = helpFaqs.map((faq) => ({
+      id: faq.id,
+      question: getMessageText(helpMessages, faq.questionKey, faq.questionKey),
+      answer: getMessageText(helpMessages, faq.answerKey, faq.answerKey),
+      categoryId: faq.categoryId,
+      category: categoryMap.get(faq.categoryId)?.title || faq.categoryId
+    }));
+
+    return {
+      categories,
+      articles,
+      faqs
+    };
+  }
   await ensureHelpArticleDescriptions();
   await ensureHelpFaqSeed();
   await ensureHelpCategoryKeys();

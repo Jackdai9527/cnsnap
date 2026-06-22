@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { isBuildTimeRuntime } from "@/lib/build-runtime";
 import { getSeoIndexPolicy } from "@/modules/seo/lib/index-policy";
 import { getPublishedSeoArticles, getPublishedSeoLandingPages, getSeoSettingsFromStore, getSeoArticleTranslations, getSeoLandingPageTranslations } from "@/modules/seo/lib/article-store";
 import { ensureHelpArticleDescriptions } from "@/lib/content-localization";
@@ -124,6 +125,7 @@ export async function getSitemapEntries() {
 }
 
 async function getPublishedHelpArticleDescriptions(enabledSeoLocales: string[]) {
+  if (isBuildTimeRuntime()) return [];
   await ensureHelpArticleDescriptions();
   const items = await prisma.helpArticleDescription.findMany({
     where: {
@@ -161,6 +163,7 @@ async function getPublishedHelpArticleDescriptions(enabledSeoLocales: string[]) 
 }
 
 async function getPublishedHelpCategoryEntries(enabledSeoLocales: string[]) {
+  if (isBuildTimeRuntime()) return [];
   const entries = await Promise.all(
     enabledSeoLocales.map(async (locale) => {
       const data = await getHelpCenterData(locale);
