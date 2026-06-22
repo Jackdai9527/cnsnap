@@ -57,7 +57,7 @@ function buildArticleContent(input: {
   ].join("");
 }
 
-const englishTemplates: Record<string, Omit<ArticleTemplate, "title" | "summary">> = {
+const englishTemplates: Record<string, Omit<ArticleTemplate, "slug" | "title" | "summary">> = {
   "how-to-place-an-order-using-a-product-link": {
     content: buildArticleContent({
       title: "How to place an order using a product link",
