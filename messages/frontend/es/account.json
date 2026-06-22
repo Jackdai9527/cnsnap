@@ -1,0 +1,748 @@
+{
+  "sidebar": {
+    "title": "CNSnap Account",
+    "description": "Orders, parcels, wallet and support",
+    "menu": {
+      "dashboard": "Dashboard",
+      "orders": "Orders",
+      "packages": "Packages",
+      "wallet": "Wallet",
+      "recharge": "Recharge",
+      "addresses": "Addresses",
+      "diyOrders": "DIY Orders",
+      "affiliate": "Affiliate",
+      "ticketsCenter": "Tickets Center",
+      "profile": "Profile",
+      "helpCenter": "Help Center"
+    }
+  },
+  "header": {
+    "openMenu": "Open account menu",
+    "menuTitle": "Account menu",
+    "center": "Account Center",
+    "description": "Orders, packages, wallet and support",
+    "balance": "Balance ${amount}",
+    "openAccountMenu": "Open account menu",
+    "profile": "Profile",
+    "wallet": "Wallet",
+    "ticketsCenter": "Tickets Center",
+    "signOut": "Sign out"
+  },
+  "profile": {
+    "title": "Profile",
+    "description": "Manage account details, security settings, language, currency, and connected login methods.",
+    "loading": "Loading profile...",
+    "walletBalance": "Wallet Balance",
+    "walletDescription": "Balance is read-only here. View full transactions in Wallet.",
+    "viewWallet": "View Wallet",
+    "emailVerified": "Email Verified",
+    "overview": {
+      "userId": "User ID",
+      "registered": "Registered",
+      "lastLogin": "Last Login",
+      "defaultCurrency": "Default Currency"
+    },
+    "basicInfo": {
+      "title": "Basic Information",
+      "name": "Name",
+      "namePlaceholder": "Your display name",
+      "phone": "Phone",
+      "phonePlaceholder": "+1 415 847 1928",
+      "whatsapp": "WhatsApp",
+      "whatsappPlaceholder": "WhatsApp contact",
+      "telegram": "Telegram",
+      "telegramPlaceholder": "telegram_username",
+      "avatarUrl": "Avatar URL",
+      "avatarPlaceholder": "https://example.com/avatar.jpg",
+      "avatarHelp": "V1.0 uses URL input. File upload can be connected later.",
+      "save": "Save Changes",
+      "saved": "Profile information saved."
+    },
+    "preferences": {
+      "title": "Preferences",
+      "language": "Language",
+      "languageDescription": "Choose the language used across your account pages.",
+      "currency": "Currency",
+      "currencyDescription": "Select the currency shown for account balances and payments.",
+      "timezone": "Timezone",
+      "themeLabel": "Theme",
+      "themeDescription": "Switch the appearance of your account pages.",
+      "themeChoices": {
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+      },
+      "orderEmails": "Order email notifications",
+      "orderEmailsDescription": "Receive important order, package, wallet, and ticket updates.",
+      "marketingEmails": "Marketing emails",
+      "marketingEmailsDescription": "Receive promotions, service updates, and occasional shopping offers.",
+      "save": "Save Preferences",
+      "saved": "Preferences saved."
+    },
+    "security": {
+      "title": "Security",
+      "email": "Email",
+      "password": "Password",
+      "passwordEnabled": "Password enabled",
+      "noPassword": "No password set",
+      "lastPasswordChange": "Last password change",
+      "notAvailable": "Not available",
+      "twoFactor": "Two-factor authentication",
+      "comingSoon": "Coming Soon",
+      "googleOnlyWarning": "This account currently uses Google login only. Set a password before disconnecting the only login method.",
+      "forgotPassword": "Forgot Password?",
+      "changePassword": "Change Password",
+      "passwordUpdated": "Password updated.",
+      "dialog": {
+        "title": "Change Password",
+        "description": "Use at least 8 characters. Avoid reusing passwords from other sites.",
+        "currentPassword": "Current password",
+        "newPassword": "New password",
+        "confirmPassword": "Confirm password",
+        "cancel": "Cancel",
+        "save": "Save Password"
+      }
+    },
+    "dangerZone": {
+      "title": "Danger Zone",
+      "description": "Account disabling and deletion are request-based in V1.0. Deleting an account can affect orders, packages, wallet records, tickets, and historical audit data.",
+      "disable": "Disable Account",
+      "delete": "Delete Account",
+      "disableDescription": "This action is coming soon. Support will need to review account status and open orders first.",
+      "deleteDescription": "Deletion requests will be blocked when the account has unfinished orders, undelivered packages, or wallet balance.",
+      "cannotDelete": "Accounts with unfinished orders or undelivered packages cannot be deleted directly.",
+      "close": "Close",
+      "comingSoon": "Coming Soon"
+    },
+    "connectedAccounts": {
+      "title": "Connected Accounts",
+      "google": "Google",
+      "noGoogle": "No Google account connected.",
+      "connectedAt": "{email} · Connected {date}",
+      "disconnectWarning": "Set a password before disconnecting your only login method.",
+      "disconnect": "Disconnect",
+      "connect": "Connect Google",
+      "disconnectInfo": "Disconnect Google action is reserved for API connection.",
+      "connectInfo": "Connect Google action is reserved for NextAuth OAuth flow."
+    }
+  },
+  "orders": {
+    "page": {
+      "title": "My Orders",
+      "description": "Only your own shopping agent orders are shown here. Search by order number and filter by current workflow status."
+    },
+    "table": {
+      "tabs": {
+        "all": "All",
+        "pendingPayment": "Pending Payment",
+        "purchasing": "Purchasing",
+        "warehousePending": "Warehouse Pending",
+        "waitingShippingPayment": "Waiting Shipping Payment",
+        "shipped": "Shipped",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      },
+      "columns": {
+        "order": "Order",
+        "created": "Created",
+        "source": "Source",
+        "items": "Items",
+        "total": "Total",
+        "paid": "Paid",
+        "due": "Due",
+        "payment": "Payment",
+        "purchase": "Purchase",
+        "warehouse": "Warehouse",
+        "package": "Package",
+        "shipping": "Shipping",
+        "country": "Country"
+      },
+      "actions": {
+        "viewDetails": "View Details",
+        "payNow": "Pay Now",
+        "cancelOrder": "Cancel Order",
+        "contactSupport": "Contact Support",
+        "openActions": "Open actions for {orderNo}"
+      },
+      "search": "Search order number...",
+      "empty": "No orders found.",
+      "count": "{count} orders",
+      "previous": "Previous",
+      "next": "Next",
+      "pieces": "{count} pcs"
+    }
+  },
+  "wallet": {
+    "page": {
+      "title": "Wallet",
+      "description": "View your available balance, reserved amount, and wallet transaction history.",
+      "rechargeSuccess": "Recharge completed successfully. Your CNSnap Balance has been updated.",
+      "balancePaymentSuccess": "Payment completed successfully with CNSnap Balance."
+    },
+    "metrics": {
+      "currentBalance": "Current Balance",
+      "frozenAmount": "Frozen Amount",
+      "frozenDescription": "Reserved for pending tasks",
+      "totalRecharge": "Total Recharge",
+      "totalSpend": "Total Spend",
+      "totalRefund": "Total Refund"
+    },
+    "table": {
+      "columns": {
+        "transaction": "Transaction",
+        "type": "Type",
+        "amount": "Amount",
+        "currency": "Currency",
+        "balanceAfter": "Balance After",
+        "order": "Order",
+        "package": "Package",
+        "note": "Note",
+        "created": "Created"
+      },
+      "filters": {
+        "allTypes": "All types",
+        "recharge": "Recharge",
+        "payOrder": "Order payment",
+        "payShipping": "Shipping payment",
+        "refund": "Refund",
+        "adjustment": "Adjustment",
+        "commission": "Commission",
+        "reset": "Reset"
+      },
+      "empty": "No wallet transactions found."
+    }
+  },
+  "packages": {
+    "page": {
+      "title": "My Packages",
+      "description": "View parcels created from your orders, pay international shipping fees, and track dispatched packages."
+    },
+    "table": {
+      "tabs": {
+        "all": "All",
+        "waitingShippingPayment": "Waiting Shipping Payment",
+        "shippingPaid": "Shipping Paid",
+        "shipped": "Shipped",
+        "delivered": "Delivered",
+        "exception": "Exception"
+      },
+      "alert": {
+        "eyebrow": "Action Required",
+        "title": "One or more packages are waiting for international shipping payment.",
+        "description": "Open the package details and complete the second payment for international freight so we can dispatch your parcel."
+      },
+      "columns": {
+        "package": "Package",
+        "order": "Order",
+        "created": "Created",
+        "packageStatus": "Package Status",
+        "items": "Items",
+        "actualWeight": "Actual Weight",
+        "dimensions": "Dimensions",
+        "chargeable": "Chargeable",
+        "country": "Country",
+        "channel": "Channel",
+        "shippingFee": "Shipping Fee",
+        "payment": "Payment",
+        "tracking": "Tracking",
+        "shipped": "Shipped"
+      },
+      "actions": {
+        "openActions": "Open actions for {packageNo}",
+        "viewDetails": "View Details",
+        "payShippingFee": "Pay Shipping Fee",
+        "trackPackage": "Track Package",
+        "contactSupport": "Contact Support"
+      },
+      "search": "Search packages...",
+      "empty": "No packages found."
+    }
+  },
+  "recharge": {
+    "page": {
+      "title": "Recharge",
+      "description": "Top up your CNSnap Balance with the payment methods enabled by the admin team. Not every payment gateway supports recharge mode.",
+      "records": "Recharge Records",
+      "empty": "No recharge records yet.",
+      "methods": {
+        "onlypayTitle": "Credit Card / Wallet",
+        "onlypayDescription": "Use online card and wallet checkout for instant recharge.",
+        "paypalTitle": "PayPal Checkout",
+        "paypalDescription": "Recharge with your PayPal wallet.",
+        "paypalAdvancedDescription": "Recharge with PayPal wallet or eligible card fields.",
+        "bankTransferTitle": "Bank transfer",
+        "bankTransferDescription": "Manual confirmation after the transfer reaches our finance team."
+      },
+      "historyMethods": {
+        "onlypay": "ONLYPAY",
+        "paypal": "PayPal",
+        "bank_transfer": "Bank transfer",
+        "wallet": "Wallet",
+        "manual": "Manual payment",
+        "sepa": "SEPA transfer"
+      }
+    },
+    "table": {
+      "number": "No.",
+      "amount": "Amount",
+      "method": "Method",
+      "status": "Status",
+      "created": "Created",
+      "paid": "Paid"
+    },
+    "form": {
+      "title": "Create Recharge Request",
+      "amount": "Recharge amount",
+      "amountHelp": "Funds are credited after manual payment confirmation.",
+      "paymentMethod": "Payment method",
+      "manual": "Manual Payment",
+      "paypalLater": "PayPal later",
+      "stripeLater": "Stripe later",
+      "cardLater": "Credit Card later",
+      "submit": "Submit recharge",
+      "created": "Recharge request created for ${amount}."
+    },
+    "panel": {
+      "kicker": "Recharge wallet",
+      "title": "Add funds",
+      "description": "Choose a preset or custom amount, then select how you want to pay.",
+      "secure": "Secure recharge",
+      "amount": "Amount",
+      "customAmount": "Custom amount",
+      "customPlaceholder": "Enter a custom amount",
+      "paymentMethod": "Payment method",
+      "rechargeTotal": "Recharge total",
+      "submitting": "Submitting...",
+      "rechargeNow": "Recharge now",
+      "minimumError": "Please enter a recharge amount of at least $5.",
+      "paypalHint": "Use the PayPal panel below to approve and complete this recharge.",
+      "submitted": "Recharge request submitted.",
+      "failed": "Recharge failed."
+    }
+  },
+  "affiliate": {
+    "page": {
+      "title": "Affiliate",
+      "description": "Share your referral link and track commission records.",
+      "yourReferralLink": "Your Referral Link",
+      "referralCode": "Referral code",
+      "referredUsers": "Referred Users",
+      "validOrders": "Valid Orders",
+      "pendingCommission": "Pending Commission",
+      "approvedCommission": "Approved Commission",
+      "paidCommission": "Paid Commission",
+      "commissionRecords": "Commission Records"
+    },
+    "table": {
+      "commissionNo": "Commission",
+      "referredUser": "Referred user",
+      "order": "Order",
+      "orderAmount": "Order amount",
+      "rate": "Rate",
+      "commissionAmount": "Commission",
+      "status": "Status",
+      "created": "Created"
+    },
+    "copy": {
+      "label": "Copy link",
+      "copied": "Referral link copied."
+    }
+  },
+  "orderDetail": {
+    "description": "Review your live order details, payments, shipping address, and workflow progress.",
+    "payShippingFee": "Pay Shipping Fee",
+    "payNow": "Pay Now",
+    "cancelOrder": "Cancel Order",
+    "contactSupport": "Contact Support",
+    "payment": {
+      "paypalPaid": "Payment completed successfully. We updated the order and will continue the purchasing workflow.",
+      "balancePaid": "CNSnap Balance payment completed successfully. We updated your order and will continue the workflow.",
+      "sepaSubmitted": "SEPA transfer submitted. We will verify the bank transfer and update this order after it arrives."
+    },
+    "nextStep": {
+      "eyebrow": "What happens next",
+      "warehouseArrivalTitle": "Your items have arrived at our warehouse.",
+      "warehouseArrivalDescription": "We will inspect the goods, prepare the parcel, and confirm the international shipping fee. After that, you will need to pay the shipping fee before dispatch.",
+      "preparingParcelTitle": "We are preparing your parcel and shipping fee.",
+      "preparingParcelDescription": "Our warehouse team is measuring the parcel and confirming the final international shipping fee. Please wait for the shipping payment request.",
+      "shippingPaymentTitle": "International shipping payment is required.",
+      "shippingPaymentDescription": "Your parcel is ready for the next step. Please pay the international shipping fee so we can dispatch it.",
+      "shippingPaymentAction": "Pay shipping fee",
+      "shippingPaidTitle": "Shipping fee paid. We will arrange dispatch next.",
+      "shippingPaidDescription": "Your parcel is queued for carrier handoff. We will update tracking once it has been shipped."
+    },
+    "cards": {
+      "orderOverview": "Order Overview",
+      "actions": "Actions",
+      "productItems": "Product Items",
+      "productItemsDescription": "All product lines, selected SKUs, source links, and per-line totals are shown here.",
+      "paymentSummary": "Payment Summary",
+      "fulfillmentSnapshot": "Fulfillment Snapshot",
+      "timeline": "Timeline",
+      "shippingAddress": "Shipping Address",
+      "userNote": "User Note",
+      "paymentRecords": "Payment Records",
+      "packageInformation": "Package Information"
+    },
+    "fields": {
+      "orderNo": "Order No",
+      "status": "Status",
+      "created": "Created",
+      "source": "Source",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "lineTotal": "Line Total",
+      "itemsTotal": "Items total",
+      "serviceFee": "Service fee",
+      "chinaShipping": "Envío en China",
+      "shippingFee": "Shipping fee",
+      "paid": "Paid",
+      "amountDue": "Amount due",
+      "orderTotal": "Order total",
+      "orderStatus": "Order Status",
+      "paymentStatus": "Payment Status",
+      "purchaseStatus": "Purchase Status",
+      "warehouseStatus": "Warehouse Status",
+      "packageStatus": "Package Status",
+      "shippingStatus": "Shipping Status",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "city": "City",
+      "country": "Country",
+      "method": "Method",
+      "amount": "Amount",
+      "tracking": "Tracking"
+    },
+    "states": {
+      "itemsCount": "{count} item{suffix}",
+      "noTimeline": "No timeline records yet.",
+      "noNote": "No note left for this order.",
+      "noPayments": "No payment records yet.",
+      "noPackages": "No package has been created yet.",
+      "timelineDone": "Done",
+      "timelineCurrent": "Current",
+      "timelinePending": "Pending"
+    }
+  },
+  "packageDetail": {
+    "description": "Package details are read-only for customers. Contact support if you need help with shipping or tracking.",
+    "back": "Back to Packages",
+    "payShippingFee": "Pay Shipping Fee",
+    "contactSupport": "Contact Support",
+    "payment": {
+      "paypalPaid": "Shipping payment completed successfully. We updated your package and will move it toward dispatch.",
+      "balancePaid": "Shipping payment completed successfully with CNSnap Balance. Your package is ready for the next dispatch step.",
+      "sepaSubmitted": "Shipping payment transfer submitted. We will verify it and update your package after confirmation.",
+      "pending": "This package is waiting for international shipping payment. Complete the freight payment before dispatch can begin."
+    },
+    "overview": {
+      "title": "Package Overview",
+      "packageNo": "Package No",
+      "orderNo": "Order No",
+      "status": "Status",
+      "created": "Created",
+      "items": "Items",
+      "actualWeight": "Actual Weight",
+      "dimensions": "Dimensions",
+      "chargeableWeight": "Chargeable Weight",
+      "destination": "Destination",
+      "channel": "Channel",
+      "shippingFee": "Shipping Fee",
+      "tracking": "Tracking"
+    }
+  },
+  "addresses": {
+    "page": {
+      "title": "Addresses",
+      "description": "Manage shipping addresses used for checkout, parcel delivery, and warehouse shipping estimates.",
+      "loading": "Loading addresses...",
+      "addAddress": "Add Address",
+      "noSaved": "No saved addresses",
+      "noSavedDescription": "Add a shipping address before checkout or international parcel payment."
+    },
+    "card": {
+      "default": "Default",
+      "supported": "Supported",
+      "shippingUnavailable": "Shipping unavailable",
+      "unsupportedWarning": "This country is not enabled in the current shipping countries list. You can save it, but parcel shipment may require a manual quote.",
+      "setDefault": "Set Default",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "dialog": {
+      "editTitle": "Edit Address",
+      "addTitle": "Add Address",
+      "description": "Countries are currently validated against the active shipping-country mock list. Unsupported destinations can still be saved for later manual quote.",
+      "unsupportedCountry": "Shipping is not currently available for {country} in the mock shipping countries list.",
+      "fields": {
+        "firstName": "First name",
+        "lastName": "Last name",
+        "country": "Country",
+        "state": "State / Province",
+        "statePlaceholder": "State, province, or region",
+        "city": "City",
+        "postcode": "Postcode",
+        "address1": "Address line 1",
+        "address2": "Address line 2",
+        "address2Help": "Apartment, suite, company, or delivery note.",
+        "phone": "Phone",
+        "email": "Email",
+        "isDefault": "Set as default address",
+        "isDefaultHelp": "Default address is used first during checkout and shipping estimate."
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "saveChanges": "Save Changes",
+        "addAddress": "Add Address"
+      }
+    },
+    "toast": {
+      "saveFailed": "Unable to save address.",
+      "updated": "Address updated.",
+      "added": "Address added.",
+      "mustKeepOne": "At least one address must remain as your default shipping address.",
+      "deleteFailed": "Unable to delete address.",
+      "deleted": "Address deleted.",
+      "defaultFailed": "Unable to update default address.",
+      "defaultUpdated": "Default address updated."
+    }
+  },
+  "tickets": {
+    "page": {
+      "title": "Tickets Center",
+      "description": "Submit and track support requests for orders, packages, payments, refunds, DIY orders, and account issues.",
+      "newTicket": "New Ticket",
+      "loading": "Loading tickets..."
+    },
+    "table": {
+      "tabs": {
+        "all": "All",
+        "open": "Open",
+        "pending": "Pending",
+        "replied": "Replied",
+        "resolved": "Resolved",
+        "closed": "Closed"
+      },
+      "columns": {
+        "ticket": "Ticket",
+        "subject": "Subject",
+        "category": "Category",
+        "order": "Order",
+        "package": "Package",
+        "priority": "Priority",
+        "status": "Status",
+        "lastReply": "Last Reply",
+        "created": "Created"
+      },
+      "actions": {
+        "openActions": "Open actions for {ticketNo}",
+        "viewDetails": "View Details",
+        "closeTicket": "Close Ticket",
+        "newTicket": "New Ticket"
+      },
+      "search": "Search ticket, subject, order, package...",
+      "allCategories": "All categories",
+      "allPriorities": "All priorities",
+      "allStatuses": "All statuses",
+      "reset": "Reset",
+      "empty": "No tickets found.",
+      "count": "{count} tickets",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "reply": {
+      "closed": "This ticket is closed and cannot receive new replies.",
+      "reply": "Reply",
+      "replyPlaceholder": "Write a reply for support...",
+      "attachment": "Attachment image URL",
+      "attachmentPlaceholder": "Optional screenshot URL",
+      "reopen": "Reopen Ticket",
+      "markResolved": "Mark as Resolved",
+      "closeTicket": "Close Ticket",
+      "replyAction": "Reply",
+      "reopenInfo": "Reopen Ticket action is reserved for API connection.",
+      "resolvedInfo": "Ticket marked as resolved in mock mode.",
+      "closeInfo": "Close Ticket action is reserved for API connection.",
+      "submitted": "Reply submitted. The conversation will update after API connection."
+    },
+    "detail": {
+      "loading": "Loading ticket...",
+      "notFoundTitle": "Ticket not found",
+      "notFoundDescription": "This ticket does not exist or is not available in your account.",
+      "back": "Back to Tickets",
+      "category": "Category",
+      "created": "Created",
+      "lastReply": "Last Reply",
+      "status": "Status",
+      "relatedRecord": "Related Record",
+      "order": "Order",
+      "package": "Package",
+      "ownershipHint": "Only tickets owned by the signed-in user will be visible after API connection.",
+      "conversation": "Conversation Thread",
+      "reply": "Reply"
+    },
+    "newForm": {
+      "pageTitle": "New Ticket",
+      "pageDescription": "Tell support what happened. Link an order or package so the team can work faster.",
+      "back": "Back to Tickets",
+      "category": "Category",
+      "priority": "Priority",
+      "subject": "Subject",
+      "subjectPlaceholder": "Briefly describe the issue",
+      "message": "Message",
+      "messagePlaceholder": "Tell us what happened, what order or package is affected, and what result you expect.",
+      "relatedOrder": "Related order",
+      "relatedOrderPlaceholder": "CN10041 or internal order ID",
+      "relatedOrderHelp": "Auto-filled when opened from an order.",
+      "relatedPackage": "Related package",
+      "relatedPackagePlaceholder": "PK2038 or package ID",
+      "relatedPackageHelp": "Auto-filled when opened from a package.",
+      "attachment": "Attachment image URL",
+      "attachmentPlaceholder": "https://example.com/screenshot.jpg",
+      "attachmentHelp": "V1.0 accepts a reference URL. File upload can be connected later.",
+      "cancel": "Cancel",
+      "creating": "Creating...",
+      "create": "Create Ticket",
+      "createFailed": "Unable to create ticket.",
+      "created": "Ticket created. Support will review it shortly."
+    }
+  },
+  "diyOrders": {
+    "page": {
+      "title": "DIY Orders",
+      "description": "Track manual quotation requests and special purchasing support submitted to the team.",
+      "newOrder": "New DIY Order"
+    },
+    "table": {
+      "columns": {
+        "diyNo": "DIY No.",
+        "product": "Product",
+        "quantity": "Quantity",
+        "budget": "Budget",
+        "quote": "Quote",
+        "status": "Status",
+        "submitted": "Submitted",
+        "action": "Action"
+      },
+      "actions": {
+        "viewDetails": "View Details"
+      }
+    },
+    "newPage": {
+      "title": "Submit DIY Order",
+      "description": "Send us a product link, image, specifications, and shipping requirements so the team can review and quote it."
+    }
+  },
+  "statuses": {
+    "pending_payment": "Pending Payment",
+    "order_pending": "Order Pending",
+    "paid": "Paid",
+    "paid_product": "Paid Product",
+    "partial": "Partially Paid",
+    "purchasing": "Purchasing",
+    "partial_purchased": "Partial Purchased",
+    "purchased": "Purchased",
+    "warehouse_pending": "Warehouse Pending",
+    "partial_received": "Partially Received",
+    "received": "Received",
+    "waiting_shipping_payment": "Waiting Shipping Payment",
+    "international_freight_pending": "International Freight Pending",
+    "shipping_paid": "Shipping Paid",
+    "international_freight_paid": "International Freight Paid",
+    "customer_confirmed": "Customer Confirmed",
+    "shipped": "Shipped",
+    "in_transit": "In Transit",
+    "delivered": "Delivered",
+    "completed": "Completed",
+    "order_after_sales": "Order After Sales",
+    "refund": "Refund",
+    "cancel": "Cancel",
+    "cancelled": "Cancelled",
+    "exception": "Exception",
+    "pending": "Pending",
+    "submitted": "Submitted",
+    "reviewing": "Reviewing",
+    "quoted": "Quoted",
+    "converted_to_order": "Converted",
+    "rejected": "Rejected",
+    "recharge": "Recharge",
+    "pay_order": "Order Payment",
+    "pay_shipping": "Shipping Payment",
+    "adjustment": "Adjustment",
+    "commission": "Commission",
+    "approved": "Approved",
+    "none": "None"
+  },
+  "dashboard": {
+    "title": "Bienvenido de nuevo, {name}",
+    "description": "Sigue tus solicitudes de compra, paquetes, saldo de cartera y actividad de soporte desde un espacio claro.",
+    "searchProducts": "Buscar productos",
+    "alerts": {
+      "order": {
+        "eyebrow": "Recordatorio de pago",
+        "title": "Tienes un pedido pendiente de pago",
+        "description": "El pedido {orderNo} todavia tiene ${amount} por pagar antes de continuar la compra.",
+        "action": "Pagar pedido"
+      },
+      "shipping": {
+        "eyebrow": "Recordatorio de envio",
+        "title": "Tienes un envio pendiente de pago",
+        "description": "El paquete {packageNo} esta esperando el pago del envio internacional de ${amount}.",
+        "action": "Pagar envio"
+      }
+    },
+    "metrics": {
+      "walletBalance": "Saldo de la cartera",
+      "walletBalanceDescription": "Disponible para pagar pedidos y envios",
+      "pendingPaymentOrders": "Pedidos pendientes de pago",
+      "pendingPaymentOrdersDescription": "Necesitan pago del producto",
+      "shippingFeeDue": "Gastos de envio pendientes",
+      "shippingFeeDueDescription": "Paquetes esperando pago del envio",
+      "inTransitPackages": "Paquetes en transito",
+      "inTransitPackagesDescription": "Ya enviados desde el almacen"
+    },
+    "quickActions": {
+      "title": "Acciones rapidas",
+      "searchProducts": "Buscar productos",
+      "submitDiyOrder": "Enviar pedido DIY",
+      "recharge": "Recargar",
+      "addAddress": "Agregar direccion",
+      "viewPackages": "Ver paquetes"
+    },
+    "recentOrders": {
+      "title": "Pedidos recientes",
+      "viewAll": "Ver todo",
+      "columns": {
+        "order": "Pedido",
+        "status": "Estado",
+        "due": "Pendiente"
+      }
+    },
+    "recentPackages": {
+      "title": "Paquetes recientes",
+      "viewAll": "Ver todo",
+      "columns": {
+        "package": "Paquete",
+        "status": "Estado",
+        "shipping": "Envio"
+      }
+    },
+    "reorder": {
+      "idle": "Volver a pedir",
+      "pending": "Volviendo a pedir..."
+    }
+  },
+  "orderSources": {
+    "url": "Product Link",
+    "keyword": "Keyword Search",
+    "cart": "Cart",
+    "diy": "DIY Order",
+    "image": "Image Search",
+    "shop": "Shop",
+    "admin": "Admin",
+    "package_payment": "Package Payment",
+    "checkout": "Checkout"
+  }
+}

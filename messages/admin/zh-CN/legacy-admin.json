@@ -1,0 +1,527 @@
+{
+  "ordersListPage": {
+    "title": "订单",
+    "activeDescription": "基于 Prisma 实时订单数据的运营订单列表，用于支付、采购、仓库和发货跟进。",
+    "trashDescription": "回收站中的订单可恢复；如果订单是误移除的，可以在这里还原。"
+  },
+  "ordersTable": {
+    "tabs": {
+      "all": "全部",
+      "pendingPayment": "待付款",
+      "paid": "已付款",
+      "reviewing": "审核中",
+      "purchasing": "采购中",
+      "warehousePending": "待入库",
+      "shippingPending": "待付运费",
+      "shipped": "已发货",
+      "completed": "已完成",
+      "cancelled": "已取消",
+      "refunded": "已退款"
+    },
+    "columns": {
+      "orderNo": "订单号",
+      "user": "用户",
+      "source": "来源",
+      "items": "商品",
+      "qty": "数量",
+      "country": "国家",
+      "amount": "金额",
+      "paid": "已付",
+      "due": "待付",
+      "payment": "支付",
+      "purchase": "采购",
+      "warehouse": "仓库",
+      "package": "包裹",
+      "shipping": "物流",
+      "risk": "风控",
+      "assignee": "负责人",
+      "updated": "更新时间",
+      "actions": "操作"
+    },
+    "cells": {
+      "noItems": "无商品",
+      "pcs": "{count} 件",
+      "unassigned": "未分配"
+    },
+    "rowActions": {
+      "openDetails": "打开详情",
+      "jumpToEdit": "跳转编辑",
+      "markPaymentPaid": "标记支付完成",
+      "updating": "更新中...",
+      "restore": "恢复",
+      "restoring": "恢复中...",
+      "permanentlyDelete": "永久删除",
+      "deleting": "删除中...",
+      "moveToTrash": "移入回收站",
+      "moving": "移动中..."
+    },
+    "danger": {
+      "markPaidTitle": "确认标记为已付款？",
+      "restoreTitle": "确认恢复订单？",
+      "deleteTitle": "确认永久删除订单？",
+      "deleteBulkTitle": "确认永久删除所选订单？",
+      "trashTitle": "确认将订单移入回收站？",
+      "trashBulkTitle": "确认将所选订单移入回收站？",
+      "markPaidDescription": "订单 {orderNo} 将在确认后立即标记为已付款。",
+      "restoreDescription": "订单 {orderNo} 将从回收站恢复，并重新返回进行中的订单列表。",
+      "deleteDescription": "订单 {orderNo} 将被永久删除。此操作不可撤销，相关后台记录也可能一并清理。",
+      "deleteBulkDescription": "所选 {count} 个订单将被永久删除。此操作不可撤销，相关后台记录也可能一并清理。",
+      "trashDescription": "订单 {orderNo} 将被移入回收站，并从进行中的订单列表中隐藏，直到恢复为止。",
+      "trashBulkDescription": "所选 {count} 个订单将被移入回收站，并从进行中的订单列表中隐藏，直到恢复为止。",
+      "confirmPaid": "确认已付款",
+      "restoreOrder": "恢复订单",
+      "cancel": "取消"
+    },
+    "toolbar": {
+      "activeOrders": "进行中订单",
+      "trash": "回收站",
+      "trashSummary": "个回收站订单",
+      "loadedSummary": "个订单已从 `/api/admin/orders` 加载。",
+      "refreshing": "刷新中...",
+      "failedToLoadInline": "订单加载失败。",
+      "exportSelected": "导出所选",
+      "exportSelectedWithCount": "导出所选（{count}）",
+      "exportAll": "导出全部数据",
+      "exporting": "导出中...",
+      "refresh": "刷新",
+      "backToActive": "返回进行中",
+      "selectedForBulk": "已选择 {count} 个订单，可执行批量操作。",
+      "selectForBulk": "请选择订单后再执行批量管理。",
+      "restoreSelected": "恢复所选",
+      "permanentlyDeleteSelected": "永久删除所选",
+      "moveSelectedToTrash": "将所选移入回收站",
+      "clearSelection": "清空选择"
+    },
+    "feedback": {
+      "failedToLoadTitle": "订单加载失败",
+      "pleaseRetry": "请重试该请求。",
+      "retry": "重试",
+      "searchPlaceholder": "搜索订单号、用户、国家、负责人..."
+    },
+    "toasts": {
+      "selectOrdersFirst": "请先选择订单。",
+      "failedExport": "导出订单失败。",
+      "exportedSelected": "已导出 {count} 个所选订单。",
+      "failedExportSelected": "导出所选订单失败。",
+      "exportedAll": "已导出全部匹配的订单数据。",
+      "failedExportAll": "导出全部订单数据失败。"
+    }
+  },
+  "orderLogs": {
+    "kicker": "订单生命周期审计",
+    "title": "订单日志",
+    "description": "查看与订单相关的状态变更、流程动作、支付备注、退款动作和后台操作。",
+    "columns": {
+      "time": "时间",
+      "order": "订单",
+      "actor": "操作人",
+      "type": "日志类型",
+      "detail": "内容",
+      "notify": "通知"
+    },
+    "values": {
+      "system": "系统",
+      "no": "否"
+    },
+    "searchPlaceholder": "搜索订单日志...",
+    "toolbar": {
+      "retention": "保留期",
+      "days": "天",
+      "apply": "应用",
+      "saveRetention": "保存保留期",
+      "clearAllLogs": "清空全部日志"
+    }
+  },
+  "warehouseInbound": {
+    "kicker": "包裹中心",
+    "title": "仓库入库",
+    "description": "需要仓库收货、部分收货、质检或入库存放处理的订单和商品。",
+    "countLabel": "{count} 条记录",
+    "filtersLabel": "标签",
+    "filtersValue": "全部 / 待入库 / 部分入库 / 已入库",
+    "columns": {
+      "order": "订单",
+      "user": "用户",
+      "items": "商品",
+      "purchase": "采购",
+      "warehouse": "仓库",
+      "qc": "质检图",
+      "updated": "更新时间"
+    },
+    "detail": {
+      "order": "订单",
+      "user": "用户",
+      "items": "商品",
+      "purchase": "采购",
+      "warehouse": "仓库",
+      "qcUpload": "质检上传"
+    },
+    "itemsSummary": "{types} 种 / {pcs} 件",
+    "qcCount": "{count} 张图片"
+  },
+  "shippingRecords": {
+    "kicker": "包裹中心",
+    "title": "发货记录",
+    "description": "查看实际包裹发运记录、运单号、承运商、运费和送达时间。",
+    "countLabel": "{count} 条记录",
+    "columns": {
+      "package": "包裹",
+      "order": "订单",
+      "user": "用户",
+      "channel": "渠道",
+      "fee": "费用",
+      "tracking": "物流",
+      "status": "状态"
+    }
+  },
+  "productCache": {
+    "kicker": "商品中心",
+    "title": "商品缓存",
+    "description": "用于商品页、购物车和历史订单快照的 OneBound 商品详情缓存。",
+    "countLabel": "{count} 条记录",
+    "columns": {
+      "product": "商品",
+      "platform": "平台",
+      "price": "价格",
+      "shop": "店铺",
+      "expires": "过期时间",
+      "updated": "更新时间"
+    },
+    "detail": {
+      "title": "标题",
+      "sourceUrl": "源链接",
+      "platform": "平台",
+      "itemId": "商品 ID",
+      "price": "价格",
+      "attributes": "属性",
+      "openSourceUrl": "打开源链接"
+    }
+  },
+  "productImport": {
+    "kicker": "商品中心",
+    "title": "导入前台商品",
+    "description": "粘贴单个商品链接或微店店铺链接。导入后的商品会写入 Product Cache，并可发布到首页和搜索目录。",
+    "submit": "导入商品",
+    "sourceLabel": "商品或店铺链接",
+    "sourcePlaceholder": "https://weidian.com/item.html?itemID=...\nhttps://weidian.com/?userid=...",
+    "sourceHelp": "微店店铺链接可以导入第一页，也可以逐页抓取全部商品。支持平台的单个商品链接会导入单条商品。",
+    "storefrontRank": "前台排序",
+    "featureHomepage": "将导入商品展示到首页",
+    "importAllPages": "对于微店店铺链接，继续抓取后续页面直到整个店铺导入完成",
+    "csvTitle": "CSV 内容",
+    "csvPlaceholder": "sourceUrl,featureOnHomepage,storefrontRank\nhttps://weidian.com/item.html?itemID=12345,yes,1\nhttps://item.taobao.com/item.htm?id=12345,no,2",
+    "csvHelp": "必填列：`sourceUrl`。可选列：`featureOnHomepage`、`storefrontRank`。",
+    "defaultRankStart": "默认排序起点",
+    "featureRowsHomepage": "默认将导入行展示到首页",
+    "importCsv": "导入 CSV 链接",
+    "notesTitle": "导入说明",
+    "notes": {
+      "single": "单个商品链接：抓取完整详情、SKU、图片和描述。",
+      "shop": "微店店铺链接：可导入第一页，或开启多页模式导入整个店铺。",
+      "csv": "CSV 导入：一次性批量导入多条商品链接。",
+      "active": "导入后的商品默认作为启用中的前台商品。",
+      "homepage": "首页最多展示 16 个推荐商品，其余商品会继续在 `/search` 中显示。"
+    },
+    "workflowTitle": "建议流程",
+    "workflow": {
+      "step1": "1. 在这里导入微店店铺链接或商品链接。",
+      "step2": "2. 打开商品库，调整首页推荐状态和排序。",
+      "step3": "3. 前往首页和 `/search` 检查前台展示效果。"
+    }
+  },
+  "storefrontLibrary": {
+    "kicker": "商品中心",
+    "title": "前台商品库",
+    "description": "管理哪些导入商品会出现在前台。首页最多显示 16 个推荐商品，而 `/search` 会展示所有启用中的前台商品。",
+    "importProducts": "导入商品",
+    "homepageBadge": "首页",
+    "unknownShop": "未知店铺",
+    "openSourceUrl": "打开源链接",
+    "publishCatalog": "发布到前台商品目录",
+    "showHomepage": "显示在首页热销区",
+    "storefrontRank": "前台排序",
+    "saveProduct": "保存商品",
+    "empty": "当前还没有前台商品。先导入商品或微店店铺后再开始配置。"
+  },
+  "productCategories": {
+    "kicker": "商品中心",
+    "title": "商品分类",
+    "description": "用于限制规则、服务说明和物流规则匹配的内部商品分类映射。",
+    "countLabel": "{count} 个分类",
+    "addCategory": "新增分类",
+    "columns": {
+      "category": "分类",
+      "products": "商品数",
+      "platforms": "平台",
+      "restrictions": "限制配置",
+      "status": "状态"
+    },
+    "values": {
+      "uncategorized": "未分类",
+      "batteryReview": "电池审核",
+      "standard": "标准"
+    }
+  },
+  "mediaLibrary": {
+    "kicker": "内容中心",
+    "title": "媒体库",
+    "description": "用于首页素材、内容图片和订单质检图的类 WordPress 服务端媒体管理。",
+    "contentEditor": "内容编辑器"
+  },
+  "apiLogs": {
+    "kicker": "商品中心",
+    "title": "OneBound API 日志",
+    "description": "商品链接解析、关键词搜索、item_get 以及网关错误记录。",
+    "clearConfirmation": "确认清空全部 API 日志？该操作不可撤销。",
+    "columns": {
+      "time": "时间",
+      "provider": "提供商",
+      "endpoint": "接口",
+      "status": "状态",
+      "latency": "耗时",
+      "error": "错误"
+    },
+    "searchPlaceholder": "搜索 API 日志...",
+    "toolbar": {
+      "retention": "保留期",
+      "days": "天",
+      "apply": "应用",
+      "saveRetention": "保存保留期",
+      "clearAllLogs": "清空全部日志"
+    }
+  },
+  "marketingOverview": {
+    "kicker": "营销中心",
+    "title": "联盟概览",
+    "description": "V1 联盟后台概览，用于查看推荐归因、佣金准备情况和活动状态。",
+    "columns": {
+      "metric": "指标",
+      "value": "数值",
+      "note": "说明",
+      "status": "状态"
+    },
+    "rows": {
+      "affiliateUsers": {
+        "metric": "联盟用户",
+        "note": "已设置 referredBy 的用户"
+      },
+      "referralCodes": {
+        "metric": "推荐码",
+        "note": "账户创建时自动生成"
+      },
+      "eligibleOrders": {
+        "metric": "可参与佣金订单",
+        "note": "当前佣金规则仍为 V1 占位逻辑"
+      }
+    }
+  },
+  "affiliateUsers": {
+    "kicker": "营销中心",
+    "title": "联盟用户",
+    "description": "拥有推荐码的用户。后续版本可以补充联盟等级、收款账户和审批流程。",
+    "countLabel": "{count} 个用户",
+    "columns": {
+      "user": "用户",
+      "code": "推荐码",
+      "referredBy": "推荐人",
+      "wallet": "钱包",
+      "joined": "加入时间"
+    }
+  },
+  "commissionRecords": {
+    "kicker": "营销中心",
+    "title": "佣金记录",
+    "description": "当联盟规则和打款设置启用后，佣金记录才会进入可结算状态。",
+    "countLabel": "{count} 条记录",
+    "columns": {
+      "order": "订单",
+      "user": "用户",
+      "base": "基础金额",
+      "rate": "佣金比例",
+      "commission": "佣金",
+      "status": "状态"
+    }
+  },
+  "contentFaq": {
+    "kicker": "内容中心",
+    "title": "常见问题",
+    "description": "FAQ 条目存储在帮助文章中。需要完整 CKEditor 编辑能力时，请使用帮助文章模块。",
+    "countLabel": "{count} 条记录",
+    "addFaq": "添加 FAQ",
+    "columns": {
+      "title": "标题",
+      "slug": "Slug",
+      "locale": "语言",
+      "status": "状态",
+      "updated": "更新时间"
+    },
+    "searchPlaceholder": "搜索 FAQ..."
+  },
+  "announcements": {
+    "kicker": "内容中心",
+    "title": "公告",
+    "description": "公告页面可在页面模块中创建，并展示在前台内容区域中。",
+    "countLabel": "{count} 条记录",
+    "addAnnouncement": "添加公告",
+    "columns": {
+      "title": "标题",
+      "slug": "Slug",
+      "status": "状态",
+      "updated": "更新时间"
+    }
+  },
+  "emailTemplates": {
+    "kicker": "内容中心",
+    "title": "邮件模板",
+    "description": "当前为基于邮件日志的模板管理占位页。SMTP 设置位于系统设置模块中。",
+    "countLabel": "{count} 个模板",
+    "columns": {
+      "template": "模板",
+      "sends": "发送次数",
+      "status": "最近状态",
+      "lastSent": "最近发送时间",
+      "editor": "编辑器"
+    },
+    "values": {
+      "editorPending": "CKEditor 内容模型待接入"
+    }
+  },
+  "adminUsers": {
+    "kicker": "系统设置",
+    "title": "后台用户",
+    "description": "管理员账户列表。用户角色编辑可在“用户中心 > 用户”中完成。",
+    "countLabel": "{count} 个管理员",
+    "openUsers": "打开用户列表",
+    "columns": {
+      "email": "邮箱",
+      "name": "姓名",
+      "status": "状态",
+      "locale": "语言地区",
+      "created": "创建时间"
+    }
+  },
+  "rolesPermissions": {
+    "kicker": "系统设置",
+    "title": "角色与权限",
+    "description": "V1.0 的 RBAC 脚手架。当前侧边栏、后台 API 保护和部分操作按钮已经使用这些角色权限。",
+    "countLabel": "{count} 个角色",
+    "columns": {
+      "role": "角色",
+      "scope": "职责范围",
+      "permissions": "权限",
+      "status": "状态"
+    },
+    "scopes": {
+      "superAdmin": "全部权限",
+      "operations": "订单与包裹流程",
+      "purchasing": "商品采购",
+      "warehouse": "入库与包裹处理",
+      "finance": "支付、钱包与退款",
+      "customerSupport": "客服与帮助台",
+      "contentManager": "页面与帮助内容"
+    }
+  },
+  "operationLogs": {
+    "kicker": "系统设置",
+    "title": "操作日志",
+    "description": "面向订单、财务、物流、设置、用户和权限操作的结构化审计轨迹。",
+    "countLabel": "{count} 条记录",
+    "clearConfirmation": "确认清空全部操作日志？该操作不可撤销。",
+    "view": "查看",
+    "searchPlaceholder": "搜索操作日志...",
+    "toolbar": {
+      "retention": "保留期",
+      "days": "天",
+      "apply": "应用",
+      "saveRetention": "保存保留期",
+      "clearAllLogs": "清空全部日志"
+    },
+    "filters": {
+      "actor": "操作人",
+      "actorPlaceholder": "admin@example.com",
+      "action": "动作",
+      "allActions": "全部动作",
+      "object": "对象",
+      "allObjects": "全部对象",
+      "from": "开始日期",
+      "to": "结束日期",
+      "submit": "筛选",
+      "reset": "重置"
+    },
+    "columns": {
+      "time": "时间",
+      "actor": "操作人",
+      "action": "动作",
+      "object": "对象",
+      "target": "目标",
+      "message": "消息",
+      "ip": "IP"
+    },
+    "values": {
+      "system": "系统",
+      "order": "订单"
+    },
+    "detailTitle": "操作日志详情",
+    "detail": {
+      "time": "时间",
+      "actor": "操作人",
+      "action": "动作",
+      "targetType": "目标类型",
+      "targetId": "目标 ID",
+      "targetLabel": "目标标签",
+      "ip": "IP",
+      "userAgent": "User Agent",
+      "message": "消息",
+      "oldValue": "旧值",
+      "newValue": "新值"
+    }
+  },
+  "currencySettings": {
+    "kicker": "系统设置",
+    "title": "货币设置",
+    "description": "CNY 是商品基础货币。ExchangeRate-API 会按小时刷新基于 CNY 的换算汇率，并将快照保存到数据库。",
+    "refreshNow": "立即刷新",
+    "save": "保存货币设置",
+    "stats": {
+      "lastStatus": "最近状态",
+      "fetchedAt": "抓取时间（北京时间）",
+      "providerUpdatedAt": "来源更新时间（北京时间）",
+      "providerNextAt": "来源下次更新时间（北京时间）"
+    },
+    "values": {
+      "noSyncYet": "尚未同步"
+    },
+    "columns": {
+      "setting": "设置项",
+      "value": "值"
+    },
+    "table": {
+      "kicker": "最新 CNY 汇率",
+      "title": "已启用的前台货币",
+      "description": "费率表示 1 CNY 可兑换的目标货币数量。",
+      "countLabel": "{count} 种货币",
+      "columns": {
+        "currency": "货币",
+        "rate": "1 CNY =",
+        "status": "状态"
+      }
+    }
+  },
+  "sensitiveKeywords": {
+    "kicker": "系统设置",
+    "title": "敏感词",
+    "description": "按行导入限制商品关键词。重复项会被忽略，唯一词库用于拦截风险搜索和商品页。",
+    "exportTxt": "导出 TXT",
+    "pasteKeywords": "粘贴关键词",
+    "pastePlaceholder": "每行一个关键词\n例如：restricted term",
+    "importTxt": "导入 TXT",
+    "import": "导入",
+    "delete": "删除",
+    "columns": {
+      "keyword": "关键词",
+      "created": "创建时间",
+      "action": "操作"
+    },
+    "searchPlaceholder": "搜索敏感词..."
+  }
+}

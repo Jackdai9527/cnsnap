@@ -1,0 +1,19 @@
+{
+  "home": "Accueil",
+  "shoppingAgent": "Agent commercial",
+  "estimation": "Estimer",
+  "promotion": "Promotions",
+  "diyOrder": "Commande DIY",
+  "forwarding": "Transfert",
+  "helpCenter": "Centre d'aide",
+  "menu": "Menus",
+  "login": "Connexion",
+  "register": "S'inscrire",
+  "account": "Compte",
+  "dashboard": "Tableau de bord",
+  "orders": "Commandes",
+  "packages": "Forfaits",
+  "wallet": "Portefeuille",
+  "ticketsCenter": "Centre de billetterie",
+  "logout": "Déconnexion"
+}

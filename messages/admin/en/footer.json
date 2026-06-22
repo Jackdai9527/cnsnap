@@ -1,0 +1,8 @@
+{
+  "page": {
+    "kicker": "Frontend footer sections",
+    "title": "Footer Section",
+    "description": "Edit footer content as HTML. Payment logos can use local paths such as `/payment-logos/card_visa.svg`.",
+    "save": "Save footer sections"
+  }
+}

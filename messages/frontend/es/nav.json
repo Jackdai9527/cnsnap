@@ -1,0 +1,19 @@
+{
+  "home": "Inicio",
+  "shoppingAgent": "Agente de compras",
+  "estimation": "Estimación",
+  "promotion": "Promoción",
+  "diyOrder": "Pedido DIY",
+  "forwarding": "Reenvío",
+  "helpCenter": "Centro de ayuda",
+  "menu": "Menú",
+  "login": "Iniciar sesión",
+  "register": "Registrarse",
+  "account": "Cuenta",
+  "dashboard": "Panel de control",
+  "orders": "Pedidos",
+  "packages": "Paquetes",
+  "wallet": "Monedero",
+  "ticketsCenter": "Centro de entradas",
+  "logout": "Cerrar sesión"
+}

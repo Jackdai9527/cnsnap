@@ -1,0 +1,255 @@
+{
+  "paymentsWorkbench": {
+    "kicker": "Finance center",
+    "title": "Payments",
+    "description": "Payment workbench for ONLYPAY, PayPal Checkout, Advanced Card Payments, SEPA Instant Payments, product order payments, shipping fee payments, callbacks, and bank-transfer confirmations.",
+    "metrics": {
+      "total": "Total",
+      "pending": "Pending",
+      "paid": "Paid",
+      "gateways": "Gateways"
+    },
+    "gatewayTable": {
+      "gateway": "Gateway",
+      "status": "Status",
+      "provider": "Provider",
+      "mode": "Mode",
+      "currency": "Currency",
+      "records": "Records",
+      "pending": "Pending",
+      "action": "Action",
+      "search": "Search payment gateways...",
+      "edit": "Edit",
+      "builtIn": "Built-in"
+    },
+    "export": {
+      "label": "Export",
+      "paymentNo": "Payment No",
+      "providerOrderNo": "Provider Order No",
+      "gatewayOrderNo": "Gateway Order No",
+      "userEmail": "User Email",
+      "orderNo": "Order No",
+      "packageNo": "Package No",
+      "type": "Type",
+      "provider": "Provider",
+      "status": "Status",
+      "amount": "Amount",
+      "paymentMethod": "Payment Method",
+      "paidAt": "Paid At",
+      "failedAt": "Failed At",
+      "createdAt": "Created At"
+    },
+    "common": {
+      "configured": "Configured",
+      "missing": "Missing"
+    },
+    "gatewayRows": {
+      "onlypay": {
+        "gateway": "ONLYPAY Credit Card / Wallet",
+        "mode": "Gateway API",
+        "currency": "Order currency",
+        "summary": {
+          "merchantId": "Merchant ID",
+          "applicationId": "Application ID",
+          "productId": "Product ID",
+          "submitUrl": "Submit URL",
+          "signatureKey": "Signature Key"
+        },
+        "endpoints": {
+          "createOrder": "Create order",
+          "notifyCallback": "Notify callback",
+          "returnUrl": "Return URL"
+        },
+        "modalTitle": "ONLYPAY Settings",
+        "modalDescription": "Credentials, endpoint, product ID, and customer-facing title for ONLYPAY checkout."
+      },
+      "paypal": {
+        "gateway": "PayPal Checkout",
+        "summary": {
+          "clientId": "Client ID",
+          "clientSecret": "Client Secret",
+          "advancedCards": "Advanced Cards",
+          "brandName": "Brand Name",
+          "currency": "Currency",
+          "webhookId": "Webhook ID"
+        },
+        "endpoints": {
+          "createOrder": "Create order",
+          "captureOrder": "Capture order",
+          "webhook": "Webhook",
+          "refund": "Refund"
+        },
+        "modalTitle": "PayPal Checkout Settings",
+        "modalDescription": "Sandbox/live credentials, display title, currency, brand, and advanced card settings."
+      },
+      "sepa": {
+        "gateway": "SEPA Instant Payments",
+        "mode": "Manual confirmation",
+        "summary": {
+          "beneficiary": "Beneficiary",
+          "iban": "IBAN",
+          "bic": "BIC / SWIFT",
+          "bank": "Bank",
+          "usdToEur": "USD to EUR"
+        },
+        "endpoints": {
+          "createConfirmation": "Create confirmation",
+          "eligibility": "Eligibility",
+          "eligibilityValue": "EU address or EUR order"
+        },
+        "modalTitle": "SEPA Instant Payments Settings",
+        "modalDescription": "Bank account details, EUR conversion, checkout instructions, and confirmation helper text."
+      },
+      "balance": {
+        "gateway": "CNSnap Balance",
+        "method": "Wallet balance, recharge credit, and affiliate commission balance",
+        "mode": "Internal balance ledger",
+        "summary": {
+          "fundingSource": "Funding source",
+          "fundingSourceValue": "Wallet recharge / affiliate commission / manual balance adjustment",
+          "usage": "Usage",
+          "usageValue": "Product payments and shipping fee payments",
+          "visibleLabel": "Visible label",
+          "visibleLabelValue": "CNSnap Balance",
+          "settlement": "Settlement",
+          "settlementValue": "Internal ledger balance deduction"
+        },
+        "endpoints": {
+          "wallet": "Wallet",
+          "recharge": "Recharge",
+          "affiliate": "Affiliate",
+          "affiliateValue": "Future commission-to-wallet flow"
+        },
+        "modalTitle": "CNSnap Balance",
+        "modalDescription": "Internal stored-balance payment method funded by recharge or future affiliate commissions."
+      }
+    },
+    "records": {
+      "kicker": "Payment records",
+      "title": "Gateway Transactions",
+      "description": "Every payment attempt created through ONLYPAY, PayPal, SEPA, or future gateways is listed here with request, response, callback, and redirect data.",
+      "countLabel": "{count} records",
+      "filters": {
+        "provider": {
+          "label": "Provider",
+          "value": "onlypay / paypal_checkout / sepa_instant / future gateways"
+        },
+        "statuses": {
+          "label": "Statuses",
+          "value": "pending, redirected, awaiting_transfer, processing, paid, failed"
+        }
+      },
+      "columns": {
+        "payment": "Payment",
+        "user": "User",
+        "type": "Type",
+        "provider": "Provider",
+        "status": "Status",
+        "amount": "Amount",
+        "method": "Method",
+        "action": "Action",
+        "created": "Created"
+      },
+      "actions": {
+        "confirmTopUp": "Confirm top-up",
+        "refund": "Refund"
+      },
+      "detail": {
+        "paymentId": "Payment ID",
+        "paymentNo": "Payment No",
+        "provider": "Provider",
+        "providerOrderNo": "Provider Order No",
+        "gatewayOrderNo": "Gateway Order No",
+        "order": "Order",
+        "package": "Package",
+        "type": "Type",
+        "status": "Status",
+        "amount": "Amount",
+        "paymentMethod": "Payment Method",
+        "created": "Created",
+        "paidAt": "Paid At",
+        "failedAt": "Failed At",
+        "redirectUrl": "Redirect URL",
+        "openRedirectUrl": "Open redirect URL",
+        "requestPayload": "Request Payload",
+        "responsePayload": "Response Payload",
+        "callbackPayload": "Callback Payload"
+      }
+    }
+  },
+  "walletTransactions": {
+    "kicker": "Finance center",
+    "title": "Wallet Transactions",
+    "description": "Balance changes from recharges, deductions, refunds, order payments, and manual adjustments.",
+    "countLabel": "{count} records",
+    "adjustmentForm": {
+      "user": "User",
+      "amount": "Amount",
+      "amountPlaceholder": "0.00",
+      "type": "Type",
+      "note": "Note",
+      "notePlaceholder": "Admin adjustment note",
+      "apply": "Apply",
+      "types": {
+        "recharge": "recharge",
+        "deduction": "deduction",
+        "refund": "refund",
+        "manualAdjustment": "manual_adjustment"
+      }
+    },
+    "columns": {
+      "time": "Time",
+      "user": "User",
+      "type": "Type",
+      "amount": "Amount",
+      "balance": "Balance After",
+      "related": "Related",
+      "note": "Note"
+    }
+  },
+  "pages": {
+    "recharge": {
+      "kicker": "Finance center",
+      "title": "Recharge Records",
+      "description": "Wallet top-up and recharge activity.",
+      "countLabel": "{count} records",
+      "columns": {
+        "time": "Time",
+        "user": "User",
+        "amount": "Amount",
+        "balance": "Balance After",
+        "related": "Related",
+        "note": "Note"
+      }
+    },
+    "refund": {
+      "kicker": "Finance center",
+      "title": "Refund Records",
+      "description": "Refund entries created by order, package, or manual workflows.",
+      "countLabel": "{count} records",
+      "columns": {
+        "time": "Time",
+        "user": "User",
+        "amount": "Amount",
+        "balance": "Balance After",
+        "related": "Related",
+        "note": "Note"
+      }
+    },
+    "exchangeRate": {
+      "kicker": "Finance configuration",
+      "title": "Exchange Rate"
+    },
+    "serviceFees": {
+      "kicker": "Finance configuration",
+      "title": "Service Fee Settings"
+    }
+  },
+  "gatewaySettings": {
+    "save": "Save gateway settings",
+    "columns": {
+      "setting": "Setting",
+      "value": "Value"
+    }
+  }
+}

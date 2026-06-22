@@ -1,0 +1,131 @@
+{
+  "page": {
+    "kicker": "Parcel operations",
+    "title": "Packages",
+    "records": "{count} records",
+    "export": "Export"
+  },
+  "exportColumns": {
+    "packageNo": "Package No",
+    "orderNo": "Order No",
+    "userEmail": "User Email",
+    "status": "Package Status",
+    "shippingChannel": "Shipping Channel",
+    "weightKg": "Actual Weight KG",
+    "chargeableWeightKg": "Chargeable Weight KG",
+    "destinationCountry": "Destination Country",
+    "shippingFeeUsd": "Shipping Fee USD",
+    "shippingPaymentStatus": "Shipping Payment Status",
+    "latestTrackingStatus": "Latest Tracking Status",
+    "trackingNumber": "Tracking Number",
+    "createdAt": "Created At"
+  },
+  "table": {
+    "package": "Package",
+    "user": "User",
+    "status": "Status",
+    "channel": "Channel",
+    "weight": "Weight",
+    "chargeable": "Chargeable",
+    "country": "Country",
+    "fee": "Fee",
+    "payment": "Payment",
+    "tracking": "Tracking",
+    "search": "Search packages...",
+    "noOrder": "No order",
+    "noChannel": "No channel"
+  },
+  "filters": {
+    "searchPlaceholder": "Package / order / user / tracking",
+    "statusPlaceholder": "Package status",
+    "countryPlaceholder": "Country ISO2",
+    "submit": "Filter"
+  },
+  "errors": {
+    "invalidStatus": "Invalid package status.",
+    "packageNotFound": "Package not found.",
+    "shippingChannelNotFound": "Shipping channel not found.",
+    "assignChannelBeforeDispatch": "Assign an international logistics channel before moving the parcel to dispatch.",
+    "trackingRequiredBeforeShipment": "Tracking number is required before marking a package as shipped."
+  },
+  "detailModal": {
+    "description": "{email} · {channel}",
+    "submit": "Save package",
+    "fields": {
+      "status": "Status",
+      "shippingChannel": "International logistics channel",
+      "shippingChannelPlaceholder": "Select shipping channel",
+      "trackingNumber": "Tracking number",
+      "trackingPlaceholder": "Tracking",
+      "weightKg": "Weight kg",
+      "lengthCm": "Length cm",
+      "widthCm": "Width cm",
+      "heightCm": "Height cm",
+      "shippingFeeUsd": "Shipping fee USD"
+    },
+    "dispatchNotice": {
+      "eyebrow": "Dispatch workflow",
+      "description": "Assign the international logistics channel here, confirm the final freight, and then move the parcel into the correct dispatch status.",
+      "needChannel": "1. Assign a channel before dispatch.",
+      "needTracking": "2. Add tracking before marking shipped.",
+      "readyState": "3. Use `Shipping paid` as the ready-to-dispatch state."
+    },
+    "summary": {
+      "dimensions": "Dimensions",
+      "volumeChargeable": "Volume / chargeable",
+      "order": "Order",
+      "items": "Items",
+      "internationalLogistics": "International logistics",
+      "latestParcelStatus": "Latest parcel status",
+      "created": "Created",
+      "pieces": "{count} pcs"
+    },
+    "trackingOverview": {
+      "eyebrow": "Tracking overview",
+      "title": "International logistics and parcel movement",
+      "description": "Show the selected logistics channel for freight-paid parcels and keep the latest parcel step visible for operators.",
+      "openCarrierTracking": "Open carrier tracking"
+    },
+    "trackingCards": {
+      "freightPayment": "Freight payment",
+      "channel": "Channel",
+      "trackingNo": "Tracking no.",
+      "notAssignedYet": "Not assigned yet"
+    },
+    "timeline": {
+      "eyebrow": "Full parcel logistics line",
+      "step": "Step {index}",
+      "done": "Done",
+      "current": "Current",
+      "attention": "Attention",
+      "pending": "Pending"
+    }
+  },
+  "labels": {
+    "internationalLogisticsNotAssigned": "International logistics not assigned",
+    "awaitingFreightPayment": "Awaiting freight payment",
+    "freightPaid": "Freight paid",
+    "freightUnpaid": "Freight unpaid",
+    "delivered": "Delivered",
+    "returnedToSender": "Returned to sender",
+    "shipmentCancelled": "Shipment cancelled",
+    "inTransit": "In transit",
+    "customsClearance": "Customs clearance",
+    "deliveryAttempted": "Delivery attempted",
+    "trackingActive": "Tracking active",
+    "handedToCarrier": "Handed to carrier",
+    "readyForDispatch": "Ready for dispatch",
+    "waitingFreightPayment": "Waiting freight payment",
+    "trackingException": "Tracking exception",
+    "packageCreated": "Package created",
+    "freightPaidStep": "Freight paid",
+    "freightPaidDetail": "{channel} is selected for dispatch.",
+    "waitingFreightPaymentDetail": "Waiting for the customer to pay the international freight fee.",
+    "handedToCarrierStep": "Handed to carrier",
+    "shipmentConfirmed": "Shipment confirmed",
+    "notMarkedShippedYet": "The parcel has not been marked shipped yet.",
+    "latestParcelStatusStep": "Latest parcel status",
+    "trackingNoDetail": "Tracking no. {trackingNumber}",
+    "noDate": "-"
+  }
+}

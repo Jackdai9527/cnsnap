@@ -1,0 +1,921 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                 Int                 @id @default(autoincrement())
+  email              String              @unique
+  passwordHash       String?
+  googleId           String?
+  name               String?
+  avatarUrl          String?
+  role               String              @default("user")
+  status             String              @default("active")
+  locale             String              @default("en")
+  currency           String              @default("USD")
+  referralCode       String              @unique
+  referredBy         Int?
+  walletBalance      Decimal             @default(0)
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  addresses          Address[]
+  orders             Order[]
+  packages           Package[]
+  payments           Payment[]
+  walletTransactions WalletTransaction[]
+  diyOrders          DiyOrder[]
+  tickets            SupportTicket[]
+  orderNotes         OrderNote[]
+  uploadedMedia      MediaAsset[]        @relation("UploadedMedia")
+  logs               OperationLog[]
+  authAccounts       AuthAccount[]
+}
+
+model AuthAccount {
+  id                Int     @id @default(autoincrement())
+  userId            Int
+  provider          String
+  providerAccountId String
+  type              String
+  refreshToken      String?
+  accessToken       String?
+  expiresAt         Int?
+  tokenType         String?
+  scope             String?
+  idToken           String?
+  sessionState      String?
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+model AuthVerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Address {
+  id          Int      @id @default(autoincrement())
+  userId      Int
+  label       String   @default("Default")
+  contactName String
+  phone       String
+  country     String
+  state       String?
+  city        String
+  postalCode  String
+  line1       String
+  line2       String?
+  isDefault   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  user        User     @relation(fields: [userId], references: [id])
+  orders      Order[]
+}
+
+model ProductCache {
+  id                 Int         @id @default(autoincrement())
+  platform           String
+  sourceItemId       String
+  sourceUrl          String
+  title              String
+  mainImage          String
+  images             Json
+  shopName           String?
+  shopUrl            String?
+  priceCny           Decimal
+  priceUsd           Decimal
+  skus               Json
+  attributes         Json
+  descriptionHtml    String?
+  rawJson            Json
+  cacheExpiredAt     DateTime
+  isStorefrontActive Boolean     @default(false)
+  isHomepageFeatured Boolean     @default(false)
+  storefrontRank     Int         @default(0)
+  importSource       String      @default("manual")
+  sourceShopId       String?
+  sourceShopName     String?
+  sourceShopUrl      String?
+  createdAt          DateTime    @default(now())
+  updatedAt          DateTime    @updatedAt
+  orderItems         OrderItem[]
+
+  @@unique([platform, sourceItemId])
+  @@index([isStorefrontActive, storefrontRank, updatedAt])
+  @@index([isHomepageFeatured, storefrontRank, updatedAt])
+  @@index([sourceShopId])
+}
+
+model ValueAddedService {
+  id               Int      @id @default(autoincrement())
+  code             String   @unique
+  name             String
+  description      String
+  applicableRange  String?
+  chargeStandard   String
+  priceUsd         Decimal  @default(0)
+  priceMode        String   @default("per_piece")
+  serviceTime      String?
+  buyerNotice      String?
+  serviceGuarantee String?
+  specialNote      String?
+  sortOrder        Int      @default(0)
+  isActive         Boolean  @default(true)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@index([isActive])
+  @@index([sortOrder])
+}
+
+model Order {
+  id                   Int                 @id @default(autoincrement())
+  orderNo              String              @unique
+  userId               Int
+  status               String              @default("pending_payment")
+  orderSource          String              @default("url")
+  orderStatus          String              @default("pending_payment")
+  paymentStatus        String              @default("pending")
+  purchaseStatus       String              @default("pending")
+  warehouseStatus      String              @default("pending")
+  packageStatus        String              @default("none")
+  shippingPaymentStatus String             @default("none")
+  shippingStatus       String              @default("none")
+  riskStatus           String              @default("normal")
+  refundStatus         String              @default("none")
+  qcSharedWithCustomer Boolean             @default(false)
+  qcSharedAt           DateTime?
+  qcSharedBy           Int?
+  qcCustomerConfirmed  Boolean             @default(false)
+  qcCustomerConfirmedAt DateTime?
+  qcCustomerConfirmedBy Int?
+  destinationCountry   String?
+  destinationCountryCode String?
+  shippingAddressSnapshot Json?
+  currency             String              @default("USD")
+  subtotalCny          Decimal             @default(0)
+  subtotalUsd          Decimal             @default(0)
+  exchangeRate         Decimal             @default(0)
+  serviceFeeUsd        Decimal             @default(0)
+  domesticShippingUsd  Decimal             @default(0)
+  valueAddedServicesUsd Decimal             @default(0)
+  valueAddedServicesSnapshot Json?
+  estimatedShippingUsd Decimal             @default(0)
+  actualShippingUsd    Decimal             @default(0)
+  discountUsd          Decimal             @default(0)
+  refundUsd            Decimal             @default(0)
+  totalUsd             Decimal             @default(0)
+  paidUsd              Decimal             @default(0)
+  unpaidUsd            Decimal             @default(0)
+  itemCount            Int                 @default(0)
+  totalQuantity        Int                 @default(0)
+  assigneeId           Int?
+  addressId            Int?
+  preferredPaymentMethod String?
+  userNote             String?
+  adminNote            String?
+  paidAt               DateTime?
+  purchasedAt          DateTime?
+  warehouseReceivedAt  DateTime?
+  shippedAt            DateTime?
+  completedAt          DateTime?
+  cancelledAt          DateTime?
+  createdAt            DateTime            @default(now())
+  updatedAt            DateTime            @updatedAt
+  user                 User                @relation(fields: [userId], references: [id])
+  address              Address?            @relation(fields: [addressId], references: [id])
+  items                OrderItem[]
+  packages             Package[]
+  payments             Payment[]
+  walletTransactions   WalletTransaction[]
+  notes                OrderNote[]
+  mediaAssets          MediaAsset[]
+  logs                 OperationLog[]
+
+  @@index([userId])
+  @@index([orderStatus])
+  @@index([paymentStatus])
+  @@index([purchaseStatus])
+  @@index([warehouseStatus])
+  @@index([packageStatus])
+  @@index([shippingPaymentStatus])
+  @@index([shippingStatus])
+  @@index([riskStatus])
+  @@index([refundStatus])
+  @@index([assigneeId])
+  @@index([createdAt])
+  @@index([updatedAt])
+}
+
+model OrderNote {
+  id            Int      @id @default(autoincrement())
+  orderId       Int
+  type          String   @default("admin")
+  content       String
+  visibleToUser Boolean  @default(false)
+  createdBy     Int?
+  createdAt     DateTime @default(now())
+  order         Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  creator       User?    @relation(fields: [createdBy], references: [id], onDelete: SetNull)
+
+  @@index([orderId])
+  @@index([type])
+  @@index([createdAt])
+}
+
+model OrderItem {
+  id             Int           @id @default(autoincrement())
+  orderId        Int
+  productCacheId Int?
+  platform       String
+  sourceItemId   String
+  sourceUrl      String
+  title          String
+  image          String
+  skuId          String?
+  skuText        String?
+  priceCny       Decimal
+  priceUsd       Decimal
+  quantity       Int           @default(1)
+  purchaseStatus String        @default("pending")
+  createdAt      DateTime      @default(now())
+  order          Order         @relation(fields: [orderId], references: [id])
+  productCache   ProductCache? @relation(fields: [productCacheId], references: [id])
+  packageItems   PackageItem[]
+}
+
+model Package {
+  id                 Int                 @id @default(autoincrement())
+  packageNo          String              @unique
+  userId             Int
+  orderId            Int?
+  status             String              @default("pending")
+  weightKg           Decimal             @default(0.5)
+  lengthCm           Decimal?
+  widthCm            Decimal?
+  heightCm           Decimal?
+  shippingChannelId  Int?
+  shippingFeeUsd     Decimal             @default(0)
+  trackingNumber     String?
+  shippedAt          DateTime?
+  deliveredAt        DateTime?
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  user               User                @relation(fields: [userId], references: [id])
+  order              Order?              @relation(fields: [orderId], references: [id])
+  shippingChannel    ShippingChannel?    @relation(fields: [shippingChannelId], references: [id])
+  items              PackageItem[]
+  payments           Payment[]
+  walletTransactions WalletTransaction[]
+  mediaAssets        MediaAsset[]
+}
+
+model MediaAsset {
+  id           Int      @id @default(autoincrement())
+  filename     String
+  originalName String
+  url          String   @unique
+  path         String   @unique
+  mimeType     String
+  size         Int
+  width        Int?
+  height       Int?
+  altText      String?
+  caption      String?
+  usage        String   @default("media_library")
+  orderId      Int?
+  packageId    Int?
+  uploadedBy   Int?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  order        Order?   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  package      Package? @relation(fields: [packageId], references: [id], onDelete: Cascade)
+  uploader     User?    @relation("UploadedMedia", fields: [uploadedBy], references: [id], onDelete: SetNull)
+
+  @@index([usage])
+  @@index([orderId])
+  @@index([packageId])
+  @@index([uploadedBy])
+  @@index([createdAt])
+  @@index([originalName])
+}
+
+model PackageItem {
+  id          Int       @id @default(autoincrement())
+  packageId   Int
+  orderItemId Int
+  quantity    Int       @default(1)
+  package     Package   @relation(fields: [packageId], references: [id])
+  orderItem   OrderItem @relation(fields: [orderItemId], references: [id])
+}
+
+model Payment {
+  id               Int      @id @default(autoincrement())
+  paymentNo        String   @unique
+  provider         String
+  providerOrderNo  String?  @unique
+  gatewayOrderNo   String?
+  type             String   @default("product")
+  userId           Int
+  orderId          Int?
+  packageId        Int?
+  amount           Decimal
+  currency         String   @default("USD")
+  status           String   @default("pending")
+  paymentMethod    String?
+  redirectUrl      String?
+  requestPayload   Json?
+  responsePayload  Json?
+  callbackPayload  Json?
+  paidAt           DateTime?
+  failedAt         DateTime?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  user             User     @relation(fields: [userId], references: [id])
+  order            Order?   @relation(fields: [orderId], references: [id])
+  package          Package? @relation(fields: [packageId], references: [id])
+
+  @@index([userId])
+  @@index([orderId])
+  @@index([packageId])
+  @@index([provider])
+  @@index([status])
+  @@index([createdAt])
+}
+
+model ShippingChannel {
+  id                     Int       @id @default(autoincrement())
+  name                   String
+  code                   String    @unique
+  sortOrder              Int       @default(0)
+  supportedCountries     Json
+  supportedCategories    Json
+  forbiddenCategories    Json
+  calculationRule         String    @default("chargeable_weight * freight_rmb_per_kg + handling_fee_rmb")
+  notesHtml               String?
+  trackingUrl             String?
+  firstWeightKg          Decimal
+  firstWeightFeeUsd      Decimal
+  additionalWeightKg     Decimal
+  additionalWeightFeeUsd Decimal
+  volumeDivisor          Int       @default(5000)
+  minWeightKg            Decimal   @default(0.5)
+  deliveryTimeMin        Int
+  deliveryTimeMax        Int
+  isActive               Boolean   @default(true)
+  createdAt              DateTime  @default(now())
+  updatedAt              DateTime  @updatedAt
+  packages               Package[]
+  rates                  ShippingRate[]
+}
+
+model ShippingRate {
+  id              Int             @id @default(autoincrement())
+  channelId       Int
+  countryCode     String
+  countryName     String
+  freightRmbPerKg Decimal
+  handlingFeeRmb  Decimal
+  startWeightKg   Decimal
+  maxWeightKg     Decimal
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+  channel         ShippingChannel @relation(fields: [channelId], references: [id], onDelete: Cascade)
+
+  @@unique([channelId, countryCode])
+  @@index([countryCode])
+}
+
+model WalletTransaction {
+  id               Int      @id @default(autoincrement())
+  userId           Int
+  type             String
+  amount           Decimal
+  currency         String   @default("USD")
+  balanceAfter     Decimal
+  relatedOrderId   Int?
+  relatedPackageId Int?
+  note             String?
+  createdBy        Int?
+  createdAt        DateTime @default(now())
+  user             User     @relation(fields: [userId], references: [id])
+  order            Order?   @relation(fields: [relatedOrderId], references: [id])
+  package          Package? @relation(fields: [relatedPackageId], references: [id])
+}
+
+model DiyOrder {
+  id            Int      @id @default(autoincrement())
+  userId        Int?
+  productUrl    String
+  productName   String?
+  productImage  String?
+  specification String?
+  quantity      Int      @default(1)
+  budgetUsd     Decimal?
+  note          String?
+  contactEmail  String
+  status        String   @default("submitted")
+  quoteProvided Boolean  @default(false)
+  quoteUsd      Decimal?
+  customerQuoteFeedback String?
+  adminNote     String?
+  purchaseItemName String?
+  purchaseDate  DateTime?
+  purchaseSize  String?
+  purchaseWeightKg Decimal?
+  productCostUsd Decimal?
+  purchaseStatus String   @default("not_purchased")
+  warehouseStatus String  @default("not_arrived")
+  purchaseLink  String?
+  shippingFeeUsd Decimal?
+  serviceFeeUsd Decimal?
+  convertedOrderId Int?
+  deletedAt     DateTime?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  user          User?    @relation(fields: [userId], references: [id])
+}
+
+model SupportTicket {
+  id                 Int      @id @default(autoincrement())
+  ticketNo           String   @unique
+  userId             Int
+  orderOrTrackingNo  String
+  issueType          String
+  problemDescription String
+  status             String   @default("open")
+  adminReply         String?
+  repliedAt          DateTime?
+  closedAt           DateTime?
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  user               User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([status])
+  @@index([createdAt])
+}
+
+// V1.0+ ticket center schema draft for Prisma + MySQL migration:
+// model Ticket {
+//   id                BigInt    @id @default(autoincrement())
+//   ticketNo          String    @unique @map("ticket_no")
+//   userId            BigInt    @map("user_id")
+//   subject           String
+//   category          String
+//   priority          String    @default("normal")
+//   status            String    @default("open")
+//   relatedOrderId    BigInt?   @map("related_order_id")
+//   relatedPackageId  BigInt?   @map("related_package_id")
+//   lastReplyAt       DateTime? @map("last_reply_at")
+//   resolvedAt        DateTime? @map("resolved_at")
+//   closedAt          DateTime? @map("closed_at")
+//   createdAt         DateTime  @default(now()) @map("created_at")
+//   updatedAt         DateTime  @updatedAt @map("updated_at")
+//
+//   @@map("tickets")
+// }
+//
+// model TicketMessage {
+//   id          BigInt   @id @default(autoincrement())
+//   ticketId    BigInt   @map("ticket_id")
+//   senderId    BigInt?  @map("sender_id")
+//   senderType  String   @map("sender_type")
+//   senderName  String?  @map("sender_name")
+//   content     String   @db.Text
+//   attachments Json?
+//   isInternal  Boolean  @default(false) @map("is_internal")
+//   createdAt   DateTime @default(now()) @map("created_at")
+//
+//   @@map("ticket_messages")
+// }
+
+model Setting {
+  id          Int      @id @default(autoincrement())
+  key         String   @unique
+  value       String
+  label       String
+  description String?
+  updatedAt   DateTime @updatedAt
+}
+
+model ExchangeRateSnapshot {
+  id                Int      @id @default(autoincrement())
+  provider          String   @default("exchangerate-api")
+  baseCode          String   @default("CNY")
+  enabledCurrencies Json
+  rates             Json
+  result            String   @default("pending")
+  status            String   @default("pending")
+  error             String?
+  fetchedAt         DateTime?
+  providerUpdatedAt DateTime?
+  providerNextAt    DateTime?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  @@index([baseCode])
+  @@index([fetchedAt])
+}
+
+model SensitiveKeyword {
+  id        Int      @id @default(autoincrement())
+  term      String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model HelpArticle {
+  id           Int                      @id @default(autoincrement())
+  slug         String                   @unique
+  title        String
+  category     String
+  categoryKey  String?
+  sortOrder    Int                      @default(0)
+  excerpt      String
+  content      String
+  locale       String                   @default("en")
+  isPublished  Boolean                  @default(true)
+  createdAt    DateTime                 @default(now())
+  updatedAt    DateTime                 @updatedAt
+  descriptions HelpArticleDescription[]
+}
+
+model FaqItem {
+  id           Int                  @id @default(autoincrement())
+  categoryKey  String
+  sortOrder    Int                  @default(0)
+  status       String               @default("published")
+  createdAt    DateTime             @default(now())
+  updatedAt    DateTime             @updatedAt
+  descriptions FaqItemDescription[]
+
+  @@index([categoryKey, sortOrder])
+  @@index([status, sortOrder])
+}
+
+model Page {
+  id           Int               @id @default(autoincrement())
+  slug         String            @unique
+  title        String
+  contentHtml  String
+  isPublished  Boolean           @default(true)
+  createdAt    DateTime          @default(now())
+  updatedAt    DateTime          @updatedAt
+  descriptions PageDescription[]
+}
+
+model SeoSetting {
+  id                     Int      @id @default(autoincrement())
+  siteName               String
+  defaultTitle           String
+  titleTemplate          String
+  defaultDescription     String
+  defaultOgImage         String?
+  defaultTwitterImage    String?
+  defaultRobots          String   @default("index,follow")
+  canonicalBaseUrl       String
+  googleSiteVerification String?
+  googleAnalyticsId      String?
+  googleTagManagerId     String?
+  createdAt              DateTime @default(now())
+  updatedAt              DateTime @updatedAt
+}
+
+model SeoPageMeta {
+  id                 Int      @id @default(autoincrement())
+  path               String   @unique
+  pageType           String   @default("unknown")
+  title              String
+  description        String
+  canonicalUrl       String?
+  robots             String?
+  ogTitle            String?
+  ogDescription      String?
+  ogImage            String?
+  twitterTitle       String?
+  twitterDescription String?
+  twitterImage       String?
+  structuredDataJson String?
+  enabled            Boolean  @default(true)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  @@index([pageType])
+  @@index([enabled])
+}
+
+model SeoRobotsRule {
+  id         Int      @id @default(autoincrement())
+  pathPattern String
+  ruleType   String
+  userAgent  String   @default("*")
+  enabled    Boolean  @default(true)
+  sortOrder  Int      @default(0)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([enabled, sortOrder])
+}
+
+model SeoSitemapEntry {
+  id              Int      @id @default(autoincrement())
+  path            String   @unique
+  changeFrequency String   @default("weekly")
+  priority        Decimal  @default(0.5)
+  lastModified    DateTime?
+  enabled         Boolean  @default(true)
+  sourceType      String   @default("service")
+  sourceId        String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@index([enabled])
+  @@index([sourceType, sourceId])
+}
+
+model SeoLandingPage {
+  id                 Int                         @id @default(autoincrement())
+  title              String
+  slug               String                      @unique
+  type               String
+  path               String                      @unique
+  heroTitle          String
+  heroSubtitle       String?
+  content            String
+  sectionsJson       String?
+  faqJson            String?
+  ctaText            String?
+  ctaHref            String?
+  status             String                      @default("draft")
+  language           String                      @default("en")
+  publishedAt        DateTime?
+  seoTitle           String?
+  seoDescription     String?
+  canonicalUrl       String?
+  robots             String                      @default("index,follow")
+  ogTitle            String?
+  ogDescription      String?
+  ogImage            String?
+  twitterTitle       String?
+  twitterDescription String?
+  twitterImage       String?
+  structuredDataJson String?
+  createdAt          DateTime                    @default(now())
+  updatedAt          DateTime                    @updatedAt
+  descriptions       SeoLandingPageDescription[]
+
+  @@index([type])
+  @@index([status])
+  @@index([language])
+}
+
+model SeoArticle {
+  id           String                  @id
+  categoryId   String
+  authorId     String?
+  coverImage   String?
+  relatedArticleIds String?
+  relatedLinksJson String?
+  ctaType      String                  @default("none")
+  status       String                  @default("draft")
+  sortOrder    Int                     @default(0)
+  publishedAt  DateTime?
+  createdAt    DateTime                @default(now())
+  updatedAt    DateTime                @updatedAt
+  descriptions SeoArticleDescription[]
+
+  @@index([status, publishedAt])
+  @@index([categoryId, status])
+}
+
+model SeoArticleDescription {
+  id                 Int      @id @default(autoincrement())
+  articleId          String
+  languageCode       String
+  title              String
+  slug               String
+  excerpt            String
+  content            String
+  seoTitle           String?
+  seoDescription     String?
+  canonicalUrl       String?
+  ogTitle            String?
+  ogDescription      String?
+  ogImage            String?
+  twitterTitle       String?
+  twitterDescription String?
+  twitterImage       String?
+  faqJson            String?
+  structuredDataJson String?
+  robots             String   @default("index,follow")
+  readingTime        Int?
+  tableOfContents    String?
+  translationStatus  String   @default("draft")
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  article            SeoArticle @relation(fields: [articleId], references: [id], onDelete: Cascade)
+
+  @@unique([articleId, languageCode])
+  @@index([languageCode, translationStatus])
+  @@index([slug, languageCode])
+}
+
+model SeoLandingPageDescription {
+  id                 Int             @id @default(autoincrement())
+  landingPageId      Int
+  languageCode       String
+  path               String
+  localizedPath      String?
+  heroTitle          String
+  heroSubtitle       String?
+  content            String
+  sectionsJson       String?
+  faqJson            String?
+  ctaText            String?
+  ctaHref            String?
+  seoTitle           String?
+  seoDescription     String?
+  canonicalUrl       String?
+  robots             String          @default("index,follow")
+  ogTitle            String?
+  ogDescription      String?
+  ogImage            String?
+  twitterTitle       String?
+  twitterDescription String?
+  twitterImage       String?
+  structuredDataJson String?
+  translationStatus  String          @default("draft")
+  createdAt          DateTime        @default(now())
+  updatedAt          DateTime        @updatedAt
+  landingPage        SeoLandingPage  @relation(fields: [landingPageId], references: [id], onDelete: Cascade)
+
+  @@unique([landingPageId, languageCode])
+  @@index([languageCode, translationStatus])
+  @@index([path, languageCode])
+}
+
+model FrontendContentBlock {
+  id           Int                               @id @default(autoincrement())
+  blockKey     String                            @unique
+  blockType    String
+  groupKey     String?
+  status       String                            @default("enabled")
+  sortOrder    Int                               @default(0)
+  createdAt    DateTime                          @default(now())
+  updatedAt    DateTime                          @updatedAt
+  descriptions FrontendContentBlockDescription[]
+
+  @@index([groupKey, sortOrder])
+  @@index([status, sortOrder])
+}
+
+model FrontendContentBlockDescription {
+  id                Int                  @id @default(autoincrement())
+  blockId           Int
+  languageCode      String
+  title             String?
+  subtitle          String?
+  content           String?
+  shortContent      String?
+  linkText          String?
+  linkUrl           String?
+  imageAlt          String?
+  metaJson          String?
+  translationStatus String               @default("draft")
+  createdAt         DateTime             @default(now())
+  updatedAt         DateTime             @updatedAt
+  block             FrontendContentBlock @relation(fields: [blockId], references: [id], onDelete: Cascade)
+
+  @@unique([blockId, languageCode])
+  @@index([languageCode, translationStatus])
+}
+
+model HelpArticleDescription {
+  id                Int         @id @default(autoincrement())
+  helpArticleId     Int
+  languageCode      String
+  title             String
+  slug              String
+  summary           String?
+  content           String
+  seoTitle          String?
+  seoDescription    String?
+  faqJson           String?
+  robots            String      @default("index,follow")
+  translationStatus String      @default("draft")
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+  helpArticle       HelpArticle @relation(fields: [helpArticleId], references: [id], onDelete: Cascade)
+
+  @@unique([helpArticleId, languageCode])
+  @@index([languageCode, translationStatus])
+  @@index([slug, languageCode])
+}
+
+model PageDescription {
+  id                Int      @id @default(autoincrement())
+  pageId            Int
+  languageCode      String
+  title             String
+  slug              String
+  contentHtml       String
+  seoTitle          String?
+  seoDescription    String?
+  translationStatus String   @default("draft")
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+  page              Page     @relation(fields: [pageId], references: [id], onDelete: Cascade)
+
+  @@unique([pageId, languageCode])
+  @@index([languageCode, translationStatus])
+  @@index([slug, languageCode])
+}
+
+model FaqItemDescription {
+  id                Int      @id @default(autoincrement())
+  faqItemId         Int
+  languageCode      String
+  question          String
+  answer            String
+  translationStatus String   @default("draft")
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+  faqItem           FaqItem  @relation(fields: [faqItemId], references: [id], onDelete: Cascade)
+
+  @@unique([faqItemId, languageCode])
+  @@index([languageCode, translationStatus])
+}
+
+model SeoRedirect {
+  id         Int      @id @default(autoincrement())
+  fromPath   String   @unique
+  toPath     String
+  statusCode Int      @default(301)
+  enabled    Boolean  @default(true)
+  hitCount   Int      @default(0)
+  lastHitAt  DateTime?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([enabled])
+  @@index([statusCode])
+}
+
+model EmailLog {
+  id        Int      @id @default(autoincrement())
+  to        String
+  subject   String
+  template  String
+  status    String   @default("queued")
+  error     String?
+  createdAt DateTime @default(now())
+}
+
+model ApiLog {
+  id          Int      @id @default(autoincrement())
+  provider    String
+  endpoint    String
+  status      String
+  latencyMs   Int      @default(0)
+  requestMeta Json?
+  error       String?
+  createdAt   DateTime @default(now())
+}
+
+model OperationLog {
+  id          Int      @id @default(autoincrement())
+  actorId     Int?
+  actorEmail  String?
+  action      String
+  targetType  String?
+  targetId    String?
+  targetLabel String?
+  oldValue    Json?
+  newValue    Json?
+  ip          String?
+  userAgent   String?
+  message     String?
+  orderId     Int?
+  detail      String?
+  createdAt   DateTime @default(now())
+  actor       User?    @relation(fields: [actorId], references: [id])
+  order       Order?   @relation(fields: [orderId], references: [id])
+
+  @@index([actorId])
+  @@index([actorEmail])
+  @@index([action])
+  @@index([targetType])
+  @@index([targetId])
+  @@index([createdAt])
+}

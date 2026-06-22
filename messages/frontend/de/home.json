@@ -1,0 +1,182 @@
+{
+  "hero": {
+    "eyebrow": "Ihr vertrauenswürdiger Agent für Online-Shopping-Lösungen in China",
+    "titlePrefix": "All-in-One-Shopping-Agent für",
+    "titleHighlight": "Taobao, 1688, Weidian",
+    "description": "Fügen Sie einen Produktlink ein oder suchen Sie nach Schlüsselwörtern. CNSnap hilft Ihnen, in China einzukaufen, Artikel zu prüfen, Pakete zu lagern und weltweit zu versenden."
+  },
+  "why": {
+    "title": "Warum CNSnap wählen?",
+    "description": "Ein einfacher Einkaufsablauf mit sicherer Zahlung, Lagerqualitätskontrolle, kostenloser Lagerung und schnellem Kundensupport."
+  },
+  "sections": {
+    "agentTools": "Agenten-Tools",
+    "beforeCheckout": "Alles, was Sie vor dem Auschecken benötigen",
+    "exploreHelp": "Entdecken Sie das Hilfecenter",
+    "storefrontPicks": "Storefront-Picks",
+    "hotSellers": "Heiße Verkäufer",
+    "viewMore": "Mehr anzeigen"
+  },
+  "steps": {
+    "step": "STEP",
+    "pasteLink": {
+      "title": "Link einfügen",
+      "description": "Lassen Sie ein beliebiges China-Marktplatzprodukt URL fallen oder suchen Sie nach Schlüsselwörtern."
+    },
+    "wePurchase": {
+      "title": "Wir kaufen",
+      "description": "Der Agent bestätigt Produkt, Variante, Inlandsversand und bezahlt den Verkäufer."
+    },
+    "qcWarehouse": {
+      "title": "QC Lager",
+      "description": "Die Artikel kommen im Lager an, wo sie fotografiert, gelagert und konsolidiert werden."
+    },
+    "shipGlobal": {
+      "title": "Global versenden",
+      "description": "Wählen Sie die Route, senden Sie das Paket ab und verfolgen Sie die internationale Lieferung."
+    }
+  },
+  "services": {
+    "expertSourcing": {
+      "title": "Expertenbeschaffung",
+      "description": "Kannst du es nicht finden? Senden Sie eine DIY-Anfrage und lassen Sie sie von einem Agenten beschaffen."
+    },
+    "shippingCalculator": {
+      "title": "Versandrechner",
+      "description": "Vergleichen Sie Routen vor dem Kauf und vermeiden Sie Überraschungskosten."
+    },
+    "parcelConsolidation": {
+      "title": "Paketkonsolidierung",
+      "description": "Kombinieren Sie mehrere Bestellungen zu einem intelligenten internationalen Paket."
+    },
+    "riskReview": {
+      "title": "Risikoüberprüfung",
+      "description": "Eingeschränkte Kategorien werden vor dem Versand manuell überprüft."
+    }
+  },
+  "perks": {
+    "safePayments": "Sichere Zahlungen",
+    "qualityInspection": "1:1-Qualitätsprüfung",
+    "support247": "24/7-Support",
+    "storage": "90 Tage kostenloser Speicherplatz",
+    "shipping": "Weltweiter Versand"
+  },
+  "featureTabs": {
+    "shoppingAgent": "Einkaufsagent",
+    "forwarding": "Weiterleitung",
+    "expertSourcing": "Expertenbeschaffung",
+    "shippingCalculator": "Versandrechner"
+  },
+  "solutions": {
+    "title": "CNSnap Lösungen für Einkauf und Versand aus China",
+    "description": "Nutzen Sie einen einzigen Ablauf, um auf chinesischen Marktplätzen einzukaufen, Pakete zu bündeln, Sourcing-Hilfe anzufordern und internationale Versandkosten vor der Zahlung zu schätzen.",
+    "items": {
+      "shoppingAgent": {
+        "title": "Shopping-Agent-Service",
+        "description": "Kaufen Sie auf Taobao, Tmall, 1688, Weidian und anderen chinesischen Marktplätzen in einem CNSnap-Ablauf.",
+        "cta": "Einkauf starten"
+      },
+      "forwarding": {
+        "title": "Weiterleitung und Paketbündelung",
+        "description": "Senden Sie Artikel an das CNSnap-Lager, bündeln Sie Pakete und wählen Sie die passende internationale Versandroute.",
+        "cta": "Weiterleitung nutzen"
+      },
+      "sourcing": {
+        "title": "Experten-Sourcing",
+        "description": "Wenn Sie Lieferantenhilfe, Großeinkauf oder eine Sonderbestellung benötigen, übernimmt unser Team die Abstimmung.",
+        "cta": "Sourcing anfragen"
+      },
+      "estimation": {
+        "title": "Versandkosten planen",
+        "description": "Schätzen Sie Versandkosten vor dem Checkout, damit Sie Routen vergleichen und Ihr Budget besser planen können.",
+        "cta": "Rechner prüfen"
+      }
+    }
+  },
+  "process": {
+    "title": "Shopping-Service aus einer Hand",
+    "items": {
+      "purchaseOrders": {
+        "title": "Bestellungen aufgeben",
+        "description": "Fügen Sie einen Produktlink ein oder senden Sie eine Anfrage an CNSnap, damit unser Team Artikel, Optionen, Preis und Verkäuferdetails vor dem Kauf bestätigt."
+      },
+      "shipToWarehouse": {
+        "title": "An das Lager senden",
+        "description": "Bestellungen verschiedener Verkäufer können zuerst im CNSnap-Lager ankommen, damit alles an einem Ort gesammelt und vorbereitet wird."
+      },
+      "qualityCheck": {
+        "title": "Qualitätsprüfung",
+        "description": "Nach der Ankunft prüfen wir die Artikel, stellen Lagerfotos bereit und helfen Ihnen, Zustand, Menge, Farbe und andere Details zu bestätigen."
+      },
+      "globalShipping": {
+        "title": "Weltweiter Versand",
+        "description": "Wenn Ihr Paket bereit ist, wählen Sie die Versandlinie, reichen Sie das Paket ein und verfolgen Sie die Lieferung von China bis zum Zielort."
+      }
+    }
+  },
+  "advantages": {
+    "items": {
+      "multiPlatform": {
+        "title": "Multi-Plattform-Einkauf",
+        "description": "Suchen Sie per Stichwort, fügen Sie Produktlinks ein oder kaufen Sie direkt auf Taobao, Tmall, 1688 und mehr."
+      },
+      "imageSearch": {
+        "title": "Intelligente Bildsuche",
+        "description": "Laden Sie ein Foto hoch, um passende Artikel schnell zu finden, auch wenn Sie die Originalsprache des Angebots nicht kennen."
+      },
+      "warehouseQc": {
+        "title": "Lagerprüfung",
+        "description": "Erhalten Sie vor dem Versand detaillierte Produktfotos und bestätigen Sie jede Bestellung mit mehr Sicherheit."
+      },
+      "globalShipping": {
+        "title": "Flexibler weltweiter Versand",
+        "description": "Vergleichen Sie Luft- und Seewege mit Tracking-Transparenz und klaren Versandoptionen vor dem Checkout."
+      },
+      "transparentFees": {
+        "title": "Keine versteckten Gebühren",
+        "description": "Sehen Sie Produkt-, Service- und Versandkosten klarer mit transparenter Preisgestaltung und Mehrwährungsunterstützung."
+      }
+    }
+  },
+  "mobile": {
+    "quickActions": {
+      "diyOrder": "Manuelle Angebots- und Sourcing-Anfrage",
+      "forwarding": "Selbst gekaufte Pakete an das Lager senden",
+      "estimation": "Vor der Zahlung Routen und Versandkosten prüfen",
+      "cart": "Gespeicherte Artikel prüfen und zur Kasse gehen",
+      "orders": "Einkaufsfortschritt und Zahlungsstatus verfolgen"
+    },
+    "services": {
+      "title": "Service-Einstiege",
+      "shoppingAgentDescription": "Kaufen Sie auf Taobao, Tmall, 1688, Weidian und anderen chinesischen Marktplätzen in einem CNSnap-Ablauf.",
+      "forwardingDescription": "Senden Sie Artikel an das CNSnap-Lager, bündeln Sie Pakete und wählen Sie die passende internationale Versandroute.",
+      "diyOrderDescription": "Wenn Sie Lieferantenhilfe, Großeinkauf oder eine Sonderbestellung benötigen, übernimmt unser Team die Abstimmung.",
+      "estimationDescription": "Schätzen Sie Versandkosten vor dem Checkout, damit Sie Routen vergleichen und Ihr Budget besser planen können."
+    },
+    "howItWorks": {
+      "eyebrow": "So funktioniert es",
+      "title": "Vom Produktlink bis zur internationalen Lieferung"
+    },
+    "help": {
+      "title": "Hilfecenter-Schnellzugriffe"
+    },
+    "blog": {
+      "eyebrow": "Leitfäden",
+      "title": "Vor der Bestellung lesen",
+      "viewAll": "Alle Leitfäden ansehen",
+      "openHelp": "Hilfecenter öffnen"
+    },
+    "next": {
+      "eyebrow": "Was ist der nächste Schritt?",
+      "title": "Direkt in den passenden Ablauf wechseln",
+      "diyOrderDescription": "Senden Sie eine DIY-Bestellung, wenn ein Produkt manuell geprüft werden muss.",
+      "forwardingDescription": "Nutzen Sie das Lager, wenn Sie den Artikel bereits selbst gekauft haben."
+    },
+    "why": {
+      "title": "Warum Käufer CNSnap weiter nutzen"
+    },
+    "actions": {
+      "open": "Öffnen"
+    }
+  }
+}

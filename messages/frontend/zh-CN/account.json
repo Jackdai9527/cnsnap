@@ -1,0 +1,827 @@
+{
+  "sidebar": {
+    "title": "CNSnap 账户",
+    "description": "订单、包裹、钱包与支持",
+    "menu": {
+      "dashboard": "概览",
+      "orders": "订单",
+      "packages": "包裹",
+      "wallet": "钱包",
+      "recharge": "充值",
+      "addresses": "地址",
+      "diyOrders": "DIY 订单",
+      "affiliate": "联盟",
+      "ticketsCenter": "工单中心",
+      "profile": "个人资料",
+      "helpCenter": "帮助中心"
+    }
+  },
+  "orderSources": {
+    "url": "商品链接",
+    "keyword": "关键词搜索",
+    "cart": "购物车",
+    "diy": "DIY 订单",
+    "image": "图片搜索",
+    "shop": "店铺",
+    "admin": "后台创建",
+    "package_payment": "包裹支付",
+    "checkout": "结账"
+  },
+  "header": {
+    "openMenu": "打开账户菜单",
+    "menuTitle": "账户菜单",
+    "center": "账户中心",
+    "description": "订单、包裹、钱包与支持",
+    "balance": "余额 ${amount}",
+    "openAccountMenu": "打开账户菜单",
+    "profile": "个人资料",
+    "wallet": "钱包",
+    "ticketsCenter": "工单中心",
+    "signOut": "退出登录"
+  },
+  "dashboard": {
+    "title": "欢迎回来，{name}",
+    "description": "在一个清晰的工作区里跟踪你的代购请求、包裹、钱包余额和支持动态。",
+    "searchProducts": "搜索商品",
+    "alerts": {
+      "order": {
+        "eyebrow": "订单付款提醒",
+        "title": "你有待付款的订单",
+        "description": "订单 {orderNo} 还有 ${amount} 待支付，支付后才能继续采购。",
+        "action": "去支付订单"
+      },
+      "shipping": {
+        "eyebrow": "运费付款提醒",
+        "title": "你有待支付的运费",
+        "description": "包裹 {packageNo} 正在等待支付 ${amount} 的国际运费。",
+        "action": "去付运费"
+      }
+    },
+    "metrics": {
+      "walletBalance": "钱包余额",
+      "walletBalanceDescription": "可用于支付订单和运费",
+      "pendingPaymentOrders": "待付款订单",
+      "pendingPaymentOrdersDescription": "需要支付商品费用",
+      "shippingFeeDue": "待付运费",
+      "shippingFeeDueDescription": "包裹正在等待支付运费",
+      "inTransitPackages": "运输中包裹",
+      "inTransitPackagesDescription": "仓库已发出"
+    },
+    "quickActions": {
+      "title": "快捷操作",
+      "searchProducts": "搜索商品",
+      "submitDiyOrder": "提交 DIY 订单",
+      "recharge": "充值",
+      "addAddress": "添加地址",
+      "viewPackages": "查看包裹"
+    },
+    "recentOrders": {
+      "title": "最近订单",
+      "viewAll": "查看全部",
+      "columns": {
+        "order": "订单",
+        "status": "状态",
+        "due": "待付"
+      }
+    },
+    "recentPackages": {
+      "title": "最近包裹",
+      "viewAll": "查看全部",
+      "columns": {
+        "package": "包裹",
+        "status": "状态",
+        "shipping": "运费"
+      }
+    },
+    "reorder": {
+      "idle": "再次下单",
+      "pending": "正在重新下单..."
+    }
+  },
+  "profile": {
+    "title": "个人资料",
+    "description": "管理账户信息、安全设置、语言、货币和已连接登录方式。",
+    "loading": "正在加载个人资料...",
+    "walletBalance": "钱包余额",
+    "walletDescription": "这里的余额仅供查看。完整流水请前往钱包页面。",
+    "viewWallet": "查看钱包",
+    "emailVerified": "邮箱已验证",
+    "overview": {
+      "userId": "用户 ID",
+      "registered": "注册时间",
+      "lastLogin": "最近登录",
+      "defaultCurrency": "默认货币"
+    },
+    "basicInfo": {
+      "title": "基础信息",
+      "name": "姓名",
+      "namePlaceholder": "你的显示名称",
+      "phone": "电话",
+      "phonePlaceholder": "+1 415 847 1928",
+      "whatsapp": "WhatsApp",
+      "whatsappPlaceholder": "WhatsApp 联系方式",
+      "telegram": "Telegram",
+      "telegramPlaceholder": "telegram_username",
+      "avatarUrl": "头像 URL",
+      "avatarPlaceholder": "https://example.com/avatar.jpg",
+      "avatarHelp": "V1.0 当前使用 URL 输入，后续可接入文件上传。",
+      "save": "保存修改",
+      "saved": "个人资料已保存。"
+    },
+    "preferences": {
+      "title": "偏好设置",
+      "language": "语言",
+      "languageDescription": "选择账户页面使用的语言。",
+      "currency": "货币",
+      "currencyDescription": "选择账户余额和支付显示的货币。",
+      "timezone": "时区",
+      "themeLabel": "主题",
+      "themeDescription": "切换账户页面的显示外观。",
+      "themeChoices": {
+        "light": "浅色",
+        "dark": "深色",
+        "system": "跟随系统"
+      },
+      "orderEmails": "订单邮件通知",
+      "orderEmailsDescription": "接收重要的订单、包裹、钱包和工单更新。",
+      "marketingEmails": "营销邮件",
+      "marketingEmailsDescription": "接收促销、服务更新和偶发购物优惠。",
+      "save": "保存偏好",
+      "saved": "偏好设置已保存。"
+    },
+    "security": {
+      "title": "安全",
+      "email": "邮箱",
+      "password": "密码",
+      "passwordEnabled": "已启用密码",
+      "noPassword": "尚未设置密码",
+      "lastPasswordChange": "最近修改密码",
+      "notAvailable": "暂无",
+      "twoFactor": "双重身份验证",
+      "comingSoon": "即将推出",
+      "googleOnlyWarning": "该账户目前仅使用 Google 登录。断开唯一登录方式前，请先设置密码。",
+      "forgotPassword": "忘记密码？",
+      "changePassword": "修改密码",
+      "passwordUpdated": "密码已更新。",
+      "dialog": {
+        "title": "修改密码",
+        "description": "请至少使用 8 个字符，并避免重复使用其他网站的密码。",
+        "currentPassword": "当前密码",
+        "newPassword": "新密码",
+        "confirmPassword": "确认密码",
+        "cancel": "取消",
+        "save": "保存密码"
+      }
+    },
+    "dangerZone": {
+      "title": "危险操作区",
+      "description": "在 V1.0 中，禁用和删除账户仍采用申请制。删除账户可能影响订单、包裹、钱包记录、工单和历史审计数据。",
+      "disable": "禁用账户",
+      "delete": "删除账户",
+      "disableDescription": "该功能即将上线。支持团队需要先审核账户状态和未完成订单。",
+      "deleteDescription": "当账户仍有未完成订单、未送达包裹或钱包余额时，将阻止删除请求。",
+      "cannotDelete": "有未完成订单或未送达包裹的账户不能直接删除。",
+      "close": "关闭",
+      "comingSoon": "即将推出"
+    },
+    "connectedAccounts": {
+      "title": "已连接账户",
+      "google": "Google",
+      "noGoogle": "尚未连接 Google 账户。",
+      "connectedAt": "{email} · 已连接于 {date}",
+      "disconnectWarning": "断开唯一登录方式前，请先设置密码。",
+      "disconnect": "断开连接",
+      "connect": "连接 Google",
+      "disconnectInfo": "断开 Google 的操作保留给 API 连接流程处理。",
+      "connectInfo": "连接 Google 的操作保留给 NextAuth OAuth 流程处理。"
+    }
+  },
+  "orders": {
+    "page": {
+      "title": "我的订单",
+      "description": "这里只显示你自己的代购订单。可以按订单号搜索，并按当前流程状态筛选。"
+    },
+    "table": {
+      "tabs": {
+        "all": "全部",
+        "pendingPayment": "待付款",
+        "purchasing": "采购中",
+        "warehousePending": "待入库",
+        "waitingShippingPayment": "待付运费",
+        "shipped": "已发货",
+        "completed": "已完成",
+        "cancelled": "已取消"
+      },
+      "columns": {
+        "order": "订单",
+        "created": "创建时间",
+        "source": "来源",
+        "items": "商品",
+        "total": "总计",
+        "paid": "已付",
+        "due": "待付",
+        "payment": "支付",
+        "purchase": "采购",
+        "warehouse": "仓库",
+        "package": "包裹",
+        "shipping": "物流",
+        "country": "国家"
+      },
+      "actions": {
+        "viewDetails": "查看详情",
+        "payNow": "立即支付",
+        "cancelOrder": "取消订单",
+        "contactSupport": "联系客服",
+        "openActions": "打开 {orderNo} 的操作菜单"
+      },
+      "search": "搜索订单号...",
+      "empty": "未找到订单。",
+      "count": "{count} 个订单",
+      "previous": "上一页",
+      "next": "下一页",
+      "pieces": "{count} 件"
+    }
+  },
+  "wallet": {
+    "page": {
+      "title": "钱包",
+      "description": "查看可用余额、冻结金额和钱包流水记录。",
+      "rechargeSuccess": "充值成功，CNSnap 余额已更新。",
+      "balancePaymentSuccess": "已使用 CNSnap 余额成功完成支付。"
+    },
+    "metrics": {
+      "currentBalance": "当前余额",
+      "frozenAmount": "冻结金额",
+      "frozenDescription": "用于待处理任务预留",
+      "totalRecharge": "累计充值",
+      "totalSpend": "累计支出",
+      "totalRefund": "累计退款"
+    },
+    "table": {
+      "columns": {
+        "transaction": "流水号",
+        "type": "类型",
+        "amount": "金额",
+        "currency": "货币",
+        "balanceAfter": "变动后余额",
+        "order": "订单",
+        "package": "包裹",
+        "note": "备注",
+        "created": "创建时间"
+      },
+      "filters": {
+        "allTypes": "全部类型",
+        "recharge": "充值",
+        "payOrder": "订单支付",
+        "payShipping": "运费支付",
+        "refund": "退款",
+        "adjustment": "调整",
+        "commission": "佣金",
+        "reset": "重置"
+      },
+      "empty": "未找到钱包流水。"
+    }
+  },
+  "packages": {
+    "page": {
+      "title": "我的包裹",
+      "description": "查看由订单生成的包裹、支付国际运费，并跟踪已发出的包裹。"
+    },
+    "table": {
+      "tabs": {
+        "all": "全部",
+        "waitingShippingPayment": "待付运费",
+        "shippingPaid": "运费已付",
+        "shipped": "已发货",
+        "delivered": "已送达",
+        "exception": "异常"
+      },
+      "alert": {
+        "eyebrow": "需要操作",
+        "title": "一个或多个包裹正在等待支付国际运费。",
+        "description": "打开包裹详情并完成第二笔国际运费支付后，我们才能安排发货。"
+      },
+      "columns": {
+        "package": "包裹",
+        "order": "订单",
+        "created": "创建时间",
+        "packageStatus": "包裹状态",
+        "items": "商品数",
+        "actualWeight": "实重",
+        "dimensions": "尺寸",
+        "chargeable": "计费重",
+        "country": "国家",
+        "channel": "渠道",
+        "shippingFee": "运费",
+        "payment": "支付",
+        "tracking": "运单号",
+        "shipped": "发货时间"
+      },
+      "actions": {
+        "openActions": "打开 {packageNo} 的操作菜单",
+        "viewDetails": "查看详情",
+        "payShippingFee": "支付运费",
+        "trackPackage": "跟踪包裹",
+        "contactSupport": "联系客服"
+      },
+      "search": "搜索包裹...",
+      "empty": "未找到包裹。"
+    }
+  },
+  "recharge": {
+    "page": {
+      "title": "充值",
+      "description": "使用后台启用的支付方式为 CNSnap 余额充值。并非所有支付网关都支持充值模式。",
+      "records": "充值记录",
+      "empty": "暂无充值记录。",
+      "methods": {
+        "onlypayTitle": "信用卡 / 钱包支付",
+        "onlypayDescription": "使用在线信用卡或钱包结账完成即时充值。",
+        "paypalTitle": "PayPal 结账",
+        "paypalDescription": "使用你的 PayPal 钱包完成充值。",
+        "paypalAdvancedDescription": "使用 PayPal 钱包或可用的银行卡表单完成充值。",
+        "bankTransferTitle": "银行转账",
+        "bankTransferDescription": "款项到达财务团队后进行人工确认。"
+      },
+      "historyMethods": {
+        "onlypay": "ONLYPAY",
+        "paypal": "PayPal",
+        "bank_transfer": "银行转账",
+        "wallet": "钱包",
+        "manual": "人工支付",
+        "sepa": "SEPA 转账"
+      }
+    },
+    "table": {
+      "number": "编号",
+      "amount": "金额",
+      "method": "方式",
+      "status": "状态",
+      "created": "创建时间",
+      "paid": "支付时间"
+    },
+    "form": {
+      "title": "创建充值申请",
+      "amount": "充值金额",
+      "amountHelp": "人工确认付款后才会入账。",
+      "paymentMethod": "支付方式",
+      "manual": "人工支付",
+      "paypalLater": "稍后支持 PayPal",
+      "stripeLater": "稍后支持 Stripe",
+      "cardLater": "稍后支持信用卡",
+      "submit": "提交充值",
+      "created": "已创建 ${amount} 的充值申请。"
+    },
+    "panel": {
+      "kicker": "充值钱包",
+      "title": "添加资金",
+      "description": "先选择预设金额或自定义金额，再选择支付方式。",
+      "secure": "安全充值",
+      "amount": "金额",
+      "customAmount": "自定义金额",
+      "customPlaceholder": "输入自定义金额",
+      "paymentMethod": "支付方式",
+      "rechargeTotal": "充值总额",
+      "submitting": "提交中...",
+      "rechargeNow": "立即充值",
+      "minimumError": "请输入至少 $5 的充值金额。",
+      "paypalHint": "请使用下方 PayPal 面板批准并完成本次充值。",
+      "submitted": "充值申请已提交。",
+      "failed": "充值失败。"
+    }
+  },
+  "affiliate": {
+    "page": {
+      "title": "联盟计划",
+      "description": "分享你的推荐链接并跟踪佣金记录。",
+      "yourReferralLink": "你的推荐链接",
+      "referralCode": "推荐码",
+      "referredUsers": "已邀请用户",
+      "validOrders": "有效订单",
+      "pendingCommission": "待结算佣金",
+      "approvedCommission": "已审核佣金",
+      "paidCommission": "已打款佣金",
+      "commissionRecords": "佣金记录"
+    },
+    "table": {
+      "commissionNo": "佣金单号",
+      "referredUser": "被邀请用户",
+      "order": "订单",
+      "orderAmount": "订单金额",
+      "rate": "比例",
+      "commissionAmount": "佣金",
+      "status": "状态",
+      "created": "创建时间"
+    },
+    "copy": {
+      "label": "复制链接",
+      "copied": "推荐链接已复制。"
+    }
+  },
+  "diyOrders": {
+    "page": {
+      "title": "DIY 订单",
+      "description": "跟踪你提交给团队的人工报价申请和特殊代购需求。",
+      "newOrder": "新建 DIY 订单"
+    },
+    "table": {
+      "columns": {
+        "diyNo": "DIY 单号",
+        "product": "商品",
+        "quantity": "数量",
+        "budget": "预算",
+        "quote": "报价",
+        "status": "状态",
+        "submitted": "提交时间",
+        "action": "操作"
+      },
+      "actions": {
+        "viewDetails": "查看详情"
+      }
+    },
+    "newPage": {
+      "title": "提交 DIY 订单",
+      "description": "发送商品链接、图片、规格和物流要求，方便团队审核并给出报价。"
+    },
+    "detail": {
+      "description": "查看你提交的 DIY 订单、报价进度和商品参考信息。",
+      "overview": "DIY 订单概览",
+      "statusCard": "当前状态",
+      "statusHint": "DIY 订单需要人工审核，团队会在这里更新报价和下一步进展。",
+      "productLink": "商品链接",
+      "remark": "备注",
+      "noRemark": "该 DIY 订单暂无备注。",
+      "openProduct": "打开商品页"
+    }
+  },
+  "statuses": {
+    "pending_payment": "待付款",
+    "order_pending": "订单待处理",
+    "paid": "已付款",
+    "paid_product": "商品已付款",
+    "partial": "部分付款",
+    "purchasing": "采购中",
+    "partial_purchased": "部分已采购",
+    "purchased": "已采购",
+    "warehouse_pending": "待入库",
+    "partial_received": "部分已收货",
+    "received": "已收货",
+    "waiting_shipping_payment": "待付运费",
+    "international_freight_pending": "国际运费待付",
+    "shipping_paid": "运费已付",
+    "international_freight_paid": "国际运费已付",
+    "customer_confirmed": "客户已确认",
+    "shipped": "已发货",
+    "in_transit": "运输中",
+    "delivered": "已送达",
+    "completed": "已完成",
+    "order_after_sales": "订单售后",
+    "refund": "退款",
+    "cancel": "取消",
+    "cancelled": "已取消",
+    "exception": "异常",
+    "pending": "待处理",
+    "submitted": "已提交",
+    "reviewing": "审核中",
+    "quoted": "已报价",
+    "converted_to_order": "已转订单",
+    "rejected": "已拒绝",
+    "recharge": "充值",
+    "pay_order": "订单支付",
+    "pay_shipping": "运费支付",
+    "adjustment": "调整",
+    "commission": "佣金",
+    "approved": "已审核",
+    "none": "无"
+  },
+  "orderDetail": {
+    "description": "查看订单实时详情、付款记录、收货地址和流程进度。",
+    "confirmQcAndPayShipping": "确认QC图片并支付运费",
+    "payShippingFee": "支付运费",
+    "payNow": "立即支付",
+    "cancelOrder": "取消订单",
+    "cancellingOrder": "取消中...",
+    "contactSupport": "联系客服",
+    "payment": {
+      "cancelled": "订单已成功取消。未付款订单如果 24 小时内仍未支付，也会自动取消，需要重新下单。",
+      "paypalPaid": "支付成功。我们已更新订单，并会继续推进采购流程。",
+      "balancePaid": "已使用 CNSnap 余额成功支付。我们已更新订单，并会继续推进流程。",
+      "sepaSubmitted": "SEPA 转账已提交。到账后我们会核验并更新订单状态。"
+    },
+    "nextStep": {
+      "eyebrow": "接下来会发生什么",
+      "pendingPaymentTitle": "该订单仍需完成付款。",
+      "pendingPaymentDescription": "在采购开始前，你可以随时在订单详情中主动取消该未付款订单。如果到 {deadline} 仍未付款，系统会自动取消，你需要重新下单。",
+      "warehouseArrivalTitle": "你的商品已经到达仓库。",
+      "warehouseArrivalDescription": "我们会检查商品、整理包裹并确认国际运费。确认完成后，你需要支付运费才能安排发货。",
+      "preparingParcelTitle": "我们正在准备你的包裹和运费。",
+      "preparingParcelDescription": "仓库团队正在测量包裹并确认最终国际运费，请等待运费支付通知。",
+      "shippingPaymentTitle": "需要支付国际运费。",
+      "shippingPaymentDescription": "你的包裹已经准备进入下一步。请支付国际运费后，我们才能安排发货。",
+      "shippingPaymentAction": "支付运费",
+      "shippingPaidTitle": "运费已支付，我们将安排下一步发货。",
+      "shippingPaidDescription": "你的包裹已进入承运商交接队列。发货后我们会更新物流跟踪信息。"
+    },
+    "cards": {
+      "orderOverview": "订单概览",
+      "actions": "操作",
+      "productItems": "商品明细",
+      "productItemsDescription": "这里展示了所有商品行、已选 SKU、来源链接和单行总额。",
+      "paymentSummary": "付款汇总",
+      "fulfillmentSnapshot": "履约快照",
+      "timeline": "时间线",
+      "qcPhotos": "QC 照片",
+      "shippingAddress": "收货地址",
+      "userNote": "用户备注",
+      "paymentRecords": "付款记录",
+      "packageInformation": "包裹信息"
+    },
+    "fields": {
+      "orderNo": "订单号",
+      "status": "状态",
+      "created": "创建时间",
+      "source": "来源",
+      "quantity": "数量",
+      "unitPrice": "单价",
+      "lineTotal": "小计",
+      "itemsTotal": "商品总额",
+      "serviceFee": "服务费",
+      "chinaShipping": "中国境内运费",
+      "valueAddedServices": "增值服务",
+      "valueAddedServiceDetails": "已选服务",
+      "shippingFee": "国际运费",
+      "paid": "已付",
+      "amountDue": "待付金额",
+      "orderTotal": "订单总额",
+      "orderStatus": "订单状态",
+      "paymentStatus": "支付状态",
+      "purchaseStatus": "采购状态",
+      "warehouseStatus": "仓库状态",
+      "packageStatus": "包裹状态",
+      "shippingStatus": "物流状态",
+      "name": "姓名",
+      "email": "邮箱",
+      "phone": "电话",
+      "address": "地址",
+      "city": "城市",
+      "country": "国家",
+      "method": "方式",
+      "amount": "金额",
+      "tracking": "运单号"
+    },
+    "states": {
+      "itemsCount": "{count} 件商品",
+      "noTimeline": "暂无时间线记录。",
+      "qcPhotoAvailable": "QC 照片已可查看",
+      "noQcPhotos": "该订单暂时还没有可查看的 QC 照片。",
+      "noNote": "该订单暂无备注。",
+      "noPayments": "暂无付款记录。",
+      "noPackages": "该订单尚未创建包裹。",
+      "timelineDone": "已完成",
+      "timelineCurrent": "当前",
+      "timelinePending": "待处理"
+    },
+    "timelineActions": {
+      "orderCreated": "订单已创建",
+      "paymentPaid": "已收到付款",
+      "shippingPaymentPaid": "已收到运费付款",
+      "orderWorkflowUpdated": "订单流程已更新",
+      "orderStatusUpdated": "订单状态已更新",
+      "packageUpdated": "包裹已更新",
+      "qcPhotosShared": "QC 照片已分享",
+      "qcPhotosConfirmed": "QC 照片已确认",
+      "orderNoteAdded": "订单备注已添加",
+      "shippingAddressUpdated": "收货地址已更新",
+      "refundCreated": "退款已创建",
+      "paymentRefunded": "付款已退款",
+      "sepaTransferSubmitted": "已提交 SEPA 转账",
+      "orderCancelled": "订单已取消",
+      "shippingCheckoutCreated": "运费结账单已创建",
+      "checkoutCreated": "结账单已创建",
+      "orderMarkedPaid": "订单已标记为已付款",
+      "orderDetailsUpdated": "订单详情已更新"
+    },
+    "timelineDetails": {
+      "default": "订单事件已更新。",
+      "paymentPaid": "{provider} 的 ${amount} 付款已确认。参考号：{paymentNo}。",
+      "shippingPaymentPaid": "{provider} 的 ${amount} 运费付款已确认。参考号：{paymentNo}。",
+      "packageUpdated": "包裹 {packageNo} 当前状态为 {status}。",
+      "packageUpdatedWithTracking": "包裹 {packageNo} 当前状态为 {status}。物流单号：{trackingNumber}。",
+      "orderCreatedFromCheckout": "订单 {orderNo} 已从结账页成功创建。",
+      "orderCancelledByCustomer": "你已在采购开始前取消了这笔未付款订单。",
+      "orderAutoCancelled": "该未付款订单因 24 小时内未支付而被系统自动取消。",
+      "customerConfirmedQcPhotos": "QC 照片已确认，订单可以继续进入下一步。",
+      "qcPhotosSentByEmail": "QC 照片已通过邮件发送给客户。",
+      "qcPhotosSentToCustomer": "QC 照片已分享给客户。",
+      "sepaTransferSubmitted": "SEPA 付款凭证已提交，正在等待审核。",
+      "markedProductPaymentPaid": "商品付款已标记为已支付。",
+      "queuedProductPaymentReminder": "该订单的付款提醒已加入队列。",
+      "movedOrderIntoAdminReview": "订单已进入人工审核流程。",
+      "reviewApprovedReadyForPurchase": "审核通过，订单已可开始采购。",
+      "markedOrderForRiskReview": "订单已标记为风险审核。",
+      "riskReviewRejectedRefundPending": "风险审核未通过，退款处理待进行。",
+      "startedPurchasing": "该订单已开始采购。",
+      "markedPurchased": "所有商品已标记为已采购。",
+      "markedPartiallyPurchased": "部分商品已采购，其余仍待处理。",
+      "markedPurchaseFailed": "该订单采购失败。",
+      "markedOutOfStock": "卖家反馈该商品缺货。",
+      "markedPriceChangedDifferencePending": "卖家价格已变更，差价待支付。",
+      "markedWarehouseReceived": "商品已被仓库签收。",
+      "markedPartiallyReceived": "部分商品已被仓库签收。",
+      "markedWarehouseAbnormal": "仓库反馈该订单存在异常。",
+      "requestedInternationalShippingPayment": "已发起国际运费支付请求。",
+      "markedReadyToShip": "包裹已准备发货。",
+      "markedShipped": "包裹已标记为已发货。",
+      "markedPackageInTransit": "包裹正在运输中。",
+      "markedCompleted": "订单已标记为完成。",
+      "markedAbnormal": "订单已标记为异常。",
+      "markedRefundPending": "退款处理待进行。",
+      "markedRefunded": "订单已标记为已退款。",
+      "cancelledOrder": "订单已取消。",
+      "createdPackage": "已创建包裹 {packageNo}。"
+    }
+  },
+  "packageDetail": {
+    "description": "客户端只能查看包裹详情。如需物流或跟踪帮助，请联系客服。",
+    "back": "返回包裹列表",
+    "payShippingFee": "支付运费",
+    "contactSupport": "联系客服",
+    "payment": {
+      "paypalPaid": "运费支付成功。我们已更新你的包裹状态，并会继续推进发货流程。",
+      "balancePaid": "已使用 CNSnap 余额成功支付运费。你的包裹已准备进入下一步发货流程。",
+      "sepaSubmitted": "已提交银行转账运费支付。我们确认后会更新包裹状态。",
+      "pending": "该包裹正在等待支付国际运费。完成运费支付后，才能进入发货流程。"
+    },
+    "overview": {
+      "title": "包裹概览",
+      "packageNo": "包裹号",
+      "orderNo": "订单号",
+      "status": "状态",
+      "created": "创建时间",
+      "items": "商品数",
+      "actualWeight": "实重",
+      "dimensions": "尺寸",
+      "chargeableWeight": "计费重",
+      "destination": "目的地",
+      "channel": "渠道",
+      "shippingFee": "运费",
+      "tracking": "运单号"
+    }
+  },
+  "addresses": {
+    "page": {
+      "title": "地址",
+      "description": "管理结账、包裹派送和仓库物流预估所使用的收货地址。",
+      "loading": "正在加载地址...",
+      "addAddress": "添加地址",
+      "noSaved": "暂无已保存地址",
+      "noSavedDescription": "请先添加收货地址，再进行结账或国际包裹支付。"
+    },
+    "card": {
+      "default": "默认",
+      "supported": "支持配送",
+      "shippingUnavailable": "暂不支持发货",
+      "unsupportedWarning": "当前物流国家列表未启用该国家。你仍可保存地址，但包裹发货可能需要人工报价。",
+      "setDefault": "设为默认",
+      "edit": "编辑",
+      "delete": "删除"
+    },
+    "dialog": {
+      "editTitle": "编辑地址",
+      "addTitle": "添加地址",
+      "description": "当前会基于启用的 mock shipping-country 列表校验国家。不支持的目的地也可以先保存，后续再走人工报价。",
+      "unsupportedCountry": "当前 mock shipping-country 列表中尚未支持发往 {country} 的物流。",
+      "fields": {
+        "firstName": "名",
+        "lastName": "姓",
+        "country": "国家",
+        "state": "州 / 省",
+        "statePlaceholder": "州、省或地区",
+        "city": "城市",
+        "postcode": "邮编",
+        "address1": "地址行 1",
+        "address2": "地址行 2",
+        "address2Help": "公寓、房间号、公司名或配送备注。",
+        "phone": "电话",
+        "email": "邮箱",
+        "isDefault": "设为默认地址",
+        "isDefaultHelp": "默认地址会在结账和运费预估时优先使用。"
+      },
+      "actions": {
+        "cancel": "取消",
+        "saveChanges": "保存修改",
+        "addAddress": "添加地址"
+      }
+    },
+    "toast": {
+      "saveFailed": "无法保存地址。",
+      "updated": "地址已更新。",
+      "added": "地址已添加。",
+      "mustKeepOne": "至少需要保留一个默认收货地址。",
+      "deleteFailed": "无法删除地址。",
+      "deleted": "地址已删除。",
+      "defaultFailed": "无法更新默认地址。",
+      "defaultUpdated": "默认地址已更新。"
+    }
+  },
+  "tickets": {
+    "page": {
+      "title": "工单中心",
+      "description": "提交并跟踪订单、包裹、支付、退款、DIY 订单和账户问题的支持请求。",
+      "newTicket": "新建工单",
+      "loading": "正在加载工单..."
+    },
+    "table": {
+      "tabs": {
+        "all": "全部",
+        "open": "开放中",
+        "pending": "待处理",
+        "replied": "已回复",
+        "resolved": "已解决",
+        "closed": "已关闭"
+      },
+      "columns": {
+        "ticket": "工单",
+        "subject": "主题",
+        "category": "分类",
+        "order": "订单",
+        "package": "包裹",
+        "priority": "优先级",
+        "status": "状态",
+        "lastReply": "最后回复",
+        "created": "创建时间"
+      },
+      "actions": {
+        "openActions": "打开 {ticketNo} 的操作菜单",
+        "viewDetails": "查看详情",
+        "closeTicket": "关闭工单",
+        "newTicket": "新建工单"
+      },
+      "search": "搜索工单、主题、订单、包裹...",
+      "allCategories": "全部分类",
+      "allPriorities": "全部优先级",
+      "allStatuses": "全部状态",
+      "reset": "重置",
+      "empty": "未找到工单。",
+      "count": "{count} 个工单",
+      "previous": "上一页",
+      "next": "下一页"
+    },
+    "reply": {
+      "closed": "该工单已关闭，无法继续回复。",
+      "reply": "回复",
+      "replyPlaceholder": "写下你要发送给客服的回复...",
+      "attachment": "附件图片 URL",
+      "attachmentPlaceholder": "可选的截图链接",
+      "reopen": "重新打开工单",
+      "markResolved": "标记为已解决",
+      "closeTicket": "关闭工单",
+      "replyAction": "回复",
+      "reopenInfo": "重新打开工单的操作保留给 API 接入后处理。",
+      "resolvedInfo": "在 mock 模式下已将工单标记为解决。",
+      "closeInfo": "关闭工单的操作保留给 API 接入后处理。",
+      "submitted": "回复已提交。接入 API 后会更新会话内容。"
+    },
+    "detail": {
+      "loading": "正在加载工单...",
+      "notFoundTitle": "未找到工单",
+      "notFoundDescription": "该工单不存在，或当前账户无权访问。",
+      "back": "返回工单列表",
+      "category": "分类",
+      "created": "创建时间",
+      "lastReply": "最后回复",
+      "status": "状态",
+      "relatedRecord": "关联记录",
+      "order": "订单",
+      "package": "包裹",
+      "ownershipHint": "接入 API 后，仅显示当前已登录用户拥有的工单。",
+      "conversation": "会话记录",
+      "reply": "回复"
+    },
+    "newForm": {
+      "pageTitle": "新建工单",
+      "pageDescription": "告诉支持团队发生了什么，并关联订单或包裹，帮助他们更快处理。",
+      "back": "返回工单列表",
+      "category": "分类",
+      "priority": "优先级",
+      "subject": "主题",
+      "subjectPlaceholder": "简要描述问题",
+      "message": "内容",
+      "messagePlaceholder": "告诉我们发生了什么、影响了哪个订单或包裹，以及你期望的处理结果。",
+      "relatedOrder": "关联订单",
+      "relatedOrderPlaceholder": "CN10041 或内部订单 ID",
+      "relatedOrderHelp": "从订单页进入时会自动填写。",
+      "relatedPackage": "关联包裹",
+      "relatedPackagePlaceholder": "PK2038 或包裹 ID",
+      "relatedPackageHelp": "从包裹页进入时会自动填写。",
+      "attachment": "附件图片 URL",
+      "attachmentPlaceholder": "https://example.com/screenshot.jpg",
+      "attachmentHelp": "V1.0 当前接受图片引用链接，后续可接入文件上传。",
+      "cancel": "取消",
+      "creating": "创建中...",
+      "create": "创建工单",
+      "createFailed": "无法创建工单。",
+      "created": "工单已创建，支持团队会尽快处理。"
+    }
+  }
+}

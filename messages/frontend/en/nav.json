@@ -1,0 +1,19 @@
+{
+  "home": "Home",
+  "shoppingAgent": "Shopping Agent",
+  "estimation": "Estimation",
+  "promotion": "Promotion",
+  "diyOrder": "DIY Order",
+  "forwarding": "Forwarding",
+  "helpCenter": "Help Center",
+  "menu": "Menu",
+  "login": "Login",
+  "register": "Register",
+  "account": "Account",
+  "dashboard": "Dashboard",
+  "orders": "Orders",
+  "packages": "Packages",
+  "wallet": "Wallet",
+  "ticketsCenter": "Tickets Center",
+  "logout": "Logout"
+}

@@ -1,0 +1,69 @@
+{
+  "empty": {
+    "title": "结账页还是空的",
+    "description": "请先添加商品，再回来确认配送信息并提交代购订单。",
+    "action": "去找商品"
+  },
+  "breadcrumbs": {
+    "cart": "购物车",
+    "information": "信息",
+    "payment": "支付"
+  },
+  "panels": {
+    "contact": "联系方式",
+    "delivery": "配送",
+    "valueAdded": "增值服务",
+    "notes": "代购备注"
+  },
+  "actions": {
+    "account": "账户",
+    "login": "登录",
+    "addAddress": "新增地址",
+    "returnToCart": "返回购物车",
+    "submitOrder": "提交订单",
+    "submitting": "提交中...",
+    "edit": "编辑",
+    "quantity": "数量",
+    "serviceNote": "服务备注"
+  },
+  "guestEmail": "guest@checkout.local",
+  "valueAdded": {
+    "selectedCount": "已选 {count} 项",
+    "title": "提交前请选择额外处理服务",
+    "description": "包装、检验、拍照和仓库处理等增值服务现在会在这里选择，避免 Buy Now 订单遗漏。",
+    "applicable": "适用范围",
+    "notePlaceholder": "可选：包装要求、拍照角度、拆除说明..."
+  },
+  "notesPlaceholder": "尺码确认、卖家留言、包装要求或给采购团队的风险备注",
+  "shippingNotice": "付款完成后，包裹到仓并入库后，您还需要再提交国际运输。",
+  "summary": {
+    "title": "订单汇总",
+    "secure": "安全结账",
+    "subtotal": "商品小计",
+    "domesticShipping": "国内运费",
+    "serviceFee": "服务费",
+    "valueAddedServices": "增值服务",
+    "total": "订单总计"
+  },
+  "addressForm": {
+    "addTitle": "新增收货地址",
+    "editTitle": "编辑收货地址",
+    "useSaved": "使用已保存地址",
+    "label": "地址标签",
+    "contactName": "联系人",
+    "phone": "电话",
+    "city": "城市",
+    "postalCode": "邮编",
+    "line1": "地址 1",
+    "line2": "地址 2",
+    "default": "设为默认收货地址"
+  },
+  "confirmDeleteAddress": "确定删除这个收货地址吗？使用它的订单仍会保留商品，但这个已保存地址会被移除。",
+  "errors": {
+    "addressLimit": "您最多只能保存 3 个收货地址，请先删除其他地址。",
+    "saveAddress": "保存收货地址失败。",
+    "createOrder": "创建订单失败。",
+    "checkoutFailed": "结账失败，请重试。",
+    "deleteAddress": "删除地址失败。"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "page": {
+    "kicker": "Content center",
+    "title": "Pages",
+    "addPage": "Add page",
+    "search": "Search pages..."
+  },
+  "table": {
+    "title": "Title",
+    "slug": "Slug",
+    "status": "Status",
+    "updated": "Updated",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "editor": {
+    "addTitle": "Add page",
+    "editTitle": "Edit {title}",
+    "save": "Save page",
+    "published": "Published",
+    "placeholders": {
+      "title": "Title",
+      "slug": "page-slug",
+      "content": ""
+    }
+  }
+}

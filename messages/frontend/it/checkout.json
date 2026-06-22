@@ -1,0 +1,29 @@
+{
+  "actions": {
+    "edit": "Modifica",
+    "quantity": "Quantità",
+    "serviceNote": "Nota di servizio"
+  },
+  "summary": {
+    "title": "Riepilogo ordine",
+    "secure": "Checkout sicuro",
+    "subtotal": "Subtotale articoli",
+    "domesticShipping": "Spedizione in Cina",
+    "serviceFee": "Costo di servizio",
+    "valueAddedServices": "Servizi aggiuntivi",
+    "total": "Totale ordine"
+  },
+  "addressForm": {
+    "addTitle": "Aggiungi indirizzo di spedizione",
+    "editTitle": "Modifica indirizzo di spedizione",
+    "useSaved": "Usa indirizzo salvato",
+    "label": "Etichetta indirizzo",
+    "contactName": "Nome contatto",
+    "phone": "Telefono",
+    "city": "Città",
+    "postalCode": "CAP",
+    "line1": "Indirizzo riga 1",
+    "line2": "Indirizzo riga 2",
+    "default": "Imposta come indirizzo predefinito"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "hero": {
+    "eyebrow": "Votre agent de confiance pour les solutions d'achat en ligne en Chine",
+    "titlePrefix": "Agent commercial tout-en-un pour",
+    "titleHighlight": "Taobao, 1688, Weidian",
+    "description": "Collez un lien de produit ou des mots-clés de recherche. CNSnap vous aide à acheter en Chine, à inspecter les articles, à stocker les colis et à les expédier dans le monde entier."
+  },
+  "why": {
+    "title": "Pourquoi choisir CNSnap ?",
+    "description": "Un flux d'achat simple avec paiement sécurisé, contrôle qualité en entrepôt, stockage gratuit et support client rapide."
+  },
+  "sections": {
+    "agentTools": "Outils d'agent",
+    "beforeCheckout": "Tout ce dont vous avez besoin avant de payer",
+    "exploreHelp": "Explorer le centre d'aide",
+    "storefrontPicks": "Choix de vitrines",
+    "hotSellers": "Vendeurs chauds",
+    "viewMore": "Voir plus"
+  },
+  "steps": {
+    "step": "STEP",
+    "pasteLink": {
+      "title": "Coller le lien",
+      "description": "Supprimez tout produit du marché chinois URL ou effectuez une recherche par mot-clé."
+    },
+    "wePurchase": {
+      "title": "Nous achetons",
+      "description": "L'agent confirme le produit, la variante, l'expédition nationale et paie le vendeur."
+    },
+    "qcWarehouse": {
+      "title": "Entrepôt QC",
+      "description": "Les articles arrivent à l'entrepôt pour photos, stockage et consolidation."
+    },
+    "shipGlobal": {
+      "title": "Expédier dans le monde entier",
+      "description": "Choisissez l'itinéraire, soumettez le colis et suivez la livraison internationale."
+    }
+  },
+  "services": {
+    "expertSourcing": {
+      "title": "Recherche d'experts",
+      "description": "Vous ne le trouvez pas ? Soumettez une demande DIY et laissez un agent la rechercher."
+    },
+    "shippingCalculator": {
+      "title": "Calculateur d'expédition",
+      "description": "Comparez les itinéraires avant d'acheter et évitez les coûts surprises."
+    },
+    "parcelConsolidation": {
+      "title": "Consolidation de colis",
+      "description": "Combinez plusieurs commandes en un seul colis international intelligent."
+    },
+    "riskReview": {
+      "title": "Examen des risques",
+      "description": "Les catégories restreintes font l’objet d’un examen manuel avant expédition."
+    }
+  },
+  "perks": {
+    "safePayments": "Paiements sécurisés",
+    "qualityInspection": "Contrôle qualité 1:1",
+    "support247": "Assistance 24h/24 et 7j/7",
+    "storage": "Stockage gratuit pendant 90 jours",
+    "shipping": "Expédition mondiale"
+  },
+  "featureTabs": {
+    "shoppingAgent": "Agent commercial",
+    "forwarding": "Transfert",
+    "expertSourcing": "Recherche d'experts",
+    "shippingCalculator": "Calculateur d'expédition"
+  },
+  "solutions": {
+    "title": "Les solutions CNSnap pour acheter et expédier depuis la Chine",
+    "description": "Utilisez un seul flux pour acheter sur les marketplaces chinoises, consolider des colis, demander une aide au sourcing et estimer l'expédition internationale avant paiement.",
+    "items": {
+      "shoppingAgent": {
+        "title": "Service d'agent d'achat",
+        "description": "Achetez sur Taobao, Tmall, 1688, Weidian et d'autres marketplaces chinoises avec un seul flux CNSnap.",
+        "cta": "Commencer l'achat"
+      },
+      "forwarding": {
+        "title": "Transfert et consolidation de colis",
+        "description": "Expédiez les articles vers l'entrepôt CNSnap, regroupez les colis et choisissez la route d'expédition adaptée à votre budget et à votre délai.",
+        "cta": "Utiliser le transfert"
+      },
+      "sourcing": {
+        "title": "Support de sourcing expert",
+        "description": "Si vous avez besoin d'aide fournisseur, d'achat en volume ou d'une commande personnalisée, notre équipe peut gérer le suivi et la communication.",
+        "cta": "Demander le sourcing"
+      },
+      "estimation": {
+        "title": "Planification des frais d'expédition",
+        "description": "Estimez les frais de livraison avant le paiement pour comparer les routes, contrôler les coûts et planifier vos commandes.",
+        "cta": "Vérifier le calculateur"
+      }
+    }
+  },
+  "process": {
+    "title": "Service d'achat tout-en-un",
+    "items": {
+      "purchaseOrders": {
+        "title": "Passer des commandes",
+        "description": "Collez un lien produit ou envoyez une demande à CNSnap et notre équipe confirmera l'article, les options, le prix et les détails du vendeur avant l'achat."
+      },
+      "shipToWarehouse": {
+        "title": "Envoyer à l'entrepôt",
+        "description": "Les commandes de différents vendeurs peuvent d'abord arriver à l'entrepôt CNSnap afin de tout centraliser au même endroit."
+      },
+      "qualityCheck": {
+        "title": "Contrôle qualité",
+        "description": "Après réception, nous inspectons les articles, fournissons des photos d'entrepôt et vous aidons à vérifier l'état, la quantité, la couleur et d'autres détails clés."
+      },
+      "globalShipping": {
+        "title": "Expédition internationale",
+        "description": "Lorsque votre colis est prêt, choisissez la ligne d'expédition, soumettez le colis et suivez la livraison de la Chine jusqu'à votre destination."
+      }
+    }
+  },
+  "advantages": {
+    "items": {
+      "multiPlatform": {
+        "title": "Achat multi-plateforme",
+        "description": "Recherchez par mot-clé, collez des liens produits ou achetez directement sur Taobao, Tmall, 1688 et plus."
+      },
+      "imageSearch": {
+        "title": "Recherche intelligente par image",
+        "description": "Téléchargez une photo pour trouver rapidement des articles correspondants, même si vous ne connaissez pas la langue d'origine."
+      },
+      "warehouseQc": {
+        "title": "Contrôle qualité en entrepôt",
+        "description": "Recevez des photos détaillées des articles avant l'expédition et confirmez chaque commande avec plus de confiance."
+      },
+      "globalShipping": {
+        "title": "Expédition mondiale flexible",
+        "description": "Comparez les routes aériennes et maritimes avec visibilité du suivi et options claires avant le paiement."
+      },
+      "transparentFees": {
+        "title": "Aucun frais caché",
+        "description": "Voyez plus clairement les coûts produit, service et expédition avec une tarification transparente et la prise en charge multi-devise."
+      }
+    }
+  },
+  "mobile": {
+    "quickActions": {
+      "diyOrder": "Demande manuelle de devis et de sourcing",
+      "forwarding": "Envoyer les colis deja achetes a l'entrepot",
+      "estimation": "Verifier les routes et frais avant paiement",
+      "cart": "Verifier les articles enregistres et continuer",
+      "orders": "Suivre l'avancement des achats et des paiements"
+    },
+    "services": {
+      "title": "Acces aux services",
+      "shoppingAgentDescription": "Achetez sur Taobao, Tmall, 1688, Weidian et d'autres marketplaces chinoises avec un seul flux CNSnap.",
+      "forwardingDescription": "Expédiez les articles vers l'entrepôt CNSnap, regroupez les colis et choisissez la route d'expédition adaptée à votre budget et à votre délai.",
+      "diyOrderDescription": "Si vous avez besoin d'aide fournisseur, d'achat en volume ou d'une commande personnalisée, notre équipe peut gérer le suivi et la communication.",
+      "estimationDescription": "Estimez les frais de livraison avant paiement pour comparer les routes, contrôler les coûts et mieux planifier vos commandes."
+    },
+    "howItWorks": {
+      "eyebrow": "Comment ca marche",
+      "title": "Du lien produit a la livraison internationale"
+    },
+    "help": {
+      "title": "Raccourcis du centre d'aide"
+    },
+    "blog": {
+      "eyebrow": "Guides",
+      "title": "A lire avant de passer commande",
+      "viewAll": "Voir tous les guides",
+      "openHelp": "Ouvrir le centre d'aide"
+    },
+    "next": {
+      "eyebrow": "Besoin de la suite ?",
+      "title": "Accedez directement au bon parcours",
+      "diyOrderDescription": "Soumettez une demande de sourcing manuel lorsqu'un produit a besoin d'une verification humaine.",
+      "forwardingDescription": "Utilisez l'entrepot si vous avez deja achete le produit vous-meme."
+    },
+    "actions": {
+      "open": "Ouvrir"
+    }
+  }
+}

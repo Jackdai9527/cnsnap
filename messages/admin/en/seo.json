@@ -1,0 +1,548 @@
+{
+  "dashboard": {
+    "kicker": "SEO Center",
+    "title": "SEO Dashboard",
+    "description": "Independent SEO control center for service-page metadata, robots defaults, sitemap policy, and locked noindex coverage for temporary business pages.",
+    "stats": {
+      "indexedPages": "Indexed Pages",
+      "noindexPages": "Noindex Pages",
+      "pagesMissingTitle": "Pages Missing Title",
+      "pagesMissingDescription": "Pages Missing Description",
+      "sitemapUrls": "Sitemap URLs",
+      "robotsDisallowRules": "Robots Disallow Rules",
+      "temporaryProductPagesNoindex": "Temporary Product Pages Noindex",
+      "searchPagesNoindex": "Search Pages Noindex",
+      "publishedArticles": "Published Articles",
+      "draftArticles": "Draft Articles",
+      "scheduledArticles": "Scheduled Articles",
+      "archivedArticles": "Archived Articles",
+      "articlesMissingSeoTitle": "Articles Missing SEO Title",
+      "articlesMissingMetaDescription": "Articles Missing Meta Description",
+      "articlesWithoutFaq": "Articles Without FAQ",
+      "articlesWithoutCta": "Articles Without CTA",
+      "publishedLandingPages": "Published Landing Pages",
+      "draftLandingPages": "Draft Landing Pages",
+      "platformLandingPages": "Platform Pages",
+      "shippingCountryLandingPages": "Shipping Country Pages",
+      "campaignLandingPages": "Campaign Pages",
+      "landingPagesMissingFaq": "Landing Pages Missing FAQ",
+      "landingPagesMissingCta": "Landing Pages Missing CTA",
+      "redirectRules": "Redirect Rules",
+      "enabledRedirects": "Enabled Redirects",
+      "disabledRedirects": "Disabled Redirects",
+      "redirectHits": "Redirect Hits",
+      "seoErrors": "SEO Errors",
+      "seoWarnings": "SEO Warnings",
+      "seoNotices": "SEO Notices",
+      "missingTitles": "Missing Titles",
+      "missingDescriptions": "Missing Descriptions",
+      "sitemapConflicts": "Sitemap Conflicts"
+    },
+    "actions": {
+      "manageArticles": "Manage Articles",
+      "manageLandingPages": "Manage Landing Pages",
+      "managePages": "Manage Pages",
+      "seoLanguages": "SEO Languages",
+      "redirects": "Redirects",
+      "audit": "SEO Audit",
+      "settings": "SEO Settings",
+      "sitemapRobots": "Sitemap & Robots"
+    },
+    "panels": {
+      "latestArticles": "Latest Published Articles",
+      "latestArticlesDesc": "Recently published blog entries that can already be discovered through the independent `/blog` module.",
+      "openArticles": "Open articles",
+      "latestLandingPages": "Latest Landing Pages",
+      "latestLandingPagesDesc": "Newest platform, shipping, and campaign landing pages inside the SEO module.",
+      "openLandingPages": "Open landing pages",
+      "latestIssues": "Latest SEO Issues",
+      "latestIssuesDesc": "Most recent warnings and errors from the built-in SEO audit checks.",
+      "openAudit": "Open audit",
+      "latestRedirects": "Latest Redirect Rules",
+      "latestRedirectsDesc": "Current redirect definitions managed inside SEO Center.",
+      "openRedirects": "Open redirects",
+      "pageHealth": "Page Health",
+      "pageHealthDesc": "Current status of the six SEO-managed service pages.",
+      "lastUpdated": "Last updated"
+    },
+    "states": {
+      "preview": "Preview",
+      "enabled": "enabled",
+      "disabled": "disabled",
+      "hits": "hits",
+      "inSitemap": "In sitemap",
+      "excludedFromSitemap": "Excluded from sitemap"
+    },
+    "cards": {
+      "errors": "SEO Errors",
+      "warnings": "SEO Warnings",
+      "notices": "SEO Notices",
+      "missingTitles": "Missing Titles",
+      "missingDescriptions": "Missing Descriptions",
+      "sitemapConflicts": "Sitemap Conflicts"
+    }
+  },
+  "articles": {
+    "kicker": "SEO Center",
+    "title": "SEO Articles",
+    "description": "Create, edit, publish, archive, and preview SEO articles independently from the temporary product pages and business search flows.",
+    "newArticle": "New article"
+  },
+  "tables": {
+    "columns": {
+      "title": "Title",
+      "category": "Category",
+      "status": "Status",
+      "language": "Language",
+      "robots": "Robots",
+      "publishedAt": "Published At",
+      "updatedAt": "Updated At",
+      "author": "Author",
+      "type": "Type",
+      "path": "Path",
+      "pageType": "Page Type",
+      "description": "Description",
+      "indexPolicy": "Index Policy",
+      "sitemap": "Sitemap",
+      "enabled": "Enabled",
+      "updated": "Updated",
+      "actions": "Actions",
+      "fromPath": "From Path",
+      "toPath": "To Path",
+      "statusCode": "Status Code",
+      "hits": "Hits",
+      "lastHitAt": "Last Hit At",
+      "severity": "Severity",
+      "area": "Area",
+      "entity": "Entity",
+      "rule": "Rule",
+      "message": "Message",
+      "recommendation": "Recommendation"
+    },
+    "actions": {
+      "edit": "Edit",
+      "preview": "Preview",
+      "archive": "Archive",
+      "delete": "Delete",
+      "enable": "Enable",
+      "disable": "Disable"
+    },
+    "filters": {
+      "searchArticles": "Search articles...",
+      "searchLandingPages": "Search landing pages...",
+      "searchRedirects": "Search redirects...",
+      "searchAuditIssues": "Search audit issues...",
+      "status": "Status",
+      "category": "Category",
+      "language": "Language",
+      "robots": "Robots",
+      "type": "Type",
+      "enabled": "Enabled",
+      "statusCode": "Status Code",
+      "severity": "Severity",
+      "area": "Area",
+      "rule": "Rule"
+    },
+    "states": {
+      "uncategorized": "Uncategorized",
+      "yes": "Yes",
+      "no": "No",
+      "enabled": "Enabled",
+      "disabled": "Disabled"
+    }
+  },
+  "pageEditor": {
+    "saved": "SEO page settings saved.",
+    "saveFailed": "Unable to save SEO page settings.",
+    "edit": "Edit",
+    "title": "Edit SEO page",
+    "description": "Simple mode for {path}. Keep page-level editing focused on title, description, canonical, and robots only.",
+    "lockedTitle": "Locked noindex policy",
+    "lockedFallback": "This page type cannot be switched to index in the current phase.",
+    "defaultsNotice": "Global defaults from SEO Settings will be used for title template, default OG/Twitter image, and other shared metadata. Only override the essentials here when this page really needs its own search snippet.",
+    "fields": {
+      "title": "Title",
+      "canonicalUrl": "Canonical URL",
+      "description": "Description",
+      "robots": "Robots",
+      "enabled": "Enabled"
+    },
+    "enabledLabel": "Page SEO enabled",
+    "save": "Save SEO page"
+  },
+  "settingsForm": {
+    "saved": "SEO settings saved.",
+    "saveFailed": "Unable to save SEO settings.",
+    "fields": {
+      "siteName": "Site Name",
+      "canonicalBaseUrl": "Canonical Base URL",
+      "defaultTitle": "Default Title",
+      "titleTemplate": "Title Template",
+      "defaultDescription": "Default Description",
+      "defaultOgImage": "Default OG Image",
+      "defaultTwitterImage": "Default Twitter Image",
+      "defaultRobots": "Default Robots",
+      "googleSiteVerification": "Google Site Verification",
+      "googleAnalyticsId": "Google Analytics ID",
+      "googleTagManagerId": "Google Tag Manager ID"
+    },
+    "placeholders": {
+      "titleTemplate": "%s | CNSnap"
+    },
+    "save": "Save SEO defaults"
+  },
+  "articleEditor": {
+    "saved": "SEO article saved.",
+    "saveFailed": "Unable to save article.",
+    "generateSlugFailed": "Unable to generate slug.",
+    "readingTimeFailed": "Unable to calculate reading time.",
+    "tocFailed": "Unable to generate table of contents.",
+    "readingTimeSuccess": "Estimated reading time: {minutes} min",
+    "tocSuccess": "Generated {count} table-of-contents item{suffix}.",
+    "sections": {
+      "content": "Article Content",
+      "contentDescription": "Write the article body and shape the blog entry that will live under `/blog/[slug]`.",
+      "seo": "SEO Fields",
+      "enhancement": "Enhancement Fields"
+    },
+    "actions": {
+      "generateSlug": "Generate Slug from Title",
+      "useTitleAsSeoTitle": "Use Title as SEO Title",
+      "useExcerptAsMetaDescription": "Use Excerpt as Meta Description",
+      "calculateReadingTime": "Calculate Reading Time",
+      "generateToc": "Generate Table of Contents",
+      "cancel": "Cancel",
+      "save": "Save article",
+      "create": "Create article"
+    },
+    "fields": {
+      "title": "Title",
+      "slug": "Slug",
+      "localizedSlug": "Localized Slug",
+      "excerpt": "Excerpt",
+      "coverImage": "Cover Image",
+      "content": "Content",
+      "category": "Category",
+      "status": "Status",
+      "language": "Language",
+      "sourceLanguage": "Source Language",
+      "publishedAt": "Published At",
+      "tags": "Tags",
+      "seoTitle": "SEO Title",
+      "canonicalUrl": "Canonical URL",
+      "seoDescription": "SEO Description",
+      "robots": "Robots",
+      "ctaType": "CTA Type",
+      "ogTitle": "OG Title",
+      "ogImage": "OG Image",
+      "twitterTitle": "Twitter Title",
+      "twitterImage": "Twitter Image",
+      "ogDescription": "OG Description",
+      "twitterDescription": "Twitter Description",
+      "faqJson": "FAQ JSON",
+      "relatedArticles": "Related Articles",
+      "relatedLinksJson": "Related Links JSON"
+    },
+    "states": {
+      "notCalculated": "Not calculated",
+      "noneGenerated": "None generated yet",
+      "selectCategory": "Select a category"
+    },
+    "meta": {
+      "readingTime": "Reading Time",
+      "tocItems": "TOC Items"
+    },
+    "placeholders": {
+      "coverImage": "/brand/cnsnap-logo.svg",
+      "faqJson": "[{\"question\":\"...\",\"answer\":\"...\"}]",
+      "relatedLinksJson": "[{\"label\":\"Start Shopping\",\"href\":\"/\"}]"
+    }
+  },
+  "landingEditor": {
+    "saved": "SEO landing page saved.",
+    "saveFailed": "Unable to save landing page.",
+    "generateSlugFailed": "Unable to generate slug.",
+    "generatePathFailed": "Unable to generate path.",
+    "sections": {
+      "content": "Landing Page Content",
+      "contentDescription": "Edit the landing page body with the HTML editor, similar to publishing a WordPress page. Use the structured fields only when you need extra generated sections or FAQ data.",
+      "structured": "Structured Add-ons",
+      "structuredDescription": "Optional structured content for reusable section cards, FAQ output, or downstream rendering logic.",
+      "advancedStructured": "Advanced Structured Fields",
+      "seo": "SEO Fields"
+    },
+    "actions": {
+      "generateSlug": "Generate Slug from Title",
+      "generatePath": "Generate Path from Type and Slug",
+      "useHeroTitleAsSeoTitle": "Use Hero Title as SEO Title",
+      "useHeroSubtitleAsMetaDescription": "Use Hero Subtitle as Meta Description",
+      "addSection": "Add section",
+      "removeSection": "Remove section",
+      "addFaq": "Add FAQ",
+      "removeFaq": "Remove FAQ",
+      "cancel": "Cancel",
+      "save": "Save landing page",
+      "create": "Create landing page"
+    },
+    "fields": {
+      "title": "Title",
+      "slug": "Slug",
+      "localizedPath": "Localized Path",
+      "type": "Type",
+      "path": "Path",
+      "language": "Language",
+      "sourceLanguage": "Source Language",
+      "heroTitle": "Hero Title",
+      "heroSubtitle": "Hero Subtitle",
+      "pageContent": "Page Content",
+      "pageContentHelp": "This is the main landing page body. Treat it like a normal long-form page editor.",
+      "sections": "Sections",
+      "sectionTitle": "Section Title",
+      "sectionDescription": "Section Description",
+      "sectionBullets": "Section Bullets",
+      "faqItems": "FAQ Items",
+      "faqQuestion": "Question",
+      "faqAnswer": "Answer",
+      "sectionsJson": "Sections JSON",
+      "faqJson": "FAQ JSON",
+      "ctaText": "CTA Text",
+      "ctaHref": "CTA Href",
+      "status": "Status",
+      "publishedAt": "Published At",
+      "seoTitle": "SEO Title",
+      "canonicalUrl": "Canonical URL",
+      "seoDescription": "SEO Description",
+      "robots": "Robots",
+      "structuredDataJson": "Structured Data JSON",
+      "ogTitle": "OG Title",
+      "ogImage": "OG Image",
+      "ogDescription": "OG Description",
+      "twitterDescription": "Twitter Description",
+      "twitterTitle": "Twitter Title",
+      "twitterImage": "Twitter Image"
+    },
+    "placeholders": {
+      "sectionsJson": "[{\"title\":\"Hero\",\"description\":\"...\",\"bullets\":[\"...\"]}]",
+      "faqJson": "[{\"question\":\"...\",\"answer\":\"...\"}]",
+      "sectionBullets": "One bullet per line",
+      "ctaHref": "/estimation or https://example.com",
+      "ogImage": "/brand/cnsnap-logo.svg",
+      "twitterImage": "/brand/cnsnap-logo.svg"
+    },
+    "states": {
+      "sectionLabel": "Section {index}",
+      "faqLabel": "FAQ {index}",
+      "noSections": "No detail sections yet. Add the first section to build out the landing page body.",
+      "noFaq": "No FAQ entries yet. Add questions and answers to match the article-style publishing workflow."
+    },
+    "meta": {
+      "sectionCount": "Sections",
+      "faqCount": "FAQ Items"
+    }
+  },
+  "languages": {
+    "kicker": "SEO Center",
+    "title": "SEO Languages",
+    "description": "Review which locales are enabled for admin UI, frontend UI, and SEO URL generation. V1 currently exposes the configured language matrix so new locales can be added safely from a single source of truth.",
+    "count": "{count} locales",
+    "empty": "No locales configured.",
+    "runtimeTitle": "Runtime Language Flags",
+    "runtimeDescription": "Update frontend and SEO visibility without deleting historical language metadata.",
+    "saveLocale": "Save locale",
+    "flags": {
+      "global": "Global",
+      "frontend": "Frontend",
+      "seo": "SEO",
+      "default": "Default"
+    },
+    "save": "Save"
+  },
+  "pages": {
+    "kicker": "SEO Center",
+    "title": "Page SEO",
+    "description": "Manage metadata for the six core service pages. Locked page types such as temporary products and search stay noindex by policy and cannot be overridden here."
+  },
+  "settingsPage": {
+    "kicker": "SEO Center",
+    "title": "SEO Settings",
+    "description": "Set global defaults for title templates, canonical base URL, social images, robots baseline, and verification IDs. This phase uses mock save actions and is ready for a later Prisma-backed upgrade."
+  },
+  "redirectsPage": {
+    "kicker": "SEO Center",
+    "title": "Redirects",
+    "description": "Manage mock redirect rules here first without wiring them into middleware or business routes.",
+    "createTitle": "Create Redirect Rule",
+    "createDescription": "Use this for SEO cleanup and legacy-route migration scenarios."
+  },
+  "redirectEditor": {
+    "saved": "Redirect rule saved.",
+    "saveFailed": "Unable to save redirect.",
+    "fields": {
+      "fromPath": "From Path",
+      "toPath": "To Path",
+      "statusCode": "Status Code",
+      "enabled": "Enabled"
+    },
+    "placeholders": {
+      "fromPath": "/old-path",
+      "toPath": "/new-path or https://example.com"
+    },
+    "states": {
+      "enabled": "enabled",
+      "disabled": "disabled"
+    },
+    "add": "Add redirect"
+  },
+  "taxonomy": {
+    "categories": {
+      "kicker": "SEO Center",
+      "title": "Article Categories",
+      "description": "Manage blog taxonomy for independent SEO article topic sections.",
+      "add": "Add category",
+      "search": "Search article categories...",
+      "modal": {
+        "add": "Add category",
+        "edit": "Edit {name}",
+        "save": "Save category"
+      },
+      "fields": {
+        "name": "Name",
+        "slug": "Slug",
+        "localizedSlug": "Localized Slug",
+        "description": "Description",
+        "language": "Language",
+        "sortOrder": "Sort Order",
+        "status": "Status",
+        "seoTitle": "SEO Title",
+        "seoDescription": "SEO Description",
+        "actions": "Actions"
+      },
+      "placeholders": {
+        "name": "Category name",
+        "slug": "category-slug",
+        "localizedSlug": "localized-category-slug",
+        "description": "Category description",
+        "seoTitle": "SEO title",
+        "seoDescription": "SEO description"
+      },
+      "createTranslation": "Create {locale} version"
+    },
+    "tags": {
+      "kicker": "SEO Center",
+      "title": "Article Tags",
+      "description": "Manage reusable tags for blog article filtering and topic discovery pages.",
+      "add": "Add tag",
+      "search": "Search article tags...",
+      "modal": {
+        "add": "Add tag",
+        "edit": "Edit {name}",
+        "save": "Save tag"
+      },
+      "fields": {
+        "name": "Name",
+        "slug": "Slug",
+        "description": "Description",
+        "actions": "Actions",
+        "delete": "Delete"
+      },
+      "placeholders": {
+        "name": "Tag name",
+        "slug": "tag-slug",
+        "description": "Tag description"
+      }
+    }
+  },
+  "taxonomyPages": {
+    "categoryHero": "Category Hero",
+    "relatedCategories": "Related Categories",
+    "needWorkflowTitle": "Need a live workflow next?",
+    "needWorkflowDescription": "Move from category guides into product search, shipping estimation, DIY order, or forwarding.",
+    "startShopping": "Start Shopping",
+    "tagHero": "Tag Hero",
+    "general": "General",
+    "moveIntoActionTitle": "Move from articles into action",
+    "moveIntoActionDescription": "Use the service pages when you are ready to search products, estimate shipping, or submit a sourcing request.",
+    "estimateShipping": "Estimate Shipping Fee"
+  },
+  "articlePages": {
+    "new": {
+      "kicker": "SEO Center",
+      "title": "Create SEO Article",
+      "description": "Build a blog article that can be published independently under `/blog`, with its own metadata, schema, FAQ, CTA, and sitemap eligibility."
+    },
+    "edit": {
+      "kicker": "SEO Center",
+      "title": "Edit SEO Article",
+      "description": "Update article content, publishing state, metadata, FAQ, and CTA without affecting the first-step index policy module.",
+      "createTranslation": "Create {locale} version"
+    }
+  },
+  "landingPagesPage": {
+    "kicker": "SEO Center",
+    "title": "Landing Pages",
+    "description": "Manage platform, shipping-country, and campaign landing pages as an independent SEO content layer.",
+    "new": "New landing page"
+  },
+  "languagesTable": {
+    "columns": {
+      "locale": "Locale",
+      "name": "Name",
+      "nativeName": "Native Name",
+      "enabled": "Enabled",
+      "adminEnabled": "Admin",
+      "frontendEnabled": "Frontend UI",
+      "seoEnabled": "SEO",
+      "default": "Default",
+      "sortOrder": "Sort"
+    },
+    "details": {
+      "locale": "Locale",
+      "englishName": "English Name",
+      "nativeName": "Native Name",
+      "enabled": "Enabled",
+      "adminEnabled": "Admin Enabled",
+      "frontendEnabled": "Frontend Enabled",
+      "seoEnabled": "SEO Enabled",
+      "defaultLocale": "Default Locale",
+      "sortOrder": "Sort Order"
+    }
+  },
+  "landingPagePages": {
+    "new": {
+      "kicker": "SEO Center",
+      "title": "Create Landing Page",
+      "description": "Build a new SEO landing page that can be published under `/platforms`, `/shipping-to`, or `/campaign`."
+    },
+    "edit": {
+      "kicker": "SEO Center",
+      "title": "Edit Landing Page",
+      "description": "Update route structure, hero copy, SEO fields, FAQ, and CTA behavior for this landing page.",
+      "createTranslation": "Create {locale} version"
+    }
+  },
+  "auditPage": {
+    "kicker": "SEO Center",
+    "title": "SEO Audit",
+    "description": "Review missing metadata, FAQ/CTA gaps, duplicate content signals, and redirect issues across pages, articles, and landing pages."
+  },
+  "sitemapRobotsPage": {
+    "kicker": "SEO Center",
+    "title": "Sitemap & Robots",
+    "description": "Review crawl controls and sitemap inclusion. Temporary product pages and search pages are intentionally excluded from sitemap and depend on page metadata noindex instead of robots-only blocking.",
+    "robotsRules": "Robots Rules",
+    "table": {
+      "path": "Path",
+      "enabled": "Enabled",
+      "changeFrequency": "Change Frequency",
+      "priority": "Priority",
+      "indexPolicy": "Index Policy",
+      "yes": "Yes",
+      "no": "No",
+      "included": "Included",
+      "excluded": "Excluded",
+      "temporaryProductPages": "Temporary product pages",
+      "searchPages": "Search pages",
+      "na": "N/A"
+    }
+  }
+}

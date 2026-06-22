@@ -1,0 +1,268 @@
+{
+  "search": {
+    "eyebrow": "Centre d'aide",
+    "title": "Trouvez des réponses avant votre prochaine étape d'achat en Chine",
+    "subtitle": "Recherchez des guides pour l'agent d'achat, l'estimation des expéditions, les commandes DIY, l'expédition, le paiement, les colis, le suivi et le centre de tickets.",
+    "placeholder": "Recherche agent commercial, frais de port, estimation, commande DIY, expédition, paiement...",
+    "examplesTitle": "Exemples de recherche",
+    "results": "Résultats",
+    "emptyTitle": "Aucun résultat d'aide trouvé",
+    "emptyDescription": "Essayez un mot clé plus large comme expédition, paiement, colis, billet ou commande DIY.",
+    "examples": {
+      "shoppingAgent": "agent commercial",
+      "shippingFee": "frais d'expédition",
+      "estimation": "estimation",
+      "diyOrder": "Commande DIY",
+      "forwarding": "transfert",
+      "payment": "paiement",
+      "refund": "remboursement",
+      "restrictedItems": "articles restreints",
+      "package": "paquet",
+      "tracking": "suivi",
+      "ticket": "billet"
+    }
+  },
+  "popularTopics": {
+    "eyebrow": "Sujets populaires",
+    "title": "Des réponses rapides pour les tâches courantes",
+    "description": "Accédez aux guides dont les utilisateurs ont le plus souvent besoin avant de commander, de payer ou d'expédier.",
+    "items": {
+      "orderLink": "Comment passer une commande en utilisant un lien produit",
+      "estimation": "Comment estimer les frais d'expédition internationaux",
+      "diyOrder": "Comment soumettre une commande DIY",
+      "forwarding": "Comment fonctionne le service de transfert",
+      "separateShipping": "Pourquoi les frais d'expédition sont payés séparément",
+      "restricted": "Quels articles sont restreints",
+      "recharge": "Comment recharger le portefeuille",
+      "tracking": "Comment suivre un colis",
+      "ticket": "Comment ouvrir un ticket d'assistance"
+    }
+  },
+  "categoriesSection": {
+    "eyebrow": "Catégories d'aide",
+    "title": "Parcourir par zone de service",
+    "description": "Choisissez une catégorie pour filtrer les articles populaires et les réponses FAQ.",
+    "showAll": "Afficher toute l'aide",
+    "articleCount": "Articles {count}"
+  },
+  "categories": {
+    "howToBuy": {
+      "title": "Comment acheter",
+      "description": "Liens de produits, recherche d'images, paiement par l'agent commercial et soumission de commande."
+    },
+    "orders": {
+      "title": "Commandes",
+      "description": "Statut des commandes, achats, articles en rupture de stock, modifications de prix et mises à jour."
+    },
+    "payment": {
+      "title": "Paiement et recharge",
+      "description": "Solde du portefeuille, enregistrements de recharge, paiements de produits et notes de paiement manuelles."
+    },
+    "shippingFee": {
+      "title": "Frais d'expédition",
+      "description": "Fret international, poids volumétrique, poids facturable et estimations."
+    },
+    "packages": {
+      "title": "Forfaits",
+      "description": "Arrivée à l'entrepôt, création du colis, suivi, statut d'expédition et livraison."
+    },
+    "forwarding": {
+      "title": "Transfert",
+      "description": "Achetez vous-même, utilisez notre adresse d'entrepôt et soumettez un suivi national."
+    },
+    "diyOrders": {
+      "title": "Commandes DIY",
+      "description": "Devis manuels pour les produits qui ne peuvent pas être analysés automatiquement."
+    },
+    "restrictedItems": {
+      "title": "Articles restreints",
+      "description": "Biens sensibles, objets interdits, piles, liquides, poudres et risques de marque."
+    },
+    "refunds": {
+      "title": "Remboursements",
+      "description": "Remboursements en rupture de stock, commandes annulées, remboursements de portefeuille et délais de révision."
+    },
+    "affiliate": {
+      "title": "Affilié",
+      "description": "Liens de parrainage, commissions, commandes valides et bases de paiement."
+    },
+    "tickets": {
+      "title": "Centre de billetterie",
+      "description": "Ouvrez les tickets, vérifiez les réponses, fournissez des preuves et suivez les progrès du support."
+    },
+    "account": {
+      "title": "Compte",
+      "description": "Profil, langue, devise, connexion Google, adresses et paramètres de sécurité."
+    }
+  },
+  "articlesSection": {
+    "eyebrow": "Articles populaires",
+    "title": "Guides que les utilisateurs lisent en premier",
+    "description": "Aide pratique pour la commande, l'expédition, le paiement, l'expédition et l'assistance.",
+    "guideCount": "Guides {count}",
+    "updated": "{date} mis à jour",
+    "read": "Lire"
+  },
+  "articles": {
+    "placeOrderLink": {
+      "title": "Comment passer une commande en utilisant un lien produit",
+      "summary": "Collez un lien de produit chinois, choisissez les variantes et la quantité, puis soumettez le paiement pour connaître le coût du produit et l'examen des expéditions nationales.",
+      "content": "Collez le produit URL dans la recherche CNSnap ou l'analyseur de produits. Vérifiez le titre, les images, les variantes, le prix, les frais d'expédition nationaux et la quantité. Sélectionnez le SKU exact, confirmez la clause de non-responsabilité, puis ajoutez-le au panier ou achetez maintenant. Vous payez en premier le coût du produit, l’expédition nationale et les frais de service. Les expéditions internationales sont facturées plus tard après l'arrivée et la pesée à l'entrepôt."
+    },
+    "shoppingAgent": {
+      "title": "Comment utiliser le service d'agent commercial",
+      "summary": "Agent d'achat signifie que notre équipe achète des articles pour vous, les reçoit à notre entrepôt et prépare l'expédition internationale.",
+      "content": "Utilisez Shopping Agent lorsque vous souhaitez que CNSnap achète pour vous sur des plateformes chinoises. Après avoir soumis et payé la commande du produit, notre équipe d’achat passe la commande auprès du vendeur. Lorsque les articles arrivent à l'entrepôt, le colis est vérifié, pesé et préparé pour le paiement de l'expédition internationale."
+    },
+    "submitDiy": {
+      "title": "Comment soumettre une commande DIY",
+      "summary": "Utilisez DIY Order lorsqu'un lien de produit ne peut pas être analysé, que vous n'avez qu'une image ou que la demande nécessite un devis manuel.",
+      "content": "Ouvrez la commande DIY, fournissez un produit URL ou une image URL, le nom du produit, les spécifications, la quantité, le pays de destination et les notes. Notre équipe examine la disponibilité, le prix du vendeur, les expéditions nationales, les restrictions possibles et envoie un devis. Vous ne payez qu'après acceptation du devis."
+    },
+    "forwarding": {
+      "title": "Comment fonctionne le service de transfert",
+      "summary": "Le transfert est destiné aux utilisateurs qui achètent eux-mêmes et expédient des articles à notre entrepôt en Chine pour un transfert international.",
+      "content": "Connectez-vous pour obtenir l'adresse de votre entrepôt et votre code utilisateur. Achetez vous-même sur des sites Web chinois et indiquez votre code d'utilisateur dans le destinataire ou l'adresse. Une fois l'expédition effectuée par le vendeur, soumettez le numéro de suivi national. L'entrepôt réceptionne, identifie, stocke, pèse et réexpédie votre colis à l'international."
+    },
+    "shippingFee": {
+      "title": "Comment sont calculés les frais d’expédition internationale ?",
+      "summary": "Les frais d'expédition dépendent de la destination, du canal, du poids réel, du poids volumétrique, du poids minimum facturable et des restrictions sur le produit.",
+      "content": "Les expéditions internationales sont calculées après pesée en entrepôt. Les transporteurs comparent le poids réel et le poids volumétrique, puis facturent en fonction du poids facturable le plus élevé. Le poids volumétrique est égal à la longueur × largeur × hauteur divisée par le diviseur de volume du canal. Les produits sensibles, les limites de destination et les règles de canal peuvent modifier les itinéraires disponibles."
+    },
+    "separateShipping": {
+      "title": "Pourquoi dois-je payer les frais d'expédition séparément ?",
+      "summary": "Le paiement du produit a lieu avant l'achat. L'expédition internationale ne peut être confirmée qu'après réception et pesée du colis par l'entrepôt.",
+      "content": "À la caisse, vous payez le coût du produit, les frais d'expédition nationaux et les frais de service. Le fret international ne peut être définitif avant que l’entrepôt ne connaisse le poids réel emballé, les dimensions, la destination et le canal disponible. Après l'arrivée, CNSnap crée le colis et la facture d'expédition pour votre confirmation."
+    },
+    "restricted": {
+      "title": "Quels articles sont restreints ?",
+      "summary": "Les piles, liquides, poudres, aliments, cosmétiques, produits de luxe de marque et articles dangereux peuvent nécessiter un examen ou être rejetés.",
+      "content": "Les articles restreints ou sensibles dépendent des règles du transporteur et des douanes. Les piles, liquides, poudres, aliments, cosmétiques, médicaments, armes, marchandises dangereuses, produits contrefaits et articles de marque de grande valeur peuvent nécessiter un examen manuel, des lignes spéciales, des documents supplémentaires ou peuvent ne pas être acceptés pour l'expédition."
+    },
+    "recharge": {
+      "title": "Comment recharger mon portefeuille ?",
+      "summary": "Le solde du portefeuille peut être utilisé pour les paiements de produits, les paiements d'expédition et les frais de service une fois les enregistrements de recharge confirmés.",
+      "content": "Accédez à Recharge du compte, saisissez le montant et choisissez un mode de paiement. La version V1.0 prend en charge les enregistrements d'espace réservé au paiement manuel. Une fois le paiement confirmé, le solde peut être utilisé pour les commandes de produits, les expéditions internationales, les ajustements et les remboursements."
+    },
+    "tracking": {
+      "title": "Comment suivre mon colis ?",
+      "summary": "Une fois qu'un colis est expédié à l'international, le numéro de suivi et le statut d'expédition sont affichés dans le compte Colis.",
+      "content": "Ouvrez le compte Packages pour voir l'état du colis, le canal d'expédition, le numéro de suivi et le délai d'expédition. La mise à jour du suivi peut prendre du temps après l'expédition. Si le suivi s'arrête ou affiche une exception, ouvrez un ticket d'assistance avec le numéro de colis et le numéro de suivi."
+    },
+    "ticket": {
+      "title": "Comment ouvrir un ticket d'assistance ?",
+      "summary": "Utilisez Tickets Center pour les problèmes de commande, les questions sur les colis, les preuves de paiement, les remboursements, les articles restreints ou les exceptions d'expédition.",
+      "content": "Ouvrez le Centre de tickets et créez un nouveau ticket. Choisissez la catégorie la plus proche, ajoutez des numéros de commande ou de colis, décrivez le problème et téléchargez toute preuve utile ultérieurement lorsque le téléchargement de fichier est connecté. Notre équipe d'assistance répond dans le fil de discussion des tickets."
+    }
+  },
+  "faqSection": {
+    "eyebrow": "FAQ",
+    "title": "Questions fréquemment posées",
+    "description": "Réponses courtes pour l'agent d'achat, l'estimation, les commandes DIY, l'expédition, le paiement et les tickets d'assistance."
+  },
+  "faq": {
+    "saTaobao": {
+      "question": "Pouvez-vous acheter sur Taobao ou 1688 pour moi ?",
+      "answer": "Oui. Utilisez Shopping Agent pour les liens de produits pris en charge. Si une page ne peut pas être analysée, soumettez une commande DIY pour examen manuel."
+    },
+    "saImage": {
+      "question": "Puis-je effectuer une recherche par image de produit ?",
+      "answer": "La recherche d'images peut aider à découvrir des produits. Si le résultat n'est pas clair, utilisez la commande DIY et fournissez l'image URL ou une capture d'écran du produit."
+    },
+    "saOutStock": {
+      "question": "Que se passe-t-il si l'article est en rupture de stock ?",
+      "answer": "Notre équipe mettra à jour la commande et vous contactera. Vous pouvez choisir le remplacement, l'annulation ou le remboursement en fonction de la situation du vendeur."
+    },
+    "estFinal": {
+      "question": "Les frais d'expédition estimés sont-ils définitifs ?",
+      "answer": "Non. Le devis est destiné à la planification. Le fret final est basé sur le poids mesuré en entrepôt, les dimensions emballées, l'examen du produit et le canal sélectionné."
+    },
+    "estVolumetric": {
+      "question": "Qu'est-ce que le poids volumétrique ?",
+      "answer": "Le poids volumétrique convertit la taille du colis en poids facturable. Les gros emballages légers peuvent coûter plus cher car ils occupent plus d’espace de transport."
+    },
+    "estChargeable": {
+      "question": "Pourquoi le poids facturable est-il différent du poids réel ?",
+      "answer": "Les transporteurs facturent selon la valeur la plus élevée entre le poids réel, le poids volumétrique et le poids minimum facturable."
+    },
+    "diyWhen": {
+      "question": "Quand dois-je soumettre une commande DIY ?",
+      "answer": "Soumettez la commande DIY lorsque le lien du produit ne peut pas être analysé, que vous n'avez qu'une image, que les spécifications sont complexes ou que vous avez besoin d'un devis manuel."
+    },
+    "diyQuote": {
+      "question": "Combien de temps prend un devis de commande DIY ?",
+      "answer": "La plupart des devis sont examinés dans un délai d'un jour ouvrable. Les articles complexes ou la confirmation du vendeur peuvent prendre plus de temps."
+    },
+    "diyImage": {
+      "question": "Puis-je soumettre uniquement une image de produit ?",
+      "answer": "Oui. Une image de produit est acceptée, mais un lien ou une description détaillée aide notre équipe à établir un devis plus rapidement."
+    },
+    "fwBuySelf": {
+      "question": "Puis-je acheter moi-même et utiliser uniquement votre entrepôt ?",
+      "answer": "Oui. Utilisez Forwarding, copiez l'adresse de votre entrepôt et soumettez le numéro de suivi national après l'expédition du vendeur."
+    },
+    "fwDifference": {
+      "question": "Quelle est la différence entre Shopping Agent et Forwarding ?",
+      "answer": "Shopping Agent signifie que CNSnap achète pour vous. L'expédition signifie que vous achetez vous-même et CNSnap gère la réception en entrepôt et l'expédition internationale."
+    },
+    "fwUserCode": {
+      "question": "Pourquoi dois-je inclure mon code utilisateur ?",
+      "answer": "Le code utilisateur permet au personnel de l'entrepôt de faire correspondre les colis entrants à votre compte. Les codes utilisateur manquants peuvent retarder la réception."
+    },
+    "payProduct": {
+      "question": "Comment puis-je payer le coût du produit ?",
+      "answer": "Vous pouvez payer lors du paiement en utilisant le solde disponible ou les méthodes de paiement prises en charge. Les enregistrements de recharge et de paiement manuel peuvent être étendus ultérieurement."
+    },
+    "payShipping": {
+      "question": "Pourquoi dois-je payer les frais d'expédition internationaux séparément ?",
+      "answer": "L'expédition internationale est calculée après l'arrivée à l'entrepôt car le poids et les dimensions finaux emballés sont inconnus avant la réception."
+    },
+    "payRefund": {
+      "question": "Puis-je obtenir un remboursement ?",
+      "answer": "L'éligibilité au remboursement dépend du statut de la commande, de la politique du vendeur et du fait que l'article a déjà été acheté ou expédié."
+    },
+    "ticketWhen": {
+      "question": "Quand dois-je ouvrir un ticket ?",
+      "answer": "Ouvrez un ticket pour les questions de commande, les preuves de paiement, les exceptions de colis, les remboursements, l'examen des articles restreints ou les problèmes de compte."
+    },
+    "ticketReplies": {
+      "question": "Comment puis-je vérifier les réponses aux tickets ?",
+      "answer": "Accédez au Centre de tickets de compte et ouvrez le fil de discussion pour afficher les réponses d'assistance et les mises à jour de statut."
+    },
+    "ticketReopen": {
+      "question": "Puis-je rouvrir un ticket résolu ?",
+      "answer": "La V1.0 peut réserver le comportement de réouverture. Si le problème résolu persiste, créez un nouveau ticket et référencez l'ancien numéro de ticket."
+    },
+    "packageArrival": {
+      "question": "Comment savoir si mon colis est arrivé à l'entrepôt ?",
+      "answer": "Vérifiez les packages de compte. Le statut de réception de l'entrepôt apparaît après la correspondance du personnel et le traitement du colis entrant."
+    },
+    "accountLanguage": {
+      "question": "Puis-je changer de langue ou de devise ?",
+      "answer": "Oui. Utilisez le sélecteur de langue et de devise du frontend ou les préférences de profil de compte lorsque vous êtes connecté."
+    },
+    "affiliateReward": {
+      "question": "Comment fonctionnent les récompenses d’affiliation ?",
+      "answer": "Partagez votre lien de parrainage. La commission est calculée à partir des commandes référencées valides conformément à la politique d'affiliation."
+    }
+  },
+  "filter": {
+    "showing": "Afficher l'aide pour"
+  },
+  "empty": {
+    "articlesTitle": "Aucun article dans cette catégorie pour l'instant",
+    "articlesDescription": "Essayez une autre catégorie ou utilisez la recherche ci-dessus.",
+    "faqTitle": "Pas encore de FAQ dans cette catégorie",
+    "faqDescription": "Tickets Center peut toujours vous aider sur ce sujet."
+  },
+  "articleDialog": {
+    "keywords": "Mots-clés",
+    "quickAnswer": "Réponse d'assistance rapide"
+  },
+  "ticketsCta": {
+    "title": "Vous avez encore besoin d'aide ?",
+    "description": "Ouvrez un ticket d'assistance et notre équipe vous répondra dans les plus brefs délais.",
+    "open": "Centre de billetterie ouvert",
+    "create": "Créer un nouveau billet"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "hero": {
+    "eyebrow": "Estymator wysyłki",
+    "title": "Oszacuj opłatę za wysyłkę międzynarodową",
+    "subtitle": "Wprowadź kraj docelowy, kategorię produktu, wagę i wymiary, aby oszacować koszt wysyłki międzynarodowej, zanim magazyn potwierdzi ostateczną wagę opakowania.",
+    "startShopping": "Rozpocznij zakupy",
+    "submitDiyOrder": "Prześlij zamówienie DIY",
+    "steps": {
+      "actual": {
+        "title": "Wprowadź paczkę podstawy",
+        "description": "Wybierz miejsce docelowe, typ produktu i rzeczywistą wagę od sprzedawcy lub swoją szacunkową wagę."
+      },
+      "volumetric": {
+        "title": "Dodaj wymiary, jeśli to możliwe",
+        "description": "Duże, ale lekkie paczki mogą być rozliczane według wagi objętościowej, a nie rzeczywistej."
+      },
+      "warehouse": {
+        "title": "Opłata końcowa po przybyciu do magazynu",
+        "description": "Za przesyłkę międzynarodową płaci się po zakupie, przybyciu, zapakowaniu i magazynie ważenie."
+      }
+    }
+  },
+  "calculator": {
+    "title": "Kalkulator wysyłki",
+    "description": "W wersji 1.0 używa próbnych reguł wysyłki. Ostateczna dostępność i cena zostaną potwierdzone po kontroli magazynu.",
+    "destinationCountry": "Kraj docelowy",
+    "productCategory": "Kategoria produktu",
+    "actualWeightKg": "Rzeczywista waga kg",
+    "lengthCm": "Długość cm",
+    "widthCm": "Szerokość cm",
+    "heightCm": "Wysokość cm",
+    "shippingChannel": "Kanał wysyłki",
+    "allChannels": "Wszystkie dostępne kanały",
+    "dimensionHint": "Wymiary są opcjonalne. Jeśli podasz jeden wymiar, wprowadź długość, szerokość i wysokość, aby można było oszacować wagę objętościową.",
+    "dimensionUnit": "centymetry",
+    "calculate": "Oblicz",
+    "reset": "Resetuj",
+    "toastSuccess": "Obliczony szacunkowy koszt wysyłki.",
+    "toastReview": "Nie znaleziono bezpośredniego kanału. Prześlij do ręcznego sprawdzenia.",
+    "validation": {
+      "required": "To pole jest wymagane.",
+      "positive": "Musi być większe niż 0.",
+      "destination": "Wybierz kraj docelowy.",
+      "dimensionsComplete": "Jeśli podajesz wymiary przesyłki, podaj długość, szerokość i wysokość."
+    },
+    "categories": {
+      "general": "Towary ogólne",
+      "clothing": "Odzież",
+      "shoes": "Buty",
+      "electronics": "Elektronika",
+      "battery": "Produkty akumulatorowe",
+      "liquid": "Płyny",
+      "cosmetics": "Kosmetyki",
+      "food": "Żywność",
+      "powder": "Proszek",
+      "luxury": "Towary luksusowe",
+      "other": "Inne"
+    }
+  },
+  "result": {
+    "emptyTitle": "Wprowadź szczegóły przesyłki, aby oszacować fracht",
+    "emptyDescription": "Kalkulator porównuje dostępne kanały, wagę objętościową, minimalną należne ograniczenia dotyczące wagi i kategorii.",
+    "title": "Wynik obliczeń",
+    "description": "Szacunkowa cena służy wyłącznie do planowania. O ostatecznej opłacie decyduje waga opakowania w magazynie i opinia przewoźnika.",
+    "lowestEstimate": "Najniższe szacunki",
+    "actualWeight": "Rzeczywista waga",
+    "volumetricWeight": "Waga objętościowa",
+    "chargeableWeight": "Waga podlegająca opłacie",
+    "availableChannels": "Dostępne kanały",
+    "unavailableChannels": "Niedostępne kanały",
+    "noAvailable": "Żaden dostępny kanał nie odpowiada tym szczegółom. Prześlij zamówienie DIY lub skontaktuj się z pomocą techniczną w celu ręcznego sprawdzenia.",
+    "unavailableReasons": {
+      "unsupportedCountry": "Ten kanał nie obsługuje miejsca docelowego {value}.",
+      "restrictedCategory": "Ta kategoria produktów wymaga innego kanału lub ręcznego sprawdzenia.",
+      "maxWeight": "Waga do zapłaty przekracza {value} kg."
+    },
+    "restrictionNotices": {
+      "sensitive": "Ta kategoria może wymagać ręcznego sprawdzenia. Ostateczna dostępność kanałów zależy od szczegółów produktu, kraju docelowego i zasad przewoźnika.",
+      "general": "Towary ogólne są zwykle obsługiwane przez wiele kanałów, ale ostateczna dostępność jest potwierdzana po kontroli magazynu."
+    }
+  },
+  "channels": {
+    "eyebrow": "Kanały wysyłki",
+    "title": "Dostępne kanały wysyłki",
+    "description": "Porównaj popularne opcje wysyłki przed złożeniem zamówienia. Dostępność może się zmieniać w zależności od miejsca docelowego, kategorii i kontroli magazynu."
+  },
+  "channelDetails": {
+    "dhl": {
+      "name": "DHL Express",
+      "deliveryTime": "3-6 dni roboczych",
+      "suitableFor": "Szybka dostawa dla towarów ogólnych, odzieży, obuwia i paczek premium.",
+      "notes": "Dobre dla przesyłek wrażliwych na czas. Wrażliwe kategorie wymagają kontroli przed wysyłką."
+    },
+    "fedex": {
+      "name": "FedEx",
+      "deliveryTime": "4-8 dni roboczych",
+      "suitableFor": "Zrównoważona opcja ekspresowa dla większości standardowych produktów.",
+      "notes": "Stabilne śledzenie i szeroki zasięg. Dla towarów luksusowych może być potrzebna dodatkowa kontrola."
+    },
+    "ups": {
+      "name": "UPS",
+      "deliveryTime": "4-8 dni roboczych",
+      "suitableFor": "Dla przesyłek komercyjnych, obuwia, odzieży i większych paczek ogólnych.",
+      "notes": "Szczególnie mocny dla tras do Ameryki Północnej i Europy."
+    },
+    "ems": {
+      "name": "EMS",
+      "deliveryTime": "7-15 dni roboczych",
+      "suitableFor": "Dla przesyłek oszczędnych z szerokim zasięgiem pocztowym.",
+      "notes": "Czas dostawy może się różnić w zależności od odprawy celnej i lokalnej poczty."
+    },
+    "air-cargo": {
+      "name": "Cargo lotnicze",
+      "deliveryTime": "8-14 dni roboczych",
+      "suitableFor": "Dla średnich i cięższych paczek, gdy koszt jest ważniejszy niż maksymalna szybkość.",
+      "notes": "Często lepsze dla paczek powyżej 3 kg. Ostateczna stawka zależy od objętości po spakowaniu."
+    },
+    "economy": {
+      "name": "Linia ekonomiczna",
+      "deliveryTime": "12-25 dni roboczych",
+      "suitableFor": "Tania wysyłka dla towarów ogólnych, odzieży i zamówień niepilnych.",
+      "notes": "Niższy koszt, ale dłuższy czas dostawy. Aktualizacje śledzenia mogą pojawiać się rzadziej."
+    },
+    "sensitive": {
+      "name": "Linia towarów wrażliwych",
+      "deliveryTime": "8-18 dni roboczych",
+      "suitableFor": "Dla produktów z baterią, kosmetyków i wybranych towarów wrażliwych po weryfikacji.",
+      "notes": "Linie dla towarów wrażliwych wymagają kontroli produktu. Płyny, proszki i żywność nadal mogą zostać odrzucone."
+    },
+    "sea": {
+      "name": "Transport morski",
+      "deliveryTime": "30-55 dni roboczych",
+      "suitableFor": "Dla ciężkich, niepilnych paczek i przesyłek konsolidowanych.",
+      "notes": "Najlepszy dla ciężkich i dużych paczek. Nie nadaje się do pilnych dostaw."
+    }
+  },
+  "weightGuide": {
+    "eyebrow": "Waga do zapłaty",
+    "title": "Dlaczego waga na fakturze może różnić się od wagi rzeczywistej",
+    "description": "Przewoźnicy pobierają opłatę na podstawie większej wartości pomiędzy wagą rzeczywistą, wagą objętościową i minimalną wagą do zapłaty. Chroni to przepustowość trasy, gdy paczka jest duża, ale lekka.",
+    "formula": "Waga do zapłaty = max (waga rzeczywista, waga wolumetryczna, minimalna waga do zapłaty)",
+    "actual": {
+      "title": "Waga rzeczywista",
+      "description": "Waga fizyczna zmierzona na wadze magazynowej po przybyciu i zapakowaniu produktów."
+    },
+    "volumetric": {
+      "title": "Waga wolumetryczna",
+      "description": "Waga obliczona na podstawie rozmiar paczki: długość × szerokość × wysokość podzielona przez dzielnik objętości kanału."
+    },
+    "why": {
+      "title": "Duże lekkie paczki",
+      "description": "Pudełka po butach, pluszowe zabawki i wielkogabarytowe opakowania mogą zajmować więcej miejsca w samolocie lub ciężarówce, niż sugeruje ich waga."
+    },
+    "final": {
+      "title": "Potwierdzenie z magazynu",
+      "description": "Oszacowanie pomaga w planowaniu, ale ostateczna opłata za wysyłkę opiera się na danych o rzeczywistej paczce z magazynu."
+    }
+  },
+  "restricted": {
+    "title": "Informacja o ograniczeniach dotyczących przedmiotu",
+    "description": "Niektóre produkty mogą wymagać sprawdzenia przez przewoźnika, specjalnych tras lub mogą zostać całkowicie odrzucone w zależności od kraju docelowego.",
+    "items": [
+      "Niektóre produkty mogą podlegać ograniczeniom lub być zabronione.",
+      "Baterie, płyny, proszki, żywność, kosmetyki i produkty luksusowe towary mogą wymagać sprawdzenia.",
+      "Ostateczna dostępność wysyłki zależy od rodzaju produktu i kraju docelowego.",
+      "Podatek celny nie jest wliczony w cenę, chyba że podano inaczej."
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Szacowana wysyłka FAQ",
+    "description": "Krótkie odpowiedzi na najczęstsze pytania dotyczące opłat za wysyłkę dodatkową i dostawę międzynarodową.",
+    "items": {
+      "separateShipping": {
+        "question": "Dlaczego muszę osobno płacić za wysyłkę międzynarodową?",
+        "answer": "Najpierw płacisz koszty produktu, koszty wysyłki sprzedawcy krajowego i opłaty za usługi. Wysyłka międzynarodowa jest obliczana później po otrzymaniu, spakowaniu i zważeniu przesyłki przez magazyn."
+      },
+      "volumetricWeight": {
+        "question": "Co to jest waga wolumetryczna?",
+        "answer": "Waga wolumetryczna przelicza rozmiar paczki na wagę płatną. Wysyłka dużego lightboxa może kosztować więcej, ponieważ zajmuje więcej miejsca u przewoźnika."
+      },
+      "finalFee": {
+        "question": "Czy szacowana opłata za wysyłkę jest ostateczna?",
+        "answer": "Nie. The estimate is for planning only. Ostateczna opłata opiera się na wadze zmierzonej w magazynie, wymiarach opakowania, ocenie produktu i wybranym kanale."
+      },
+      "restrictedItems": {
+        "question": "Jakie produkty podlegają ograniczeniom?",
+        "answer": "Produkty akumulatorowe, płyny, proszki, żywność, kosmetyki, markowe towary luksusowe i podobne produkty mogą wymagać przeglądu lub specjalnej linii wysyłkowej."
+      },
+      "chooseChannel": {
+        "question": "Czy mogę samodzielnie wybrać kanał wysyłki?",
+        "answer": "Tak, jeśli dostępnych jest wiele kanałów. Jeśli przedmiot jest wrażliwy lub miejsce docelowe ma ograniczenia, ostateczny kanał musi przestrzegać zasad przewoźnika."
+      },
+      "deliveryTime": {
+        "question": "Jak długo trwa wysyłka międzynarodowa?",
+        "answer": "Linie ekspresowe mogą zająć kilka dni roboczych, natomiast wysyłka ekonomiczna lub morska może zająć kilka tygodni. Odprawa celna i dostawa lokalna mogą wydłużyć czas."
+      }
+    }
+  },
+  "cta": {
+    "title": "Gotowy do zakupu z Chin?",
+    "description": "Przeszukaj produkty, złóż wniosek o zakup ręczny lub skorzystaj z usługi spedycyjnej, gdy masz już produkty w naszym magazynie.",
+    "startShopping": "Rozpocznij zakupy",
+    "submitDiyOrder": "Prześlij zamówienie DIY",
+    "forwarding": "Skorzystaj z usługi spedycyjnej"
+  }
+}

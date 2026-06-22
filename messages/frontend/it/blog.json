@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "eyebrow": "SEO Articles",
+    "title": "Practical guides for buying, shipping, forwarding, and sourcing from China.",
+    "description": "Use the CNSnap blog to understand agent workflows, route estimation, restricted items, and parcel handling before you start a live purchasing flow."
+  },
+  "featured": {
+    "label": "Featured Guide",
+    "read": "Read featured guide"
+  },
+  "sections": {
+    "categories": "Article Categories",
+    "browse": "Browse by topic",
+    "latestTitle": "Latest Articles",
+    "latestDesc": "Fresh blog entries that can already work independently from the future landing-page module.",
+    "popularTitle": "Popular Guides",
+    "popularDesc": "Fast paths for the questions buyers ask most often before using the live purchasing workflows.",
+    "topicsTitle": "Topic Sections",
+    "topicsDesc": "Start from the topic that matches your next workflow."
+  },
+  "topicCards": {
+    "shoppingAgentGuides": "Shopping Agent Guides",
+    "shippingEstimation": "Shipping & Estimation",
+    "forwardingGuides": "Forwarding Guides",
+    "diyOrderGuides": "DIY Order Guides",
+    "restrictedItems": "Restricted Items",
+    "platformGuides": "Platform Guides",
+    "description": "Open a dedicated topic hub with published SEO articles and service-oriented CTA paths."
+  },
+  "articleCard": {
+    "read": "Read article",
+    "general": "General"
+  },
+  "taxonomy": {
+    "categoryHero": "Category Hero",
+    "browseByTag": "Tag Hero",
+    "tagPrefix": "Tag:",
+    "relatedCategories": "Related Categories",
+    "needWorkflowTitle": "Need a live workflow next?",
+    "needWorkflowDescription": "Move from category guides into product search, shipping estimation, DIY order, or forwarding.",
+    "startShopping": "Start Shopping",
+    "moveIntoActionTitle": "Move from articles into action",
+    "moveIntoActionDescription": "Use the service pages when you are ready to search products, estimate shipping, or submit a sourcing request.",
+    "estimateShipping": "Estimate Shipping Fee",
+    "publishedRelated": "Published SEO articles related to {name}.",
+    "tagTitle": "Tag: {name}",
+    "tagMetaTitle": "Tag: {name}",
+    "tagMetaDescription": "Articles tagged with {name}.",
+    "categoryNotFound": "Category Not Found",
+    "tagNotFound": "Tag Not Found"
+  },
+  "cta": {
+    "startShopping": {
+      "title": "Start Shopping",
+      "description": "Go to product search and source-link paste flow."
+    },
+    "estimateShipping": {
+      "title": "Estimate Shipping Fee",
+      "description": "Compare shipping routes before checkout."
+    },
+    "submitDiyOrder": {
+      "title": "Submit DIY Order",
+      "description": "Open the manual sourcing request workflow."
+    },
+    "useForwarding": {
+      "title": "Use Forwarding",
+      "description": "Send already purchased parcels to the warehouse."
+    },
+    "open": "Open"
+  }
+}

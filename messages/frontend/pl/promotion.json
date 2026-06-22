@@ -1,0 +1,177 @@
+{
+  "common": {
+    "validUntil": "Ważne do {date}"
+  },
+  "hero": {
+    "eyebrow": "Centrum promocji",
+    "title": "Oszczędź więcej na zamówieniach z zakupów w Chinach",
+    "subtitle": "Ciesz się nagrodami dla nowych użytkowników, bonusami doładowania, kuponami za wysyłkę, rabatami na opłaty za obsługę i prowizjami partnerskimi.",
+    "startShopping": "Rozpocznij zakupy",
+    "rechargeWallet": "Doładuj portfel",
+    "joinAffiliate": "Dołącz do programu partnerskiego",
+    "highlights": {
+      "newUser": "Kupon nowego użytkownika",
+      "recharge": "Doładuj bonus do",
+      "affiliate": "Prowizja partnerska"
+    }
+  },
+  "newUser": {
+    "eyebrow": "Premia nowego użytkownika",
+    "title": "Zacznij z dodatkowymi oszczędnościami",
+    "description": "Zarejestruj się, złóż pierwsze zamówienie i wykorzystaj korzyści z pierwszego pakietu za mniej niespodzianki.",
+    "offers": {
+      "shippingCoupon": {
+        "title": "Zarejestruj się już dziś i otrzymaj kupon na wysyłkę o wartości 5 USD",
+        "description": "Wykorzystaj go, płacąc swój pierwszy międzynarodowy rachunek za wysyłkę po zważeniu w magazynie.",
+        "action": "Zarejestruj się teraz"
+      },
+      "firstOrder": {
+        "title": "Zniżka na opłatę za obsługę pierwszego zamówienia",
+        "description": "Korzystaj z obniżonej opłaty za obsługę przy pierwszym zamówieniu u agenta zakupów.",
+        "action": "Rozpocznij zakupy"
+      },
+      "diyPriority": {
+        "title": "Priorytetowe wsparcie dla pierwszego zamówienia DIY",
+        "description": "Nowi użytkownicy mogą przesłać jedno zgłoszenie DIY z ręcznym sprawdzeniem z przewodnikiem i szybszym wyjaśnieniem.",
+        "action": "Prześlij zamówienie DIY"
+      }
+    }
+  },
+  "recharge": {
+    "eyebrow": "Doładuj bonus",
+    "title": "Doładuj portfel, odblokuj bonus saldo",
+    "description": "Saldo w portfelu ułatwia zarządzanie płatnościami, przesyłką międzynarodową i zwrotami pieniędzy.",
+    "rechargeNow": "Doładuj teraz",
+    "columns": {
+      "rechargeAmount": "Kwota doładowania",
+      "bonusAmount": "Kwota bonusu",
+      "validity": "Ważność",
+      "status": "Stan"
+    },
+    "status": {
+      "active": "Aktywny",
+      "limited": "Ograniczone"
+    }
+  },
+  "shippingCoupons": {
+    "eyebrow": "Kupony na wysyłkę",
+    "title": "Obniż koszty wysyłki międzynarodowej",
+    "description": "Wykorzystaj kwalifikujące się kupony po dotarciu paczek do magazynu i wygenerowaniu opłat za wysyłkę.",
+    "minimum": "Minimalna opłata za wysyłkę",
+    "countries": "Kraje",
+    "channels": "Kanały",
+    "validUntil": "Do {date}",
+    "coupons": {
+      "shipping5": {
+        "name": "5 USD zniżki na wysyłkę międzynarodową"
+      },
+      "heavy10": {
+        "name": "10 USD zniżki na paczki powyżej 5 kg"
+      },
+      "firstPackage": {
+        "name": "Zniżka na wysyłkę dla pierwszej paczki"
+      },
+      "countrySpecial": {
+        "name": "Specjalna zniżka na wysyłkę do kraju"
+      }
+    }
+  },
+  "serviceFee": {
+    "eyebrow": "Zniżki z opłat za obsługę",
+    "title": "Niższe opłaty za obsługę agentów zakupowych",
+    "description": "Zniżki z opłat za obsługę dotyczą kwalifikujących się zamówień produktów przed naliczeniem opłat za wysyłkę międzynarodową.",
+    "badges": {
+      "new": "Nowy użytkownik",
+      "vip": "VIP",
+      "limited": "Kampania"
+    },
+    "discounts": {
+      "firstOrder": {
+        "title": "Usługa pierwszego zamówienia zniżka na opłaty",
+        "description": "Przeznaczona dla początkujących użytkowników testujących przepływ pracy."
+      },
+      "vip": {
+        "title": "Zniżka na opłatę za obsługę użytkownika VIP",
+        "description": "Stali klienci mogą otrzymać niższe opłaty za obsługę w przypadku kwalifikujących się zamówień."
+      },
+      "campaign": {
+        "title": "Zniżka na opłatę za obsługę kampanii",
+        "description": "Ograniczona promocja dla wybranych kategorii i kampanii sezonowych."
+      }
+    }
+  },
+  "affiliate": {
+    "title": "Zaproś znajomych i zarabiaj prowizję",
+    "description": "Udostępnij CNSnap znajomym. Otrzymuj prowizję, gdy poleceni użytkownicy złożą ważne zamówienia.",
+    "join": "Dołącz do programu partnerskiego",
+    "metrics": {
+      "rate": "Stawka prowizji",
+      "requirement": "Wymóg prawidłowego zamówienia",
+      "payout": "Metoda wypłaty",
+      "minimum": "Minimalna kwota wypłaty"
+    }
+  },
+  "campaigns": {
+    "eyebrow": "Kampanie o ograniczonym czasie trwania",
+    "title": "Sezonowe oferty i kampanie na trasach",
+    "description": "Kampanie mogą skupiać się na określonych krajach, kategoriach produktów, metodach płatności lub kanałach wysyłki.",
+    "view": "Wyświetl kampanię",
+    "status": {
+      "active": "Aktywne",
+      "upcoming": "Nadchodzące"
+    },
+    "items": {
+      "summer": {
+        "title": "Letnia oferta tras spedycyjnych",
+        "description": "Wykorzystaj wybrane trasy ekonomiczne i lotnicze, aby wysyłać mniejsze paczki koszt."
+      },
+      "school": {
+        "title": "Kampania zakupowa na powrót do szkoły",
+        "description": "Dodatkowe oszczędności na odzieży, obuwiu, artykułach papierniczych i niezbędnych artykułach w akademiku."
+      }
+    }
+  },
+  "rules": {
+    "eyebrow": "Zasady promocji",
+    "title": "Jasne zasady przed użyciem kuponu",
+    "description": "Kwalifikowalność promocji zależy od czasu, rodzaju zamówienia, miejsca docelowego, trasy i zachowania konta.",
+    "items": {
+      "validTime": {
+        "title": "Czas ważności",
+        "description": "Każdy kupon lub kampania ma okres ważności. Wygasłych promocji nie można przywrócić ani przedłużyć ręcznie."
+      },
+      "minimumOrder": {
+        "title": "Minimalna kwota zamówienia",
+        "description": "Niektóre rabaty wymagają minimalnej sumy częściowej produktu, kwoty doładowania portfela lub wygenerowania opłaty za wysyłkę międzynarodową."
+      },
+      "countries": {
+        "title": "Dotyczące kraje",
+        "description": "Kupony specyficzne dla danego kraju obowiązują tylko wtedy, gdy miejsce docelowe paczki odpowiada liście krajów kampanii."
+      },
+      "channels": {
+        "title": "Dotycząca wysyłka kanały",
+        "description": "Kupony na wysyłkę mogą być ograniczone do tras ekspresowych, ekonomicznych, towarów wrażliwych lub transportu morskiego."
+      },
+      "refunds": {
+        "title": "Zasady zwrotów",
+        "description": "Jeśli zamówienie zostanie anulowane lub uzyskany zostanie pełny zwrot kosztów, powiązane wykorzystanie kuponów i nagrody dodatkowe mogą zostać cofnięte."
+      },
+      "stacking": {
+        "title": "Zasady układania kuponów",
+        "description": "Większości kuponów nie można zwrócić łączony z innym kuponem tego samego typu, chyba że kampania wyraźnie na to pozwala."
+      },
+      "abuse": {
+        "title": "Zapobieganie nadużyciom",
+        "description": "Oszukańcze konta, samorekomendacje, zduplikowane rejestracje lub nietypowa aktywność mogą spowodować utratę uprawnień do promocji."
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "Wykorzystaj swoje korzyści",
+    "title": "Wybierz następne najlepsze działanie",
+    "description": "Przeszukaj produkty, doładuj swój portfel lub zaproś znajomych, aby zdobyć nagrody za przyszłe zamówienia.",
+    "startShopping": "Rozpocznij zakupy",
+    "rechargeWallet": "Doładuj portfel",
+    "joinAffiliate": "Dołącz do partnera"
+  }
+}

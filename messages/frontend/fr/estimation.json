@@ -1,0 +1,207 @@
+{
+  "hero": {
+    "eyebrow": "Estimateur d'expédition",
+    "title": "Estimation des frais d'expédition internationaux",
+    "subtitle": "Entrez le pays de destination, la catégorie de produit, le poids et les dimensions pour estimer vos frais d'expédition internationale avant que l'entrepôt ne confirme le poids final emballé.",
+    "startShopping": "Commencer vos achats",
+    "submitDiyOrder": "Soumettre la commande DIY",
+    "steps": {
+      "actual": {
+        "title": "Entrez les bases du colis",
+        "description": "Choisissez la destination, le type de produit et le poids réel auprès du vendeur ou de votre estimation."
+      },
+      "volumetric": {
+        "title": "Ajoutez des dimensions lorsque cela est possible",
+        "description": "Les colis volumineux mais légers peuvent être facturés au poids volumétrique plutôt qu'au poids réel."
+      },
+      "warehouse": {
+        "title": "Frais finaux après l'arrivée à l'entrepôt",
+        "description": "Les expéditions internationales sont payées après l’achat, l’arrivée, l’emballage et la pesée en entrepôt."
+      }
+    }
+  },
+  "calculator": {
+    "title": "Calculateur d'expédition",
+    "description": "La version 1.0 utilise des règles d'expédition fictives. La disponibilité finale et le prix seront confirmés après inspection de l'entrepôt.",
+    "destinationCountry": "Pays de destination",
+    "productCategory": "Catégorie de produit",
+    "actualWeightKg": "Poids réel kg",
+    "lengthCm": "Longueur cm",
+    "widthCm": "Largeur cm",
+    "heightCm": "Hauteur cm",
+    "shippingChannel": "Canal d'expédition",
+    "allChannels": "Toutes les chaînes disponibles",
+    "dimensionHint": "Les dimensions sont facultatives. Si vous saisissez une dimension, veuillez saisir la longueur, la largeur et la hauteur afin que le poids volumétrique puisse être estimé.",
+    "dimensionUnit": "centimètres",
+    "calculate": "Calculer",
+    "reset": "Réinitialiser",
+    "toastSuccess": "Estimation d'expédition calculée.",
+    "toastReview": "Aucune chaîne directe trouvée. Veuillez soumettre pour examen manuel.",
+    "validation": {
+      "required": "Ce champ est obligatoire.",
+      "positive": "Doit être supérieur à 0.",
+      "destination": "Veuillez sélectionner un pays de destination.",
+      "dimensionsComplete": "Si vous saisissez les dimensions du colis, veuillez renseigner la longueur, la largeur et la hauteur."
+    },
+    "categories": {
+      "general": "Marchandises générales",
+      "clothing": "Vêtements",
+      "shoes": "Chaussures",
+      "electronics": "Electronique",
+      "battery": "Produits de batterie",
+      "liquid": "Liquide",
+      "cosmetics": "Cosmétiques",
+      "food": "Nourriture",
+      "powder": "Poudre",
+      "luxury": "Produits de luxe",
+      "other": "Autre"
+    }
+  },
+  "result": {
+    "emptyTitle": "Entrez les détails du colis pour estimer le fret",
+    "emptyDescription": "Le calculateur compare les canaux disponibles, le poids volumétrique, le poids minimum facturable et les restrictions de catégorie.",
+    "title": "Résultat du calcul",
+    "description": "Le prix estimé est uniquement destiné à la planification. Le poids emballé en entrepôt et l’examen du transporteur déterminent les frais finaux.",
+    "lowestEstimate": "Estimation la plus basse",
+    "actualWeight": "Poids réel",
+    "volumetricWeight": "Poids volumétrique",
+    "chargeableWeight": "Poids facturable",
+    "availableChannels": "Chaînes disponibles",
+    "unavailableChannels": "Chaînes indisponibles",
+    "noAvailable": "Aucune chaîne disponible ne correspond à ces détails. Veuillez soumettre une commande DIY ou contacter l'assistance pour un examen manuel.",
+    "unavailableReasons": {
+      "unsupportedCountry": "La destination {value} n'est pas prise en charge par ce canal.",
+      "restrictedCategory": "Cette catégorie de produits nécessite un autre canal ou un examen manuel.",
+      "maxWeight": "Le poids facturable dépasse {value} kg."
+    },
+    "restrictionNotices": {
+      "sensitive": "Cette catégorie peut nécessiter une révision manuelle. La disponibilité du canal final dépend des détails du produit, du pays de destination et de la politique du transporteur.",
+      "general": "Les marchandises générales sont généralement prises en charge par plusieurs canaux, mais la disponibilité finale est confirmée après inspection de l'entrepôt."
+    }
+  },
+  "channels": {
+    "eyebrow": "Canaux d'expédition",
+    "title": "Canaux d'expédition disponibles",
+    "description": "Comparez les options d'expédition courantes avant de passer une commande. La disponibilité peut changer selon la destination, la catégorie et l'inspection de l'entrepôt."
+  },
+  "channelDetails": {
+    "dhl": {
+      "name": "DHL Express",
+      "deliveryTime": "3 à 6 jours ouvrables",
+      "suitableFor": "Livraison rapide pour les marchandises générales, les vêtements, les chaussures et les colis premium.",
+      "notes": "Convient aux colis sensibles au délai. Les catégories sensibles doivent être examinées avant l'expédition."
+    },
+    "fedex": {
+      "name": "FedEx",
+      "deliveryTime": "4 à 8 jours ouvrables",
+      "suitableFor": "Option express équilibrée pour la plupart des produits courants.",
+      "notes": "Suivi stable et bonne couverture. Une révision peut être nécessaire pour les articles de luxe."
+    },
+    "ups": {
+      "name": "UPS",
+      "deliveryTime": "4 à 8 jours ouvrables",
+      "suitableFor": "Adapté aux envois commerciaux, aux chaussures, aux vêtements et aux colis généraux plus volumineux.",
+      "notes": "Particulièrement performant pour l'Amérique du Nord et l'Europe."
+    },
+    "ems": {
+      "name": "EMS",
+      "deliveryTime": "7 à 15 jours ouvrables",
+      "suitableFor": "Pour les colis économiques avec une large couverture postale.",
+      "notes": "Le délai peut varier selon la douane de destination et la poste locale."
+    },
+    "air-cargo": {
+      "name": "Fret aérien",
+      "deliveryTime": "8 à 14 jours ouvrables",
+      "suitableFor": "Pour les colis moyens et lourds lorsque le coût compte plus que la rapidité express.",
+      "notes": "Souvent plus avantageux pour les colis de plus de 3 kg. Le tarif final dépend du volume emballé."
+    },
+    "economy": {
+      "name": "Ligne économique",
+      "deliveryTime": "12 à 25 jours ouvrables",
+      "suitableFor": "Expédition à faible coût pour les marchandises générales, les vêtements et les commandes non urgentes.",
+      "notes": "Moins cher mais plus lent. Les mises à jour de suivi peuvent être moins fréquentes."
+    },
+    "sensitive": {
+      "name": "Ligne marchandises sensibles",
+      "deliveryTime": "8 à 18 jours ouvrables",
+      "suitableFor": "Pour les produits à batterie, les cosmétiques et certains articles sensibles après validation.",
+      "notes": "Les lignes sensibles nécessitent un examen du produit. Les liquides, poudres et aliments peuvent toujours être refusés."
+    },
+    "sea": {
+      "name": "Transport maritime",
+      "deliveryTime": "30 à 55 jours ouvrables",
+      "suitableFor": "Pour les colis lourds non urgents et les expéditions consolidées.",
+      "notes": "Idéal pour les colis lourds et volumineux. Non adapté aux livraisons urgentes."
+    }
+  },
+  "weightGuide": {
+    "eyebrow": "Poids facturable",
+    "title": "Pourquoi le poids facturé peut différer du poids réel",
+    "description": "Les transporteurs facturent en fonction de la valeur la plus élevée entre le poids réel, le poids volumétrique et le poids minimum facturable. Cela protège la capacité de l’itinéraire lorsqu’un colis est volumineux mais léger.",
+    "formula": "Poids facturable = max (poids réel, poids volumétrique, poids facturable minimum)",
+    "actual": {
+      "title": "Poids réel",
+      "description": "Le poids physique mesuré par la balance de l'entrepôt après l'arrivée et l'emballage de vos articles."
+    },
+    "volumetric": {
+      "title": "Poids volumétrique",
+      "description": "Un poids calculé basé sur la taille du colis : longueur × largeur × hauteur divisée par le diviseur de volume du canal."
+    },
+    "why": {
+      "title": "Grandes parcelles légères",
+      "description": "Les boîtes à chaussures, les jouets en peluche et les emballages volumineux peuvent occuper plus d’espace dans l’avion ou le camion que ne le suggère leur poids à l’échelle."
+    },
+    "final": {
+      "title": "Confirmation d'entrepôt",
+      "description": "L'estimation aide à la planification, mais les frais d'expédition finaux sont basés sur les données réelles du colis emballé depuis l'entrepôt."
+    }
+  },
+  "restricted": {
+    "title": "Avis sur les articles restreints",
+    "description": "Certains articles peuvent nécessiter un examen du transporteur, des itinéraires spéciaux ou peuvent être entièrement rejetés en fonction du pays de destination.",
+    "items": [
+      "Certains articles peuvent être restreints ou interdits.",
+      "Les piles, les liquides, les poudres, les aliments, les cosmétiques et les produits de luxe peuvent nécessiter un examen.",
+      "La disponibilité finale de l'expédition dépend du type de produit et du pays de destination.",
+      "La taxe douanière n'est pas incluse, sauf indication contraire."
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Estimation d’expédition FAQ",
+    "description": "Des réponses courtes aux questions les plus courantes sur les frais d'expédition secondaires et la livraison internationale.",
+    "items": {
+      "separateShipping": {
+        "question": "Pourquoi dois-je payer les frais d'expédition internationaux séparément ?",
+        "answer": "Vous payez d’abord le coût du produit, les frais d’expédition et de service du vendeur national. L'expédition internationale est calculée plus tard après que l'entrepôt ait reçu, emballé et pesé le colis."
+      },
+      "volumetricWeight": {
+        "question": "Qu'est-ce que le poids volumétrique ?",
+        "answer": "Le poids volumétrique convertit la taille du colis en poids facturable. Une grande boîte lumineuse peut coûter plus cher à expédier car elle occupe plus d’espace de transport."
+      },
+      "finalFee": {
+        "question": "Les frais d'expédition estimés sont-ils définitifs ?",
+        "answer": "Non. L’estimation est uniquement destinée à la planification. Les frais finaux sont basés sur le poids mesuré en entrepôt, les dimensions emballées, l'examen du produit et le canal sélectionné."
+      },
+      "restrictedItems": {
+        "question": "Quels articles sont restreints ?",
+        "answer": "Les produits à base de batteries, les liquides, les poudres, les aliments, les cosmétiques, les produits de luxe de marque et les produits similaires peuvent nécessiter un examen ou une ligne d'expédition spéciale."
+      },
+      "chooseChannel": {
+        "question": "Puis-je choisir moi-même le canal d’expédition ?",
+        "answer": "Oui, lorsque plusieurs chaînes sont disponibles. Si un article est sensible ou si une destination a des limites, le canal final doit suivre la politique du transporteur."
+      },
+      "deliveryTime": {
+        "question": "Combien de temps prend l'expédition internationale ?",
+        "answer": "Les lignes express peuvent prendre quelques jours ouvrables, tandis que le transport maritime ou économique peut prendre plusieurs semaines. Les douanes et la livraison locale peuvent ajouter du temps."
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt à acheter en Chine ?",
+    "description": "Recherchez des produits, soumettez une demande d'achat manuelle ou utilisez le transfert lorsque des articles arrivent déjà dans notre entrepôt.",
+    "startShopping": "Commencer vos achats",
+    "submitDiyOrder": "Soumettre la commande DIY",
+    "forwarding": "Utiliser le service de transfert"
+  }
+}

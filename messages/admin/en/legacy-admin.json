@@ -1,0 +1,527 @@
+{
+  "ordersListPage": {
+    "title": "Orders",
+    "activeDescription": "Operational order list backed by live Prisma order data for payment, purchasing, warehouse, and shipping follow-up.",
+    "trashDescription": "Trash keeps removed orders recoverable. Restore here if an order was moved by mistake."
+  },
+  "ordersTable": {
+    "tabs": {
+      "all": "All",
+      "pendingPayment": "Pending Payment",
+      "paid": "Paid",
+      "reviewing": "Reviewing",
+      "purchasing": "Purchasing",
+      "warehousePending": "Warehouse Pending",
+      "shippingPending": "Shipping Pending",
+      "shipped": "Shipped",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "refunded": "Refunded"
+    },
+    "columns": {
+      "orderNo": "Order No",
+      "user": "User",
+      "source": "Source",
+      "items": "Items",
+      "qty": "Qty",
+      "country": "Country",
+      "amount": "Amount",
+      "paid": "Paid",
+      "due": "Due",
+      "payment": "Payment",
+      "purchase": "Purchase",
+      "warehouse": "Warehouse",
+      "package": "Package",
+      "shipping": "Shipping",
+      "risk": "Risk",
+      "assignee": "Assignee",
+      "updated": "Updated",
+      "actions": "Actions"
+    },
+    "cells": {
+      "noItems": "No items",
+      "pcs": "{count} pcs",
+      "unassigned": "Unassigned"
+    },
+    "rowActions": {
+      "openDetails": "Open details",
+      "jumpToEdit": "Jump to edit",
+      "markPaymentPaid": "Mark payment paid",
+      "updating": "Updating...",
+      "restore": "Restore",
+      "restoring": "Restoring...",
+      "permanentlyDelete": "Permanently delete",
+      "deleting": "Deleting...",
+      "moveToTrash": "Move to trash",
+      "moving": "Moving..."
+    },
+    "danger": {
+      "markPaidTitle": "Mark payment as paid?",
+      "restoreTitle": "Restore order?",
+      "deleteTitle": "Permanently delete order?",
+      "deleteBulkTitle": "Permanently delete selected orders?",
+      "trashTitle": "Move order to trash?",
+      "trashBulkTitle": "Move selected orders to trash?",
+      "markPaidDescription": "Order {orderNo} will be marked as paid immediately after confirmation.",
+      "restoreDescription": "Order {orderNo} will be restored from trash and returned to the active order list.",
+      "deleteDescription": "Order {orderNo} will be deleted permanently. This cannot be undone and related admin records may be removed as part of cleanup.",
+      "deleteBulkDescription": "{count} selected orders will be permanently deleted. This cannot be undone and related admin records may be removed as part of cleanup.",
+      "trashDescription": "Order {orderNo} will be moved into Trash and hidden from the active order list until restored.",
+      "trashBulkDescription": "{count} selected orders will be moved into Trash and hidden from the active order list until restored.",
+      "confirmPaid": "Confirm paid",
+      "restoreOrder": "Restore order",
+      "cancel": "Cancel"
+    },
+    "toolbar": {
+      "activeOrders": "Active Orders",
+      "trash": "Trash",
+      "trashSummary": "orders in trash",
+      "loadedSummary": "orders loaded from `/api/admin/orders`.",
+      "refreshing": "Refreshing...",
+      "failedToLoadInline": "Failed to load orders.",
+      "exportSelected": "Export Selected",
+      "exportSelectedWithCount": "Export Selected ({count})",
+      "exportAll": "Export All Data",
+      "exporting": "Exporting...",
+      "refresh": "Refresh",
+      "backToActive": "Back to active",
+      "selectedForBulk": "{count} order(s) selected for bulk actions.",
+      "selectForBulk": "Select orders to bulk manage them.",
+      "restoreSelected": "Restore Selected",
+      "permanentlyDeleteSelected": "Permanently Delete Selected",
+      "moveSelectedToTrash": "Move Selected To Trash",
+      "clearSelection": "Clear Selection"
+    },
+    "feedback": {
+      "failedToLoadTitle": "Failed to load orders",
+      "pleaseRetry": "Please retry the request.",
+      "retry": "Retry",
+      "searchPlaceholder": "Search order no, user, country, assignee..."
+    },
+    "toasts": {
+      "selectOrdersFirst": "Select orders first.",
+      "failedExport": "Failed to export orders.",
+      "exportedSelected": "Exported {count} selected orders.",
+      "failedExportSelected": "Failed to export selected orders.",
+      "exportedAll": "Exported all matching order data.",
+      "failedExportAll": "Failed to export all order data."
+    }
+  },
+  "orderLogs": {
+    "kicker": "Order lifecycle audit",
+    "title": "Order Logs",
+    "description": "Status changes, workflow actions, payment notes, refund actions, and admin operations linked to orders.",
+    "columns": {
+      "time": "Time",
+      "order": "Order",
+      "actor": "Actor",
+      "type": "Log Type",
+      "detail": "Content",
+      "notify": "Notify"
+    },
+    "values": {
+      "system": "System",
+      "no": "No"
+    },
+    "searchPlaceholder": "Search order logs...",
+    "toolbar": {
+      "retention": "Retention",
+      "days": "days",
+      "apply": "Apply",
+      "saveRetention": "Save retention",
+      "clearAllLogs": "Clear all logs"
+    }
+  },
+  "warehouseInbound": {
+    "kicker": "Package center",
+    "title": "Warehouse Inbound",
+    "description": "Orders and items that need warehouse receiving, partial receiving, inspection, or storage processing.",
+    "countLabel": "{count} records",
+    "filtersLabel": "Tabs",
+    "filtersValue": "All / Pending / Partial / Received",
+    "columns": {
+      "order": "Order",
+      "user": "User",
+      "items": "Items",
+      "purchase": "Purchase",
+      "warehouse": "Warehouse",
+      "qc": "QC Photos",
+      "updated": "Updated"
+    },
+    "detail": {
+      "order": "Order",
+      "user": "User",
+      "items": "Items",
+      "purchase": "Purchase",
+      "warehouse": "Warehouse",
+      "qcUpload": "QC Upload"
+    },
+    "itemsSummary": "{types} types / {pcs} pcs",
+    "qcCount": "{count} image(s)"
+  },
+  "shippingRecords": {
+    "kicker": "Package center",
+    "title": "Shipping Records",
+    "description": "Actual parcel dispatch records, tracking numbers, carriers, shipping fees, and delivery timestamps.",
+    "countLabel": "{count} records",
+    "columns": {
+      "package": "Package",
+      "order": "Order",
+      "user": "User",
+      "channel": "Channel",
+      "fee": "Fee",
+      "tracking": "Tracking",
+      "status": "Status"
+    }
+  },
+  "productCache": {
+    "kicker": "Product center",
+    "title": "Product Cache",
+    "description": "OneBound product detail cache used by product pages, carts, and historical order snapshots.",
+    "countLabel": "{count} records",
+    "columns": {
+      "product": "Product",
+      "platform": "Platform",
+      "price": "Price",
+      "shop": "Shop",
+      "expires": "Expires",
+      "updated": "Updated"
+    },
+    "detail": {
+      "title": "Title",
+      "sourceUrl": "Source URL",
+      "platform": "Platform",
+      "itemId": "Item ID",
+      "price": "Price",
+      "attributes": "Attributes",
+      "openSourceUrl": "Open source URL"
+    }
+  },
+  "productImport": {
+    "kicker": "Product center",
+    "title": "Import storefront products",
+    "description": "Paste a single product URL or a Weidian shop URL. Imported products are written into Product Cache and can be published on the homepage and search catalog.",
+    "submit": "Import products",
+    "sourceLabel": "Product or shop URL",
+    "sourcePlaceholder": "https://weidian.com/item.html?itemID=...\nhttps://weidian.com/?userid=...",
+    "sourceHelp": "Weidian shop links can import the first page or fetch every page in sequence. Single item links from supported platforms import one product.",
+    "storefrontRank": "Storefront rank",
+    "featureHomepage": "Feature imported products on homepage",
+    "importAllPages": "For Weidian shop URLs, continue fetching next pages until the whole shop is imported",
+    "csvTitle": "CSV content",
+    "csvPlaceholder": "sourceUrl,featureOnHomepage,storefrontRank\nhttps://weidian.com/item.html?itemID=12345,yes,1\nhttps://item.taobao.com/item.htm?id=12345,no,2",
+    "csvHelp": "Required column: `sourceUrl`. Optional columns: `featureOnHomepage`, `storefrontRank`.",
+    "defaultRankStart": "Default rank start",
+    "featureRowsHomepage": "Feature imported rows on homepage by default",
+    "importCsv": "Import CSV links",
+    "notesTitle": "Import notes",
+    "notes": {
+      "single": "Single product URL: fetches full detail, SKU, image and description.",
+      "shop": "Weidian shop URL: import the first page or turn on multi-page mode for the full shop.",
+      "csv": "CSV import: bulk import many product links in one shot.",
+      "active": "Imported products default to active storefront items.",
+      "homepage": "Homepage only shows up to 16 featured products; extra items stay visible in `/search`."
+    },
+    "workflowTitle": "Suggested workflow",
+    "workflow": {
+      "step1": "1. Import your Weidian shop or product URLs here.",
+      "step2": "2. Open Product Library to adjust homepage featured state and rank.",
+      "step3": "3. Visit homepage and `/search` to review the storefront output."
+    }
+  },
+  "storefrontLibrary": {
+    "kicker": "Product center",
+    "title": "Storefront Product Library",
+    "description": "Manage which imported products appear in your storefront. Homepage shows up to 16 featured products, while `/search` shows all active storefront products.",
+    "importProducts": "Import products",
+    "homepageBadge": "Homepage",
+    "unknownShop": "Unknown shop",
+    "openSourceUrl": "Open source URL",
+    "publishCatalog": "Publish in storefront catalog",
+    "showHomepage": "Show in homepage Hot Sellers",
+    "storefrontRank": "Storefront rank",
+    "saveProduct": "Save product",
+    "empty": "No storefront products yet. Import a product or your Weidian shop to begin."
+  },
+  "productCategories": {
+    "kicker": "Product center",
+    "title": "Product Categories",
+    "description": "Internal category map for restrictions, service notes, and shipping rule matching.",
+    "countLabel": "{count} categories",
+    "addCategory": "Add category",
+    "columns": {
+      "category": "Category",
+      "products": "Products",
+      "platforms": "Platforms",
+      "restrictions": "Restriction Profile",
+      "status": "Status"
+    },
+    "values": {
+      "uncategorized": "uncategorized",
+      "batteryReview": "battery review",
+      "standard": "standard"
+    }
+  },
+  "mediaLibrary": {
+    "kicker": "Content center",
+    "title": "Media Library",
+    "description": "WordPress-style server media management for homepage materials, content images, and order QC photos.",
+    "contentEditor": "Content editor"
+  },
+  "apiLogs": {
+    "kicker": "Product center",
+    "title": "OneBound API Logs",
+    "description": "Product URL parsing, keyword search, item_get, and gateway error records.",
+    "clearConfirmation": "Clear all API logs? This cannot be undone.",
+    "columns": {
+      "time": "Time",
+      "provider": "Provider",
+      "endpoint": "Endpoint",
+      "status": "Status",
+      "latency": "Latency",
+      "error": "Error"
+    },
+    "searchPlaceholder": "Search API logs...",
+    "toolbar": {
+      "retention": "Retention",
+      "days": "days",
+      "apply": "Apply",
+      "saveRetention": "Save retention",
+      "clearAllLogs": "Clear all logs"
+    }
+  },
+  "marketingOverview": {
+    "kicker": "Marketing center",
+    "title": "Affiliate Overview",
+    "description": "V1 affiliate dashboard for referral attribution, commission readiness, and campaign status.",
+    "columns": {
+      "metric": "Metric",
+      "value": "Value",
+      "note": "Note",
+      "status": "Status"
+    },
+    "rows": {
+      "affiliateUsers": {
+        "metric": "Affiliate users",
+        "note": "Users with referredBy set"
+      },
+      "referralCodes": {
+        "metric": "Referral codes",
+        "note": "Generated on account creation"
+      },
+      "eligibleOrders": {
+        "metric": "Eligible orders",
+        "note": "Commission rules are V1 placeholders"
+      }
+    }
+  },
+  "affiliateUsers": {
+    "kicker": "Marketing center",
+    "title": "Affiliate Users",
+    "description": "Users with referral codes. Future versions can add affiliate levels, payout accounts, and approval workflow.",
+    "countLabel": "{count} users",
+    "columns": {
+      "user": "User",
+      "code": "Referral Code",
+      "referredBy": "Referred By",
+      "wallet": "Wallet",
+      "joined": "Joined"
+    }
+  },
+  "commissionRecords": {
+    "kicker": "Marketing center",
+    "title": "Commission Records",
+    "description": "Commission records will become payable after affiliate rules and payout settings are enabled.",
+    "countLabel": "{count} records",
+    "columns": {
+      "order": "Order",
+      "user": "User",
+      "base": "Base Amount",
+      "rate": "Rate",
+      "commission": "Commission",
+      "status": "Status"
+    }
+  },
+  "contentFaq": {
+    "kicker": "Content center",
+    "title": "FAQ",
+    "description": "FAQ entries are stored as help articles. Use Help Articles for full CKEditor editing.",
+    "countLabel": "{count} records",
+    "addFaq": "Add FAQ",
+    "columns": {
+      "title": "Title",
+      "slug": "Slug",
+      "locale": "Locale",
+      "status": "Status",
+      "updated": "Updated"
+    },
+    "searchPlaceholder": "Search FAQ..."
+  },
+  "announcements": {
+    "kicker": "Content center",
+    "title": "Announcements",
+    "description": "Announcement pages can be created in Pages and surfaced in the front-end content areas.",
+    "countLabel": "{count} records",
+    "addAnnouncement": "Add announcement",
+    "columns": {
+      "title": "Title",
+      "slug": "Slug",
+      "status": "Status",
+      "updated": "Updated"
+    }
+  },
+  "emailTemplates": {
+    "kicker": "Content center",
+    "title": "Email Templates",
+    "description": "Email template management placeholder backed by current email logs. SMTP settings live under System Settings.",
+    "countLabel": "{count} templates",
+    "columns": {
+      "template": "Template",
+      "sends": "Sends",
+      "status": "Last Status",
+      "lastSent": "Last Sent",
+      "editor": "Editor"
+    },
+    "values": {
+      "editorPending": "CKEditor content model pending"
+    }
+  },
+  "adminUsers": {
+    "kicker": "System settings",
+    "title": "Admin Users",
+    "description": "Administrator accounts. User role editing is available from User Center > Users.",
+    "countLabel": "{count} admins",
+    "openUsers": "Open users",
+    "columns": {
+      "email": "Email",
+      "name": "Name",
+      "status": "Status",
+      "locale": "Locale",
+      "created": "Created"
+    }
+  },
+  "rolesPermissions": {
+    "kicker": "System settings",
+    "title": "Roles & Permissions",
+    "description": "RBAC scaffolding for V1.0. Sidebar, admin API guards, and selected action buttons now use these role permissions.",
+    "countLabel": "{count} roles",
+    "columns": {
+      "role": "Role",
+      "scope": "Scope",
+      "permissions": "Permissions",
+      "status": "Status"
+    },
+    "scopes": {
+      "superAdmin": "All permissions",
+      "operations": "Order and package workflow",
+      "purchasing": "Product sourcing",
+      "warehouse": "Inbound and parcel handling",
+      "finance": "Payments, wallet, refunds",
+      "customerSupport": "Help desk operations",
+      "contentManager": "Pages and help content"
+    }
+  },
+  "operationLogs": {
+    "kicker": "System settings",
+    "title": "Operation Logs",
+    "description": "Structured audit trail for order, finance, shipping, settings, user, and permission operations.",
+    "countLabel": "{count} records",
+    "clearConfirmation": "Clear all operation logs? This cannot be undone.",
+    "view": "View",
+    "searchPlaceholder": "Search operation logs...",
+    "toolbar": {
+      "retention": "Retention",
+      "days": "days",
+      "apply": "Apply",
+      "saveRetention": "Save retention",
+      "clearAllLogs": "Clear all logs"
+    },
+    "filters": {
+      "actor": "Actor",
+      "actorPlaceholder": "admin@example.com",
+      "action": "Action",
+      "allActions": "All actions",
+      "object": "Object",
+      "allObjects": "All objects",
+      "from": "From",
+      "to": "To",
+      "submit": "Filter",
+      "reset": "Reset"
+    },
+    "columns": {
+      "time": "Time",
+      "actor": "Actor",
+      "action": "Action",
+      "object": "Object",
+      "target": "Target",
+      "message": "Message",
+      "ip": "IP"
+    },
+    "values": {
+      "system": "System",
+      "order": "order"
+    },
+    "detailTitle": "Operation Log Detail",
+    "detail": {
+      "time": "Time",
+      "actor": "Actor",
+      "action": "Action",
+      "targetType": "Target Type",
+      "targetId": "Target ID",
+      "targetLabel": "Target Label",
+      "ip": "IP",
+      "userAgent": "User Agent",
+      "message": "Message",
+      "oldValue": "Old Value",
+      "newValue": "New Value"
+    }
+  },
+  "currencySettings": {
+    "kicker": "System settings",
+    "title": "Currency Settings",
+    "description": "CNY is the product base currency. ExchangeRate-API refreshes CNY based conversion rates hourly and stores snapshots in the database.",
+    "refreshNow": "Refresh now",
+    "save": "Save Currency Settings",
+    "stats": {
+      "lastStatus": "Last status",
+      "fetchedAt": "Fetched at (Beijing)",
+      "providerUpdatedAt": "Provider updated (Beijing)",
+      "providerNextAt": "Next provider update (Beijing)"
+    },
+    "values": {
+      "noSyncYet": "No sync yet"
+    },
+    "columns": {
+      "setting": "Setting",
+      "value": "Value"
+    },
+    "table": {
+      "kicker": "Latest CNY conversion rates",
+      "title": "Enabled Frontend Currencies",
+      "description": "Rates show how much one CNY converts into the target currency.",
+      "countLabel": "{count} currencies",
+      "columns": {
+        "currency": "Currency",
+        "rate": "1 CNY =",
+        "status": "Status"
+      }
+    }
+  },
+  "sensitiveKeywords": {
+    "kicker": "System settings",
+    "title": "Sensitive Keywords",
+    "description": "Import restricted product terms, one keyword per line. Duplicates are ignored and the unique library is used to block risky searches and product pages.",
+    "exportTxt": "Export TXT",
+    "pasteKeywords": "Paste keywords",
+    "pastePlaceholder": "One keyword per line\nexample: restricted term",
+    "importTxt": "Import TXT",
+    "import": "Import",
+    "delete": "Delete",
+    "columns": {
+      "keyword": "Keyword",
+      "created": "Created",
+      "action": "Action"
+    },
+    "searchPlaceholder": "Search sensitive keywords..."
+  }
+}

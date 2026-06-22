@@ -1,0 +1,177 @@
+{
+  "common": {
+    "validUntil": "Valid until {date}"
+  },
+  "hero": {
+    "eyebrow": "Promotion Center",
+    "title": "Save More on Your China Shopping Orders",
+    "subtitle": "Enjoy new user rewards, recharge bonuses, shipping coupons, service fee discounts and affiliate commissions.",
+    "startShopping": "Start Shopping",
+    "rechargeWallet": "Recharge Wallet",
+    "joinAffiliate": "Join Affiliate Program",
+    "highlights": {
+      "newUser": "New user coupon",
+      "recharge": "Recharge bonus up to",
+      "affiliate": "Affiliate commission"
+    }
+  },
+  "newUser": {
+    "eyebrow": "New User Bonus",
+    "title": "Start with extra savings",
+    "description": "Register, place your first order and use your first package benefits with fewer surprises.",
+    "offers": {
+      "shippingCoupon": {
+        "title": "Register today and get a $5 shipping coupon",
+        "description": "Use it when paying your first international shipping bill after warehouse weighing.",
+        "action": "Register Now"
+      },
+      "firstOrder": {
+        "title": "First order service fee discount",
+        "description": "Enjoy a reduced service fee on your first purchasing-agent order.",
+        "action": "Start Shopping"
+      },
+      "diyPriority": {
+        "title": "Priority support for first DIY Order",
+        "description": "New users can submit one DIY request with guided manual review and faster clarification.",
+        "action": "Submit DIY Order"
+      }
+    }
+  },
+  "recharge": {
+    "eyebrow": "Recharge Bonus",
+    "title": "Recharge wallet, unlock bonus balance",
+    "description": "Wallet balance makes checkout, international shipping payment and refunds easier to manage.",
+    "rechargeNow": "Recharge Now",
+    "columns": {
+      "rechargeAmount": "Recharge Amount",
+      "bonusAmount": "Bonus Amount",
+      "validity": "Validity",
+      "status": "Status"
+    },
+    "status": {
+      "active": "Active",
+      "limited": "Limited"
+    }
+  },
+  "shippingCoupons": {
+    "eyebrow": "Shipping Coupons",
+    "title": "Reduce international shipping cost",
+    "description": "Use eligible coupons after packages arrive at the warehouse and shipping fees are generated.",
+    "minimum": "Minimum shipping fee",
+    "countries": "Countries",
+    "channels": "Channels",
+    "validUntil": "Until {date}",
+    "coupons": {
+      "shipping5": {
+        "name": "$5 off international shipping"
+      },
+      "heavy10": {
+        "name": "$10 off for packages over 5kg"
+      },
+      "firstPackage": {
+        "name": "Shipping discount for first package"
+      },
+      "countrySpecial": {
+        "name": "Special country shipping discount"
+      }
+    }
+  },
+  "serviceFee": {
+    "eyebrow": "Service Fee Discounts",
+    "title": "Lower purchasing-agent service fees",
+    "description": "Service fee discounts apply to eligible product orders before international shipping is billed.",
+    "badges": {
+      "new": "New User",
+      "vip": "VIP",
+      "limited": "Campaign"
+    },
+    "discounts": {
+      "firstOrder": {
+        "title": "First order service fee discount",
+        "description": "Designed for first-time users testing the purchasing workflow."
+      },
+      "vip": {
+        "title": "VIP user service fee discount",
+        "description": "Repeat customers can receive lower service fees on eligible orders."
+      },
+      "campaign": {
+        "title": "Campaign service fee discount",
+        "description": "Limited promotion for selected categories and seasonal campaigns."
+      }
+    }
+  },
+  "affiliate": {
+    "title": "Invite friends and earn commission",
+    "description": "Share CNSnap with friends. Earn commission when referred users place valid orders.",
+    "join": "Join Affiliate Program",
+    "metrics": {
+      "rate": "Commission rate",
+      "requirement": "Valid order requirement",
+      "payout": "Payout method",
+      "minimum": "Minimum payout amount"
+    }
+  },
+  "campaigns": {
+    "eyebrow": "Limited-Time Campaigns",
+    "title": "Seasonal offers and route campaigns",
+    "description": "Campaigns may focus on certain countries, product categories, payment methods or shipping channels.",
+    "view": "View Campaign",
+    "status": {
+      "active": "Active",
+      "upcoming": "Upcoming"
+    },
+    "items": {
+      "summer": {
+        "title": "Summer forwarding route deal",
+        "description": "Use selected economy and air cargo routes for lower package shipping cost."
+      },
+      "school": {
+        "title": "Back-to-school shopping campaign",
+        "description": "Extra savings for clothing, shoes, stationery and dorm essentials."
+      }
+    }
+  },
+  "rules": {
+    "eyebrow": "Promotion Rules",
+    "title": "Clear rules before you use a coupon",
+    "description": "Promotion eligibility depends on timing, order type, destination, route and account behavior.",
+    "items": {
+      "validTime": {
+        "title": "Valid time",
+        "description": "Each coupon or campaign has a valid period. Expired promotions cannot be restored or extended manually."
+      },
+      "minimumOrder": {
+        "title": "Minimum order amount",
+        "description": "Some discounts require a minimum product subtotal, wallet recharge amount, or generated international shipping fee."
+      },
+      "countries": {
+        "title": "Applicable countries",
+        "description": "Country-specific coupons only apply when the package destination matches the campaign country list."
+      },
+      "channels": {
+        "title": "Applicable shipping channels",
+        "description": "Shipping coupons may be limited to express, economy, sensitive-goods or sea-shipping routes."
+      },
+      "refunds": {
+        "title": "Refund rules",
+        "description": "If an order is cancelled or fully refunded, related coupon usage and bonus rewards may be reversed."
+      },
+      "stacking": {
+        "title": "Coupon stacking rules",
+        "description": "Most coupons cannot be stacked with another coupon of the same type unless a campaign explicitly allows it."
+      },
+      "abuse": {
+        "title": "Abuse prevention",
+        "description": "Fraudulent accounts, self-referrals, duplicate registrations or abnormal activity may lose promotion eligibility."
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "Use Your Benefits",
+    "title": "Pick the next best action",
+    "description": "Search products, top up your wallet, or invite friends to earn future order rewards.",
+    "startShopping": "Start Shopping",
+    "rechargeWallet": "Recharge Wallet",
+    "joinAffiliate": "Join Affiliate"
+  }
+}

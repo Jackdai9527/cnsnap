@@ -1,0 +1,29 @@
+{
+  "actions": {
+    "edit": "Modifier",
+    "quantity": "Quantité",
+    "serviceNote": "Note de service"
+  },
+  "summary": {
+    "title": "Récapitulatif",
+    "secure": "Checkout sécurisé",
+    "subtotal": "Sous-total des articles",
+    "domesticShipping": "Livraison en Chine",
+    "serviceFee": "Frais de service",
+    "valueAddedServices": "Services à valeur ajoutée",
+    "total": "Total de la commande"
+  },
+  "addressForm": {
+    "addTitle": "Ajouter une adresse de livraison",
+    "editTitle": "Modifier l'adresse de livraison",
+    "useSaved": "Utiliser une adresse enregistrée",
+    "label": "Libellé de l'adresse",
+    "contactName": "Nom du contact",
+    "phone": "Téléphone",
+    "city": "Ville",
+    "postalCode": "Code postal",
+    "line1": "Adresse ligne 1",
+    "line2": "Adresse ligne 2",
+    "default": "Définir comme adresse par défaut"
+  }
+}

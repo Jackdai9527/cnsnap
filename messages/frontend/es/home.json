@@ -1,0 +1,179 @@
+{
+  "hero": {
+    "eyebrow": "Su agente de confianza de soluciones de compras en línea en China",
+    "titlePrefix": "Agente de compras todo en uno para",
+    "titleHighlight": "Taobao, 1688, Weidian",
+    "description": "Pegue un enlace de producto o busque palabras clave. CNSnap lo ayuda a comprar en China, inspeccionar artículos, almacenar paquetes y enviarlos a todo el mundo."
+  },
+  "why": {
+    "title": "¿Por qué elegir CNSnap?",
+    "description": "Un flujo de compras simple con pago seguro, control de calidad en el almacén, almacenamiento gratuito y atención al cliente rápida."
+  },
+  "sections": {
+    "agentTools": "Herramientas para agentes",
+    "beforeCheckout": "Todo lo que necesita antes de pagar",
+    "exploreHelp": "Explore la ayuda centro",
+    "storefrontPicks": "Selecciones de escaparates",
+    "hotSellers": "Vendedores populares",
+    "viewMore": "Ver más"
+  },
+  "steps": {
+    "step": "STEP",
+    "pasteLink": {
+      "title": "Pegar enlace",
+      "description": "Coloque cualquier producto del mercado chino URL o busque por palabra clave."
+    },
+    "wePurchase": {
+      "title": "Compramos",
+      "description": "El agente confirma el producto, la variante, el envío nacional y paga al vendedor."
+    },
+    "qcWarehouse": {
+      "title": "QC Almacén",
+      "description": "Los artículos llegan al almacén para fotografiarlos, almacenarlos y consolidarlos."
+    },
+    "shipGlobal": {
+      "title": "Envío global",
+      "description": "Elija la ruta, envíe el paquete y realice un seguimiento de la entrega internacional."
+    }
+  },
+  "services": {
+    "expertSourcing": {
+      "title": "Abastecimiento experto",
+      "description": "¿No puede encontrarlo? Envíe una solicitud DIY y deje que un agente la obtenga."
+    },
+    "shippingCalculator": {
+      "title": "Calculadora de envío",
+      "description": "Compare rutas antes de comprar y evite costos sorpresa."
+    },
+    "parcelConsolidation": {
+      "title": "Consolidación de paquetes",
+      "description": "Combine varios pedidos en un solo paquete internacional inteligente."
+    },
+    "riskReview": {
+      "title": "Revisión de riesgos",
+      "description": "Obtenga categorías restringidas revisión manual antes del envío."
+    }
+  },
+  "perks": {
+    "safePayments": "Pagos seguros",
+    "qualityInspection": "Inspección de calidad 1:1",
+    "support247": "Soporte 24 horas al día, 7 días a la semana",
+    "storage": "Almacenamiento gratuito durante 90 días",
+    "shipping": "Envío a todo el mundo"
+  },
+  "featureTabs": {
+    "shoppingAgent": "Agente de compras",
+    "forwarding": "Reenvío",
+    "expertSourcing": "Abastecimiento experto",
+    "shippingCalculator": "Calculadora de envío"
+  },
+  "solutions": {
+    "title": "Soluciones CNSnap para comprar y enviar desde China",
+    "description": "Utilice un solo flujo para comprar en marketplaces chinos, consolidar paquetes, solicitar ayuda de abastecimiento y estimar el envío internacional antes de pagar.",
+    "items": {
+      "shoppingAgent": {
+        "title": "Servicio de agente de compras",
+        "description": "Compre en Taobao, Tmall, 1688, Weidian y otros marketplaces chinos con un solo flujo de CNSnap.",
+        "cta": "Comenzar compra"
+      },
+      "forwarding": {
+        "title": "Reenvío y consolidación de paquetes",
+        "description": "Envíe artículos al almacén CNSnap, consolide paquetes y elija la ruta internacional que se ajuste a su presupuesto y plazo.",
+        "cta": "Usar reenvío"
+      },
+      "sourcing": {
+        "title": "Soporte experto de abastecimiento",
+        "description": "Si necesita ayuda con proveedores, compras al por mayor o un pedido personalizado, nuestro equipo puede encargarse del seguimiento y la comunicación.",
+        "cta": "Solicitar abastecimiento"
+      },
+      "estimation": {
+        "title": "Planificación del coste de envío",
+        "description": "Estime los gastos de entrega antes del pago para comparar rutas, controlar costes y planificar sus pedidos.",
+        "cta": "Revisar calculadora"
+      }
+    }
+  },
+  "process": {
+    "title": "Servicio de compra integral",
+    "items": {
+      "purchaseOrders": {
+        "title": "Realizar pedidos",
+        "description": "Pegue un enlace de producto o envíe una solicitud a CNSnap y nuestro equipo confirmará el artículo, las opciones, el precio y los detalles del vendedor antes de comprar."
+      },
+      "shipToWarehouse": {
+        "title": "Enviar al almacén",
+        "description": "Los pedidos de diferentes vendedores pueden llegar primero al almacén CNSnap para agruparlos y prepararlos en un solo lugar."
+      },
+      "qualityCheck": {
+        "title": "Control de calidad",
+        "description": "Tras la llegada, inspeccionamos los artículos, proporcionamos fotos del almacén y le ayudamos a verificar estado, cantidad, color y otros detalles clave."
+      },
+      "globalShipping": {
+        "title": "Envío global",
+        "description": "Cuando su paquete esté listo, elija la línea de envío, envíe el paquete y haga seguimiento desde China hasta su destino."
+      }
+    }
+  },
+  "advantages": {
+    "items": {
+      "multiPlatform": {
+        "title": "Compra en múltiples plataformas",
+        "description": "Busque por palabra clave, pegue enlaces de productos o compre directamente en Taobao, Tmall, 1688 y más."
+      },
+      "imageSearch": {
+        "title": "Búsqueda inteligente por imagen",
+        "description": "Suba una foto para encontrar artículos similares rápidamente, incluso si no conoce el idioma original del listado."
+      },
+      "warehouseQc": {
+        "title": "Control de calidad en almacén",
+        "description": "Reciba fotos detalladas antes del envío y confirme cada pedido con mayor confianza."
+      },
+      "globalShipping": {
+        "title": "Envío global flexible",
+        "description": "Compare rutas aéreas y marítimas con visibilidad de seguimiento y opciones claras antes del pago."
+      },
+      "transparentFees": {
+        "title": "Sin tarifas ocultas",
+        "description": "Vea con mayor claridad los costes de producto, servicio y envío con precios transparentes y compatibilidad multidivisa."
+      }
+    }
+  },
+  "mobile": {
+    "quickActions": {
+      "diyOrder": "Solicitar cotizacion manual y abastecimiento",
+      "forwarding": "Enviar paquetes ya comprados al almacen",
+      "estimation": "Revisar rutas y costos antes de pagar",
+      "cart": "Revisar articulos guardados y seguir al pago",
+      "orders": "Seguir el progreso de compra y el pago"
+    },
+    "services": {
+      "title": "Accesos a servicios",
+      "shoppingAgentDescription": "Compre en Taobao, Tmall, 1688, Weidian y otros marketplaces chinos con un solo flujo de CNSnap.",
+      "forwardingDescription": "Envíe artículos al almacén CNSnap, consolide paquetes y elija la ruta internacional que se ajuste a su presupuesto y plazo.",
+      "diyOrderDescription": "Si necesita ayuda con proveedores, compras al por mayor o un pedido personalizado, nuestro equipo puede encargarse del seguimiento y la comunicación.",
+      "estimationDescription": "Estime los gastos de entrega antes del pago para comparar rutas, controlar costes y planificar sus pedidos."
+    },
+    "howItWorks": {
+      "eyebrow": "Como funciona",
+      "title": "Del enlace del producto a la entrega internacional"
+    },
+    "help": {
+      "title": "Accesos rapidos al centro de ayuda"
+    },
+    "blog": {
+      "eyebrow": "Guias",
+      "title": "Lea esto antes de hacer un pedido",
+      "viewAll": "Ver todas las guias",
+      "openHelp": "Abrir centro de ayuda"
+    },
+    "next": {
+      "eyebrow": "Necesita el siguiente paso?",
+      "title": "Entre directamente en el flujo correcto",
+      "diyOrderDescription": "Envíe una solicitud manual de abastecimiento cuando el producto necesite revisión humana.",
+      "forwardingDescription": "Use el almacén si ya compró el producto por su cuenta."
+    },
+    "actions": {
+      "open": "Abrir"
+    }
+  }
+}

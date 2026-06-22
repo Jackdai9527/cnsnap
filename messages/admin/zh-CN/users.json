@@ -1,0 +1,158 @@
+{
+  "page": {
+    "title": "用户",
+    "description": "管理客户账户、创建测试用户、编辑资料，并阻止高风险用户登录、搜索商品或提交新订单。",
+    "newUser": "新建用户",
+    "search": "按邮箱、姓名、推荐码、角色或状态搜索..."
+  },
+  "summary": {
+    "totalUsers": "总用户数",
+    "totalUsersNote": "{count} 个客户账户",
+    "activeUsers": "活跃用户",
+    "activeUsersNote": "可登录并可下单",
+    "blockedUsers": "受限用户",
+    "blockedUsersNote": "已限制登录与购物",
+    "walletTotal": "钱包总额",
+    "walletTotalNote": "所有账户当前用户余额总计"
+  },
+  "table": {
+    "user": "用户",
+    "role": "角色",
+    "status": "状态",
+    "orders": "订单",
+    "packages": "包裹",
+    "wallet": "钱包",
+    "locale": "语言地区",
+    "joined": "加入时间",
+    "manage": "管理",
+    "noName": "未填写姓名"
+  },
+  "createModal": {
+    "title": "创建用户",
+    "description": "创建新的客户或内部账户。被封禁用户不能登录、搜索商品或提交新订单。",
+    "submit": "创建用户",
+    "fields": {
+      "name": "姓名",
+      "email": "邮箱",
+      "password": "密码",
+      "role": "角色",
+      "status": "状态",
+      "locale": "语言地区",
+      "currency": "货币"
+    }
+  },
+  "detailModal": {
+    "description": "{orders} 个订单 · {packages} 个包裹 · 钱包 {wallet}",
+    "submit": "保存用户",
+    "fields": {
+      "name": "姓名",
+      "role": "角色",
+      "status": "状态",
+      "locale": "语言地区",
+      "currency": "货币"
+    },
+    "statusWarning": "将状态改为 blocked 或 disabled 后，会立即阻止该用户登录、搜索商品以及创建新订单或支付。",
+    "dangerZone": {
+      "title": "危险操作区",
+      "description": "只有没有业务记录的普通客户账户才允许删除。",
+      "confirmLabel": "输入 {email} 以确认永久删除",
+      "delete": "删除用户",
+      "blockedHint": "该用户仍有关联记录。请改为封禁账户，而不是删除。"
+    },
+    "summary": {
+      "title": "账户概览",
+      "email": "邮箱",
+      "referralCode": "推荐码",
+      "status": "状态",
+      "role": "角色",
+      "wallet": "钱包",
+      "orders": "订单",
+      "packages": "包裹",
+      "payments": "支付",
+      "addresses": "地址",
+      "recentWalletActivity": "最近钱包活动",
+      "joined": "加入时间",
+      "updated": "更新时间"
+    },
+    "restrictionCard": {
+      "title": "账户限制已生效",
+      "description": "该用户目前已被限制登录、搜索商品以及提交新的支付或订单。"
+    }
+  },
+  "ticketsPage": {
+    "kicker": "客户支持",
+    "title": "工单",
+    "description": "管理用户提交的订单、运单号、支付、包裹、优惠券和仓库请求等问题。",
+    "records": "{count} 条记录",
+    "table": {
+      "orderTracking": "订单号 / 运单号",
+      "user": "用户",
+      "issueType": "问题类型",
+      "problem": "问题描述",
+      "status": "状态",
+      "createdAt": "创建时间",
+      "reply": "回复"
+    },
+    "search": "搜索工单..."
+  },
+  "adminModules": {
+    "addresses": {
+      "kicker": "用户中心",
+      "title": "用户地址",
+      "description": "用于订单、包裹报价和客户资料管理的收货地址。",
+      "countLabel": "{count} 条记录",
+      "columns": {
+        "user": "用户",
+        "contact": "联系人",
+        "country": "国家",
+        "city": "城市",
+        "address": "地址",
+        "default": "默认"
+      },
+      "values": {
+        "yes": "是",
+        "no": "否"
+      }
+    },
+    "tags": {
+      "kicker": "用户中心",
+      "title": "用户标签",
+      "description": "用于用户分群、客服分流、风控审核和营销规则的运营标签。",
+      "countLabel": "{count} 个标签",
+      "addTag": "添加标签",
+      "columns": {
+        "tag": "标签",
+        "rule": "规则",
+        "users": "用户数",
+        "status": "状态"
+      },
+      "rows": {
+        "vip": {
+          "tag": "VIP 买家",
+          "rule": "钱包余额或累计订单金额超过阈值"
+        },
+        "new": {
+          "tag": "新用户",
+          "rule": "尚无已完成订单"
+        },
+        "riskReview": {
+          "tag": "风控审核",
+          "rule": "账户被封禁或存在订单风控状态"
+        }
+      }
+    },
+    "risk": {
+      "kicker": "用户中心",
+      "title": "风控用户",
+      "description": "包含被封禁账户、待风控订单、有受限商品历史或需要人工审核的用户。",
+      "countLabel": "{count} 条记录",
+      "columns": {
+        "user": "用户",
+        "status": "账户状态",
+        "risk": "风控订单",
+        "wallet": "钱包",
+        "updated": "更新时间"
+      }
+    }
+  }
+}

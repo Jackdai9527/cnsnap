@@ -1,0 +1,9 @@
+{
+  "cart": {
+    "remove": "Remover item",
+    "confirmDelete": "Remover este item do carrinho?"
+  },
+  "summary": {
+    "selectedItems": "{count} itens selecionados"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "page": {
+    "kicker": "包裹作业",
+    "title": "包裹",
+    "records": "{count} 条记录",
+    "export": "导出"
+  },
+  "exportColumns": {
+    "packageNo": "包裹号",
+    "orderNo": "订单号",
+    "userEmail": "用户邮箱",
+    "status": "包裹状态",
+    "shippingChannel": "物流渠道",
+    "weightKg": "实际重量 KG",
+    "chargeableWeightKg": "计费重 KG",
+    "destinationCountry": "目的国家",
+    "shippingFeeUsd": "运费 USD",
+    "shippingPaymentStatus": "运费支付状态",
+    "latestTrackingStatus": "最新物流状态",
+    "trackingNumber": "运单号",
+    "createdAt": "创建时间"
+  },
+  "table": {
+    "package": "包裹",
+    "user": "用户",
+    "status": "状态",
+    "channel": "渠道",
+    "weight": "重量",
+    "chargeable": "计费重",
+    "country": "国家",
+    "fee": "费用",
+    "payment": "支付",
+    "tracking": "物流",
+    "search": "搜索包裹...",
+    "noOrder": "无订单",
+    "noChannel": "无渠道"
+  },
+  "filters": {
+    "searchPlaceholder": "包裹 / 订单 / 用户 / 运单号",
+    "statusPlaceholder": "包裹状态",
+    "countryPlaceholder": "国家 ISO2",
+    "submit": "筛选"
+  },
+  "errors": {
+    "invalidStatus": "包裹状态无效。",
+    "packageNotFound": "未找到包裹。",
+    "shippingChannelNotFound": "未找到物流渠道。",
+    "assignChannelBeforeDispatch": "进入发货流程前，请先分配国际物流渠道。",
+    "trackingRequiredBeforeShipment": "标记包裹已发货前，必须先填写运单号。"
+  },
+  "detailModal": {
+    "description": "{email} · {channel}",
+    "submit": "保存包裹",
+    "fields": {
+      "status": "状态",
+      "shippingChannel": "国际物流渠道",
+      "shippingChannelPlaceholder": "选择物流渠道",
+      "trackingNumber": "运单号",
+      "trackingPlaceholder": "运单号",
+      "weightKg": "重量 kg",
+      "lengthCm": "长度 cm",
+      "widthCm": "宽度 cm",
+      "heightCm": "高度 cm",
+      "shippingFeeUsd": "运费 USD"
+    },
+    "dispatchNotice": {
+      "eyebrow": "发货流程",
+      "description": "在这里分配国际物流渠道、确认最终国际运费，并把包裹推进到正确的发货状态。",
+      "needChannel": "1. 发货前先分配物流渠道。",
+      "needTracking": "2. 标记已发货前先填写运单号。",
+      "readyState": "3. `已支付运费` 作为待发货状态。"
+    },
+    "summary": {
+      "dimensions": "尺寸",
+      "volumeChargeable": "体积重 / 计费重",
+      "order": "订单",
+      "items": "件数",
+      "internationalLogistics": "国际物流",
+      "latestParcelStatus": "最新包裹状态",
+      "created": "创建时间",
+      "pieces": "{count} 件"
+    },
+    "trackingOverview": {
+      "eyebrow": "物流概览",
+      "title": "国际物流与包裹流转",
+      "description": "为已支付运费的包裹展示所选物流渠道，并让运营人员持续看到最新流转节点。",
+      "openCarrierTracking": "打开承运商跟踪"
+    },
+    "trackingCards": {
+      "freightPayment": "运费支付",
+      "channel": "渠道",
+      "trackingNo": "运单号",
+      "notAssignedYet": "尚未分配"
+    },
+    "timeline": {
+      "eyebrow": "完整包裹物流线",
+      "step": "步骤 {index}",
+      "done": "已完成",
+      "current": "当前",
+      "attention": "注意",
+      "pending": "待处理"
+    }
+  },
+  "labels": {
+    "internationalLogisticsNotAssigned": "尚未分配国际物流",
+    "awaitingFreightPayment": "等待支付运费",
+    "freightPaid": "运费已付",
+    "freightUnpaid": "运费未付",
+    "delivered": "已送达",
+    "returnedToSender": "已退回发件人",
+    "shipmentCancelled": "货运已取消",
+    "inTransit": "运输中",
+    "customsClearance": "清关中",
+    "deliveryAttempted": "已尝试派送",
+    "trackingActive": "物流跟踪中",
+    "handedToCarrier": "已交承运商",
+    "readyForDispatch": "待发货",
+    "waitingFreightPayment": "等待支付运费",
+    "trackingException": "物流异常",
+    "packageCreated": "包裹已创建",
+    "freightPaidStep": "运费已付",
+    "freightPaidDetail": "已选择 {channel} 进行发运。",
+    "waitingFreightPaymentDetail": "等待客户支付国际运费后再安排发货。",
+    "handedToCarrierStep": "已交承运商",
+    "shipmentConfirmed": "已确认发货",
+    "notMarkedShippedYet": "该包裹尚未标记为已发货。",
+    "latestParcelStatusStep": "最新包裹状态",
+    "trackingNoDetail": "运单号 {trackingNumber}",
+    "noDate": "-"
+  }
+}

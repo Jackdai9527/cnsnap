@@ -1,0 +1,38 @@
+{
+  "page": {
+    "kicker": "帮助中心内容管理",
+    "title": "帮助内容",
+    "addArticle": "添加文章",
+    "search": "搜索帮助文章..."
+  },
+  "table": {
+    "title": "标题",
+    "category": "分类",
+    "slug": "Slug",
+    "locale": "语言",
+    "status": "状态",
+    "updated": "更新",
+    "actions": "操作",
+    "edit": "编辑",
+    "delete": "删除"
+  },
+  "editor": {
+    "addTitle": "添加文章",
+    "editTitle": "编辑 {title}",
+    "save": "保存文章",
+    "defaults": {
+      "category": "",
+      "locale": "en"
+    },
+    "placeholders": {
+      "title": "标题",
+      "slug": "article-slug",
+      "category": "分类",
+      "locale": "语言",
+      "excerpt": "摘要",
+      "content": "<p>在这里编写帮助文章内容。</p>"
+    },
+    "uploadHint": "粘贴到编辑器中的图片会自动上传。也可以通过编辑器上传按钮插入 XLSX、XLS 和 CSV 下载附件。",
+    "published": "已发布"
+  }
+}

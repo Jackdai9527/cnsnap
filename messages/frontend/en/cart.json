@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Cart",
+    "description": "Review your purchasing cart before checkout."
+  },
+  "page": {
+    "label": "Purchasing cart",
+    "title": "Review items and submit order",
+    "description": "Confirm item quantities and domestic shipping first. Value-added services are now selected at checkout before creating the order."
+  },
+  "cart": {
+    "defaultSku": "Default SKU",
+    "domesticShipping": "China shipping",
+    "remove": "Remove item",
+    "confirmDelete": "Remove this item from your cart?"
+  },
+  "empty": {
+    "title": "Your cart is waiting.",
+    "description": "Add a product from search or detail pages to create a purchasing order.",
+    "action": "Start search"
+  },
+  "summary": {
+    "title": "Checkout preview",
+    "products": "Items subtotal",
+    "domesticShipping": "China shipping",
+    "serviceFee": "Service fee",
+    "notice": "This preview only includes the fees charged when you submit the order. International shipping is paid later after warehouse processing.",
+    "total": "Total",
+    "savedAddressNotice": "{count} saved shipping address(es) available. Choose the final delivery address at checkout.",
+    "noAddressNotice": "Add a shipping address in User Center before paying. Orders can still be submitted for review.",
+    "action": "Continue to checkout",
+    "selectedItems": "{count} selected items"
+  }
+}

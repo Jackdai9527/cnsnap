@@ -1,0 +1,243 @@
+{
+  "page": {
+    "kicker": "全局配置",
+    "title": "设置",
+    "description": "此页面仅包含核心定价、商品 API 和采购开关。认证、页脚、物流、页面和帮助内容已拆分到各自的后台模块。"
+  },
+  "links": {
+    "apiSettings": "API 设置",
+    "smtpSettings": "SMTP 设置",
+    "shippingChannels": "物流渠道",
+    "helpArticles": "帮助文章"
+  },
+  "table": {
+    "setting": "设置项",
+    "value": "值",
+    "save": "保存设置"
+  },
+  "generalPage": {
+    "kicker": "全局配置",
+    "title": "设置",
+    "description": "此页面仅包含核心定价、商品 API 和采购开关。认证、页脚、物流、页面和帮助内容已拆分到各自的后台模块。",
+    "links": {
+      "apiSettings": "API 设置",
+      "smtpSettings": "SMTP 设置",
+      "shippingChannels": "物流渠道",
+      "helpArticles": "帮助文章"
+    },
+    "save": "保存设置",
+    "setting": "设置项",
+    "value": "值"
+  },
+  "modules": {
+    "systemKicker": "系统设置",
+    "financeKicker": "财务配置",
+    "marketingKicker": "营销配置",
+    "adminModuleKicker": "后台模块",
+    "notConfiguredTitle": "模块尚未配置",
+    "notConfiguredDescription": "路由 /admin/{route} 已在后台外壳中注册，但还没有对应的独立模块。",
+    "path": "路径",
+    "status": "状态",
+    "backToDashboard": "返回仪表盘",
+    "generalSettings": "通用设置",
+    "apiSettings": "API 设置",
+    "smtpSettings": "SMTP 设置",
+    "languageSettings": "语言设置",
+    "exchangeRate": "汇率",
+    "serviceFeeSettings": "服务费设置",
+    "affiliateSettings": "联盟设置",
+    "adminUsers": "后台用户"
+  },
+  "modulePage": {
+    "description": "该模块仅包含与 {title} 相关的设置。V1.0 中这些值存储在本地 SQLite 的 Setting 表中。",
+    "save": "保存{title}",
+    "setting": "设置项",
+    "value": "值"
+  },
+  "financeDefinitions": {
+    "exchangeRateApiKey": {
+      "label": "ExchangeRate-API Key",
+      "description": "用于 https://www.exchangerate-api.com/ 获取 CNY 最新汇率的 API Key。"
+    },
+    "enabledFrontendCurrencies": {
+      "label": "前台货币",
+      "description": "前台货币切换器中显示的货币代码，多个以逗号分隔。"
+    },
+    "defaultCurrency": {
+      "label": "默认货币",
+      "description": "面向客户显示的默认货币。"
+    },
+    "settlementCurrency": {
+      "label": "结算货币",
+      "description": "源站采购和代购结算使用的货币。"
+    },
+    "currencyDecimalPlaces": {
+      "label": "小数位数",
+      "description": "价格展示时使用的小数精度。"
+    },
+    "exchangeRateUpdatedAt": {
+      "label": "旧版汇率更新时间",
+      "description": "为兼容保留的旧版手工更新时间戳。"
+    },
+    "serviceFeeEnabled": {
+      "label": "启用服务费",
+      "description": "对商品价格应用服务费。"
+    },
+    "serviceFeeRate": {
+      "label": "服务费费率",
+      "description": "支持小数或百分比，例如 0.05 或 5。"
+    },
+    "minServiceFeeUsd": {
+      "label": "最低服务费",
+      "description": "每个订单收取的最低服务费，单位 USD。"
+    },
+    "manualPriceAdjustment": {
+      "label": "允许价格调整",
+      "description": "允许后台或客户提交价格修正。"
+    }
+  },
+  "generalDefinitions": {
+    "siteName": {
+      "label": "网站名称",
+      "description": "显示在前台页头和邮件中的品牌名称。"
+    },
+    "siteLogoText": {
+      "label": "Logo 文本",
+      "description": "Logo 显示失败时使用的文本后备。"
+    },
+    "supportEmail": {
+      "label": "支持邮箱",
+      "description": "用于前台浮动栏和账户页面的客服邮箱。"
+    },
+    "floatingAppQrCodeUrl": {
+      "label": "悬浮 App 二维码链接",
+      "description": "桌面端右侧浮动下载面板使用的公开图片链接。"
+    },
+    "floatingIosDownloadUrl": {
+      "label": "悬浮 iOS 下载链接",
+      "description": "桌面端右侧浮动栏使用的 App Store 或 TestFlight 链接。"
+    },
+    "floatingAndroidDownloadUrl": {
+      "label": "悬浮 Android 下载链接",
+      "description": "桌面端右侧浮动栏使用的 Google Play 或 APK 落地链接。"
+    },
+    "floatingDiscordUrl": {
+      "label": "悬浮 Discord 链接",
+      "description": "桌面端右侧浮动栏使用的 Discord 社区链接。"
+    },
+    "defaultLanguage": {
+      "label": "默认语言",
+      "description": "首次访问用户默认使用的前台 UI 语言。"
+    },
+    "adminLanguage": {
+      "label": "后台语言",
+      "description": "后台控制台默认使用的语言。"
+    },
+    "defaultCurrency": {
+      "label": "默认货币",
+      "description": "默认结算货币。"
+    },
+    "defaultTimezone": {
+      "label": "默认时区",
+      "description": "运营面板使用的时区。"
+    },
+    "orderNoPrefix": {
+      "label": "订单号前缀",
+      "description": "生成订单号时使用的前缀。"
+    },
+    "packageNoPrefix": {
+      "label": "包裹号前缀",
+      "description": "生成包裹号时使用的前缀。"
+    },
+    "registrationEnabled": {
+      "label": "开放注册",
+      "description": "允许新的前台用户注册。"
+    },
+    "diyOrderEnabled": {
+      "label": "启用 DIY 订单",
+      "description": "允许客户提交人工询价请求。"
+    },
+    "affiliateEnabled": {
+      "label": "启用联盟推广",
+      "description": "启用推荐与佣金功能。"
+    },
+    "maintenanceMode": {
+      "label": "维护模式",
+      "description": "用于临时前台维护的预留开关。"
+    }
+  },
+  "apiDefinitions": {
+    "oneboundGateway": {
+      "label": "OneBound 基础地址",
+      "description": "商品解析和搜索使用的网关基础 URL。"
+    },
+    "oneboundApiKey": {
+      "label": "OneBound API Key",
+      "description": "用于 `item_get` 和 `item_search` 的 API Key。"
+    },
+    "oneboundApiSecret": {
+      "label": "OneBound API Secret",
+      "description": "OneBound 请求使用的密钥。"
+    },
+    "oneboundTimeoutMs": {
+      "label": "接口超时",
+      "description": "请求超时时间，单位毫秒。"
+    },
+    "oneboundRetryCount": {
+      "label": "重试次数",
+      "description": "网关短暂失败时的重试次数。"
+    },
+    "productCacheHours": {
+      "label": "商品缓存时长",
+      "description": "商品详情缓存保持有效的小时数。"
+    },
+    "searchCacheMinutes": {
+      "label": "搜索缓存分钟数",
+      "description": "关键词搜索结果预留的缓存 TTL。"
+    }
+  },
+  "smtpDefinitions": {
+    "smtpHost": {
+      "label": "SMTP 主机",
+      "description": "SMTP 服务器主机名。"
+    },
+    "smtpPort": {
+      "label": "SMTP 端口",
+      "description": "SMTP 服务端口。"
+    },
+    "smtpUser": {
+      "label": "SMTP 用户名",
+      "description": "SMTP 登录用户名。"
+    },
+    "smtpPassword": {
+      "label": "SMTP 密码",
+      "description": "SMTP 密码或应用专用密码。"
+    },
+    "smtpFromEmail": {
+      "label": "发件邮箱",
+      "description": "默认发件邮箱地址。"
+    },
+    "smtpFromName": {
+      "label": "发件人名称",
+      "description": "默认发件人名称。"
+    },
+    "smtpSecure": {
+      "label": "SSL/TLS",
+      "description": "使用安全 SMTP 连接。"
+    }
+  },
+  "languageDefinitions": {
+    "adminLanguage": {
+      "label": "后台语言",
+      "description": "后台界面使用的语言。"
+    },
+    "frontendLanguage": {
+      "label": "前台源语言",
+      "description": "仅为兼容旧配置保留。前台翻译现已来自本地消息文件和数据库内容。"
+    },
+    "translateLanguages": {
+      "label": "前台 UI 语言",
+      "description": "仅为兼容旧配置保留。当前启用的前台语言由运行时语言配置统一管理。"
+    }
+  }
+}

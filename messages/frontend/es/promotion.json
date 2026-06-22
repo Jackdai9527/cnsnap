@@ -1,0 +1,177 @@
+{
+  "common": {
+    "validUntil": "Válido hasta {date}"
+  },
+  "hero": {
+    "eyebrow": "Centro de promociones",
+    "title": "Ahorre más en sus pedidos de compras en China",
+    "subtitle": "Disfrute de recompensas para nuevos usuarios, bonificaciones de recarga, cupones de envío, descuentos en tarifas de servicio y comisiones de afiliados.",
+    "startShopping": "Empiece a comprar",
+    "rechargeWallet": "Recargar billetera",
+    "joinAffiliate": "Únase al programa de afiliados",
+    "highlights": {
+      "newUser": "Cupón de nuevo usuario",
+      "recharge": "Bono de recarga de hasta",
+      "affiliate": "Comisión de afiliado"
+    }
+  },
+  "newUser": {
+    "eyebrow": "Bono de nuevo usuario",
+    "title": "Empiece con ahorros adicionales",
+    "description": "Regístrese, haga su primer pedido y utilice los beneficios de su primer paquete con menos sorpresas.",
+    "offers": {
+      "shippingCoupon": {
+        "title": "Regístrese hoy y obtenga un cupón de envío de $5",
+        "description": "Úselo al pagar su primera factura de envío internacional después del pesaje en almacén.",
+        "action": "Regístrese ahora"
+      },
+      "firstOrder": {
+        "title": "Descuento en la tarifa de servicio del primer pedido",
+        "description": "Disfrute de una tarifa de servicio reducida en su primer pedido como agente de compras.",
+        "action": "Comenzar a comprar"
+      },
+      "diyPriority": {
+        "title": "Soporte prioritario para el primer pedido de DIY",
+        "description": "Los nuevos usuarios pueden enviar una solicitud de DIY con revisión manual guiada y aclaración más rápida.",
+        "action": "Enviar pedido de DIY"
+      }
+    }
+  },
+  "recharge": {
+    "eyebrow": "Bono de recarga",
+    "title": "Recarga billetera, desbloquea saldo de bonificación",
+    "description": "El saldo de Wallet facilita la gestión del pago, el pago de envíos internacionales y los reembolsos.",
+    "rechargeNow": "Recarga ahora",
+    "columns": {
+      "rechargeAmount": "Cantidad de la recarga",
+      "bonusAmount": "Cantidad del bono",
+      "validity": "Validez",
+      "status": "Estado"
+    },
+    "status": {
+      "active": "Activo",
+      "limited": "Limitado"
+    }
+  },
+  "shippingCoupons": {
+    "eyebrow": "Cupones de envío",
+    "title": "Reduce el costo de envío internacional",
+    "description": "Utiliza cupones elegibles después de que los paquetes lleguen al almacén y se generen los costos de envío.",
+    "minimum": "Tarifa de envío mínima",
+    "countries": "Países",
+    "channels": "Canales",
+    "validUntil": "Hasta {date}",
+    "coupons": {
+      "shipping5": {
+        "name": "$5 de descuento en envío internacional"
+      },
+      "heavy10": {
+        "name": "$10 de descuento para paquetes de más de 5 kg"
+      },
+      "firstPackage": {
+        "name": "Descuento en envío para el primer paquete"
+      },
+      "countrySpecial": {
+        "name": "Descuento especial en envío a países"
+      }
+    }
+  },
+  "serviceFee": {
+    "eyebrow": "Descuentos en tarifas de servicio",
+    "title": "Tarifas de servicio más bajas para agentes de compras",
+    "description": "Los descuentos en tarifas de servicio se aplican a pedidos de productos elegibles antes de que se facture el envío internacional.",
+    "badges": {
+      "new": "Nuevo usuario",
+      "vip": "VIP",
+      "limited": "Campaña"
+    },
+    "discounts": {
+      "firstOrder": {
+        "title": "Descuento en tarifas de servicio para primer pedido",
+        "description": "Diseñado para usuarios nuevos que prueban el flujo de trabajo de compras."
+      },
+      "vip": {
+        "title": "Descuento en la tarifa de servicio de usuario VIP",
+        "description": "Los clientes habituales pueden recibir tarifas de servicio más bajas en pedidos elegibles."
+      },
+      "campaign": {
+        "title": "Descuento en la tarifa de servicio de campaña",
+        "description": "Promoción limitada para categorías seleccionadas y campañas de temporada."
+      }
+    }
+  },
+  "affiliate": {
+    "title": "Invita amigos y gana comisiones",
+    "description": "Comparte CNSnap con amigos. Gane una comisión cuando los usuarios recomendados realicen pedidos válidos.",
+    "join": "Únase al programa de afiliados",
+    "metrics": {
+      "rate": "Tasa de comisión",
+      "requirement": "Requisito de pedido válido",
+      "payout": "Método de pago",
+      "minimum": "Cantidad mínima de pago"
+    }
+  },
+  "campaigns": {
+    "eyebrow": "Campañas por tiempo limitado",
+    "title": "Ofertas de temporada y ruta campañas",
+    "description": "Las campañas pueden centrarse en determinados países, categorías de productos, métodos de pago o canales de envío.",
+    "view": "Ver campaña",
+    "status": {
+      "active": "Activa",
+      "upcoming": "Próxima"
+    },
+    "items": {
+      "summer": {
+        "title": "Oferta de ruta de reenvío de verano",
+        "description": "Utilice rutas económicas y de carga aérea seleccionadas para reducir los costos de envío de paquetes."
+      },
+      "school": {
+        "title": "Campaña de compras para el regreso a clases",
+        "description": "Ahorros adicionales en ropa, zapatos, artículos de papelería y artículos básicos para el dormitorio."
+      }
+    }
+  },
+  "rules": {
+    "eyebrow": "Reglas de promoción",
+    "title": "Borrar reglas antes de usar un cupón",
+    "description": "La elegibilidad de la promoción depende del momento, el tipo de pedido, el destino, la ruta y el comportamiento de la cuenta.",
+    "items": {
+      "validTime": {
+        "title": "Tiempo válido",
+        "description": "Cada cupón o campaña tiene un período válido. Las promociones vencidas no se pueden restaurar ni extender manualmente."
+      },
+      "minimumOrder": {
+        "title": "Cantidad mínima de pedido",
+        "description": "Algunos descuentos requieren un subtotal mínimo de producto, un monto de recarga de billetera o una tarifa de envío internacional generada."
+      },
+      "countries": {
+        "title": "Países aplicables",
+        "description": "Los cupones específicos de cada país solo se aplican cuando el destino del paquete coincide con la lista de países de la campaña."
+      },
+      "channels": {
+        "title": "Canales de envío aplicables",
+        "description": "Los cupones de envío pueden limitarse a rutas de envío exprés, económico, de mercancías sensibles o marítimas."
+      },
+      "refunds": {
+        "title": "Reglas de reembolso",
+        "description": "Si un pedido se cancela o se reembolsa por completo, el uso de cupones relacionados y las recompensas de bonificación pueden revertirse."
+      },
+      "stacking": {
+        "title": "Reglas de acumulación de cupones",
+        "description": "La mayoría de los cupones no se pueden acumular con otro cupón del mismo del mismo tipo a menos que una campaña lo permita explícitamente."
+      },
+      "abuse": {
+        "title": "Prevención de abuso",
+        "description": "Cuentas fraudulentas, autorreferencias, registros duplicados o actividad anormal pueden perder la elegibilidad para la promoción."
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "Utilice sus beneficios",
+    "title": "Elija la siguiente mejor acción",
+    "description": "Buscar productos, recargar su billetera o invitar a amigos para ganar recompensas por pedidos futuros.",
+    "startShopping": "Empiece a comprar",
+    "rechargeWallet": "Recargar billetera",
+    "joinAffiliate": "Únase como afiliado"
+  }
+}

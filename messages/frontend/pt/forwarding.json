@@ -1,0 +1,274 @@
+{
+  "hero": {
+    "eyebrow": "Serviço de encaminhamento",
+    "title": "Compre você mesmo. Envie para nosso armazém. Encaminhamos para todo o mundo.",
+    "subtitle": "Use nosso endereço de depósito na China quando fizer compras em sites chineses. Recebemos, armazenamos, consolidamos e enviamos seus itens internacionalmente.",
+    "warehouseAddress": "Obter endereço do armazém",
+    "submitParcel": "Enviar pacote recebido",
+    "estimateFee": "Estimar taxa de envio",
+    "cards": {
+      "warehouse": {
+        "title": "Use nosso armazém na China",
+        "description": "Copie seu endereço pessoal e adicione seu código de usuário ao finalizar a compra em sites chineses."
+      },
+      "code": {
+        "title": "Identifique seu pacote",
+        "description": "Envie o número de rastreamento doméstico para que a equipe do armazém possa combinar o pacote com sua conta."
+      },
+      "consolidate": {
+        "title": "Encaminhar internacionalmente",
+        "description": "Depois de pesar e embalar, escolha um canal de envio e pague o frete internacional."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Agente de compras vs despachante",
+    "title": "Duas maneiras de obter produtos da China",
+    "description": "Use o Agente de compras quando quiser que compremos por você. Use o Encaminhamento quando você já comprou os itens.",
+    "columns": {
+      "feature": "Recurso",
+      "agent": "Agente de compras",
+      "forwarding": "Encaminhamento"
+    },
+    "rows": {
+      "owner": {
+        "feature": "Quem compra",
+        "agent": "Nós ajudamos você a comprar produtos de vendedores.",
+        "forwarding": "Você mesmo compra produtos em sites chineses."
+      },
+      "payment": {
+        "feature": "Primeiro pagamento",
+        "agent": "Você paga o custo do produto, frete doméstico e taxa de serviço.",
+        "forwarding": "Você paga ao vendedor diretamente antes da chegada do pacote."
+      },
+      "workflow": {
+        "feature": "Fluxo de trabalho do pedido",
+        "agent": "Nós fazemos o pedido, compramos, recebemos, embalamos e enviamos.",
+        "forwarding": "Você envia os itens para nosso armazém, então nós recebemos, pesamos e encaminhamos."
+      },
+      "warehouse": {
+        "feature": "Função do armazém",
+        "agent": "O armazém recebe os itens comprados por nossa equipe.",
+        "forwarding": "O armazém identifica os pacotes usando seu código de usuário e número de rastreamento."
+      },
+      "shipping": {
+        "feature": "Envio internacional",
+        "agent": "Você paga o frete internacional após a pesagem no armazém.",
+        "forwarding": "Você paga o frete internacional depois que os pacotes de encaminhamento são pesados."
+      }
+    }
+  },
+  "steps": {
+    "eyebrow": "Como funciona o encaminhamento",
+    "title": "Do pedido do vendedor até a entrega internacional",
+    "description": "O encaminhamento é melhor quando você pode fazer compras sozinho, mas precisa de um depósito na China, consolidação e remessa internacional.",
+    "items": {
+      "register": {
+        "title": "Registre uma conta",
+        "description": "Crie uma conta para que o depósito possa atribuir pacotes ao seu perfil de usuário."
+      },
+      "address": {
+        "title": "Obtenha o endereço do seu depósito",
+        "description": "Copie seu endereço de depósito pessoal e o código de usuário desta página."
+      },
+      "buy": {
+        "title": "Compre você mesmo em sites chineses",
+        "description": "Faça o pedido diretamente ao vendedor ou ao mercado."
+      },
+      "userCode": {
+        "title": "Use seu código de usuário no endereço",
+        "description": "Coloque seu código de usuário no nome ou endereço do destinatário para que possamos identificar o pacote."
+      },
+      "tracking": {
+        "title": "Envie o número de rastreamento doméstico",
+        "description": "Informe-nos o correio e o número de rastreamento depois que o vendedor enviar dentro da China."
+      },
+      "receive": {
+        "title": "O armazém recebe seus itens",
+        "description": "Nós combinamos, inspecionamos, armazenamos e atualizamos o registro do pacote."
+      },
+      "chooseShipping": {
+        "title": "Escolha o frete internacional",
+        "description": "Após a pesagem, selecione um canal de envio com base no custo, velocidade e restrições."
+      },
+      "payShipping": {
+        "title": "Pague a taxa de envio",
+        "description": "O frete internacional é cobrado após a confirmação do peso e das dimensões finais do pacote."
+      },
+      "ship": {
+        "title": "Enviamos para o seu país",
+        "description": "Rastreie seu pacote até chegar ao seu endereço de destino."
+      }
+    }
+  },
+  "warehouse": {
+    "eyebrow": "Guia de endereço do armazém",
+    "title": "O endereço do seu armazém na China",
+    "description": "Use este endereço ao comprar em sites chineses. Seu código de usuário é necessário para que a equipe do armazém possa identificar seus pacotes.",
+    "guest": "Faça login para obter seu endereço de armazém pessoal.",
+    "signedIn": "Logado como {email}",
+    "recipientName": "Nome do destinatário",
+    "warehouseAddress": "Endereço do armazém",
+    "phoneNumber": "Número de telefone",
+    "postalCode": "Código postal",
+    "userCode": "Código de usuário / Cliente ID",
+    "importantTitle": "Regra de endereço importante",
+    "importantDescription": "Ao fazer seu pedido de vendedor, inclua seu código de usuário no nome ou endereço do destinatário. Encomendas sem código de usuário podem sofrer atrasos.",
+    "example": "Exemplo: Destinatário: Jack Dai - UID10086",
+    "copy": "Copiar endereço",
+    "copied": "Endereço do armazém copiado.",
+    "loginTitle": "Faça login para obter seu endereço de armazém pessoal.",
+    "loginDescription": "Cada usuário precisa de um código de usuário exclusivo. Por favor, faça login antes de enviar encomendas para o armazém.",
+    "login": "Login"
+  },
+  "form": {
+    "eyebrow": "Enviar pacote recebido",
+    "title": "Diga-nos o que está chegando",
+    "description": "Envie o número de rastreamento doméstico depois que o vendedor enviar o pacote para nosso depósito na China.",
+    "guest": "É necessário fazer login antes do envio.",
+    "signedIn": "Conectado como {email}",
+    "fields": {
+      "domesticTrackingNumber": "Número de rastreamento doméstico",
+      "courierCompany": "Courier empresa",
+      "productName": "Nome do produto",
+      "productCategory": "Categoria do produto",
+      "quantity": "Quantidade",
+      "estimatedValue": "Valor estimado USD",
+      "productUrl": "Produto URL",
+      "notes": "Notas"
+    },
+    "placeholders": {
+      "courierCompany": "Selecionar correio",
+      "productCategory": "Selecionar categoria",
+      "productName": "Nome do produto ou breve descrição",
+      "notes": "Adicione detalhes do pacote, notas do vendedor, solicitações de consolidação ou preferências de manuseio."
+    },
+    "hints": {
+      "domesticTrackingNumber": "Envie depois que o vendedor fornecer um número de rastreamento doméstico na China."
+    },
+    "categories": {
+      "general": "Bens em geral",
+      "clothing": "Roupas",
+      "shoes": "Sapatos",
+      "electronics": "Eletrônicos",
+      "battery": "Produtos de bateria",
+      "liquid": "Líquidos",
+      "cosmetics": "Cosméticos",
+      "food": "Alimentos",
+      "luxury": "Bens de luxo",
+      "other": "Outro"
+    },
+    "validation": {
+      "tracking": "É necessário um número de rastreamento doméstico.",
+      "courier": "Selecione uma empresa de courier.",
+      "productName": "O nome do produto é obrigatório.",
+      "productCategory": "Selecione uma categoria de produto.",
+      "quantity": "A quantidade deve ser um número inteiro maior que 0.",
+      "url": "Insira um valor válido URL."
+    },
+    "loginRequired": "Faça login antes de enviar um pacote recebido.",
+    "submitted": "Pacote recebido enviado. Iremos combiná-lo após a chegada ao armazém.",
+    "submitting": "Enviando...",
+    "submit": "Enviar pacote recebido",
+    "disclaimer": "Enviar um registro de pacote não cria uma fatura de remessa. O frete internacional é calculado após a pesagem do armazém."
+  },
+  "services": {
+    "eyebrow": "Serviços de manuseio de pacotes",
+    "title": "O que o armazém pode fazer pelas suas encomendas",
+    "description": "O encaminhamento inclui recebimento, armazenamento e suporte para remessa internacional. Opções extras de manuseio podem ser conectadas a serviços pagos posteriormente.",
+    "items": {
+      "receiving": {
+        "title": "Recebimento no armazém",
+        "description": "Recebemos pacotes nacionais e os associamos à sua conta."
+      },
+      "storage": {
+        "title": "Armazenamento gratuito",
+        "description": "Os dias de armazenamento gratuito podem ser configurados posteriormente com base na política de serviço."
+      },
+      "consolidation": {
+        "title": "Consolidação de pacotes",
+        "description": "Combine vários pacotes em uma remessa internacional, quando possível."
+      },
+      "photoInspection": {
+        "title": "Inspeção de fotos",
+        "description": "Fotos do armazém podem ajudar a confirmar a condição visível do item antes do envio."
+      },
+      "removePackaging": {
+        "title": "Remova a embalagem original",
+        "description": "Reduza embalagens desnecessárias do vendedor quando apropriado."
+      },
+      "repackaging": {
+        "title": "Reembalagem",
+        "description": "Melhore a proteção e o volume da embalagem antes do envio internacional."
+      },
+      "internationalShipping": {
+        "title": "Envio internacional",
+        "description": "Escolha os canais de envio disponíveis após a confirmação do peso final."
+      },
+      "trackingUpdate": {
+        "title": "Atualização de rastreamento",
+        "description": "O rastreamento internacional é atualizado após o envio do pacote."
+      }
+    }
+  },
+  "restrictions": {
+    "eyebrow": "Restrições",
+    "title": "Regras de encaminhamento antes de enviar para nós",
+    "description": "O encaminhamento é conveniente, mas as regras da transportadora e da alfândega ainda se aplicam. Revise os riscos antes de enviar itens para o depósito.",
+    "items": {
+      "restricted": "Não envie itens restritos.",
+      "sensitive": "Baterias, líquidos, pó, alimentos e produtos de luxo podem exigir revisão.",
+      "userCode": "Use seu código de usuário no endereço.",
+      "trackingNumber": "Envie o número de rastreamento após a compra.",
+      "storage": "O tempo de armazenamento pode ser limitado.",
+      "finalFee": "Taxa final de envio é baseado no peso e nas dimensões do armazém.",
+      "customsTax": "Os impostos alfandegários não estão incluídos, a menos que indicado."
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Encaminhamento FAQ",
+    "description": "Respostas curtas para usuários que compram e enviam para nosso armazém.",
+    "items": {
+      "whatIsForwarding": {
+        "question": "O que é o serviço de encaminhamento?",
+        "answer": "O Encaminhamento permite que você mesmo compre produtos, envie-os para nosso armazém na China e depois nos use para recebimento, armazenamento, consolidação e entrega internacional."
+      },
+      "difference": {
+        "question": "Qual ​​é a diferença entre Agente de Compras e Encaminhamento?",
+        "answer": "Agente de Compras significa que compramos para você. Encaminhamento significa que você mesmo compra e nós cuidamos do armazém e do envio internacional após a chegada."
+      },
+      "warehouseAddress": {
+        "question": "Como obtenho o endereço do meu armazém?",
+        "answer": "Faça login na sua conta e copie o endereço do armazém pessoal mostrado nesta página."
+      },
+      "userCode": {
+        "question": "Por que preciso incluir meu código de usuário?",
+        "answer": "O código de usuário permite que a equipe do armazém corresponda os pacotes à sua conta. Códigos faltantes podem atrasar o recebimento."
+      },
+      "consolidation": {
+        "question": "Posso consolidar vários pacotes?",
+        "answer": "Sim, quando o tamanho do pacote, o tipo de produto e as regras do canal de envio permitem a consolidação."
+      },
+      "forgotTracking": {
+        "question": "O que acontece se eu esquecer de enviar o número de rastreamento?",
+        "answer": "O armazém ainda poderá receber o pacote se seu código de usuário estiver presente, mas a correspondência pode ser mais lenta. Envie o rastreamento o mais rápido possível."
+      },
+      "restrictedItems": {
+        "question": "Quais itens não podem ser encaminhados?",
+        "answer": "Itens proibidos, perigosos, falsificados, líquidos, em pó, alimentos, baterias ou itens de luxo de marca podem ser rejeitados ou exigir revisão especial."
+      },
+      "feeCalculated": {
+        "question": "Como é calculada a taxa de envio de encaminhamento?",
+        "answer": "A taxa é baseada no peso final embalado, dimensões, país de destino, canal de envio e restrições do produto após o armazém pesagem."
+      }
+    }
+  },
+  "cta": {
+    "title": "Pronto para encaminhar seus pacotes da China?",
+    "description": "Copie o endereço do seu armazém, envie o número de rastreamento doméstico de entrada ou estime o frete internacional antes de enviar os itens.",
+    "warehouseAddress": "Obter endereço do armazém",
+    "submitParcel": "Enviar pacote recebido",
+    "estimateFee": "Estimativa da taxa de envio"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cart": {
+    "remove": "Usun produkt",
+    "confirmDelete": "Usunac ten produkt z koszyka?"
+  },
+  "summary": {
+    "selectedItems": "{count} wybranych produktow"
+  }
+}

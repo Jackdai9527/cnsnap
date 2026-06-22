@@ -1,0 +1,207 @@
+{
+  "hero": {
+    "eyebrow": "运费估算器",
+    "title": "估算国际运费",
+    "subtitle": "输入目的地国家/地区、产品类别、重量和尺寸，以便在仓库确认最终包装重量之前估算您的国际运费。",
+    "startShopping": "开始购物",
+    "submitDiyOrder": "提交 DIY 订单",
+    "steps": {
+      "actual": {
+        "title": "输入包裹基本信息",
+        "description": "从卖家或您的估计中选择目的地、产品类型和实际重量。"
+      },
+      "volumetric": {
+        "title": "尽可能添加尺寸",
+        "description": "大而轻的包裹可能会按体积重量而不是实际重量计费。"
+      },
+      "warehouse": {
+        "title": "仓库到达后的最终费用",
+        "description": "国际运费在购买、到达、包装和仓库称重后支付。"
+      }
+    }
+  },
+  "calculator": {
+    "title": "运费计算器",
+    "description": "V1.0 使用模拟运费规则。最终供货情况和价格将在仓库检查后确认。",
+    "destinationCountry": "目的地国家",
+    "productCategory": "产品类别",
+    "actualWeightKg": "实际重量公斤",
+    "lengthCm": "长度厘米",
+    "widthCm": "宽度厘米",
+    "heightCm": "身高厘米",
+    "shippingChannel": "运输渠道",
+    "allChannels": "所有可用渠道",
+    "dimensionHint": "尺寸可选。如果您输入一维，请输入长度、宽度和高度，以便估算体积重量。",
+    "dimensionUnit": "厘米",
+    "calculate": "计算",
+    "reset": "重置",
+    "toastSuccess": "计算运费估算。",
+    "toastReview": "找不到直接渠道。请提交以供人工审核。",
+    "validation": {
+      "required": "此字段为必填项。",
+      "positive": "必须大于 0。",
+      "destination": "请选择目的地国家/地区。",
+      "dimensionsComplete": "如果您输入包裹尺寸，请填写长、宽和高。"
+    },
+    "categories": {
+      "general": "一般商品",
+      "clothing": "服装",
+      "shoes": "鞋子",
+      "electronics": "电子产品",
+      "battery": "电池产品",
+      "liquid": "液体",
+      "cosmetics": "化妆品",
+      "food": "食品",
+      "powder": "粉末",
+      "luxury": "奢侈品",
+      "other": "其他"
+    }
+  },
+  "result": {
+    "emptyTitle": "输入包裹详细信息以估算运费",
+    "emptyDescription": "计算器会比较可用渠道、体积重量、最低收费重量和类别限制。",
+    "title": "计算结果",
+    "description": "预估价格仅用于计划。仓库包装重量和承运人审核决定最终费用。",
+    "lowestEstimate": "最低估算",
+    "actualWeight": "实际重量",
+    "volumetricWeight": "体积重量",
+    "chargeableWeight": "计费重量",
+    "availableChannels": "可用渠道",
+    "unavailableChannels": "不可用渠道",
+    "noAvailable": "没有可用的频道与这些详细信息匹配。请提交 DIY 订单或联系支持人员进行人工审核。",
+    "unavailableReasons": {
+      "unsupportedCountry": "此渠道不支持目标 {value}。",
+      "restrictedCategory": "此产品类别需要其他渠道或人工审核。",
+      "maxWeight": "计费重量超过 {value} 公斤。"
+    },
+    "restrictionNotices": {
+      "sensitive": "此类别可能需要人工审核。最终渠道可用性取决于产品详细信息、目的地国家/地区和承运商政策。",
+      "general": "一般商品通常有多个渠道支持，但最终可用性要在仓库检查后确认。"
+    }
+  },
+  "channels": {
+    "eyebrow": "运输渠道",
+    "title": "可用的运输渠道",
+    "description": "下单前比较常见的运输选项。供货情况可能会因目的地、类别和仓库检验而异。"
+  },
+  "channelDetails": {
+    "dhl": {
+      "name": "DHL 快递",
+      "deliveryTime": "3-6 个工作日",
+      "suitableFor": "适合普货、服装、鞋类和高价值包裹的快速送达。",
+      "notes": "适合对时效敏感的包裹。敏感品类发货前仍需审核。"
+    },
+    "fedex": {
+      "name": "FedEx",
+      "deliveryTime": "4-8 个工作日",
+      "suitableFor": "适合大多数普通商品的平衡型快递方案。",
+      "notes": "追踪稳定、覆盖面广。奢侈品类可能需要额外审核。"
+    },
+    "ups": {
+      "name": "UPS",
+      "deliveryTime": "4-8 个工作日",
+      "suitableFor": "适合商业件、鞋服以及偏大的普通包裹。",
+      "notes": "北美和欧洲线路表现较强。"
+    },
+    "ems": {
+      "name": "EMS",
+      "deliveryTime": "7-15 个工作日",
+      "suitableFor": "适合注重成本、且需要较广邮政覆盖的包裹。",
+      "notes": "时效会受目的地清关和当地邮政派送影响。"
+    },
+    "air-cargo": {
+      "name": "空运专线",
+      "deliveryTime": "8-14 个工作日",
+      "suitableFor": "适合中等或较重、且更看重成本而非极限时效的包裹。",
+      "notes": "通常更适合 3kg 以上包裹，最终价格仍取决于打包体积。"
+    },
+    "economy": {
+      "name": "经济线路",
+      "deliveryTime": "12-25 个工作日",
+      "suitableFor": "适合普货、服装以及不着急收货的低成本运输。",
+      "notes": "费用较低，但运输时间更长，追踪更新频率可能较少。"
+    },
+    "sensitive": {
+      "name": "敏感货专线",
+      "deliveryTime": "8-18 个工作日",
+      "suitableFor": "适合电池、化妆品及部分审核后可寄送的敏感商品。",
+      "notes": "敏感货线路必须先做商品审核，液体、粉末和食品仍可能被拒收。"
+    },
+    "sea": {
+      "name": "海运",
+      "deliveryTime": "30-55 个工作日",
+      "suitableFor": "适合重货、非紧急包裹以及多件合并运输。",
+      "notes": "更适合体积大、重量高的包裹，不适合急件。"
+    }
+  },
+  "weightGuide": {
+    "eyebrow": "计费重量",
+    "title": "为什么计费重量与实际重量不同",
+    "description": "承运商按实际重量、体积重量和最小计费重量之间的较大值收费。当包裹体积大但重量轻时，这可以保护路线容量。",
+    "formula": "计费重量 = max（实际重量、体积重量、最低计费重量）",
+    "actual": {
+      "title": "实际重量",
+      "description": "您的物品到达并包装后由仓库秤测量的实际重量。"
+    },
+    "volumetric": {
+      "title": "体积重量",
+      "description": "基于计算的重量关于包裹尺寸：长×宽×高除以通道体积除数。"
+    },
+    "why": {
+      "title": "大型轻型包裹",
+      "description": "鞋盒、毛绒玩具和大件包装可能占用比其秤重建议的更多的飞机或卡车空间。"
+    },
+    "final": {
+      "title": "仓库确认",
+      "description": "估算有助于规划，但最终运费取决于仓库的实际包装包裹数据。"
+    }
+  },
+  "restricted": {
+    "title": "限制物品通知",
+    "description": "某些物品可能需要承运人审查、特殊路线，或者可能会被完全拒绝，具体取决于目的地国家/地区。",
+    "items": [
+      "某些物品可能受到限制或禁止。",
+      "电池、液体、粉末、食品、化妆品和奢侈品可能需要审核。",
+      "最终送货情况取决于产品类型和目的地国家/地区。",
+      "除非另有说明，否则不包括海关税费。"
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "运费估算 FAQ",
+    "description": "有关二次运费和国际配送的最常见问题的简短解答。",
+    "items": {
+      "separateShipping": {
+        "question": "为什么我需要单独支付国际运费？",
+        "answer": "您首先支付产品成本、国内卖家运费和服务费。国际运费是在仓库收到、包装并称重包裹后计算的。"
+      },
+      "volumetricWeight": {
+        "question": "什么是体积重量？",
+        "answer": "体积重量将包裹尺寸转换为计费重量。大型灯箱可能会花费更多的运输费用，因为它占用更多的运输空间。"
+      },
+      "finalFee": {
+        "question": "预估的运费是最终的吗？",
+        "answer": "不是。该估算仅用于规划。最终费用取决于仓库测量的重量、包装尺寸、产品审核和所选渠道。"
+      },
+      "restrictedItems": {
+        "question": "哪些物品受到限制？",
+        "answer": "电池产品、液体、粉末、食品、化妆品、品牌奢侈品和类似产品可能需要审核或特殊运输线路。"
+      },
+      "chooseChannel": {
+        "question": "我可以自己选择运输渠道吗？",
+        "answer": "可以，当有多个渠道可用时。如果商品敏感或目的地有限制，则最终渠道必须遵循承运商政策。"
+      },
+      "deliveryTime": {
+        "question": "国际运输需要多长时间？",
+        "answer": "快递线路可能需要几个工作日，而经济或海运可能需要几周时间。海关和本地配送可能会增加时间。"
+      }
+    }
+  },
+  "cta": {
+    "title": "准备从中国购买吗？",
+    "description": "搜索产品、提交手动购买请求，或者在您已有商品抵达我们的仓库时使用转运服务。",
+    "startShopping": "开始购物",
+    "submitDiyOrder": "提交 DIY 订单",
+    "forwarding": "使用转运服务"
+  }
+}

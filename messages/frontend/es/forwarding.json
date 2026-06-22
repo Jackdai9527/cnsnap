@@ -1,0 +1,274 @@
+{
+  "hero": {
+    "eyebrow": "Servicio de reenvío",
+    "title": "Cómprelo usted mismo. Envío a nuestro almacén. Realizamos envíos a todo el mundo.",
+    "subtitle": "Utilice la dirección de nuestro almacén en China cuando compre en sitios web chinos. Recibimos, almacenamos, consolidamos y enviamos sus artículos internacionalmente.",
+    "warehouseAddress": "Obtener dirección de almacén",
+    "submitParcel": "Enviar paquete entrante",
+    "estimateFee": "Tarifa de envío estimada",
+    "cards": {
+      "warehouse": {
+        "title": "Utilice nuestro almacén en China",
+        "description": "Copia tu dirección personal y agrega tu código de usuario al realizar compras en sitios web chinos."
+      },
+      "code": {
+        "title": "Identifica tu paquete",
+        "description": "Envíe el número de seguimiento nacional para que el personal del almacén pueda relacionar el paquete con su cuenta."
+      },
+      "consolidate": {
+        "title": "Reenvío internacional",
+        "description": "Después de pesar y empacar, elija un canal de envío y pague el flete internacional."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Agente de compras versus reenvío",
+    "title": "Dos formas de obtener productos de China",
+    "description": "Utilice el Agente de compras cuando desee que compremos por usted. Utilice el reenvío cuando ya haya comprado los artículos usted mismo.",
+    "columns": {
+      "feature": "Función",
+      "agent": "Agente de compras",
+      "forwarding": "Reenvío"
+    },
+    "rows": {
+      "owner": {
+        "feature": "Quién compra",
+        "agent": "Te ayudamos a comprar productos de los vendedores.",
+        "forwarding": "Compras productos tú mismo en sitios web chinos."
+      },
+      "payment": {
+        "feature": "Primer pago",
+        "agent": "Pagas el costo del producto, el envío nacional y la tarifa de servicio.",
+        "forwarding": "Pagas al vendedor directamente antes de que llegue el paquete."
+      },
+      "workflow": {
+        "feature": "Orden flujo de trabajo",
+        "agent": "Realizamos el pedido, compramos, recibimos, empaquetamos y enviamos.",
+        "forwarding": "Usted envía los artículos a nuestro almacén, luego los recibimos, los pesamos y los reenviamos."
+      },
+      "warehouse": {
+        "feature": "Rol del almacén",
+        "agent": "El almacén recibe los artículos comprados por nuestro equipo.",
+        "forwarding": "El almacén identifica los paquetes utilizando su código de usuario y número de seguimiento."
+      },
+      "shipping": {
+        "feature": "Envío internacional",
+        "agent": "Pagas el envío internacional después del pesaje en almacén.",
+        "forwarding": "Pagas el envío internacional después de pesar los paquetes reenviados."
+      }
+    }
+  },
+  "steps": {
+    "eyebrow": "Cómo funciona el reenvío",
+    "title": "Desde el pedido del vendedor hasta la entrega internacional",
+    "description": "El reenvío es mejor cuando puedes comprar tú mismo pero necesitas un almacén en China, consolidación e internacional envío.",
+    "items": {
+      "register": {
+        "title": "Registrar una cuenta",
+        "description": "Crea una cuenta para que el almacén pueda asignar paquetes a tu perfil de usuario."
+      },
+      "address": {
+        "title": "Obtén la dirección de tu almacén",
+        "description": "Copia la dirección personal de tu almacén y el código de usuario de esta página."
+      },
+      "buy": {
+        "title": "Compra tú mismo en sitios web chinos",
+        "description": "Realiza el pedido directamente con el vendedor o el mercado."
+      },
+      "userCode": {
+        "title": "Utilice su código de usuario en la dirección",
+        "description": "Ingrese su código de usuario en el nombre o dirección del destinatario para que podamos identificar el paquete."
+      },
+      "tracking": {
+        "title": "Envíe el número de seguimiento nacional",
+        "description": "Díganos el número de seguimiento y mensajería después de que el vendedor envíe dentro de China."
+      },
+      "receive": {
+        "title": "El almacén recibe sus artículos",
+        "description": "Combinamos, inspeccionamos, almacenamos y actualice el registro del paquete."
+      },
+      "chooseShipping": {
+        "title": "Elija envío internacional",
+        "description": "Después de pesar, seleccione un canal de envío según el costo, la velocidad y las restricciones."
+      },
+      "payShipping": {
+        "title": "Pague la tarifa de envío",
+        "description": "El flete internacional se factura después de que se confirmen el peso y las dimensiones finales del paquete."
+      },
+      "ship": {
+        "title": "Enviamos a su país",
+        "description": "Seguimiento su paquete hasta que llegue a su dirección de destino."
+      }
+    }
+  },
+  "warehouse": {
+    "eyebrow": "Guía de direcciones de almacén",
+    "title": "La dirección de su almacén en China",
+    "description": "Utilice esta dirección cuando compre en sitios web chinos. Su código de usuario es necesario para que el personal del almacén pueda identificar sus paquetes.",
+    "guest": "Inicie sesión para obtener su dirección personal de almacén.",
+    "signedIn": "Inicie sesión como {email}",
+    "recipientName": "Nombre del destinatario",
+    "warehouseAddress": "Dirección del almacén",
+    "phoneNumber": "Número de teléfono",
+    "postalCode": "Código postal",
+    "userCode": "Código de usuario / Cliente ID",
+    "importantTitle": "Regla de dirección importante",
+    "importantDescription": "Al realizar su pedido de vendedor, incluya su código de usuario en el nombre o la dirección del destinatario. Los paquetes sin un código de usuario pueden sufrir retrasos.",
+    "example": "Ejemplo: Destinatario: Jack Dai - UID10086",
+    "copy": "Copiar dirección",
+    "copied": "Dirección del almacén copiada.",
+    "loginTitle": "Inicie sesión para obtener su dirección de almacén personal.",
+    "loginDescription": "Cada usuario necesita un código de usuario único. Inicie sesión antes de enviar paquetes al almacén.",
+    "login": "Iniciar sesión"
+  },
+  "form": {
+    "eyebrow": "Enviar paquete entrante",
+    "title": "Díganos qué llega",
+    "description": "Envíe el número de seguimiento nacional después de que su vendedor envíe el paquete a nuestro almacén de China.",
+    "guest": "Es necesario iniciar sesión antes del envío.",
+    "signedIn": "Iniciar sesión como {email}",
+    "fields": {
+      "domesticTrackingNumber": "Número de seguimiento nacional",
+      "courierCompany": "Empresa de mensajería",
+      "productName": "Nombre del producto",
+      "productCategory": "Categoría de producto",
+      "quantity": "Cantidad",
+      "estimatedValue": "Valor estimado USD",
+      "productUrl": "Producto URL",
+      "notes": "Notas"
+    },
+    "placeholders": {
+      "courierCompany": "Seleccionar mensajero",
+      "productCategory": "Seleccione categoría",
+      "productName": "Nombre del producto o descripción breve",
+      "notes": "Agregue detalles del paquete, notas del vendedor, solicitudes de consolidación o preferencias de manejo."
+    },
+    "hints": {
+      "domesticTrackingNumber": "Envíe después de que el vendedor proporcione un número de seguimiento nacional de China."
+    },
+    "categories": {
+      "general": "Bienes generales",
+      "clothing": "Ropa",
+      "shoes": "Zapatos",
+      "electronics": "Electrónica",
+      "battery": "Productos de baterías",
+      "liquid": "Líquidos",
+      "cosmetics": "Cosméticos",
+      "food": "Alimentos",
+      "luxury": "Artículos de lujo",
+      "other": "Otros"
+    },
+    "validation": {
+      "tracking": "Se requiere número de seguimiento nacional.",
+      "courier": "Seleccione una empresa de mensajería.",
+      "productName": "Se requiere el nombre del producto.",
+      "productCategory": "Seleccione una categoría de producto.",
+      "quantity": "La cantidad debe ser un número entero mayor que 0.",
+      "url": "Ingrese un URL válido."
+    },
+    "loginRequired": "Inicie sesión antes de enviar un paquete entrante.",
+    "submitted": "Paquete entrante enviado. Lo igualaremos después de la llegada al almacén.",
+    "submitting": "Enviando...",
+    "submit": "Enviar paquete entrante",
+    "disclaimer": "Enviar un registro de paquete no crea una factura de envío. El flete internacional se calcula después del pesaje del almacén."
+  },
+  "services": {
+    "eyebrow": "Servicios de manipulación de paquetes",
+    "title": "Qué puede hacer el almacén por sus paquetes",
+    "description": "El reenvío incluye recepción, almacenamiento y soporte de envío internacional. Se pueden conectar opciones de manejo adicionales a servicios pagos más adelante.",
+    "items": {
+      "receiving": {
+        "title": "Recepción en almacén",
+        "description": "Recibimos paquetes nacionales y los relacionamos con su cuenta."
+      },
+      "storage": {
+        "title": "Almacenamiento gratuito",
+        "description": "Los días de almacenamiento gratuito se pueden configurar más tarde según la política de servicio."
+      },
+      "consolidation": {
+        "title": "Consolidación de paquetes",
+        "description": "Combine varios paquetes en un envío internacional cuando posible."
+      },
+      "photoInspection": {
+        "title": "Inspección fotográfica",
+        "description": "Las fotografías del almacén pueden ayudar a confirmar el estado visible del artículo antes del envío."
+      },
+      "removePackaging": {
+        "title": "Retire el embalaje original",
+        "description": "Reduzca el embalaje innecesario del vendedor cuando corresponda."
+      },
+      "repackaging": {
+        "title": "Reempaquetado",
+        "description": "Mejore la protección y el volumen del paquete antes del envío internacional."
+      },
+      "internationalShipping": {
+        "title": "Envío internacional",
+        "description": "Elija los canales de envío disponibles después de confirmar el peso final."
+      },
+      "trackingUpdate": {
+        "title": "Actualización de seguimiento",
+        "description": "El seguimiento internacional se actualiza después de enviar el paquete."
+      }
+    }
+  },
+  "restrictions": {
+    "eyebrow": "Restricciones",
+    "title": "Reglas de reenvío antes de enviarnos el paquete",
+    "description": "El reenvío es conveniente, pero Las normas aduaneras y de transporte aún se aplican. Revise los riesgos antes de enviar artículos al almacén.",
+    "items": {
+      "restricted": "No envíe artículos restringidos.",
+      "sensitive": "Las baterías, líquidos, polvos, alimentos y artículos de lujo pueden requerir revisión.",
+      "userCode": "Utilice su código de usuario en la dirección.",
+      "trackingNumber": "Envíe el número de seguimiento después de la compra.",
+      "storage": "El tiempo de almacenamiento puede ser limitado.",
+      "finalFee": "La tarifa de envío final se basa en el peso y las dimensiones del almacén.",
+      "customsTax": "El impuesto de aduanas no está incluido a menos que se indique lo contrario."
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Reenvío FAQ",
+    "description": "Respuestas breves para usuarios que compran ellos mismos y envían a nuestro almacén.",
+    "items": {
+      "whatIsForwarding": {
+        "question": "Qué es el reenvío servicio?",
+        "answer": "El reenvío le permite comprar productos usted mismo, enviarlos a nuestro almacén en China y luego utilizarnos para la recepción, el almacenamiento, la consolidación y la entrega internacional."
+      },
+      "difference": {
+        "question": "¿Cuál es la diferencia entre Agente de compras y Reenvío?",
+        "answer": "Agente de compras significa que compramos por usted. Reenvío significa que usted compra usted mismo y nosotros nos encargamos del almacén y del envío internacional después de la llegada."
+      },
+      "warehouseAddress": {
+        "question": "¿Cómo obtengo la dirección de mi almacén?",
+        "answer": "Inicie sesión en su cuenta y copie la dirección del almacén personal que se muestra en esta página."
+      },
+      "userCode": {
+        "question": "¿Por qué necesito incluir mi código de usuario?",
+        "answer": "El código de usuario permite al personal del almacén relacionar los paquetes con su cuenta. Los códigos faltantes pueden retrasar la recepción."
+      },
+      "consolidation": {
+        "question": "¿Puedo consolidar varios paquetes?",
+        "answer": "Sí, cuando el tamaño del paquete, el tipo de producto y las reglas del canal de envío permiten la consolidación."
+      },
+      "forgotTracking": {
+        "question": "¿Qué sucede si olvido enviar el número de seguimiento?",
+        "answer": "El almacén aún puede recibir el paquete si su código de usuario está presente, pero la coincidencia puede ser más lenta. Envíe el seguimiento lo antes posible."
+      },
+      "restrictedItems": {
+        "question": "¿Qué artículos no se pueden reenviar?",
+        "answer": "Los artículos prohibidos, peligrosos, falsificados, líquidos, en polvo, alimentos, baterías o artículos de lujo de marca pueden rechazarse o requerir una revisión especial."
+      },
+      "feeCalculated": {
+        "question": "¿Cómo se calcula la tarifa de envío de reenvío?",
+        "answer": "La tarifa se basa en el peso final del embalaje, las dimensiones, el país de destino, el canal de envío y las restricciones del producto. después del pesaje en almacén."
+      }
+    }
+  },
+  "cta": {
+    "title": "¿Listo para reenviar sus paquetes de China?",
+    "description": "Copia la dirección de tu almacén, envía el número de seguimiento nacional entrante o calcula el envío internacional antes de enviar los artículos.",
+    "warehouseAddress": "Obtén la dirección del almacén",
+    "submitParcel": "Enviar paquete entrante",
+    "estimateFee": "Estimación de tarifa de envío"
+  }
+}

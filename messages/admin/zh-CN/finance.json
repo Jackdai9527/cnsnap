@@ -1,0 +1,255 @@
+{
+  "paymentsWorkbench": {
+    "kicker": "财务中心",
+    "title": "支付",
+    "description": "用于管理 ONLYPAY、PayPal、Advanced Card Payments、SEPA 即时支付，以及商品订单支付、运费支付、回调和银行转账确认的支付工作台。",
+    "metrics": {
+      "total": "总计",
+      "pending": "待处理",
+      "paid": "已支付",
+      "gateways": "网关数"
+    },
+    "gatewayTable": {
+      "gateway": "网关",
+      "status": "状态",
+      "provider": "提供商",
+      "mode": "模式",
+      "currency": "货币",
+      "records": "记录数",
+      "pending": "待处理",
+      "action": "操作",
+      "search": "搜索支付网关...",
+      "edit": "编辑",
+      "builtIn": "内置"
+    },
+    "export": {
+      "label": "导出",
+      "paymentNo": "支付单号",
+      "providerOrderNo": "提供商订单号",
+      "gatewayOrderNo": "网关订单号",
+      "userEmail": "用户邮箱",
+      "orderNo": "订单号",
+      "packageNo": "包裹号",
+      "type": "类型",
+      "provider": "提供商",
+      "status": "状态",
+      "amount": "金额",
+      "paymentMethod": "支付方式",
+      "paidAt": "支付时间",
+      "failedAt": "失败时间",
+      "createdAt": "创建时间"
+    },
+    "common": {
+      "configured": "已配置",
+      "missing": "缺失"
+    },
+    "gatewayRows": {
+      "onlypay": {
+        "gateway": "ONLYPAY 信用卡 / 钱包支付",
+        "mode": "网关 API",
+        "currency": "订单货币",
+        "summary": {
+          "merchantId": "商户 ID",
+          "applicationId": "应用 ID",
+          "productId": "产品 ID",
+          "submitUrl": "提交地址",
+          "signatureKey": "签名密钥"
+        },
+        "endpoints": {
+          "createOrder": "创建订单",
+          "notifyCallback": "回调通知",
+          "returnUrl": "返回地址"
+        },
+        "modalTitle": "ONLYPAY 设置",
+        "modalDescription": "配置 ONLYPAY 结账所需的凭证、接口地址、产品 ID 和面向客户的标题。"
+      },
+      "paypal": {
+        "gateway": "PayPal Checkout",
+        "summary": {
+          "clientId": "Client ID",
+          "clientSecret": "Client Secret",
+          "advancedCards": "高级卡支付",
+          "brandName": "品牌名称",
+          "currency": "货币",
+          "webhookId": "Webhook ID"
+        },
+        "endpoints": {
+          "createOrder": "创建订单",
+          "captureOrder": "捕获订单",
+          "webhook": "Webhook",
+          "refund": "退款"
+        },
+        "modalTitle": "PayPal Checkout 设置",
+        "modalDescription": "配置沙箱/正式环境凭证、展示标题、货币、品牌和高级卡支付设置。"
+      },
+      "sepa": {
+        "gateway": "SEPA 即时支付",
+        "mode": "人工确认",
+        "summary": {
+          "beneficiary": "收款人",
+          "iban": "IBAN",
+          "bic": "BIC / SWIFT",
+          "bank": "银行",
+          "usdToEur": "USD 转 EUR"
+        },
+        "endpoints": {
+          "createConfirmation": "创建确认",
+          "eligibility": "适用条件",
+          "eligibilityValue": "欧盟地址或 EUR 订单"
+        },
+        "modalTitle": "SEPA 即时支付设置",
+        "modalDescription": "配置银行账户信息、EUR 换算、结账说明和确认辅助文案。"
+      },
+      "balance": {
+        "gateway": "CNSnap 余额",
+        "method": "钱包余额、充值余额和联盟返佣余额",
+        "mode": "内部余额台账",
+        "summary": {
+          "fundingSource": "资金来源",
+          "fundingSourceValue": "钱包充值 / 联盟返佣 / 手工余额调整",
+          "usage": "用途",
+          "usageValue": "商品支付和运费支付",
+          "visibleLabel": "显示名称",
+          "visibleLabelValue": "CNSnap 余额",
+          "settlement": "结算方式",
+          "settlementValue": "内部台账扣减"
+        },
+        "endpoints": {
+          "wallet": "钱包",
+          "recharge": "充值",
+          "affiliate": "联盟",
+          "affiliateValue": "未来返佣转钱包流程"
+        },
+        "modalTitle": "CNSnap 余额",
+        "modalDescription": "由充值或未来联盟返佣供资的内部储值支付方式。"
+      }
+    },
+    "records": {
+      "kicker": "支付记录",
+      "title": "网关交易",
+      "description": "通过 ONLYPAY、PayPal、SEPA 或后续网关创建的每一笔支付尝试都在此展示，包含请求、响应、回调和跳转数据。",
+      "countLabel": "{count} 条记录",
+      "filters": {
+        "provider": {
+          "label": "提供商",
+          "value": "onlypay / paypal_checkout / sepa_instant / future gateways"
+        },
+        "statuses": {
+          "label": "状态",
+          "value": "pending、redirected、awaiting_transfer、processing、paid、failed"
+        }
+      },
+      "columns": {
+        "payment": "支付",
+        "user": "用户",
+        "type": "类型",
+        "provider": "提供商",
+        "status": "状态",
+        "amount": "金额",
+        "method": "方式",
+        "action": "操作",
+        "created": "创建时间"
+      },
+      "actions": {
+        "confirmTopUp": "确认充值",
+        "refund": "退款"
+      },
+      "detail": {
+        "paymentId": "支付 ID",
+        "paymentNo": "支付单号",
+        "provider": "提供商",
+        "providerOrderNo": "提供商订单号",
+        "gatewayOrderNo": "网关订单号",
+        "order": "订单",
+        "package": "包裹",
+        "type": "类型",
+        "status": "状态",
+        "amount": "金额",
+        "paymentMethod": "支付方式",
+        "created": "创建时间",
+        "paidAt": "支付时间",
+        "failedAt": "失败时间",
+        "redirectUrl": "跳转地址",
+        "openRedirectUrl": "打开跳转地址",
+        "requestPayload": "请求载荷",
+        "responsePayload": "响应载荷",
+        "callbackPayload": "回调载荷"
+      }
+    }
+  },
+  "walletTransactions": {
+    "kicker": "财务中心",
+    "title": "钱包流水",
+    "description": "展示充值、扣减、退款、订单支付和手工调整带来的余额变化。",
+    "countLabel": "{count} 条记录",
+    "adjustmentForm": {
+      "user": "用户",
+      "amount": "金额",
+      "amountPlaceholder": "0.00",
+      "type": "类型",
+      "note": "备注",
+      "notePlaceholder": "后台调整备注",
+      "apply": "应用",
+      "types": {
+        "recharge": "充值",
+        "deduction": "扣减",
+        "refund": "退款",
+        "manualAdjustment": "手工调整"
+      }
+    },
+    "columns": {
+      "time": "时间",
+      "user": "用户",
+      "type": "类型",
+      "amount": "金额",
+      "balance": "变更后余额",
+      "related": "关联对象",
+      "note": "备注"
+    }
+  },
+  "pages": {
+    "recharge": {
+      "kicker": "财务中心",
+      "title": "充值记录",
+      "description": "钱包充值和入账活动记录。",
+      "countLabel": "{count} 条记录",
+      "columns": {
+        "time": "时间",
+        "user": "用户",
+        "amount": "金额",
+        "balance": "变更后余额",
+        "related": "关联对象",
+        "note": "备注"
+      }
+    },
+    "refund": {
+      "kicker": "财务中心",
+      "title": "退款记录",
+      "description": "由订单、包裹或手工流程创建的退款流水。",
+      "countLabel": "{count} 条记录",
+      "columns": {
+        "time": "时间",
+        "user": "用户",
+        "amount": "金额",
+        "balance": "变更后余额",
+        "related": "关联对象",
+        "note": "备注"
+      }
+    },
+    "exchangeRate": {
+      "kicker": "财务配置",
+      "title": "汇率"
+    },
+    "serviceFees": {
+      "kicker": "财务配置",
+      "title": "服务费设置"
+    }
+  },
+  "gatewaySettings": {
+    "save": "保存网关设置",
+    "columns": {
+      "setting": "设置项",
+      "value": "值"
+    }
+  }
+}

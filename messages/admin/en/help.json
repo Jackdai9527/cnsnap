@@ -1,0 +1,38 @@
+{
+  "page": {
+    "kicker": "Help center content management",
+    "title": "Help Content",
+    "addArticle": "Add article",
+    "search": "Search help articles..."
+  },
+  "table": {
+    "title": "Title",
+    "category": "Category",
+    "slug": "Slug",
+    "locale": "Locale",
+    "status": "Status",
+    "updated": "Updated",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "editor": {
+    "addTitle": "Add article",
+    "editTitle": "Edit {title}",
+    "save": "Save article",
+    "defaults": {
+      "category": "",
+      "locale": "en"
+    },
+    "placeholders": {
+      "title": "Title",
+      "slug": "article-slug",
+      "category": "Category",
+      "locale": "Locale",
+      "excerpt": "Excerpt",
+      "content": "<p>Write the help article content here.</p>"
+    },
+    "uploadHint": "Images pasted into the editor are uploaded automatically. XLSX, XLS, and CSV files can be inserted as downloadable attachments with the editor upload button.",
+    "published": "Published"
+  }
+}

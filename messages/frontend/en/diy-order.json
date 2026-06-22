@@ -1,0 +1,240 @@
+{
+  "hero": {
+    "eyebrow": "Manual Purchasing",
+    "title": "Can't find the product? Submit a DIY Order.",
+    "subtitle": "Send us the product link, image, specifications and quantity. Our team will review it and send you a quotation.",
+    "submit": "Submit DIY Order",
+    "viewMine": "View My DIY Orders",
+    "cards": {
+      "image": {
+        "title": "Image or unclear listing",
+        "description": "Send a reference image, product screenshot, or incomplete link."
+      },
+      "spec": {
+        "title": "Complex specifications",
+        "description": "Tell us color, size, model, version, bundle and any seller notes."
+      },
+      "quote": {
+        "title": "Manual quotation",
+        "description": "Our team checks availability, price, restrictions and purchasing details."
+      }
+    }
+  },
+  "when": {
+    "eyebrow": "When to Use DIY Order",
+    "title": "Use DIY when automation is not enough",
+    "description": "DIY Order is best for special purchases that need human review before payment.",
+    "items": {
+      "cannotParse": {
+        "title": "Product link cannot be parsed",
+        "description": "Use DIY when a product page cannot be read by the automatic shopping-agent flow."
+      },
+      "imageOnly": {
+        "title": "You only have a product image",
+        "description": "Upload or paste an image URL so our team can identify the item manually."
+      },
+      "complexSpecs": {
+        "title": "Complex specifications",
+        "description": "Use DIY for many color, size, version, bundle or custom option requirements."
+      },
+      "manualQuote": {
+        "title": "You need a manual quotation",
+        "description": "We can verify current seller price, domestic shipping and purchase feasibility."
+      },
+      "multipleItems": {
+        "title": "Buy multiple items together",
+        "description": "Describe several products or sellers when you need a combined purchase plan."
+      },
+      "shippingUncertain": {
+        "title": "Shipping eligibility is unclear",
+        "description": "Ask us to review sensitive or restricted items before you pay."
+      }
+    }
+  },
+  "form": {
+    "eyebrow": "DIY Order Form",
+    "title": "Send your purchase request",
+    "description": "The more details you provide, the faster our team can quote accurately.",
+    "guest": "Sign in is required before submission.",
+    "signedIn": "Signed in as {email}",
+    "fields": {
+      "productUrl": "Product URL",
+      "productName": "Product name",
+      "productImageUrl": "Product image URL",
+      "specification": "Specification",
+      "quantity": "Quantity",
+      "budget": "Budget USD",
+      "destinationCountry": "Destination country",
+      "notes": "Notes",
+      "contactEmail": "Contact email"
+    },
+    "placeholders": {
+      "productName": "Product name or short description",
+      "specification": "Color, size, model, version",
+      "notes": "Tell us seller notes, preferred option, shipping concerns, or anything important."
+    },
+    "hints": {
+      "productUrl": "Optional, but recommended when you have a product page.",
+      "productImageUrl": "V1.0 uses image URL as a placeholder. File upload can be connected later."
+    },
+    "countries": {
+      "US": "United States (US)",
+      "CA": "Canada (CA)",
+      "GB": "United Kingdom (GB)",
+      "DE": "Germany (DE)",
+      "FR": "France (FR)",
+      "NL": "Netherlands (NL)",
+      "PL": "Poland (PL)",
+      "JP": "Japan (JP)",
+      "KR": "Korea (KR)",
+      "AU": "Australia (AU)"
+    },
+    "validation": {
+      "productName": "Product name must be at least 2 characters.",
+      "quantity": "Quantity must be a whole number greater than 0.",
+      "destination": "Please select a destination country.",
+      "url": "Please enter a valid URL.",
+      "email": "Please enter a valid email address."
+    },
+    "loginRequired": "Please log in before submitting a DIY Order.",
+    "submitted": "DIY Order submitted. We will review it shortly.",
+    "submitting": "Submitting...",
+    "submit": "Submit DIY Order",
+    "disclaimer": "Submitting does not require payment. We will review the request first and send a quotation."
+  },
+  "steps": {
+    "eyebrow": "How Quotation Works",
+    "title": "From request to warehouse arrival",
+    "description": "DIY Order follows a manual review workflow so price, availability and shipping restrictions can be checked before purchase.",
+    "items": {
+      "submit": {
+        "title": "Submit your request",
+        "description": "Send product details, image, specification, quantity and destination."
+      },
+      "review": {
+        "title": "Our team reviews the item",
+        "description": "We check seller page, availability, price and purchasing feasibility."
+      },
+      "quote": {
+        "title": "We send you a quotation",
+        "description": "The quote includes product cost, domestic shipping and service fee estimate."
+      },
+      "confirm": {
+        "title": "You confirm and pay",
+        "description": "After you accept the quotation, you can pay to start purchasing."
+      },
+      "purchase": {
+        "title": "We purchase the item",
+        "description": "Our purchasing team places the order with the seller."
+      },
+      "warehouse": {
+        "title": "Item arrives at warehouse",
+        "description": "Warehouse checks, receives and prepares package information."
+      },
+      "shipping": {
+        "title": "Pay international shipping",
+        "description": "After packing and weighing, you choose a route and pay the shipping fee."
+      },
+      "receive": {
+        "title": "Receive your package",
+        "description": "Track the package until delivery at your destination address."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Shopping Agent vs DIY Order",
+    "title": "Choose the right order flow",
+    "description": "Standard links are faster with Shopping Agent. Special or unclear products belong in DIY Order.",
+    "columns": {
+      "feature": "Feature",
+      "agent": "Shopping Agent",
+      "diy": "DIY Order"
+    },
+    "rows": {
+      "suitable": {
+        "feature": "Best for",
+        "agent": "Standard product links or keyword search",
+        "diy": "Special products or products automation cannot parse"
+      },
+      "parsing": {
+        "feature": "Product data",
+        "agent": "System automatically parses price and options",
+        "diy": "Manual review and quotation"
+      },
+      "speed": {
+        "feature": "Order speed",
+        "agent": "Fast checkout when product data is clear",
+        "diy": "Slower because human review is needed"
+      },
+      "price": {
+        "feature": "Price source",
+        "agent": "Automatically read from the product page",
+        "diy": "Confirmed by staff before payment"
+      },
+      "complexity": {
+        "feature": "Complex requests",
+        "agent": "Better for simple options",
+        "diy": "Better for images, bundles, notes and shipping checks"
+      }
+    }
+  },
+  "examples": {
+    "eyebrow": "Example Requests",
+    "title": "Good DIY requests are specific",
+    "items": {
+      "imageNoLink": {
+        "title": "I found a product image but no link.",
+        "description": "Attach an image URL and describe what you want us to identify."
+      },
+      "tooManySku": {
+        "title": "The product page has too many SKU options.",
+        "description": "Tell us the exact color, size, model or bundle you want."
+      },
+      "multipleSellers": {
+        "title": "I want to buy several items from different sellers.",
+        "description": "List each item and seller link so we can prepare a combined quotation."
+      },
+      "shippingCheck": {
+        "title": "I need help confirming if this product can be shipped.",
+        "description": "Mention destination country and product materials, battery, liquid or brand concerns."
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "DIY Order FAQ",
+    "description": "Short answers before you submit a manual purchase request.",
+    "items": {
+      "quoteTime": {
+        "question": "How long does a DIY Order quote take?",
+        "answer": "Most quotes are reviewed within 1 business day. Complex items or seller confirmation can take longer."
+      },
+      "imageOnly": {
+        "question": "Can I submit only a product image?",
+        "answer": "Yes. A product image is accepted, but a link or additional description helps us quote faster."
+      },
+      "payBeforeQuote": {
+        "question": "Do I need to pay before quotation?",
+        "answer": "No. You submit the request first. Payment happens only after you accept the quotation."
+      },
+      "afterAccept": {
+        "question": "What happens after I accept the quotation?",
+        "answer": "You pay the quoted amount, then our purchasing team buys the product from the seller."
+      },
+      "cancel": {
+        "question": "Can I cancel a DIY Order?",
+        "answer": "You can cancel before payment or before our team purchases the item. After purchase, cancellation depends on seller policy."
+      },
+      "restricted": {
+        "question": "Can restricted items be purchased?",
+        "answer": "Some sensitive products may require special routes or may be rejected. Our team will review shipping eligibility before purchase."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to send a manual request?",
+    "description": "Submit details now or check your existing DIY Orders in the user center.",
+    "submit": "Submit DIY Order",
+    "viewMine": "View My DIY Orders"
+  }
+}

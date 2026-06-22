@@ -1,0 +1,268 @@
+{
+  "search": {
+    "eyebrow": "Centro assistenza",
+    "title": "Trova le risposte prima del tuo prossimo acquisto in Cina",
+    "subtitle": "Cerca guide per Shopping Agent, stima della spedizione, ordini DIY, inoltro, pagamento, pacchi, tracciabilità e centro ticket.",
+    "placeholder": "Cerca agente di acquisto, spese di spedizione, preventivo, ordine DIY, inoltro, pagamento...",
+    "examplesTitle": "Cerca esempi",
+    "results": "Risultati",
+    "emptyTitle": "Nessun risultato di aiuto trovato",
+    "emptyDescription": "Prova una parola chiave più ampia come spedizione, pagamento, pacco, biglietto o ordine DIY.",
+    "examples": {
+      "shoppingAgent": "agente degli acquisti",
+      "shippingFee": "tassa di spedizione",
+      "estimation": "stima",
+      "diyOrder": "Ordine DIY",
+      "forwarding": "inoltro",
+      "payment": "pagamento",
+      "refund": "rimborso",
+      "restrictedItems": "articoli soggetti a restrizioni",
+      "package": "pacchetto",
+      "tracking": "tracciamento",
+      "ticket": "biglietto"
+    }
+  },
+  "popularTopics": {
+    "eyebrow": "Argomenti popolari",
+    "title": "Risposte rapide per attività comuni",
+    "description": "Accedi alle guide di cui gli utenti hanno bisogno più spesso prima di ordinare, pagare o spedire.",
+    "items": {
+      "orderLink": "Come effettuare un ordine utilizzando un collegamento al prodotto",
+      "estimation": "Come stimare la tariffa di spedizione internazionale",
+      "diyOrder": "Come inviare un ordine DIY",
+      "forwarding": "Come funziona il servizio di inoltro",
+      "separateShipping": "Perché le spese di spedizione vengono pagate separatamente",
+      "restricted": "Quali articoli sono soggetti a restrizioni",
+      "recharge": "Come ricaricare il portafoglio",
+      "tracking": "Come monitorare il pacco",
+      "ticket": "Come aprire un ticket di supporto"
+    }
+  },
+  "categoriesSection": {
+    "eyebrow": "Categorie di aiuto",
+    "title": "Sfoglia per area di servizio",
+    "description": "Scegli una categoria per filtrare gli articoli popolari e le risposte FAQ.",
+    "showAll": "Mostra tutto l'aiuto",
+    "articleCount": "Articoli {count}"
+  },
+  "categories": {
+    "howToBuy": {
+      "title": "Come acquistare",
+      "description": "Collegamenti ai prodotti, ricerca di immagini, checkout dell'agente di acquisto e invio dell'ordine."
+    },
+    "orders": {
+      "title": "Ordini",
+      "description": "Stato dell'ordine, acquisti, articoli esauriti, variazioni di prezzo e aggiornamenti."
+    },
+    "payment": {
+      "title": "Pagamento e ricarica",
+      "description": "Saldo del portafoglio, record di ricarica, pagamenti di prodotti e note di pagamento manuali."
+    },
+    "shippingFee": {
+      "title": "Tassa di spedizione",
+      "description": "Trasporto internazionale, peso volumetrico, peso tassabile e stime."
+    },
+    "packages": {
+      "title": "Pacchetti",
+      "description": "Arrivo al magazzino, creazione del pacco, tracciabilità, stato della spedizione e consegna."
+    },
+    "forwarding": {
+      "title": "Inoltro",
+      "description": "Acquista da solo, utilizza il nostro indirizzo di magazzino e invia il monitoraggio nazionale."
+    },
+    "diyOrders": {
+      "title": "Ordini DIY",
+      "description": "Preventivi manuali per prodotti che non possono essere analizzati automaticamente."
+    },
+    "restrictedItems": {
+      "title": "Articoli soggetti a restrizioni",
+      "description": "Merci sensibili, articoli proibiti, batterie, liquidi, polveri e rischi legati al marchio."
+    },
+    "refunds": {
+      "title": "Rimborsi",
+      "description": "Rimborsi esauriti, ordini annullati, rimborsi del portafoglio e tempistiche di revisione."
+    },
+    "affiliate": {
+      "title": "Affiliato",
+      "description": "Link di riferimento, commissioni, ordini validi e nozioni di base sui pagamenti."
+    },
+    "tickets": {
+      "title": "Centro Biglietteria",
+      "description": "Apri ticket, controlla le risposte, fornisci prove e segui i progressi del supporto."
+    },
+    "account": {
+      "title": "Conto",
+      "description": "Profilo, lingua, valuta, accesso a Google, indirizzi e impostazioni di sicurezza."
+    }
+  },
+  "articlesSection": {
+    "eyebrow": "Articoli popolari",
+    "title": "Guide che gli utenti leggono per prime",
+    "description": "Aiuto pratico per l'ordinazione, la spedizione, il pagamento, l'inoltro e il supporto.",
+    "guideCount": "Guide {count}",
+    "updated": "{date} aggiornato",
+    "read": "Leggi"
+  },
+  "articles": {
+    "placeOrderLink": {
+      "title": "Come effettuare un ordine utilizzando un collegamento al prodotto",
+      "summary": "Incolla un collegamento al prodotto cinese, scegli varianti e quantità, quindi invia il pagamento per il costo del prodotto e la revisione della spedizione nazionale.",
+      "content": "Incolla il prodotto URL nella ricerca CNSnap o nel parser del prodotto. Controlla il titolo, le immagini, le varianti, il prezzo, le spese di spedizione nazionali e la quantità. Seleziona l'esatto SKU, conferma la clausola di esclusione della responsabilità, quindi aggiungi al carrello o acquista ora. Paghi prima il costo del prodotto, la spedizione nazionale e la commissione di servizio. La spedizione internazionale viene fatturata successivamente all'arrivo in magazzino e alla pesatura."
+    },
+    "shoppingAgent": {
+      "title": "Come utilizzare il servizio di agente commerciale",
+      "summary": "Shopping Agent significa che il nostro team acquista articoli per te, li riceve nel nostro magazzino e prepara la spedizione internazionale.",
+      "content": "Utilizza Shopping Agent quando desideri che CNSnap acquisti dalle piattaforme cinesi per te. Dopo aver inviato e pagato l'ordine del prodotto, il nostro team acquisti inoltra l'ordine al venditore. Quando gli articoli arrivano al magazzino, il pacco viene controllato, pesato e preparato per il pagamento della spedizione internazionale."
+    },
+    "submitDiy": {
+      "title": "Come inviare un ordine DIY",
+      "summary": "Utilizza DIY Order quando non è possibile analizzare il collegamento di un prodotto, hai solo un'immagine o la richiesta richiede un preventivo manuale.",
+      "content": "Apri l'ordine DIY, fornisci un prodotto URL o un'immagine URL, nome del prodotto, specifiche, quantità, paese di destinazione e note. Il nostro team esamina la disponibilità, il prezzo del venditore, la spedizione nazionale, le possibili restrizioni e invia un preventivo. Paghi solo dopo aver accettato il preventivo."
+    },
+    "forwarding": {
+      "title": "Come funziona il servizio di inoltro",
+      "summary": "La spedizione è riservata agli utenti che acquistano da soli e spediscono gli articoli al nostro magazzino cinese per la spedizione internazionale.",
+      "content": "Accedi per ottenere l'indirizzo del tuo magazzino e il codice utente. Acquista tu stesso dai siti web cinesi e includi il tuo codice utente nel destinatario o nell'indirizzo. Dopo che il venditore ha spedito, invia il numero di tracciabilità nazionale. Il magazzino riceve, identifica, immagazzina, pesa e inoltra il tuo pacco a livello internazionale."
+    },
+    "shippingFee": {
+      "title": "Come viene calcolata la tariffa di spedizione internazionale?",
+      "summary": "Le spese di spedizione dipendono dalla destinazione, dal canale, dal peso effettivo, dal peso volumetrico, dal peso minimo addebitabile e dalle restrizioni sul prodotto.",
+      "content": "La spedizione internazionale viene calcolata dopo la pesatura del magazzino. I vettori confrontano il peso effettivo e il peso volumetrico, quindi fatturano in base al peso addebitabile maggiore. Il peso volumetrico è la lunghezza × larghezza × altezza divisa per il divisore del volume del canale. Prodotti sensibili, limiti di destinazione e regole di canale possono modificare i percorsi disponibili."
+    },
+    "separateShipping": {
+      "title": "Perché devo pagare la spedizione separatamente?",
+      "summary": "Il pagamento del prodotto avviene prima dell'acquisto. La spedizione internazionale può essere confermata solo dopo che il magazzino ha ricevuto e pesato il pacco.",
+      "content": "Al momento del pagamento pagherai il costo del prodotto, la spedizione nazionale e il costo del servizio. Il trasporto internazionale non può essere definitivo prima che il magazzino conosca il peso reale del pacco, le dimensioni, la destinazione e il canale disponibile. Dopo l'arrivo, CNSnap crea il pacco e la bolla di spedizione per la conferma."
+    },
+    "restricted": {
+      "title": "Quali articoli sono soggetti a restrizioni?",
+      "summary": "Batterie, liquidi, polveri, alimenti, cosmetici, beni di lusso di marca e articoli pericolosi potrebbero richiedere una revisione o essere rifiutati.",
+      "content": "Gli articoli soggetti a restrizioni o sensibili dipendono dal corriere e dalle norme doganali. Pile, liquidi, polveri, alimenti, cosmetici, medicinali, armi, merci pericolose, merci contraffatte e articoli di marca di alto valore potrebbero richiedere una revisione manuale, linee speciali, documenti aggiuntivi o potrebbero non essere accettati per la spedizione."
+    },
+    "recharge": {
+      "title": "Come ricaricare il mio portafoglio?",
+      "summary": "Il saldo del portafoglio può essere utilizzato per pagamenti di prodotti, pagamenti di spedizione e commissioni di servizio dopo la conferma dei record di ricarica.",
+      "content": "Vai su Ricarica Conto, inserisci l'importo e scegli un metodo di pagamento. La V1.0 supporta i record segnaposto di pagamento manuale. Dopo la conferma del pagamento, il saldo può essere utilizzato per ordini di prodotti, spedizioni internazionali, aggiustamenti e rimborsi."
+    },
+    "tracking": {
+      "title": "Come monitorare il mio pacco?",
+      "summary": "Dopo che un pacco è stato spedito a livello internazionale, il numero di tracciabilità e lo stato della spedizione vengono visualizzati nell'Account Pacchi.",
+      "content": "Apri Account Pacchetti per visualizzare lo stato del pacco, il canale di spedizione, il numero di tracciamento e il tempo di spedizione. L'aggiornamento del monitoraggio dopo la spedizione potrebbe richiedere del tempo. Se il tracciamento si interrompe o mostra un'eccezione, apri un ticket di supporto con il numero del pacco e il numero di tracciamento."
+    },
+    "ticket": {
+      "title": "Come aprire un ticket di supporto?",
+      "summary": "Utilizza Ticket Center per problemi relativi agli ordini, domande sui pacchi, prove di pagamento, rimborsi, articoli soggetti a restrizioni o eccezioni di spedizione.",
+      "content": "Apri Ticket Center e crea un nuovo ticket. Scegli la categoria più vicina, aggiungi i numeri dell'ordine o del pacco, descrivi il problema e carica eventuali prove utili in un secondo momento quando è collegato il caricamento del file. Il nostro team di supporto risponde nel thread del ticket."
+    }
+  },
+  "faqSection": {
+    "eyebrow": "FAQ",
+    "title": "Domande frequenti",
+    "description": "Risposte brevi per Shopping Agent, preventivi, ordini DIY, inoltro, pagamento e ticket di supporto."
+  },
+  "faq": {
+    "saTaobao": {
+      "question": "Puoi comprare da Taobao o 1688 per me?",
+      "answer": "SÌ. Utilizza Shopping Agent per i collegamenti ai prodotti supportati. Se non è possibile analizzare una pagina, inviare un ordine DIY per la revisione manuale."
+    },
+    "saImage": {
+      "question": "Posso effettuare una ricerca per immagine del prodotto?",
+      "answer": "La ricerca di immagini può aiutare a scoprire i prodotti. Se il risultato non è chiaro, utilizza DIY Order e fornisci l'immagine URL o lo screenshot del prodotto."
+    },
+    "saOutStock": {
+      "question": "Cosa succede se l'articolo è esaurito?",
+      "answer": "Il nostro team aggiornerà l'ordine e ti contatterà. Puoi scegliere la sostituzione, l'annullamento o il rimborso a seconda della situazione del venditore."
+    },
+    "estFinal": {
+      "question": "La tariffa di spedizione stimata è definitiva?",
+      "answer": "No. Il preventivo è per la pianificazione. Il trasporto finale si basa sul peso misurato in magazzino, sulle dimensioni dell'imballaggio, sulla revisione del prodotto e sul canale selezionato."
+    },
+    "estVolumetric": {
+      "question": "Cos'è il peso volumetrico?",
+      "answer": "Il peso volumetrico converte le dimensioni del pacco in peso fatturabile. I pacchi leggeri di grandi dimensioni possono costare di più perché occupano più spazio nel trasportatore."
+    },
+    "estChargeable": {
+      "question": "Perché il peso addebitabile è diverso dal peso effettivo?",
+      "answer": "I vettori fatturano in base al valore maggiore tra peso effettivo, peso volumetrico e peso minimo addebitabile."
+    },
+    "diyWhen": {
+      "question": "Quando dovrei inviare un ordine DIY?",
+      "answer": "Invia l'ordine DIY quando il collegamento del prodotto non può essere analizzato, hai solo un'immagine, le specifiche sono complesse o hai bisogno di un preventivo manuale."
+    },
+    "diyQuote": {
+      "question": "Quanto tempo richiede un preventivo per l'ordine DIY?",
+      "answer": "La maggior parte dei preventivi vengono esaminati entro 1 giorno lavorativo. Gli articoli complessi o la conferma del venditore possono richiedere più tempo."
+    },
+    "diyImage": {
+      "question": "Posso inviare solo un'immagine del prodotto?",
+      "answer": "Sì. È accettata un'immagine del prodotto, ma un collegamento o una descrizione dettagliata aiuta il nostro team a quotare più velocemente."
+    },
+    "fwBuySelf": {
+      "question": "Posso acquistare da solo e utilizzare solo il vostro magazzino?",
+      "answer": "Sì. Utilizza l'inoltro, copia l'indirizzo del tuo magazzino e invia il numero di tracciabilità nazionale dopo la spedizione del venditore."
+    },
+    "fwDifference": {
+      "question": "Qual è la differenza tra Shopping Agent e Inoltro?",
+      "answer": "Shopping Agent significa che CNSnap acquista per te. Spedizioni significa che acquisti tu stesso e CNSnap gestisce la ricezione del magazzino e la spedizione internazionale."
+    },
+    "fwUserCode": {
+      "question": "Perché devo includere il mio codice utente?",
+      "answer": "Il codice utente consente al personale del magazzino di associare i pacchi in arrivo al tuo account. I codici utente mancanti possono ritardare la ricezione."
+    },
+    "payProduct": {
+      "question": "Come posso pagare il costo del prodotto?",
+      "answer": "Puoi pagare durante il checkout utilizzando il saldo disponibile o i metodi di pagamento supportati. I record di ricarica e di pagamento manuale possono essere ampliati in seguito."
+    },
+    "payShipping": {
+      "question": "Perché pago la spedizione internazionale separatamente?",
+      "answer": "La spedizione internazionale viene calcolata dopo l'arrivo in magazzino poiché il peso e le dimensioni finali dell'imballaggio non sono noti prima della ricezione."
+    },
+    "payRefund": {
+      "question": "Posso ottenere un rimborso?",
+      "answer": "L'idoneità al rimborso dipende dallo stato dell'ordine, dalla politica del venditore e dal fatto che l'articolo sia già stato acquistato o spedito."
+    },
+    "ticketWhen": {
+      "question": "Quando devo aprire un ticket?",
+      "answer": "Apri un ticket per domande sull'ordine, prova di pagamento, eccezioni del pacchetto, rimborsi, revisione di articoli soggetti a restrizioni o problemi con l'account."
+    },
+    "ticketReplies": {
+      "question": "Come controllo le risposte ai ticket?",
+      "answer": "Vai al Centro ticket account e apri il thread del ticket per visualizzare le risposte di supporto e gli aggiornamenti di stato."
+    },
+    "ticketReopen": {
+      "question": "Posso riaprire un ticket risolto?",
+      "answer": "V1.0 può riservare il comportamento di riapertura. Se il problema risolto persiste, crea un nuovo ticket e fai riferimento al vecchio numero del ticket."
+    },
+    "packageArrival": {
+      "question": "Come faccio a sapere che il mio pacco è arrivato al magazzino?",
+      "answer": "Controlla i pacchetti di account. Lo stato di ricezione del magazzino viene visualizzato dopo che il personale ha abbinato ed elaborato il pacco in entrata."
+    },
+    "accountLanguage": {
+      "question": "Posso cambiare lingua o valuta?",
+      "answer": "Sì. Utilizza la lingua del frontend e il cambio valuta o le preferenze del profilo account quando sei connesso."
+    },
+    "affiliateReward": {
+      "question": "Come funzionano i premi di affiliazione?",
+      "answer": "Condividi il tuo link di riferimento. La commissione viene calcolata dagli ordini riferiti validi secondo la politica di affiliazione."
+    }
+  },
+  "filter": {
+    "showing": "Mostra aiuto per"
+  },
+  "empty": {
+    "articlesTitle": "Nessun articolo ancora in questa categoria",
+    "articlesDescription": "Prova un'altra categoria o utilizza la ricerca sopra.",
+    "faqTitle": "Nessun FAQ ancora in questa categoria",
+    "faqDescription": "Ticket Center può ancora aiutarti con questo argomento."
+  },
+  "articleDialog": {
+    "keywords": "Parole chiave",
+    "quickAnswer": "Risposta rapida del supporto"
+  },
+  "ticketsCta": {
+    "title": "Hai ancora bisogno di aiuto?",
+    "description": "Apri un ticket di supporto e il nostro team ti risponderà il prima possibile.",
+    "open": "Centro Biglietteria aperto",
+    "create": "Crea nuovo biglietto"
+  }
+}

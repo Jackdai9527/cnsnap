@@ -1,0 +1,274 @@
+{
+  "hero": {
+    "eyebrow": "Service de réexpédition",
+    "title": "Achetez vous-même. Expédiez à notre entrepôt. Nous expédions dans le monde entier.",
+    "subtitle": "Utilisez notre adresse d'entrepôt en Chine lorsque vous effectuez des achats sur des sites Web chinois. Nous recevons, stockons, consolidons et expédions vos articles à l’international.",
+    "warehouseAddress": "Obtenir l'adresse de l'entrepôt",
+    "submitParcel": "Soumettre le colis entrant",
+    "estimateFee": "Estimation des frais d'expédition",
+    "cards": {
+      "warehouse": {
+        "title": "Utilisez notre entrepôt en Chine",
+        "description": "Copiez votre adresse personnelle et ajoutez votre code d'utilisateur lors du paiement sur les sites Web chinois."
+      },
+      "code": {
+        "title": "Identifiez votre colis",
+        "description": "Soumettez le numéro de suivi national afin que le personnel de l'entrepôt puisse faire correspondre le colis à votre compte."
+      },
+      "consolidate": {
+        "title": "Transmettre à l'international",
+        "description": "Après avoir pesé et emballé, choisissez un canal d'expédition et payez le fret international."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Agent d'achat vs transfert",
+    "title": "Deux façons d'obtenir des produits de Chine",
+    "description": "Utilisez Shopping Agent lorsque vous souhaitez que nous achetions pour vous. Utilisez le transfert lorsque vous avez déjà acheté les articles vous-même.",
+    "columns": {
+      "feature": "Caractéristique",
+      "agent": "Agent commercial",
+      "forwarding": "Transfert"
+    },
+    "rows": {
+      "owner": {
+        "feature": "Qui achète",
+        "agent": "Nous vous aidons à acheter des produits auprès des vendeurs.",
+        "forwarding": "Vous achetez vous-même des produits sur des sites chinois."
+      },
+      "payment": {
+        "feature": "Premier paiement",
+        "agent": "Vous payez le coût du produit, l'expédition nationale et les frais de service.",
+        "forwarding": "Vous payez le vendeur directement avant l'arrivée du colis."
+      },
+      "workflow": {
+        "feature": "Flux de travail des commandes",
+        "agent": "Nous passons la commande, achetons, recevons, emballons et expédions.",
+        "forwarding": "Vous envoyez les articles à notre entrepôt, puis nous les recevons, les pesons et les expédions."
+      },
+      "warehouse": {
+        "feature": "Rôle d'entrepôt",
+        "agent": "L'entrepôt reçoit les articles achetés par notre équipe.",
+        "forwarding": "Warehouse identifie les colis à l'aide de votre code utilisateur et de votre numéro de suivi."
+      },
+      "shipping": {
+        "feature": "Expédition internationale",
+        "agent": "Vous payez les frais d'expédition internationaux après pesée en entrepôt.",
+        "forwarding": "Vous payez les frais d'expédition internationaux après la pesée des colis à expédier."
+      }
+    }
+  },
+  "steps": {
+    "eyebrow": "Comment fonctionne le transfert",
+    "title": "De votre commande vendeur à la livraison internationale",
+    "description": "Le transfert est préférable lorsque vous pouvez faire vos achats vous-même mais que vous avez besoin d'un entrepôt en Chine, d'une consolidation et d'une expédition internationale.",
+    "items": {
+      "register": {
+        "title": "Créer un compte",
+        "description": "Créez un compte pour que l'entrepôt puisse attribuer des colis à votre profil utilisateur."
+      },
+      "address": {
+        "title": "Obtenez l'adresse de votre entrepôt",
+        "description": "Copiez votre adresse d'entrepôt personnelle et votre code utilisateur à partir de cette page."
+      },
+      "buy": {
+        "title": "Achetez vous-même sur des sites Web chinois",
+        "description": "Passez la commande directement auprès du vendeur ou de la place de marché."
+      },
+      "userCode": {
+        "title": "Utilisez votre code utilisateur dans l'adresse",
+        "description": "Mettez votre code utilisateur dans le nom ou l'adresse du destinataire afin que nous puissions identifier le colis."
+      },
+      "tracking": {
+        "title": "Soumettre le numéro de suivi national",
+        "description": "Indiquez-nous le transporteur et le numéro de suivi une fois que le vendeur a expédié en Chine."
+      },
+      "receive": {
+        "title": "L'entrepôt reçoit vos articles",
+        "description": "Nous comparons, inspectons, stockons et mettons à jour l’enregistrement du colis."
+      },
+      "chooseShipping": {
+        "title": "Choisissez l'expédition internationale",
+        "description": "Après la pesée, sélectionnez un canal d'expédition en fonction du coût, de la vitesse et des restrictions."
+      },
+      "payShipping": {
+        "title": "Payer les frais d'expédition",
+        "description": "Le fret international est facturé après confirmation du poids et des dimensions du colis final."
+      },
+      "ship": {
+        "title": "Nous expédions dans votre pays",
+        "description": "Suivez votre colis jusqu'à ce qu'il atteigne votre adresse de destination."
+      }
+    }
+  },
+  "warehouse": {
+    "eyebrow": "Guide des adresses des entrepôts",
+    "title": "Votre adresse d'entrepôt en Chine",
+    "description": "Utilisez cette adresse lorsque vous achetez sur des sites Web chinois. Votre code utilisateur est requis pour que le personnel de l'entrepôt puisse identifier vos colis.",
+    "guest": "Connectez-vous pour obtenir votre adresse d'entrepôt personnelle.",
+    "signedIn": "Connecté en tant que {email}",
+    "recipientName": "Nom du destinataire",
+    "warehouseAddress": "Adresse de l'entrepôt",
+    "phoneNumber": "Numéro de téléphone",
+    "postalCode": "Code postal",
+    "userCode": "Code Utilisateur / Client ID",
+    "importantTitle": "Règle d'adresse importante",
+    "importantDescription": "Lorsque vous passez votre commande auprès du vendeur, incluez votre code utilisateur dans le nom ou l'adresse du destinataire. Les colis sans code utilisateur peuvent être retardés.",
+    "example": "Exemple : Destinataire : Jack Dai - UID10086",
+    "copy": "Copier l'adresse",
+    "copied": "Adresse de l'entrepôt copiée.",
+    "loginTitle": "Connectez-vous pour obtenir votre adresse d'entrepôt personnelle.",
+    "loginDescription": "Chaque utilisateur a besoin d'un code utilisateur unique. Veuillez vous connecter avant d'envoyer des colis à l'entrepôt.",
+    "login": "Connexion"
+  },
+  "form": {
+    "eyebrow": "Soumettre le colis entrant",
+    "title": "Dites-nous ce qui arrive",
+    "description": "Soumettez le numéro de suivi national une fois que votre vendeur a expédié le colis à notre entrepôt en Chine.",
+    "guest": "La connexion est requise avant la soumission.",
+    "signedIn": "Connecté en tant que {email}",
+    "fields": {
+      "domesticTrackingNumber": "Numéro de suivi national",
+      "courierCompany": "Entreprise de messagerie",
+      "productName": "Nom du produit",
+      "productCategory": "Catégorie de produit",
+      "quantity": "Quantité",
+      "estimatedValue": "Valeur estimée USD",
+      "productUrl": "Produit URL",
+      "notes": "Remarques"
+    },
+    "placeholders": {
+      "courierCompany": "Sélectionnez le transporteur",
+      "productCategory": "Sélectionnez la catégorie",
+      "productName": "Nom du produit ou brève description",
+      "notes": "Ajoutez des détails sur le colis, des notes du vendeur, des demandes de consolidation ou des préférences de traitement."
+    },
+    "hints": {
+      "domesticTrackingNumber": "Soumettez-le après que le vendeur ait fourni un numéro de suivi national en Chine."
+    },
+    "categories": {
+      "general": "Marchandises générales",
+      "clothing": "Vêtements",
+      "shoes": "Chaussures",
+      "electronics": "Electronique",
+      "battery": "Produits de batterie",
+      "liquid": "Liquide",
+      "cosmetics": "Cosmétiques",
+      "food": "Nourriture",
+      "luxury": "Produits de luxe",
+      "other": "Autre"
+    },
+    "validation": {
+      "tracking": "Un numéro de suivi national est requis.",
+      "courier": "Veuillez sélectionner une entreprise de messagerie.",
+      "productName": "Le nom du produit est obligatoire.",
+      "productCategory": "Veuillez sélectionner une catégorie de produits.",
+      "quantity": "La quantité doit être un nombre entier supérieur à 0.",
+      "url": "Veuillez saisir un URL valide."
+    },
+    "loginRequired": "Veuillez vous connecter avant de soumettre un colis entrant.",
+    "submitted": "Colis entrant soumis. Nous l'associerons après l'arrivée à l'entrepôt.",
+    "submitting": "Envoi...",
+    "submit": "Soumettre le colis entrant",
+    "disclaimer": "La soumission d'un dossier de colis ne crée pas de facture d'expédition. Le fret international est calculé après pesée en entrepôt."
+  },
+  "services": {
+    "eyebrow": "Services de manutention de colis",
+    "title": "Ce que l'entrepôt peut faire pour vos colis",
+    "description": "L’expédition comprend la réception, le stockage et l’assistance à l’expédition internationale. Des options de traitement supplémentaires peuvent être connectées ultérieurement aux services payants.",
+    "items": {
+      "receiving": {
+        "title": "Réception en entrepôt",
+        "description": "Nous recevons les colis nationaux et les associons à votre compte."
+      },
+      "storage": {
+        "title": "Stockage gratuit",
+        "description": "Les jours de stockage gratuits peuvent être configurés ultérieurement en fonction de la politique de service."
+      },
+      "consolidation": {
+        "title": "Consolidation des packages",
+        "description": "Combinez plusieurs colis en un seul envoi international lorsque cela est possible."
+      },
+      "photoInspection": {
+        "title": "Inspection photographique",
+        "description": "Les photos de l’entrepôt peuvent aider à confirmer l’état visible de l’article avant l’expédition."
+      },
+      "removePackaging": {
+        "title": "Retirer l'emballage d'origine",
+        "description": "Réduisez les emballages inutiles du vendeur, le cas échéant."
+      },
+      "repackaging": {
+        "title": "Reconditionnement",
+        "description": "Améliorez la protection et le volume des colis avant l’expédition internationale."
+      },
+      "internationalShipping": {
+        "title": "Expédition internationale",
+        "description": "Choisissez les canaux d'expédition disponibles une fois le poids final confirmé."
+      },
+      "trackingUpdate": {
+        "title": "Mise à jour du suivi",
+        "description": "Le suivi international est mis à jour après l'expédition du colis."
+      }
+    }
+  },
+  "restrictions": {
+    "eyebrow": "Restrictions",
+    "title": "Règles de transfert avant de nous expédier",
+    "description": "L'expédition est pratique, mais les règles du transporteur et des douanes s'appliquent toujours. Veuillez examiner les risques avant d'envoyer des articles à l'entrepôt.",
+    "items": {
+      "restricted": "N'expédiez pas d'articles restreints.",
+      "sensitive": "Les piles, liquides, poudres, aliments et produits de luxe peuvent nécessiter un examen.",
+      "userCode": "Utilisez votre code utilisateur dans l'adresse.",
+      "trackingNumber": "Soumettez le numéro de suivi après l’achat.",
+      "storage": "La durée de stockage peut être limitée.",
+      "finalFee": "Les frais d'expédition finaux sont basés sur le poids et les dimensions de l'entrepôt.",
+      "customsTax": "La taxe douanière n'est pas incluse, sauf indication contraire."
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Transfert FAQ",
+    "description": "Des réponses courtes pour les utilisateurs qui achètent eux-mêmes et expédient à notre entrepôt.",
+    "items": {
+      "whatIsForwarding": {
+        "question": "Qu'est-ce que le service de réexpédition ?",
+        "answer": "Le transfert vous permet d'acheter des produits vous-même, de les expédier à notre entrepôt en Chine, puis de nous faire appel à nous pour la réception, le stockage, la consolidation et la livraison internationale."
+      },
+      "difference": {
+        "question": "Quelle est la différence entre Shopping Agent et Forwarding ?",
+        "answer": "Agent d'achat signifie que nous achetons pour vous. L’expédition signifie que vous achetez vous-même et que nous gérons l’entrepôt et l’expédition internationale après l’arrivée."
+      },
+      "warehouseAddress": {
+        "question": "Comment puis-je obtenir l'adresse de mon entrepôt ?",
+        "answer": "Connectez-vous à votre compte et copiez l'adresse personnelle de l'entrepôt indiquée sur cette page."
+      },
+      "userCode": {
+        "question": "Pourquoi dois-je inclure mon code utilisateur ?",
+        "answer": "Le code utilisateur permet au personnel de l'entrepôt de faire correspondre les colis à votre compte. Les codes manquants peuvent retarder la réception."
+      },
+      "consolidation": {
+        "question": "Puis-je consolider plusieurs packages ?",
+        "answer": "Oui, lorsque les règles relatives à la taille du colis, au type de produit et au canal d'expédition permettent la consolidation."
+      },
+      "forgotTracking": {
+        "question": "Que se passe-t-il si j'oublie de soumettre le numéro de suivi ?",
+        "answer": "L'entrepôt peut toujours recevoir le colis si votre code utilisateur est présent, mais la correspondance peut être plus lente. Soumettez le suivi dès que possible."
+      },
+      "restrictedItems": {
+        "question": "Quels éléments ne peuvent pas être transférés ?",
+        "answer": "Les articles interdits, dangereux, contrefaits, liquides, en poudre, alimentaires, piles ou de luxe de marque peuvent être rejetés ou nécessiter un examen spécial."
+      },
+      "feeCalculated": {
+        "question": "Comment sont calculés les frais de réexpédition ?",
+        "answer": "Les frais sont basés sur le poids final emballé, les dimensions, le pays de destination, le canal d'expédition et les restrictions sur le produit après la pesée en entrepôt."
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt à réexpédier vos colis en Chine ?",
+    "description": "Copiez l'adresse de votre entrepôt, soumettez le numéro de suivi national entrant ou estimez l'expédition internationale avant d'envoyer les articles.",
+    "warehouseAddress": "Obtenir l'adresse de l'entrepôt",
+    "submitParcel": "Soumettre le colis entrant",
+    "estimateFee": "Estimation des frais d'expédition"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "page": {
+    "title": "Users",
+    "description": "Manage customer accounts, create test users, edit profile data, and block risky users from logging in, searching products, or placing new orders.",
+    "newUser": "New user",
+    "search": "Search by email, name, referral code, role, or status..."
+  },
+  "summary": {
+    "totalUsers": "Total users",
+    "totalUsersNote": "{count} customer accounts",
+    "activeUsers": "Active users",
+    "activeUsersNote": "Can log in and place orders",
+    "blockedUsers": "Blocked users",
+    "blockedUsersNote": "Restricted from login and shopping",
+    "walletTotal": "Wallet total",
+    "walletTotalNote": "Current user balance across all accounts"
+  },
+  "table": {
+    "user": "User",
+    "role": "Role",
+    "status": "Status",
+    "orders": "Orders",
+    "packages": "Packages",
+    "wallet": "Wallet",
+    "locale": "Locale",
+    "joined": "Joined",
+    "manage": "Manage",
+    "noName": "No name"
+  },
+  "createModal": {
+    "title": "Create user",
+    "description": "Create a new customer or internal account. Blocked users cannot log in, search products, or submit new orders.",
+    "submit": "Create user",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "role": "Role",
+      "status": "Status",
+      "locale": "Locale",
+      "currency": "Currency"
+    }
+  },
+  "detailModal": {
+    "description": "{orders} orders · {packages} packages · {wallet} wallet",
+    "submit": "Save user",
+    "fields": {
+      "name": "Name",
+      "role": "Role",
+      "status": "Status",
+      "locale": "Locale",
+      "currency": "Currency"
+    },
+    "statusWarning": "Changing status to blocked or disabled will immediately prevent this user from logging in, searching products, and creating new orders or payments.",
+    "dangerZone": {
+      "title": "Danger zone",
+      "description": "Delete is only allowed for plain customer accounts with no business records.",
+      "confirmLabel": "Type {email} to confirm permanent deletion",
+      "delete": "Delete user",
+      "blockedHint": "This user still has related records. Block the account instead of deleting it."
+    },
+    "summary": {
+      "title": "Account summary",
+      "email": "Email",
+      "referralCode": "Referral code",
+      "status": "Status",
+      "role": "Role",
+      "wallet": "Wallet",
+      "orders": "Orders",
+      "packages": "Packages",
+      "payments": "Payments",
+      "addresses": "Addresses",
+      "recentWalletActivity": "Recent wallet activity",
+      "joined": "Joined",
+      "updated": "Updated"
+    },
+    "restrictionCard": {
+      "title": "Account restrictions active",
+      "description": "This user is currently blocked from logging in, searching products, and submitting new payments or orders."
+    }
+  },
+  "ticketsPage": {
+    "kicker": "Customer support",
+    "title": "Tickets",
+    "description": "Manage user-submitted issues for orders, tracking numbers, payments, parcels, coupons, and warehouse requests.",
+    "records": "{count} records",
+    "table": {
+      "orderTracking": "Order / Tracking No",
+      "user": "User",
+      "issueType": "Issue Type",
+      "problem": "Problem Description",
+      "status": "Status",
+      "createdAt": "Created At",
+      "reply": "Reply"
+    },
+    "search": "Search tickets..."
+  },
+  "adminModules": {
+    "addresses": {
+      "kicker": "User center",
+      "title": "User Addresses",
+      "description": "Shipping addresses used by orders, package quotes, and customer profile management.",
+      "countLabel": "{count} records",
+      "columns": {
+        "user": "User",
+        "contact": "Contact",
+        "country": "Country",
+        "city": "City",
+        "address": "Address",
+        "default": "Default"
+      },
+      "values": {
+        "yes": "Yes",
+        "no": "No"
+      }
+    },
+    "tags": {
+      "kicker": "User center",
+      "title": "User Tags",
+      "description": "Operational tags for segmentation, support routing, risk review, and marketing rules.",
+      "countLabel": "{count} tags",
+      "addTag": "Add tag",
+      "columns": {
+        "tag": "Tag",
+        "rule": "Rule",
+        "users": "Users",
+        "status": "Status"
+      },
+      "rows": {
+        "vip": {
+          "tag": "VIP buyer",
+          "rule": "Wallet balance or total order value above threshold"
+        },
+        "new": {
+          "tag": "New user",
+          "rule": "No completed order yet"
+        },
+        "riskReview": {
+          "tag": "Risk review",
+          "rule": "Blocked account or order risk status"
+        }
+      }
+    },
+    "risk": {
+      "kicker": "User center",
+      "title": "Risk Users",
+      "description": "Accounts with blocked status, pending order risk, restricted item history, or manual review needs.",
+      "countLabel": "{count} records",
+      "columns": {
+        "user": "User",
+        "status": "Account Status",
+        "risk": "Risk Orders",
+        "wallet": "Wallet",
+        "updated": "Updated"
+      }
+    }
+  }
+}

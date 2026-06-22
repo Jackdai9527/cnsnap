@@ -1,0 +1,78 @@
+{
+  "seoLanding": {
+    "readRelatedGuides": "Leia os guias relacionados",
+    "faq": "FAQ"
+  },
+  "header": {
+    "switcher": {
+      "language": "Idioma",
+      "currency": "Moeda"
+    },
+    "cart": {
+      "title": "Carrinho",
+      "previewTitle": "Previa do carrinho",
+      "itemsReady": "{count} itens prontos para o checkout",
+      "defaultSku": "SKU padrao",
+      "quantity": "Qtd {count}",
+      "moreItems": "{count} outros itens no carrinho",
+      "viewCart": "Ver carrinho",
+      "checkout": "Finalizar compra",
+      "emptyTitle": "Seu carrinho esta vazio",
+      "emptyDescription": "Pesquise produtos ou cole um link do produto para iniciar um pedido com agente de compras.",
+      "searchProducts": "Pesquisar produtos"
+    },
+    "search": {
+      "placeholder": "Cole um link do produto ou pesquise por palavra-chave",
+      "submit": "Pesquisar",
+      "historyTitle": "Historico de pesquisa",
+      "clearAll": "Limpar tudo"
+    },
+    "footer": {
+      "feature1Title": "Fotos QC gratuitas",
+      "feature1Description": "Inspecione os itens antes do envio internacional.",
+      "feature2Title": "Consolidacao inteligente",
+      "feature2Description": "Combine encomendas e reduza o custo final do frete.",
+      "feature3Title": "Protecao do agente",
+      "feature3Description": "Busca, compra, armazenamento e envio com etapas rastreaveis.",
+      "ctaTitle": "CNSnap",
+      "ctaDescription": "Cole um link do Taobao, Tmall, 1688, JD ou Weidian. Compramos, inspecionamos, armazenamos e enviamos para todo o mundo.",
+      "ctaAction": "Iniciar sourcing",
+      "serviceTitle": "ATENDIMENTO AO CLIENTE",
+      "guidanceTitle": "GUIA DO AGENTE DE COMPRAS",
+      "paymentTitle": "PAGAMENTO",
+      "deliveryTitle": "ENTREGA",
+      "afterSalesTitle": "POS-VENDA",
+      "helpCenter": "Central de ajuda",
+      "contactUs": "Fale conosco",
+      "expertService": "Servico especializado",
+      "counterfeitPolicy": "Politica contra falsificacoes",
+      "tutorial": "Tutorial",
+      "serviceFees": "Servico e taxas",
+      "orderStatus": "Status do pedido",
+      "returnsRefunds": "Devolucoes e reembolsos",
+      "topUp": "Recarregar",
+      "wise": "Wise",
+      "creditCard": "Cartao de credito internacional",
+      "walletBalance": "Saldo da carteira",
+      "charges": "Taxas",
+      "mailRestrictions": "Restricoes de envio",
+      "customsTaxation": "Alfandega e tributacao",
+      "receiptInformation": "Informacoes de recebimento",
+      "storage": "Armazenamento",
+      "inspectionInfo": "Informacoes de inspecao",
+      "afterSalesPolicy": "Politica de pos-venda",
+      "insurance": "Seguro",
+      "serviceHotline": "Linha de atendimento 9/7 (09:00-18:00, horario de Pequim, nao gratuita): +852 60990980",
+      "serviceEmail": "Email de atendimento: care@cnsnap.com",
+      "businessEmail": "Email comercial: biz@cnsnap.com",
+      "reportEmail": "Email para denunciar falsificacoes: report-counterfeits@cnsnap.com",
+      "companyName": "Nome da empresa: MOOR SPOT TECH CO., LIMITED",
+      "companyAddress": "Endereco da empresa: FLAT A 15/F GOLDFIELD IND BLDG 144-150 TAI LIN PAI RD",
+      "payment": "Pagamento",
+      "aboutUs": "Sobre nos",
+      "terms": "Termos de servico",
+      "privacy": "Politica de privacidade",
+      "copyright": "Copyright©2026 CNSnap Todos os direitos reservados"
+    }
+  }
+}

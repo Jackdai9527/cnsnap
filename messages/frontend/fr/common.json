@@ -1,0 +1,78 @@
+{
+  "seoLanding": {
+    "readRelatedGuides": "Lire les guides associes",
+    "faq": "FAQ"
+  },
+  "header": {
+    "switcher": {
+      "language": "Langue",
+      "currency": "Devise"
+    },
+    "cart": {
+      "title": "Panier",
+      "previewTitle": "Apercu du panier",
+      "itemsReady": "{count} articles prets pour le paiement",
+      "defaultSku": "SKU par defaut",
+      "quantity": "Qt {count}",
+      "moreItems": "{count} autres articles dans le panier",
+      "viewCart": "Voir le panier",
+      "checkout": "Paiement",
+      "emptyTitle": "Votre panier est vide",
+      "emptyDescription": "Recherchez des produits ou collez un lien produit pour commencer une commande d'achat assiste.",
+      "searchProducts": "Rechercher des produits"
+    },
+    "search": {
+      "placeholder": "Collez un lien produit ou recherchez par mot-cle",
+      "submit": "Rechercher",
+      "historyTitle": "Historique de recherche",
+      "clearAll": "Tout effacer"
+    },
+    "footer": {
+      "feature1Title": "Photos QC gratuites",
+      "feature1Description": "Verifiez les articles avant l'expedition internationale.",
+      "feature2Title": "Consolidation intelligente",
+      "feature2Description": "Regroupez les colis et reduisez les frais de livraison finaux.",
+      "feature3Title": "Protection agent",
+      "feature3Description": "Sourcing, achat, stockage et expedition avec des etapes tracables.",
+      "ctaTitle": "CNSnap",
+      "ctaDescription": "Collez un lien Taobao, Tmall, 1688, JD ou Weidian. Nous achetons, inspectons, stockons et expedions dans le monde entier.",
+      "ctaAction": "Commencer le sourcing",
+      "serviceTitle": "SERVICE CLIENT",
+      "guidanceTitle": "GUIDE D'ACHAT ASSISTE",
+      "paymentTitle": "PAIEMENT",
+      "deliveryTitle": "LIVRAISON",
+      "afterSalesTitle": "SERVICE APRES-VENTE",
+      "helpCenter": "Centre d'aide",
+      "contactUs": "Nous contacter",
+      "expertService": "Service expert",
+      "counterfeitPolicy": "Politique contre les contrefacons",
+      "tutorial": "Tutoriel",
+      "serviceFees": "Service et frais",
+      "orderStatus": "Statut de commande",
+      "returnsRefunds": "Retours et remboursements",
+      "topUp": "Recharger",
+      "wise": "Wise",
+      "creditCard": "Carte de credit internationale",
+      "walletBalance": "Solde du portefeuille",
+      "charges": "Frais",
+      "mailRestrictions": "Restrictions d'expedition",
+      "customsTaxation": "Douanes et taxes",
+      "receiptInformation": "Informations de reception",
+      "storage": "Stockage",
+      "inspectionInfo": "Informations d'inspection",
+      "afterSalesPolicy": "Politique apres-vente",
+      "insurance": "Assurance",
+      "serviceHotline": "Hotline service 9/7 (09:00-18:00, heure de Pekin, non surtaxee) : +852 60990980",
+      "serviceEmail": "E-mail service : care@cnsnap.com",
+      "businessEmail": "E-mail commercial : biz@cnsnap.com",
+      "reportEmail": "E-mail de signalement des contrefacons : report-counterfeits@cnsnap.com",
+      "companyName": "Nom de l'entreprise : MOOR SPOT TECH CO., LIMITED",
+      "companyAddress": "Adresse de l'entreprise : FLAT A 15/F GOLDFIELD IND BLDG 144-150 TAI LIN PAI RD",
+      "payment": "Paiement",
+      "aboutUs": "A propos de nous",
+      "terms": "Conditions d'utilisation",
+      "privacy": "Politique de confidentialite",
+      "copyright": "Copyright©2026 CNSnap Tous droits reserves"
+    }
+  }
+}

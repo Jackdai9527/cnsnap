@@ -1,0 +1,29 @@
+{
+  "actions": {
+    "edit": "Edytuj",
+    "quantity": "Ilosc",
+    "serviceNote": "Notatka uslugi"
+  },
+  "summary": {
+    "title": "Podsumowanie zamowienia",
+    "secure": "Bezpieczny checkout",
+    "subtotal": "Suma produktow",
+    "domesticShipping": "Wysylka w Chinach",
+    "serviceFee": "Oplata serwisowa",
+    "valueAddedServices": "Uslugi dodatkowe",
+    "total": "Wartosc zamowienia"
+  },
+  "addressForm": {
+    "addTitle": "Dodaj adres dostawy",
+    "editTitle": "Edytuj adres dostawy",
+    "useSaved": "Uzyj zapisanego adresu",
+    "label": "Etykieta adresu",
+    "contactName": "Osoba kontaktowa",
+    "phone": "Telefon",
+    "city": "Miasto",
+    "postalCode": "Kod pocztowy",
+    "line1": "Adres linia 1",
+    "line2": "Adres linia 2",
+    "default": "Ustaw jako adres domyslny"
+  }
+}

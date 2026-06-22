@@ -1,0 +1,177 @@
+{
+  "common": {
+    "validUntil": "Valable jusqu'à {date}"
+  },
+  "hero": {
+    "eyebrow": "Centre de promotion",
+    "title": "Économisez davantage sur vos commandes d'achats en Chine",
+    "subtitle": "Profitez de récompenses pour les nouveaux utilisateurs, de bonus de recharge, de coupons d'expédition, de réductions sur les frais de service et de commissions d'affiliation.",
+    "startShopping": "Commencer vos achats",
+    "rechargeWallet": "Recharger le portefeuille",
+    "joinAffiliate": "Rejoignez le programme d'affiliation",
+    "highlights": {
+      "newUser": "Coupon nouvel utilisateur",
+      "recharge": "Bonus de recharge jusqu'à",
+      "affiliate": "Commission d'affiliation"
+    }
+  },
+  "newUser": {
+    "eyebrow": "Bonus nouvel utilisateur",
+    "title": "Commencez avec des économies supplémentaires",
+    "description": "Inscrivez-vous, passez votre première commande et profitez des avantages de votre premier forfait avec moins de surprises.",
+    "offers": {
+      "shippingCoupon": {
+        "title": "Inscrivez-vous aujourd'hui et obtenez un coupon d'expédition de 5 $",
+        "description": "Utilisez-le pour payer votre première facture d'expédition internationale après la pesée en entrepôt.",
+        "action": "Inscrivez-vous maintenant"
+      },
+      "firstOrder": {
+        "title": "Remise sur les frais de service de première commande",
+        "description": "Bénéficiez de frais de service réduits sur votre première commande auprès d'un agent d'achat.",
+        "action": "Commencer vos achats"
+      },
+      "diyPriority": {
+        "title": "Assistance prioritaire pour la première commande de DIY",
+        "description": "Les nouveaux utilisateurs peuvent soumettre une demande DIY avec un examen manuel guidé et une clarification plus rapide.",
+        "action": "Soumettre la commande DIY"
+      }
+    }
+  },
+  "recharge": {
+    "eyebrow": "Bonus de recharge",
+    "title": "Rechargez votre portefeuille, débloquez le solde bonus",
+    "description": "Le solde du portefeuille facilite la gestion du paiement, du paiement des expéditions internationales et des remboursements.",
+    "rechargeNow": "Recharger maintenant",
+    "columns": {
+      "rechargeAmount": "Montant de recharge",
+      "bonusAmount": "Montant du bonus",
+      "validity": "Validité",
+      "status": "Statut"
+    },
+    "status": {
+      "active": "Actif",
+      "limited": "Limité"
+    }
+  },
+  "shippingCoupons": {
+    "eyebrow": "Coupons d'expédition",
+    "title": "Réduisez les frais d’expédition internationaux",
+    "description": "Utilisez les coupons éligibles une fois que les colis arrivent à l’entrepôt et que les frais d’expédition sont générés.",
+    "minimum": "Frais d'expédition minimaux",
+    "countries": "Pays",
+    "channels": "Canaux",
+    "validUntil": "Jusqu'à {date}",
+    "coupons": {
+      "shipping5": {
+        "name": "5 $ de réduction sur les expéditions internationales"
+      },
+      "heavy10": {
+        "name": "10 $ de rabais pour les colis de plus de 5 kg"
+      },
+      "firstPackage": {
+        "name": "Remise d'expédition pour le premier colis"
+      },
+      "countrySpecial": {
+        "name": "Remise spéciale sur l'expédition par pays"
+      }
+    }
+  },
+  "serviceFee": {
+    "eyebrow": "Réductions sur les frais de service",
+    "title": "Frais de service d'agent d'achat réduits",
+    "description": "Les réductions sur les frais de service s'appliquent aux commandes de produits éligibles avant que l'expédition internationale ne soit facturée.",
+    "badges": {
+      "new": "Nouvel utilisateur",
+      "vip": "VIP",
+      "limited": "Campagne"
+    },
+    "discounts": {
+      "firstOrder": {
+        "title": "Remise sur les frais de service de première commande",
+        "description": "Conçu pour les nouveaux utilisateurs testant le flux de travail d'achat."
+      },
+      "vip": {
+        "title": "Remise sur les frais de service utilisateur VIP",
+        "description": "Les clients réguliers peuvent bénéficier de frais de service inférieurs sur les commandes éligibles."
+      },
+      "campaign": {
+        "title": "Remise sur les frais de service de campagne",
+        "description": "Promotion limitée pour certaines catégories et campagnes saisonnières."
+      }
+    }
+  },
+  "affiliate": {
+    "title": "Invitez des amis et gagnez une commission",
+    "description": "Partagez CNSnap avec des amis. Gagnez une commission lorsque les utilisateurs référés passent des commandes valides.",
+    "join": "Rejoignez le programme d'affiliation",
+    "metrics": {
+      "rate": "Taux de commission",
+      "requirement": "Exigence de commande valide",
+      "payout": "Mode de paiement",
+      "minimum": "Montant minimum de paiement"
+    }
+  },
+  "campaigns": {
+    "eyebrow": "Campagnes à durée limitée",
+    "title": "Offres saisonnières et campagnes d'itinéraires",
+    "description": "Les campagnes peuvent se concentrer sur certains pays, catégories de produits, modes de paiement ou canaux d'expédition.",
+    "view": "Voir la campagne",
+    "status": {
+      "active": "Actif",
+      "upcoming": "À venir"
+    },
+    "items": {
+      "summer": {
+        "title": "Offre de transport d'été",
+        "description": "Utilisez certaines routes économiques et de fret aérien pour réduire les frais d'expédition des colis."
+      },
+      "school": {
+        "title": "Campagne d'achats pour la rentrée",
+        "description": "Économies supplémentaires sur les vêtements, les chaussures, la papeterie et les articles essentiels du dortoir."
+      }
+    }
+  },
+  "rules": {
+    "eyebrow": "Règles de promotion",
+    "title": "Des règles claires avant d'utiliser un coupon",
+    "description": "L'éligibilité à la promotion dépend du moment, du type de commande, de la destination, de l'itinéraire et du comportement du compte.",
+    "items": {
+      "validTime": {
+        "title": "Heure valide",
+        "description": "Chaque coupon ou campagne a une période de validité. Les promotions expirées ne peuvent pas être restaurées ou prolongées manuellement."
+      },
+      "minimumOrder": {
+        "title": "Montant minimum de commande",
+        "description": "Certaines remises nécessitent un sous-total minimum du produit, un montant de recharge du portefeuille ou des frais d'expédition internationaux générés."
+      },
+      "countries": {
+        "title": "Pays applicables",
+        "description": "Les coupons spécifiques à un pays ne s'appliquent que lorsque la destination du colis correspond à la liste des pays de la campagne."
+      },
+      "channels": {
+        "title": "Canaux d'expédition applicables",
+        "description": "Les coupons d'expédition peuvent être limités aux itinéraires express, économiques, de marchandises sensibles ou de transport maritime."
+      },
+      "refunds": {
+        "title": "Règles de remboursement",
+        "description": "Si une commande est annulée ou entièrement remboursée, l'utilisation des coupons et des bonus associés peut être annulée."
+      },
+      "stacking": {
+        "title": "Règles de cumul des coupons",
+        "description": "La plupart des coupons ne peuvent pas être cumulés avec un autre coupon du même type, sauf si une campagne le permet explicitement."
+      },
+      "abuse": {
+        "title": "Prévention des abus",
+        "description": "Les comptes frauduleux, les auto-références, les inscriptions en double ou les activités anormales peuvent perdre l'éligibilité à la promotion."
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "Utilisez vos avantages",
+    "title": "Choisissez la prochaine meilleure action",
+    "description": "Recherchez des produits, rechargez votre portefeuille ou invitez des amis pour gagner des récompenses lors de vos prochaines commandes.",
+    "startShopping": "Commencer vos achats",
+    "rechargeWallet": "Recharger le portefeuille",
+    "joinAffiliate": "Rejoindre l'affilié"
+  }
+}

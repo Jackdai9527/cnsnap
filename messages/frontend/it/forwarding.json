@@ -1,0 +1,274 @@
+{
+  "hero": {
+    "eyebrow": "Servizio di inoltro",
+    "title": "Acquista da solo. Spedisci al nostro magazzino. Inoltriamo in tutto il mondo.",
+    "subtitle": "Utilizza il nostro indirizzo di magazzino in Cina quando fai acquisti su siti web cinesi. Riceviamo, conserviamo, consolidiamo e spediamo i tuoi articoli a livello internazionale.",
+    "warehouseAddress": "Ottieni l'indirizzo del magazzino",
+    "submitParcel": "Invia pacco in arrivo",
+    "estimateFee": "Spese di spedizione stimate",
+    "cards": {
+      "warehouse": {
+        "title": "Utilizza il nostro magazzino in Cina",
+        "description": "Copia il tuo indirizzo personale e aggiungi il tuo codice utente quando effettui il check-out sui siti Web cinesi."
+      },
+      "code": {
+        "title": "Identifica il tuo pacco",
+        "description": "Invia il numero di tracciabilità nazionale in modo che il personale del magazzino possa abbinare il pacco al tuo account."
+      },
+      "consolidate": {
+        "title": "Avanti a livello internazionale",
+        "description": "Dopo aver pesato e imballato, scegli un canale di spedizione e paga il trasporto internazionale."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Agente commerciale vs spedizioniere",
+    "title": "Due modi per ottenere prodotti dalla Cina",
+    "description": "Utilizza Shopping Agent quando vuoi che acquistiamo per te. Utilizza l'inoltro quando hai già acquistato gli articoli tu stesso.",
+    "columns": {
+      "feature": "Caratteristica",
+      "agent": "Agente degli acquisti",
+      "forwarding": "Inoltro"
+    },
+    "rows": {
+      "owner": {
+        "feature": "Chi compra",
+        "agent": "Ti aiutiamo ad acquistare prodotti dai venditori.",
+        "forwarding": "Compri i prodotti da solo sui siti web cinesi."
+      },
+      "payment": {
+        "feature": "Primo pagamento",
+        "agent": "Pagherai il costo del prodotto, la spedizione nazionale e la commissione di servizio.",
+        "forwarding": "Paghi direttamente al venditore prima che arrivi il pacco."
+      },
+      "workflow": {
+        "feature": "Flusso di lavoro dell'ordine",
+        "agent": "Effettuiamo l'ordine, acquistiamo, riceviamo, imballiamo e spediamo.",
+        "forwarding": "Tu invii gli articoli al nostro magazzino, noi li riceviamo, li pesiamo e li spediamo."
+      },
+      "warehouse": {
+        "feature": "Ruolo di magazzino",
+        "agent": "Il magazzino riceve gli articoli acquistati dal nostro team.",
+        "forwarding": "Il magazzino identifica i pacchi utilizzando il codice utente e il numero di tracciamento."
+      },
+      "shipping": {
+        "feature": "Spedizione internazionale",
+        "agent": "Paghi la spedizione internazionale dopo la pesatura in magazzino.",
+        "forwarding": "Paghi la spedizione internazionale dopo aver pesato i pacchi inoltrati."
+      }
+    }
+  },
+  "steps": {
+    "eyebrow": "Come funziona l'inoltro",
+    "title": "Dal tuo ordine venditore alla consegna internazionale",
+    "description": "La spedizione è la soluzione migliore quando puoi fare acquisti da solo ma hai bisogno di un magazzino in Cina, di consolidamento e di spedizione internazionale.",
+    "items": {
+      "register": {
+        "title": "Registra un account",
+        "description": "Crea un account in modo che il magazzino possa assegnare i pacchi al tuo profilo utente."
+      },
+      "address": {
+        "title": "Ottieni l'indirizzo del tuo magazzino",
+        "description": "Copia il tuo indirizzo di magazzino personale e il codice utente da questa pagina."
+      },
+      "buy": {
+        "title": "Acquista tu stesso dai siti web cinesi",
+        "description": "Effettua l'ordine direttamente con il venditore o il marketplace."
+      },
+      "userCode": {
+        "title": "Utilizza il tuo codice utente nell'indirizzo",
+        "description": "Inserisci il tuo codice utente nel nome o nell'indirizzo del destinatario in modo che possiamo identificare il pacco."
+      },
+      "tracking": {
+        "title": "Invia il numero di tracciabilità nazionale",
+        "description": "Comunicaci il corriere e il numero di tracciabilità dopo che il venditore ha spedito all'interno della Cina."
+      },
+      "receive": {
+        "title": "Il magazzino riceve i tuoi articoli",
+        "description": "Abbiniamo, ispezioniamo, archiviamo e aggiorniamo il record del pacco."
+      },
+      "chooseShipping": {
+        "title": "Scegli la spedizione internazionale",
+        "description": "Dopo la pesatura, seleziona un canale di spedizione in base a costo, velocità e restrizioni."
+      },
+      "payShipping": {
+        "title": "Pagare le spese di spedizione",
+        "description": "Il trasporto internazionale viene fatturato dopo la conferma del peso e delle dimensioni finali del pacco."
+      },
+      "ship": {
+        "title": "Spediamo nel tuo paese",
+        "description": "Traccia il tuo pacco finché non raggiunge il tuo indirizzo di destinazione."
+      }
+    }
+  },
+  "warehouse": {
+    "eyebrow": "Guida agli indirizzi del magazzino",
+    "title": "Il tuo indirizzo di magazzino in Cina",
+    "description": "Utilizza questo indirizzo quando acquisti da siti Web cinesi. Il tuo codice utente è necessario affinché il personale del magazzino possa identificare i tuoi pacchi.",
+    "guest": "Accedi per ottenere l'indirizzo del tuo magazzino personale.",
+    "signedIn": "Accedi come {email}",
+    "recipientName": "Nome del destinatario",
+    "warehouseAddress": "Indirizzo del magazzino",
+    "phoneNumber": "Numero di telefono",
+    "postalCode": "Codice postale",
+    "userCode": "Codice Utente/Cliente ID",
+    "importantTitle": "Regola di indirizzo importante",
+    "importantDescription": "Quando effettui l'ordine venditore, includi il tuo codice utente nel nome o nell'indirizzo del destinatario. I pacchi senza codice utente potrebbero subire ritardi.",
+    "example": "Esempio: Destinatario: Jack Dai - UID10086",
+    "copy": "Copia indirizzo",
+    "copied": "Indirizzo del magazzino copiato.",
+    "loginTitle": "Accedi per ottenere l'indirizzo del tuo magazzino personale.",
+    "loginDescription": "Ogni utente necessita di un codice utente univoco. Effettua l'accesso prima di inviare i pacchi al magazzino.",
+    "login": "Accedi"
+  },
+  "form": {
+    "eyebrow": "Invia pacco in arrivo",
+    "title": "Raccontaci cosa sta arrivando",
+    "description": "Invia il numero di tracciabilità nazionale dopo che il venditore ha spedito il pacco al nostro magazzino cinese.",
+    "guest": "È necessario effettuare l'accesso prima dell'invio.",
+    "signedIn": "Accedi come {email}",
+    "fields": {
+      "domesticTrackingNumber": "Numero di tracciabilità nazionale",
+      "courierCompany": "Azienda di corriere",
+      "productName": "Nome del prodotto",
+      "productCategory": "Categoria di prodotto",
+      "quantity": "Quantità",
+      "estimatedValue": "Valore stimato USD",
+      "productUrl": "Prodotto URL",
+      "notes": "Note"
+    },
+    "placeholders": {
+      "courierCompany": "Seleziona corriere",
+      "productCategory": "Seleziona categoria",
+      "productName": "Nome del prodotto o breve descrizione",
+      "notes": "Aggiungi dettagli del pacchetto, note del venditore, richieste di consolidamento o preferenze di gestione."
+    },
+    "hints": {
+      "domesticTrackingNumber": "Invia dopo che il venditore ha fornito un numero di tracciabilità nazionale cinese."
+    },
+    "categories": {
+      "general": "Beni generali",
+      "clothing": "Abbigliamento",
+      "shoes": "Scarpe",
+      "electronics": "Elettronica",
+      "battery": "Prodotti a batteria",
+      "liquid": "Liquido",
+      "cosmetics": "Cosmetici",
+      "food": "Cibo",
+      "luxury": "Beni di lusso",
+      "other": "Altro"
+    },
+    "validation": {
+      "tracking": "È richiesto il numero di tracciabilità nazionale.",
+      "courier": "Seleziona una compagnia di corriere.",
+      "productName": "Il nome del prodotto è obbligatorio.",
+      "productCategory": "Seleziona una categoria di prodotto.",
+      "quantity": "La quantità deve essere un numero intero maggiore di 0.",
+      "url": "Inserisci un URL valido."
+    },
+    "loginRequired": "Effettua il login prima di inviare un pacco in arrivo.",
+    "submitted": "Pacco in arrivo inviato. Lo abbineremo dopo l'arrivo in magazzino.",
+    "submitting": "Invio...",
+    "submit": "Invia pacco in arrivo",
+    "disclaimer": "L'invio di un record di pacco non crea una fattura di spedizione. Il trasporto internazionale viene calcolato dopo la pesatura in magazzino."
+  },
+  "services": {
+    "eyebrow": "Servizi di gestione dei pacchi",
+    "title": "Cosa può fare il magazzino per i tuoi pacchi",
+    "description": "L'inoltro include la ricezione, l'immagazzinamento e il supporto per la spedizione internazionale. Ulteriori opzioni di gestione possono essere collegate ai servizi a pagamento in un secondo momento.",
+    "items": {
+      "receiving": {
+        "title": "Ricevimento in magazzino",
+        "description": "Riceviamo pacchi nazionali e li abbiniamo al tuo account."
+      },
+      "storage": {
+        "title": "Deposito gratuito",
+        "description": "I giorni di archiviazione gratuiti possono essere configurati successivamente in base alla policy del servizio."
+      },
+      "consolidation": {
+        "title": "Consolidamento del pacchetto",
+        "description": "Combina più pacchi in un'unica spedizione internazionale, quando possibile."
+      },
+      "photoInspection": {
+        "title": "Ispezione fotografica",
+        "description": "Le foto del magazzino possono aiutare a confermare le condizioni visibili dell'articolo prima della spedizione."
+      },
+      "removePackaging": {
+        "title": "Rimuovere l'imballaggio originale",
+        "description": "Riduci gli imballaggi non necessari del venditore, ove appropriato."
+      },
+      "repackaging": {
+        "title": "Riconfezionamento",
+        "description": "Migliora la protezione e il volume del pacco prima della spedizione internazionale."
+      },
+      "internationalShipping": {
+        "title": "Spedizione internazionale",
+        "description": "Scegli i canali di spedizione disponibili dopo la conferma del peso finale."
+      },
+      "trackingUpdate": {
+        "title": "Aggiornamento del monitoraggio",
+        "description": "Il tracciamento internazionale viene aggiornato dopo la spedizione del pacco."
+      }
+    }
+  },
+  "restrictions": {
+    "eyebrow": "Restrizioni",
+    "title": "Regole di inoltro prima di spedirci",
+    "description": "La spedizione è conveniente, ma si applicano ancora le regole del corriere e della dogana. Si prega di verificare i rischi prima di inviare gli articoli al magazzino.",
+    "items": {
+      "restricted": "Non spedire articoli soggetti a restrizioni.",
+      "sensitive": "Batteria, liquidi, polvere, cibo e beni di lusso potrebbero richiedere una revisione.",
+      "userCode": "Utilizza il tuo codice utente nell'indirizzo.",
+      "trackingNumber": "Invia il numero di tracciamento dopo l'acquisto.",
+      "storage": "Il tempo di conservazione potrebbe essere limitato.",
+      "finalFee": "La tariffa di spedizione finale dipende dal peso e dalle dimensioni del magazzino.",
+      "customsTax": "La tassa doganale non è inclusa se non diversamente specificato."
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Inoltro FAQ",
+    "description": "Risposte brevi per gli utenti che acquistano da soli e spediscono al nostro magazzino.",
+    "items": {
+      "whatIsForwarding": {
+        "question": "Cos'è il servizio di inoltro?",
+        "answer": "La spedizione ti consente di acquistare tu stesso i prodotti, spedirli al nostro magazzino in Cina, quindi utilizzarci per la ricezione, lo stoccaggio, il consolidamento e la consegna internazionale."
+      },
+      "difference": {
+        "question": "Qual è la differenza tra Shopping Agent e Inoltro?",
+        "answer": "Shopping Agent significa che acquistiamo per te. Spedizioni significa che acquisti tu stesso e gestiamo il magazzino e la spedizione internazionale dopo l'arrivo."
+      },
+      "warehouseAddress": {
+        "question": "Come posso ottenere l'indirizzo del mio magazzino?",
+        "answer": "Accedi al tuo account e copia l'indirizzo del magazzino personale mostrato in questa pagina."
+      },
+      "userCode": {
+        "question": "Perché devo includere il mio codice utente?",
+        "answer": "Il codice utente consente al personale del magazzino di associare i pacchi al tuo account. I codici mancanti possono ritardare la ricezione."
+      },
+      "consolidation": {
+        "question": "Posso consolidare più pacchetti?",
+        "answer": "Sì, quando le dimensioni del pacco, il tipo di prodotto e le regole del canale di spedizione consentono il consolidamento."
+      },
+      "forgotTracking": {
+        "question": "Cosa succede se dimentico di inviare il numero di tracciamento?",
+        "answer": "Il magazzino potrebbe comunque ricevere il pacco se il tuo codice utente è presente, ma l'abbinamento potrebbe essere più lento. Invia il monitoraggio il prima possibile."
+      },
+      "restrictedItems": {
+        "question": "Quali elementi non possono essere inoltrati?",
+        "answer": "Articoli proibiti, pericolosi, contraffatti, liquidi, in polvere, alimentari, a batteria o di lusso di marca potrebbero essere rifiutati o richiedere una revisione speciale."
+      },
+      "feeCalculated": {
+        "question": "Come vengono calcolate le spese di spedizione per l'inoltro?",
+        "answer": "La tariffa si basa sul peso finale dell'imballaggio, sulle dimensioni, sul paese di destinazione, sul canale di spedizione e sulle restrizioni del prodotto dopo la pesatura in magazzino."
+      }
+    }
+  },
+  "cta": {
+    "title": "Pronto a spedire i tuoi pacchi cinesi?",
+    "description": "Copia l'indirizzo del tuo magazzino, invia il numero di tracciabilità nazionale in entrata o stima la spedizione internazionale prima di inviare gli articoli.",
+    "warehouseAddress": "Ottieni l'indirizzo del magazzino",
+    "submitParcel": "Invia pacco in arrivo",
+    "estimateFee": "Spese di spedizione stimate"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "home": "首页",
+  "shoppingAgent": "代购",
+  "estimation": "预估",
+  "promotion": "促销",
+  "diyOrder": "DIY订单",
+  "forwarding": "转发",
+  "helpCenter": "帮助中心",
+  "menu": "菜单",
+  "login": "登录",
+  "register": "注册",
+  "account": "账户",
+  "dashboard": "概览",
+  "orders": "订单",
+  "packages": "包裹",
+  "wallet": "钱包",
+  "ticketsCenter": "工单中心",
+  "logout": "退出"
+}

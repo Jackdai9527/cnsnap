@@ -1,0 +1,8 @@
+{
+  "page": {
+    "kicker": "前台页脚分区",
+    "title": "页脚模块",
+    "description": "以 HTML 方式编辑页脚内容。支付 logo 可以使用本地路径，例如 `/payment-logos/card_visa.svg`。",
+    "save": "保存页脚模块"
+  }
+}

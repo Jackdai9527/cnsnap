@@ -1,0 +1,207 @@
+{
+  "hero": {
+    "eyebrow": "Shipping Estimator",
+    "title": "Estimate International Shipping Fee",
+    "subtitle": "Enter destination country, product category, weight and dimensions to estimate your international shipping cost before the warehouse confirms final packed weight.",
+    "startShopping": "Start Shopping",
+    "submitDiyOrder": "Submit DIY Order",
+    "steps": {
+      "actual": {
+        "title": "Enter parcel basics",
+        "description": "Choose destination, product type and actual weight from the seller or your estimate."
+      },
+      "volumetric": {
+        "title": "Add dimensions when possible",
+        "description": "Large but light parcels may be billed by volumetric weight instead of actual weight."
+      },
+      "warehouse": {
+        "title": "Final fee after warehouse arrival",
+        "description": "International shipping is paid after purchase, arrival, packing and warehouse weighing."
+      }
+    }
+  },
+  "calculator": {
+    "title": "Shipping Calculator",
+    "description": "V1.0 uses mock shipping rules. Final availability and price will be confirmed after warehouse inspection.",
+    "destinationCountry": "Destination country",
+    "productCategory": "Product category",
+    "actualWeightKg": "Actual weight kg",
+    "lengthCm": "Length cm",
+    "widthCm": "Width cm",
+    "heightCm": "Height cm",
+    "shippingChannel": "Shipping channel",
+    "allChannels": "All available channels",
+    "dimensionHint": "Dimensions are optional. If you enter one dimension, please enter length, width and height so volumetric weight can be estimated.",
+    "dimensionUnit": "centimeters",
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "toastSuccess": "Shipping estimate calculated.",
+    "toastReview": "No direct channel found. Please submit for manual review.",
+    "validation": {
+      "required": "This field is required.",
+      "positive": "Must be greater than 0.",
+      "destination": "Please select a destination country.",
+      "dimensionsComplete": "If you enter parcel dimensions, please fill length, width and height."
+    },
+    "categories": {
+      "general": "General Goods",
+      "clothing": "Clothing",
+      "shoes": "Shoes",
+      "electronics": "Electronics",
+      "battery": "Battery Products",
+      "liquid": "Liquid",
+      "cosmetics": "Cosmetics",
+      "food": "Food",
+      "powder": "Powder",
+      "luxury": "Luxury Goods",
+      "other": "Other"
+    }
+  },
+  "result": {
+    "emptyTitle": "Enter parcel details to estimate freight",
+    "emptyDescription": "The calculator compares available channels, volumetric weight, minimum chargeable weight and category restrictions.",
+    "title": "Calculation Result",
+    "description": "Estimated price is for planning only. Warehouse packed weight and carrier review decide the final fee.",
+    "lowestEstimate": "Lowest estimate",
+    "actualWeight": "Actual Weight",
+    "volumetricWeight": "Volumetric Weight",
+    "chargeableWeight": "Chargeable Weight",
+    "availableChannels": "Available Channels",
+    "unavailableChannels": "Unavailable Channels",
+    "noAvailable": "No available channel matched these details. Please submit a DIY Order or contact support for manual review.",
+    "unavailableReasons": {
+      "unsupportedCountry": "Destination {value} is not supported by this channel.",
+      "restrictedCategory": "This product category requires another channel or manual review.",
+      "maxWeight": "Chargeable weight exceeds {value} kg."
+    },
+    "restrictionNotices": {
+      "sensitive": "This category may require manual review. Final channel availability depends on product details, destination country and carrier policy.",
+      "general": "General goods are usually supported by multiple channels, but final availability is confirmed after warehouse inspection."
+    }
+  },
+  "channels": {
+    "eyebrow": "Shipping Channels",
+    "title": "Available Shipping Channels",
+    "description": "Compare common shipping options before you place an order. Availability may change by destination, category and warehouse inspection."
+  },
+  "channelDetails": {
+    "dhl": {
+      "name": "DHL Express",
+      "deliveryTime": "3-6 business days",
+      "suitableFor": "Fast delivery for general goods, clothing, shoes and premium parcels.",
+      "notes": "Good for speed-sensitive parcels. Sensitive categories need review before dispatch."
+    },
+    "fedex": {
+      "name": "FedEx",
+      "deliveryTime": "4-8 business days",
+      "suitableFor": "Balanced express option for most general products.",
+      "notes": "Stable tracking and delivery coverage. Review may be needed for luxury goods."
+    },
+    "ups": {
+      "name": "UPS",
+      "deliveryTime": "4-8 business days",
+      "suitableFor": "Commercial shipments, shoes, clothing and larger general parcels.",
+      "notes": "Strong for North America and Europe routes."
+    },
+    "ems": {
+      "name": "EMS",
+      "deliveryTime": "7-15 business days",
+      "suitableFor": "Cost-aware parcels with broad postal coverage.",
+      "notes": "Delivery time can vary by destination customs and local postal handling."
+    },
+    "air-cargo": {
+      "name": "Air Cargo",
+      "deliveryTime": "8-14 business days",
+      "suitableFor": "Medium and heavy parcels where cost matters more than express speed.",
+      "notes": "Often better for parcels above 3 kg. Final rate depends on packed size."
+    },
+    "economy": {
+      "name": "Economy Line",
+      "deliveryTime": "12-25 business days",
+      "suitableFor": "Low-cost shipping for general goods, clothing and non-urgent orders.",
+      "notes": "Lower cost with longer transit time. Tracking updates may be less frequent."
+    },
+    "sensitive": {
+      "name": "Sensitive Goods Line",
+      "deliveryTime": "8-18 business days",
+      "suitableFor": "Battery products, cosmetics and selected sensitive goods after review.",
+      "notes": "Sensitive routes require product review. Liquids, powders and food may still be rejected."
+    },
+    "sea": {
+      "name": "Sea Shipping",
+      "deliveryTime": "30-55 business days",
+      "suitableFor": "Heavy non-urgent parcels and consolidated shipments.",
+      "notes": "Best for bulky and heavy parcels. Not suitable for urgent delivery."
+    }
+  },
+  "weightGuide": {
+    "eyebrow": "Chargeable Weight",
+    "title": "Why the billed weight can differ from actual weight",
+    "description": "Carriers charge by the larger value between actual weight, volumetric weight and minimum chargeable weight. This protects route capacity when a parcel is large but light.",
+    "formula": "Chargeable Weight = max(Actual Weight, Volumetric Weight, Minimum Chargeable Weight)",
+    "actual": {
+      "title": "Actual weight",
+      "description": "The physical weight measured by the warehouse scale after your items arrive and are packed."
+    },
+    "volumetric": {
+      "title": "Volumetric weight",
+      "description": "A calculated weight based on parcel size: length × width × height divided by the channel volume divisor."
+    },
+    "why": {
+      "title": "Large light parcels",
+      "description": "Shoeboxes, plush toys and bulky packaging may occupy more aircraft or truck space than their scale weight suggests."
+    },
+    "final": {
+      "title": "Warehouse confirmation",
+      "description": "The estimate helps planning, but final shipping fee is based on actual packed parcel data from the warehouse."
+    }
+  },
+  "restricted": {
+    "title": "Restricted Item Notice",
+    "description": "Some items can require carrier review, special routes or may be rejected entirely depending on the destination country.",
+    "items": [
+      "Some items may be restricted or forbidden.",
+      "Battery, liquid, powder, food, cosmetics and luxury goods may require review.",
+      "Final shipping availability depends on product type and destination country.",
+      "Customs tax is not included unless stated."
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Shipping Estimation FAQ",
+    "description": "Short answers for the most common questions about secondary shipping fees and international delivery.",
+    "items": {
+      "separateShipping": {
+        "question": "Why do I need to pay international shipping separately?",
+        "answer": "You first pay product cost, domestic seller shipping and service fees. International shipping is calculated later after the warehouse receives, packs and weighs the parcel."
+      },
+      "volumetricWeight": {
+        "question": "What is volumetric weight?",
+        "answer": "Volumetric weight converts parcel size into a billable weight. A large light box may cost more to ship because it occupies more carrier space."
+      },
+      "finalFee": {
+        "question": "Is the estimated shipping fee final?",
+        "answer": "No. The estimate is for planning only. The final fee is based on warehouse measured weight, packed dimensions, product review and selected channel."
+      },
+      "restrictedItems": {
+        "question": "What items are restricted?",
+        "answer": "Battery products, liquids, powders, food, cosmetics, branded luxury goods and similar products may require review or a special shipping line."
+      },
+      "chooseChannel": {
+        "question": "Can I choose the shipping channel myself?",
+        "answer": "Yes, when multiple channels are available. If an item is sensitive or a destination has limits, the final channel must follow carrier policy."
+      },
+      "deliveryTime": {
+        "question": "How long does international shipping take?",
+        "answer": "Express lines can take a few business days, while economy or sea shipping can take several weeks. Customs and local delivery may add time."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to buy from China?",
+    "description": "Search products, submit a manual purchasing request, or use forwarding when you already have items arriving at our warehouse.",
+    "startShopping": "Start Shopping",
+    "submitDiyOrder": "Submit DIY Order",
+    "forwarding": "Use Forwarding Service"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "mobile": {
+    "eyebrow": "Search",
+    "title": "Search by keyword or paste a marketplace link",
+    "description": "Use keyword search for discovery or paste a Taobao, 1688, Tmall, or Weidian link to jump straight into a purchase flow.",
+    "platforms": "Platforms",
+    "results": "Results",
+    "resultsReady": "{count} products ready to browse",
+    "noResultsYet": "No results yet",
+    "emptyDescription": "Try a broader keyword, switch platform, or paste a direct item URL.",
+    "loadMore": "Load more"
+  },
+  "platformLabels": {
+    "all": "All platforms",
+    "taobao": "Taobao",
+    "tmall": "Tmall",
+    "1688": "1688",
+    "weidian": "Weidian",
+    "jd": "JD",
+    "xianyu": "Xianyu"
+  },
+  "hero": {
+    "eyebrow": "Product discovery",
+    "title": "Browse our stocked catalog, then let CNSnap buy and ship it.",
+    "description": "Explore your published storefront products, search by keyword, or paste a product link for direct item details and checkout.",
+    "trustNotes": {
+      "reviewTitle": "Purchasing review",
+      "reviewText": "We check order details before purchase.",
+      "photosTitle": "Warehouse photos",
+      "photosText": "QC photos are reserved after arrival.",
+      "shipTitle": "Ship later",
+      "shipText": "International freight is paid after weighing."
+    }
+  },
+  "filters": {
+    "eyebrow": "Refine search",
+    "title": "Filters",
+    "marketplace": "Marketplace",
+    "allPlatforms": "All platforms",
+    "sortBy": "Sort by",
+    "priceRange": "Price range CNY",
+    "priceMin": "Min",
+    "priceMax": "Max",
+    "note": "This catalog shows your published storefront products. Paste a direct product link in the search box if you want to open a specific marketplace item.",
+    "apply": "Apply filters",
+    "reset": "Reset",
+    "activeCount": "{count} active"
+  },
+  "toolbar": {
+    "page": "Page {page}",
+    "filters": "{count} filters",
+    "resultsFor": "Results for \"{query}\"",
+    "browseAll": "Browse all storefront products",
+    "description": "Showing {count} listings from your published product library. Product price is shown before international freight; final shipping is calculated after warehouse weighing.",
+    "catalog": "Storefront catalog"
+  },
+  "pagination": {
+    "browsingPage": "Browsing page {page}",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "empty": {
+    "title": "No matching products found",
+    "description": "Try a broader keyword, remove price filters, or paste the original product link if you already have one.",
+    "startFromHome": "Start from homepage",
+    "submitDiyOrder": "Submit DIY Order"
+  },
+  "error": {
+    "title": "Search is temporarily unavailable",
+    "description": "We couldn't load the current search results right now. Please retry in a moment or go back to the homepage.",
+    "retry": "Try again",
+    "goHome": "Go to homepage",
+    "note": "Your current keyword and filters are preserved when you retry."
+  },
+  "risk": {
+    "title": "Search needs review",
+    "description": "This keyword may contain restricted or sensitive terms. CNSnap cannot show product suggestions for it.",
+    "readRestrictions": "Read restrictions",
+    "tryAnotherSearch": "Try another search",
+    "mobileNote": "Paste a direct product link instead if you already know the item and want to continue with manual review."
+  },
+  "sortOptions": {
+    "default": "Best match",
+    "sales": "Top sales",
+    "priceAsc": "Price low to high",
+    "priceDesc": "Price high to low"
+  },
+  "panel": {
+    "keyword": "Keyword",
+    "url": "URL",
+    "urlPlaceholder": "Paste Taobao/Tmall/1688/JD item URL",
+    "keywordPlaceholder": "Search products by keyword or item ID",
+    "submit": "Search"
+  },
+  "riskReminder": {
+    "title": "Risk Reminder",
+    "subtitle": "This item may involve {count} restricted {label}. Please choose another item or contact support for help.",
+    "riskSingle": "risk",
+    "riskPlural": "risks",
+    "alertTitle": "Risk Alert",
+    "alertDescription": "The submitted product may fall under restricted or legally sensitive categories, so we cannot process this purchasing request at the moment.",
+    "continueShopping": "Continue shopping",
+    "noResultTitle": "We cannot show products for this search. Try a different keyword or contact customer service for help.",
+    "suggestTitle": "CNSnap suggests:",
+    "suggestions": {
+      "one": "1. Check whether the keyword contains restricted or sensitive terms.",
+      "two": "2. Rephrase your search with broader words, such as “dress” instead of a very specific restricted phrase.",
+      "three": "3. Review shipping and mail restrictions before submitting products.",
+      "four": "4. If you have a normal product link, submit it directly from the homepage search box.",
+      "five": "5. Contact support if you need help finding a compliant alternative."
+    }
+  }
+}

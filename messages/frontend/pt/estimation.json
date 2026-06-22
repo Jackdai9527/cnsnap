@@ -1,0 +1,207 @@
+{
+  "hero": {
+    "eyebrow": "Estimador de envio",
+    "title": "Estimativa da taxa de envio internacional",
+    "subtitle": "Insira o país de destino, a categoria do produto, o peso e as dimensões para estimar seu custo de envio internacional antes que o armazém confirme o peso final embalado.",
+    "startShopping": "Comece a comprar",
+    "submitDiyOrder": "Envie o pedido DIY",
+    "steps": {
+      "actual": {
+        "title": "Insira os princípios básicos do pacote",
+        "description": "Escolha o destino, o tipo de produto e o peso real do vendedor ou de sua estimativa."
+      },
+      "volumetric": {
+        "title": "Adicione dimensões quando possível",
+        "description": "Pacotes grandes, mas leves, podem ser cobrados pelo peso volumétrico em vez do peso real."
+      },
+      "warehouse": {
+        "title": "Taxa final após a chegada ao armazém",
+        "description": "O envio internacional é pago após a compra, chegada, embalagem e pesagem no armazém."
+      }
+    }
+  },
+  "calculator": {
+    "title": "Envio Calculadora",
+    "description": "V1.0 usa regras de envio simuladas. A disponibilidade final e o preço serão confirmados após a inspeção do armazém.",
+    "destinationCountry": "País de destino",
+    "productCategory": "Categoria do produto",
+    "actualWeightKg": "Peso real kg",
+    "lengthCm": "Comprimento cm",
+    "widthCm": "Largura cm",
+    "heightCm": "Altura cm",
+    "shippingChannel": "Canal de envio",
+    "allChannels": "Todos os canais disponíveis",
+    "dimensionHint": "As dimensões são opcionais. Se você inserir uma dimensão, insira comprimento, largura e altura para que o peso volumétrico possa ser estimado.",
+    "dimensionUnit": "centímetros",
+    "calculate": "Calcular",
+    "reset": "Redefinir",
+    "toastSuccess": "Estimativa de envio calculada.",
+    "toastReview": "Nenhum canal direto encontrado. Envie para revisão manual.",
+    "validation": {
+      "required": "Este campo é obrigatório.",
+      "positive": "Deve ser maior que 0.",
+      "destination": "Selecione um país de destino.",
+      "dimensionsComplete": "Se você inserir as dimensões do pacote, preencha o comprimento, a largura e a altura."
+    },
+    "categories": {
+      "general": "Bens em geral",
+      "clothing": "Roupas",
+      "shoes": "Sapatos",
+      "electronics": "Eletrônicos",
+      "battery": "Produtos de bateria",
+      "liquid": "Líquidos",
+      "cosmetics": "Cosméticos",
+      "food": "Alimentos",
+      "powder": "Pó",
+      "luxury": "Produtos de luxo",
+      "other": "Outros"
+    }
+  },
+  "result": {
+    "emptyTitle": "Insira os detalhes do pacote para estimar o frete",
+    "emptyDescription": "A calculadora compara canais disponíveis, peso volumétrico, peso mínimo cobrável e categoria restrições.",
+    "title": "Resultado do cálculo",
+    "description": "O preço estimado é apenas para planejamento. O peso embalado no armazém e a análise da transportadora decidem a taxa final.",
+    "lowestEstimate": "Estimativa mais baixa",
+    "actualWeight": "Peso real",
+    "volumetricWeight": "Peso volumétrico",
+    "chargeableWeight": "Peso cobrável",
+    "availableChannels": "Canais disponíveis",
+    "unavailableChannels": "Canais indisponíveis",
+    "noAvailable": "Nenhum canal disponível corresponde a esses detalhes. Envie um pedido DIY ou entre em contato com o suporte para análise manual.",
+    "unavailableReasons": {
+      "unsupportedCountry": "O destino {value} não é compatível com este canal.",
+      "restrictedCategory": "Esta categoria de produto requer outro canal ou revisão manual.",
+      "maxWeight": "O peso cobrável excede {value} kg."
+    },
+    "restrictionNotices": {
+      "sensitive": "Esta categoria pode exigir revisão manual. A disponibilidade final do canal depende dos detalhes do produto, do país de destino e da política da transportadora.",
+      "general": "Produtos em geral geralmente são suportados por vários canais, mas a disponibilidade final é confirmada após a inspeção do armazém."
+    }
+  },
+  "channels": {
+    "eyebrow": "Canais de envio",
+    "title": "Canais de envio disponíveis",
+    "description": "Compare as opções de envio comuns antes de fazer um pedido. A disponibilidade pode mudar de acordo com o destino, categoria e inspeção do armazém."
+  },
+  "channelDetails": {
+    "dhl": {
+      "name": "DHL Express",
+      "deliveryTime": "3-6 dias úteis",
+      "suitableFor": "Entrega rápida para mercadorias gerais, roupas, sapatos e encomendas premium.",
+      "notes": "Bom para encomendas sensíveis ao prazo. Categorias sensíveis precisam de revisão antes do envio."
+    },
+    "fedex": {
+      "name": "FedEx",
+      "deliveryTime": "4-8 dias úteis",
+      "suitableFor": "Opção expressa equilibrada para a maioria dos produtos comuns.",
+      "notes": "Rastreamento estável e ampla cobertura. Produtos de luxo podem exigir revisão adicional."
+    },
+    "ups": {
+      "name": "UPS",
+      "deliveryTime": "4-8 dias úteis",
+      "suitableFor": "Adequado para remessas comerciais, sapatos, roupas e pacotes gerais maiores.",
+      "notes": "Forte especialmente nas rotas para a América do Norte e Europa."
+    },
+    "ems": {
+      "name": "EMS",
+      "deliveryTime": "7-15 dias úteis",
+      "suitableFor": "Para pacotes com foco em custo e ampla cobertura postal.",
+      "notes": "O prazo pode variar conforme a alfândega de destino e a entrega postal local."
+    },
+    "air-cargo": {
+      "name": "Carga aérea",
+      "deliveryTime": "8-14 dias úteis",
+      "suitableFor": "Para pacotes médios e pesados quando o custo importa mais do que a velocidade expressa.",
+      "notes": "Muitas vezes é melhor para pacotes acima de 3 kg. A tarifa final depende do volume embalado."
+    },
+    "economy": {
+      "name": "Linha econômica",
+      "deliveryTime": "12-25 dias úteis",
+      "suitableFor": "Envio de baixo custo para mercadorias gerais, roupas e pedidos não urgentes.",
+      "notes": "Menor custo, mas prazo mais longo. As atualizações de rastreamento podem ser menos frequentes."
+    },
+    "sensitive": {
+      "name": "Linha de mercadorias sensíveis",
+      "deliveryTime": "8-18 dias úteis",
+      "suitableFor": "Para produtos com bateria, cosméticos e alguns itens sensíveis após revisão.",
+      "notes": "Rotas sensíveis exigem revisão do produto. Líquidos, pós e alimentos ainda podem ser recusados."
+    },
+    "sea": {
+      "name": "Transporte marítimo",
+      "deliveryTime": "30-55 dias úteis",
+      "suitableFor": "Para pacotes pesados não urgentes e remessas consolidadas.",
+      "notes": "Melhor para pacotes volumosos e pesados. Não é adequado para entregas urgentes."
+    }
+  },
+  "weightGuide": {
+    "eyebrow": "Peso cobrável",
+    "title": "Por que o peso faturado pode diferir do peso real",
+    "description": "As transportadoras cobram pelo maior valor entre peso real, peso volumétrico e peso mínimo cobrável. Isso protege a capacidade da rota quando um pacote é grande, mas leve.",
+    "formula": "Peso cobrável = máximo(Peso real, Peso volumétrico, Peso mínimo cobrável)",
+    "actual": {
+      "title": "Peso real",
+      "description": "O peso físico medido pela balança do armazém depois que seus itens chegam e são embalados."
+    },
+    "volumetric": {
+      "title": "Peso volumétrico",
+      "description": "Um peso calculado com base no tamanho do pacote: comprimento × largura × altura dividida pelo divisor de volume do canal."
+    },
+    "why": {
+      "title": "Grandes pacotes leves",
+      "description": "Caixas de sapatos, brinquedos de pelúcia e embalagens volumosas podem ocupar mais espaço de aeronave ou caminhão do que o peso da balança sugere."
+    },
+    "final": {
+      "title": "Confirmação do armazém",
+      "description": "A estimativa ajuda no planejamento, mas a taxa de envio final é baseada nos dados reais do pacote embalado no depósito."
+    }
+  },
+  "restricted": {
+    "title": "Aviso de item restrito",
+    "description": "Alguns itens podem exigir revisão da transportadora, rotas especiais ou podem ser totalmente rejeitados dependendo do país de destino.",
+    "items": [
+      "Alguns itens podem ser restritos ou proibidos.",
+      "Bateria, líquido, pó, alimentos, cosméticos e produtos de luxo podem exigir revisão.",
+      "A disponibilidade final de envio depende do tipo de produto e do país de destino.",
+      "O imposto alfandegário não está incluído, a menos que indicado."
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Estimativa de envio FAQ",
+    "description": "Respostas curtas para as perguntas mais comuns sobre taxas de envio secundário e entrega internacional.",
+    "items": {
+      "separateShipping": {
+        "question": "Por que preciso pagar frete internacional separadamente?",
+        "answer": "Você primeiro paga o custo do produto, frete do vendedor doméstico e taxas de serviço. O frete internacional é calculado depois que o armazém recebe, embala e pesa o pacote."
+      },
+      "volumetricWeight": {
+        "question": "O que é peso volumétrico?",
+        "answer": "O peso volumétrico converte o tamanho do pacote em um peso faturável. Uma caixa de luz grande pode custar mais para ser enviada porque ocupa mais espaço da transportadora."
+      },
+      "finalFee": {
+        "question": "A taxa de envio estimada é final?",
+        "answer": "Não. A estimativa é apenas para planejamento. A taxa final é baseada no peso medido no armazém, nas dimensões da embalagem, na avaliação do produto e no canal selecionado."
+      },
+      "restrictedItems": {
+        "question": "Quais itens são restritos?",
+        "answer": "Baterias, líquidos, pós, alimentos, cosméticos, produtos de luxo de marca e produtos similares podem exigir revisão ou uma linha de envio especial."
+      },
+      "chooseChannel": {
+        "question": "Posso escolher o canal de envio?",
+        "answer": "Sim, quando vários canais estão disponíveis. Se um item for sensível ou um destino tiver limites, o canal final deverá seguir a política da transportadora."
+      },
+      "deliveryTime": {
+        "question": "Quanto tempo leva o envio internacional?",
+        "answer": "As linhas expressas podem levar alguns dias úteis, enquanto o transporte econômico ou marítimo pode levar várias semanas. A alfândega e a entrega local podem aumentar o tempo."
+      }
+    }
+  },
+  "cta": {
+    "title": "Pronto para comprar na China?",
+    "description": "Pesquise produtos, envie uma solicitação de compra manual ou use o encaminhamento quando já tiver itens chegando em nosso depósito.",
+    "startShopping": "Comece a comprar",
+    "submitDiyOrder": "Envie o pedido DIY",
+    "forwarding": "Use o serviço de encaminhamento"
+  }
+}

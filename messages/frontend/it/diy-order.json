@@ -1,0 +1,240 @@
+{
+  "hero": {
+    "eyebrow": "Acquisti manuali",
+    "title": "Non riesci a trovare il prodotto? Invia un ordine DIY.",
+    "subtitle": "Inviaci il collegamento del prodotto, l'immagine, le specifiche e la quantità. Il nostro team lo esaminerà e ti invierà un preventivo.",
+    "submit": "Invia ordine DIY",
+    "viewMine": "Visualizza i miei ordini DIY",
+    "cards": {
+      "image": {
+        "title": "Immagine o elenco poco chiaro",
+        "description": "Invia un'immagine di riferimento, uno screenshot del prodotto o un collegamento incompleto."
+      },
+      "spec": {
+        "title": "Specifiche complesse",
+        "description": "Comunicaci colore, taglia, modello, versione, bundle ed eventuali note del venditore."
+      },
+      "quote": {
+        "title": "Preventivo manuale",
+        "description": "Il nostro team verifica disponibilità, prezzo, restrizioni e dettagli di acquisto."
+      }
+    }
+  },
+  "when": {
+    "eyebrow": "Quando utilizzare l'ordine DIY",
+    "title": "Utilizza DIY quando l'automazione non è sufficiente",
+    "description": "DIY L'ordine è ideale per acquisti speciali che richiedono una revisione umana prima del pagamento.",
+    "items": {
+      "cannotParse": {
+        "title": "Impossibile analizzare il collegamento al prodotto",
+        "description": "Utilizza DIY quando la pagina di un prodotto non può essere letta dal flusso automatico dell'agente di acquisto."
+      },
+      "imageOnly": {
+        "title": "Hai solo un'immagine del prodotto",
+        "description": "Carica o incolla un'immagine URL in modo che il nostro team possa identificare manualmente l'articolo."
+      },
+      "complexSpecs": {
+        "title": "Specifiche complesse",
+        "description": "Utilizza DIY per molti requisiti di colore, dimensione, versione, pacchetto o opzione personalizzata."
+      },
+      "manualQuote": {
+        "title": "Hai bisogno di un preventivo manuale",
+        "description": "Possiamo verificare il prezzo attuale del venditore, la spedizione nazionale e la fattibilità dell'acquisto."
+      },
+      "multipleItems": {
+        "title": "Acquista più articoli insieme",
+        "description": "Descrivi più prodotti o venditori quando hai bisogno di un piano di acquisto combinato."
+      },
+      "shippingUncertain": {
+        "title": "L'idoneità alla spedizione non è chiara",
+        "description": "Chiedici di esaminare gli articoli sensibili o soggetti a restrizioni prima di pagare."
+      }
+    }
+  },
+  "form": {
+    "eyebrow": "DIY Modulo d'ordine",
+    "title": "Invia la tua richiesta di acquisto",
+    "description": "Più dettagli fornisci, più velocemente il nostro team potrà quotare in modo accurato.",
+    "guest": "È necessario effettuare l'accesso prima dell'invio.",
+    "signedIn": "Accedi come {email}",
+    "fields": {
+      "productUrl": "Prodotto URL",
+      "productName": "Nome del prodotto",
+      "productImageUrl": "Immagine del prodotto URL",
+      "specification": "Specifica",
+      "quantity": "Quantità",
+      "budget": "Bilancio USD",
+      "destinationCountry": "Paese di destinazione",
+      "notes": "Note",
+      "contactEmail": "Contatto e-mail"
+    },
+    "placeholders": {
+      "productName": "Nome del prodotto o breve descrizione",
+      "specification": "Colore, taglia, modello, versione",
+      "notes": "Comunicaci le note del venditore, l'opzione preferita, i problemi di spedizione o qualsiasi cosa importante."
+    },
+    "hints": {
+      "productUrl": "Facoltativo, ma consigliato quando hai una pagina di prodotto.",
+      "productImageUrl": "La versione V1.0 utilizza l'immagine URL come segnaposto. Il caricamento dei file può essere collegato in seguito."
+    },
+    "countries": {
+      "US": "Stati Uniti (US)",
+      "CA": "Canada (CA)",
+      "GB": "Regno Unito (GB)",
+      "DE": "Germania (DE)",
+      "FR": "Francia (FR)",
+      "NL": "Paesi Bassi (NL)",
+      "PL": "Polonia (PL)",
+      "JP": "Giappone (JP)",
+      "KR": "Corea (KR)",
+      "AU": "Australia (AU)"
+    },
+    "validation": {
+      "productName": "Il nome del prodotto deve contenere almeno 2 caratteri.",
+      "quantity": "La quantità deve essere un numero intero maggiore di 0.",
+      "destination": "Seleziona un paese di destinazione.",
+      "url": "Inserisci un URL valido.",
+      "email": "Inserisci un indirizzo email valido."
+    },
+    "loginRequired": "Effettua l'accesso prima di inviare un ordine DIY.",
+    "submitted": "DIY Ordine inviato. Lo esamineremo a breve.",
+    "submitting": "Invio...",
+    "submit": "Invia ordine DIY",
+    "disclaimer": "L'invio non richiede il pagamento. Esamineremo prima la richiesta e invieremo un preventivo."
+  },
+  "steps": {
+    "eyebrow": "Come funziona il preventivo",
+    "title": "Dalla richiesta all'arrivo in magazzino",
+    "description": "DIY L'ordine segue un flusso di lavoro di revisione manuale in modo che prezzo, disponibilità e restrizioni di spedizione possano essere verificati prima dell'acquisto.",
+    "items": {
+      "submit": {
+        "title": "Invia la tua richiesta",
+        "description": "Invia dettagli del prodotto, immagine, specifiche, quantità e destinazione."
+      },
+      "review": {
+        "title": "Il nostro team esamina l'articolo",
+        "description": "Controlliamo la pagina del venditore, la disponibilità, il prezzo e la fattibilità dell'acquisto."
+      },
+      "quote": {
+        "title": "Ti inviamo un preventivo",
+        "description": "Il preventivo include il costo del prodotto, la spedizione nazionale e la stima della commissione di servizio."
+      },
+      "confirm": {
+        "title": "Confermi e paghi",
+        "description": "Dopo aver accettato il preventivo, puoi pagare per iniziare ad acquistare."
+      },
+      "purchase": {
+        "title": "Acquistiamo l'oggetto",
+        "description": "Il nostro team acquisti effettua l'ordine con il venditore."
+      },
+      "warehouse": {
+        "title": "L'articolo arriva al magazzino",
+        "description": "Il magazzino controlla, riceve e prepara le informazioni sul pacco."
+      },
+      "shipping": {
+        "title": "Paga la spedizione internazionale",
+        "description": "Dopo aver imballato e pesato, scegli un percorso e paghi le spese di spedizione."
+      },
+      "receive": {
+        "title": "Ricevi il tuo pacco",
+        "description": "Traccia il pacco fino alla consegna al tuo indirizzo di destinazione."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Agente commerciale rispetto all'ordine DIY",
+    "title": "Scegli il giusto flusso degli ordini",
+    "description": "I collegamenti standard sono più veloci con Shopping Agent. I prodotti speciali o poco chiari appartengono all'ordine DIY.",
+    "columns": {
+      "feature": "Caratteristica",
+      "agent": "Agente degli acquisti",
+      "diy": "DIY Ordine"
+    },
+    "rows": {
+      "suitable": {
+        "feature": "Meglio per",
+        "agent": "Collegamenti di prodotti standard o ricerca per parole chiave",
+        "diy": "I prodotti speciali o l'automazione dei prodotti non possono essere analizzati"
+      },
+      "parsing": {
+        "feature": "Dati del prodotto",
+        "agent": "Il sistema analizza automaticamente il prezzo e le opzioni",
+        "diy": "Revisione manuale e preventivo"
+      },
+      "speed": {
+        "feature": "Velocità dell'ordine",
+        "agent": "Checkout veloce quando i dati del prodotto sono chiari",
+        "diy": "Più lento perché è necessaria la revisione umana"
+      },
+      "price": {
+        "feature": "Fonte del prezzo",
+        "agent": "Leggi automaticamente dalla pagina del prodotto",
+        "diy": "Confermato dal personale prima del pagamento"
+      },
+      "complexity": {
+        "feature": "Richieste complesse",
+        "agent": "Meglio per opzioni semplici",
+        "diy": "Meglio per immagini, pacchetti, note e controlli di spedizione"
+      }
+    }
+  },
+  "examples": {
+    "eyebrow": "Richieste di esempio",
+    "title": "Le buone richieste DIY sono specifiche",
+    "items": {
+      "imageNoLink": {
+        "title": "Ho trovato un'immagine del prodotto ma nessun collegamento.",
+        "description": "Allega un'immagine URL e descrivi cosa vuoi che identifichiamo."
+      },
+      "tooManySku": {
+        "title": "La pagina del prodotto ha troppe opzioni SKU.",
+        "description": "Comunicaci il colore esatto, la taglia, il modello o il pacchetto che desideri."
+      },
+      "multipleSellers": {
+        "title": "Voglio acquistare diversi articoli da venditori diversi.",
+        "description": "Elenca ciascun articolo e il collegamento del venditore in modo da poter preparare un preventivo combinato."
+      },
+      "shippingCheck": {
+        "title": "Ho bisogno di aiuto per confermare se questo prodotto può essere spedito.",
+        "description": "Indicare il paese di destinazione e i materiali del prodotto, la batteria, i liquidi o i problemi relativi al marchio."
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "DIY Ordinare FAQ",
+    "description": "Risposte brevi prima di inviare una richiesta di acquisto manuale.",
+    "items": {
+      "quoteTime": {
+        "question": "Quanto tempo richiede un preventivo per l'ordine DIY?",
+        "answer": "La maggior parte dei preventivi vengono esaminati entro 1 giorno lavorativo. Gli articoli complessi o la conferma del venditore possono richiedere più tempo."
+      },
+      "imageOnly": {
+        "question": "Posso inviare solo un'immagine del prodotto?",
+        "answer": "Sì. È accettata un'immagine del prodotto, ma un collegamento o una descrizione aggiuntiva ci aiuta a quotare più velocemente."
+      },
+      "payBeforeQuote": {
+        "question": "Devo pagare prima del preventivo?",
+        "answer": "No. Prima invii la richiesta. Il pagamento avviene solo dopo aver accettato il preventivo."
+      },
+      "afterAccept": {
+        "question": "Cosa succede dopo aver accettato il preventivo?",
+        "answer": "Paghi l'importo indicato, quindi il nostro team di acquisti acquista il prodotto dal venditore."
+      },
+      "cancel": {
+        "question": "Posso annullare un ordine DIY?",
+        "answer": "Puoi annullare prima del pagamento o prima che il nostro team acquisti l'articolo. Dopo l'acquisto, la cancellazione dipende dalla politica del venditore."
+      },
+      "restricted": {
+        "question": "È possibile acquistare articoli soggetti a restrizioni?",
+        "answer": "Alcuni prodotti sensibili potrebbero richiedere percorsi speciali o potrebbero essere rifiutati. Il nostro team esaminerà l'idoneità alla spedizione prima dell'acquisto."
+      }
+    }
+  },
+  "cta": {
+    "title": "Pronti per inviare una richiesta manuale?",
+    "description": "Invia i dettagli ora o controlla i tuoi ordini DIY esistenti nel centro utenti.",
+    "submit": "Invia ordine DIY",
+    "viewMine": "Visualizza i miei ordini DIY"
+  }
+}

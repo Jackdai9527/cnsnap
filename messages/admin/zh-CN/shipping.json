@@ -1,0 +1,141 @@
+{
+  "page": {
+    "kicker": "物流规则与国家定价",
+    "title": "物流渠道",
+    "importDgeub": "导入广州 EUB",
+    "addChannel": "添加渠道",
+    "search": "搜索物流渠道...",
+    "table": {
+      "channel": "渠道",
+      "status": "状态",
+      "countries": "国家数",
+      "rates": "费率数",
+      "eta": "时效",
+      "rule": "规则",
+      "actions": "操作",
+      "edit": "编辑",
+      "delete": "删除"
+    },
+    "sortable": {
+      "title": "物流渠道排序",
+      "description": "拖拽启用和停用的物流渠道，调整客户和后台优先看到的顺序。",
+      "saving": "保存中",
+      "autoSaves": "自动保存",
+      "saved": "物流渠道顺序已保存。",
+      "saveFailed": "物流渠道顺序保存失败。",
+      "empty": "暂无物流渠道。",
+      "active": "启用",
+      "inactive": "停用",
+      "countryCount": "{count} 个国家",
+      "rateCount": "{count} 条费率"
+    },
+    "deliveryTime": "{min}-{max} 天",
+    "modals": {
+      "addChannelTitle": "添加渠道",
+      "editChannelTitle": "编辑 {name}",
+      "addRateTitle": "添加国家费率",
+      "editRateTitle": "编辑 {name}",
+      "channelDescription": "{count} 条国家费率",
+      "createChannelDescription": "创建一个承运渠道"
+    },
+    "forms": {
+      "saveChannel": "保存渠道",
+      "channelNamePlaceholder": "渠道名称",
+      "codePlaceholder": "代码",
+      "supportedCountries": "支持国家",
+      "supportedCategoriesPlaceholder": "支持的品类",
+      "forbiddenCategoriesPlaceholder": "禁运品类",
+      "calculationRulePlaceholder": "计费规则",
+      "trackingUrlPlaceholder": "物流跟踪地址",
+      "activeChannel": "启用该渠道"
+    },
+    "rates": {
+      "title": "国家费率",
+      "description": "共 {count} 条费率。国家以 ISO2 代码展示。",
+      "addRate": "添加费率",
+      "search": "搜索国家费率...",
+      "emptyState": "请先创建渠道，再打开该渠道编辑国家费率。DGEUB 默认包含 {count} 个支持国家。",
+      "columns": {
+        "country": "国家",
+        "code": "代码",
+        "rmbPerKg": "RMB/KG",
+        "fee": "手续费",
+        "start": "起重",
+        "limit": "上限",
+        "actions": "操作"
+      }
+    },
+    "rateForm": {
+      "save": "保存费率",
+      "countryNamePlaceholder": "国家名称，例如：美国",
+      "countryCodePlaceholder": "ISO2，例如：US",
+      "freightPlaceholder": "RMB/KG",
+      "handlingPlaceholder": "手续费 RMB",
+      "startPlaceholder": "起重 KG",
+      "maxPlaceholder": "最大 KG",
+      "delete": "删除费率"
+    }
+  },
+  "adminModules": {
+    "countries": {
+      "kicker": "物流中心",
+      "title": "物流国家",
+      "description": "根据启用的物流渠道和国家费率行汇总出的可发货国家列表。",
+      "countLabel": "{count} 个国家",
+      "manageChannels": "管理渠道",
+      "columns": {
+        "country": "国家",
+        "code": "代码",
+        "enabled": "启用",
+        "currency": "货币",
+        "channels": "渠道",
+        "rates": "费率行数"
+      }
+    },
+    "rateRules": {
+      "kicker": "物流中心",
+      "title": "物流费率规则",
+      "description": "DGEUB 费率行及未来承运商规则。公式：max(实重, 体积重, 最低计费重) × RMB/KG + 手续费。",
+      "countLabel": "{count} 条规则",
+      "editRateRows": "编辑费率行",
+      "search": "搜索物流费率规则...",
+      "importDialog": {
+        "title": "导入物流费率规则",
+        "description": "上传 CSV，检查解析结果，修正校验错误后确认，即可更新渠道和国家费率行。"
+      },
+      "columns": {
+        "rule": "规则",
+        "channel": "渠道",
+        "country": "国家",
+        "weight": "重量区间",
+        "rate": "费率",
+        "volume": "体积除数",
+        "status": "状态"
+      }
+    },
+    "restrictions": {
+      "kicker": "物流中心",
+      "title": "物流限制规则",
+      "description": "按承运商和国家配置商品品类限制。国家为空时表示该规则全局生效。",
+      "countLabel": "{count} 条规则",
+      "columns": {
+        "category": "品类",
+        "channel": "渠道",
+        "countries": "国家",
+        "type": "类型",
+        "review": "审核",
+        "userTip": "用户提示"
+      },
+      "values": {
+        "countries": "{count} 个国家",
+        "reviewRequired": "必审",
+        "userTip": "最终以承运商复审为准"
+      }
+    },
+    "calculator": {
+      "kicker": "物流中心",
+      "title": "运费计算器",
+      "description": "使用当前配置的 DGEUB 国家费率和计费重规则进行运营测算。"
+    }
+  }
+}

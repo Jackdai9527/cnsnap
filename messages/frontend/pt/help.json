@@ -1,0 +1,268 @@
+{
+  "search": {
+    "eyebrow": "Central de Ajuda",
+    "title": "Encontre respostas antes de sua próxima etapa de compras na China",
+    "subtitle": "Guias de pesquisa para agente de compras, estimativa de envio, pedidos DIY, encaminhamento, pagamento, pacotes, rastreamento e Central de ingressos.",
+    "placeholder": "Pesquisar agente de compras, taxa de envio, estimativa, pedido DIY, encaminhamento, pagamento...",
+    "examplesTitle": "Exemplos de pesquisa",
+    "results": "Resultados",
+    "emptyTitle": "Nenhum resultado de ajuda encontrado",
+    "emptyDescription": "Tente uma palavra-chave mais ampla, como frete, pagamento, pacote, ingresso ou pedido DIY.",
+    "examples": {
+      "shoppingAgent": "agente de compras",
+      "shippingFee": "taxa de envio",
+      "estimation": "estimativa",
+      "diyOrder": "pedido DIY",
+      "forwarding": "encaminhamento",
+      "payment": "pagamento",
+      "refund": "reembolso",
+      "restrictedItems": "itens restritos",
+      "package": "pacote",
+      "tracking": "rastreamento",
+      "ticket": "ingresso"
+    }
+  },
+  "popularTopics": {
+    "eyebrow": "Tópicos populares",
+    "title": "Respostas rápidas para tarefas comuns",
+    "description": "Acesse os guias que os usuários mais precisam antes de fazer pedidos, pagar ou enviar.",
+    "items": {
+      "orderLink": "Como fazer um pedido usando um link de produto",
+      "estimation": "Como estimar a taxa de envio internacional",
+      "diyOrder": "Como enviar um DIY Pedido",
+      "forwarding": "Como funciona o serviço de encaminhamento",
+      "separateShipping": "Por que a taxa de envio é paga separadamente",
+      "restricted": "Quais itens são restritos",
+      "recharge": "Como recarregar a carteira",
+      "tracking": "Como rastrear o pacote",
+      "ticket": "Como abrir um ticket de suporte"
+    }
+  },
+  "categoriesSection": {
+    "eyebrow": "Categorias de ajuda",
+    "title": "Navegar por serviço area",
+    "description": "Escolha uma categoria para filtrar artigos populares e respostas do FAQ.",
+    "showAll": "Mostrar toda a ajuda",
+    "articleCount": "artigos do {count}"
+  },
+  "categories": {
+    "howToBuy": {
+      "title": "Como comprar",
+      "description": "Links de produtos, pesquisa de imagens, checkout do agente de compras e envio de pedidos."
+    },
+    "orders": {
+      "title": "Pedidos",
+      "description": "Status do pedido, compras, itens fora de estoque, alterações e atualizações de preços."
+    },
+    "payment": {
+      "title": "Pagamento e recarga",
+      "description": "Saldo da carteira, registros de recarga, pagamentos de produtos e notas de pagamento manual."
+    },
+    "shippingFee": {
+      "title": "Taxa de envio",
+      "description": "Frete internacional, peso volumétrico, peso cobrável e estimativas."
+    },
+    "packages": {
+      "title": "Pacotes",
+      "description": "Chegada ao armazém, criação de pacote, rastreamento, status de envio e entrega."
+    },
+    "forwarding": {
+      "title": "Encaminhamento",
+      "description": "Compre você mesmo, use nosso endereço de armazém e envie rastreamento doméstico."
+    },
+    "diyOrders": {
+      "title": "Pedidos DIY",
+      "description": "Cotações manuais para produtos que não podem ser analisados automaticamente."
+    },
+    "restrictedItems": {
+      "title": "Itens restritos",
+      "description": "Produtos sensíveis, itens proibidos, baterias, líquidos, pós e riscos de marca."
+    },
+    "refunds": {
+      "title": "Reembolsos",
+      "description": "Reembolsos por falta de estoque, pedidos cancelados, carteira reembolsos e prazo de revisão."
+    },
+    "affiliate": {
+      "title": "Afiliado",
+      "description": "Links de referência, comissões, pedidos válidos e princípios básicos de pagamento."
+    },
+    "tickets": {
+      "title": "Central de ingressos",
+      "description": "Abra tickets, verifique respostas, forneça evidências e acompanhe o progresso do suporte."
+    },
+    "account": {
+      "title": "Conta",
+      "description": "Perfil, idioma, moeda, login do Google, endereços e configurações de segurança."
+    }
+  },
+  "articlesSection": {
+    "eyebrow": "Artigos populares",
+    "title": "Guias que os usuários leem primeiro",
+    "description": "Ajuda prática para pedidos, envio, pagamento, encaminhamento e suporte.",
+    "guideCount": "Guias do {count}",
+    "updated": "{date} atualizado",
+    "read": "Ler"
+  },
+  "articles": {
+    "placeOrderLink": {
+      "title": "Como fazer um pedido usando um produto link",
+      "summary": "Cole o link de um produto chinês, escolha as variantes e a quantidade e, em seguida, envie a finalização da compra para análise do custo do produto e do frete doméstico.",
+      "content": "Cole o produto URL na pesquisa CNSnap ou no analisador de produto. Revise o título, imagens, variantes, preço, taxa de envio doméstico e quantidade. Selecione o SKU exato, confirme a isenção de responsabilidade e adicione ao carrinho ou compre agora. Você paga primeiro o custo do produto, frete doméstico e taxa de serviço. O frete internacional é cobrado posteriormente após a chegada e pesagem do armazém."
+    },
+    "shoppingAgent": {
+      "title": "Como usar o serviço de agente de compras",
+      "summary": "Agente de compras significa que nossa equipe compra itens para você, os recebe em nosso armazém e prepara o envio internacional.",
+      "content": "Use o Agente de compras quando quiser que o CNSnap compre de plataformas chinesas para você. Depois de enviar e pagar o pedido do produto, nossa equipe de compras faz o pedido ao vendedor. Quando os itens chegam ao armazém, a embalagem é verificada, pesada e preparada para pagamento de frete internacional."
+    },
+    "submitDiy": {
+      "title": "Como enviar um pedido DIY",
+      "summary": "Use o pedido DIY quando um link de produto não pode ser analisado, você só tem uma imagem ou a solicitação precisa de cotação manual.",
+      "content": "Abra o pedido DIY, forneça um produto URL ou imagem URL, nome do produto, especificações, quantidade, país de destino e notas. Nossa equipe analisa a disponibilidade, preço de vendedor, frete nacional, possíveis restrições e envia um orçamento. Você só paga depois de aceitar a cotação."
+    },
+    "forwarding": {
+      "title": "Como funciona o serviço de encaminhamento",
+      "summary": "O encaminhamento é para usuários que compram por conta própria e enviam itens para nosso armazém na China para envio internacional.",
+      "content": "Faça login para obter o endereço do armazém e o código de usuário. Compre você mesmo em sites chineses e inclua seu código de usuário no destinatário ou endereço. Depois que o vendedor enviar, envie o número de rastreamento doméstico. O armazém recebe, identifica, armazena, pesa e encaminha seu pacote internacionalmente."
+    },
+    "shippingFee": {
+      "title": "Como é calculada a taxa de envio internacional?",
+      "summary": "A taxa de envio depende do destino, canal, peso real, peso volumétrico, peso mínimo cobrável e restrições do produto.",
+      "content": "O envio internacional é calculado após a pesagem do armazém. As transportadoras comparam o peso real e o peso volumétrico e, em seguida, cobram pelo peso cobrável maior. O peso volumétrico é comprimento × largura × altura dividido pelo divisor de volume do canal. Produtos sensíveis, limites de destino e regras de canal podem alterar as rotas disponíveis."
+    },
+    "separateShipping": {
+      "title": "Por que preciso pagar o frete separadamente?",
+      "summary": "O pagamento do produto acontece antes da compra. O envio internacional só poderá ser confirmado após o depósito receber e pesar o pacote.",
+      "content": "Na finalização da compra você paga o custo do produto, frete nacional e taxa de serviço. O frete internacional não pode ser definitivo antes que o armazém conheça o real peso embalado, dimensões, destino e canal disponível. Após a chegada, o CNSnap cria o pacote e a fatura de envio para sua confirmação."
+    },
+    "restricted": {
+      "title": "Quais itens são restritos?",
+      "summary": "Baterias, líquidos, pós, alimentos, cosméticos, produtos de luxo de marca e itens perigosos podem exigir revisão ou serem rejeitados.",
+      "content": "Itens restritos ou sensíveis dependem da transportadora e das regras alfandegárias. Baterias, líquidos, pós, alimentos, cosméticos, remédios, armas, produtos perigosos, produtos falsificados e itens de marcas de alto valor podem exigir revisão manual, linhas especiais, documentos extras ou podem não ser aceitos para envio."
+    },
+    "recharge": {
+      "title": "Como recarregar minha carteira?",
+      "summary": "O saldo da carteira pode ser usado para pagamentos de produtos, pagamentos de envio e taxas de serviço após a confirmação dos registros de recarga.",
+      "content": "Acesse Recarga de conta, insira o valor e escolha uma forma de pagamento. V1.0 oferece suporte a registros de espaço reservado para pagamento manual. Após a confirmação do pagamento, o saldo poderá ser utilizado para pedidos de produtos, envios internacionais, ajustes e reembolsos."
+    },
+    "tracking": {
+      "title": "Como rastrear meu pacote?",
+      "summary": "Depois que um pacote é enviado internacionalmente, o número de rastreamento e o status de envio são mostrados em Pacotes de conta.",
+      "content": "Abra Pacotes de conta para ver o status do pacote, canal de envio, número de rastreamento e tempo de envio. O rastreamento pode levar algum tempo para ser atualizado após o envio. Se o rastreamento parar ou mostrar uma exceção, abra um ticket de suporte com o número do pacote e o número de rastreamento."
+    },
+    "ticket": {
+      "title": "Como abrir um ticket de suporte?",
+      "summary": "Use a Central de Tickets para problemas de pedidos, dúvidas sobre pacotes, comprovantes de pagamento, reembolsos, itens restritos ou exceções de envio.",
+      "content": "Abra a Central de Tickets e crie um novo ticket. Escolha a categoria mais próxima, adicione números de pedido ou pacote, descreva o problema e carregue qualquer evidência útil posteriormente, quando o upload do arquivo estiver conectado. Nossa equipe de suporte responde no tópico do ticket."
+    }
+  },
+  "faqSection": {
+    "eyebrow": "FAQ",
+    "title": "Perguntas frequentes",
+    "description": "Respostas curtas para agente de compras, estimativa, pedidos DIY, encaminhamento, pagamento e tickets de suporte."
+  },
+  "faq": {
+    "saTaobao": {
+      "question": "Você pode comprar no Taobao ou 1688 para mim?",
+      "answer": "Sim. Use o Shopping Agent para links de produtos suportados. Se uma página não puder ser analisada, envie um pedido DIY para revisão manual."
+    },
+    "saImage": {
+      "question": "Posso pesquisar por imagem do produto?",
+      "answer": "A pesquisa de imagens pode ajudar a descobrir produtos. Se o resultado não estiver claro, use Pedido DIY e forneça a imagem URL ou captura de tela do produto."
+    },
+    "saOutStock": {
+      "question": "O que acontece se o item estiver fora de estoque?",
+      "answer": "Nossa equipe atualizará o pedido e entrará em contato com você. Você pode escolher substituição, cancelamento ou reembolso dependendo da situação do vendedor."
+    },
+    "estFinal": {
+      "question": "A taxa de envio estimada é definitiva?",
+      "answer": "Não. A estimativa é para planejamento. O frete final é baseado no peso medido no armazém, nas dimensões da embalagem, na avaliação do produto e no canal selecionado."
+    },
+    "estVolumetric": {
+      "question": "O que é peso volumétrico?",
+      "answer": "O peso volumétrico converte o tamanho do pacote em peso faturável. Pacotes leves grandes podem custar mais porque ocupam mais espaço da transportadora."
+    },
+    "estChargeable": {
+      "question": "Por que o peso cobrável é diferente do peso real?",
+      "answer": "As transportadoras cobram pelo maior valor entre peso real, peso volumétrico e peso cobrável mínimo."
+    },
+    "diyWhen": {
+      "question": "Quando devo enviar um pedido DIY?",
+      "answer": "Enviar o pedido DIY quando o link do produto não puder ser analisado, você só tem um imagem, as especificações são complexas ou você precisa de cotação manual."
+    },
+    "diyQuote": {
+      "question": "Quanto tempo leva uma cotação de pedido DIY?",
+      "answer": "A maioria das cotações é revisada em 1 dia útil. Itens complexos ou confirmação do vendedor podem demorar mais."
+    },
+    "diyImage": {
+      "question": "Posso enviar apenas uma imagem do produto?",
+      "answer": "Sim. Uma imagem do produto é aceita, mas um link ou uma descrição detalhada ajuda nossa equipe a fazer um orçamento mais rápido."
+    },
+    "fwBuySelf": {
+      "question": "Posso comprar sozinho e usar apenas seu depósito?",
+      "answer": "Sim. Use o Encaminhamento, copie o endereço do seu armazém e envie o número de rastreamento doméstico após o vendedor enviar."
+    },
+    "fwDifference": {
+      "question": "Qual ​​é a diferença entre Agente de Compras e Encaminhamento?",
+      "answer": "Agente de Compras significa que o CNSnap compra para você. Encaminhamento significa que você mesmo compra e o CNSnap cuida do recebimento do armazém e do envio internacional."
+    },
+    "fwUserCode": {
+      "question": "Por que preciso incluir meu código de usuário?",
+      "answer": "O código de usuário permite que a equipe do armazém corresponda os pacotes recebidos à sua conta. A falta de códigos de usuário pode atrasar o recebimento."
+    },
+    "payProduct": {
+      "question": "Como faço para pagar o custo do produto?",
+      "answer": "Você pode pagar durante a finalização da compra usando o saldo disponível ou métodos de pagamento suportados. Os registros de recarga e pagamento manual podem ser expandidos posteriormente."
+    },
+    "payShipping": {
+      "question": "Por que pago o frete internacional separadamente?",
+      "answer": "O frete internacional é calculado após a chegada ao armazém porque o peso e as dimensões finais da embalagem são desconhecidos antes do recebimento."
+    },
+    "payRefund": {
+      "question": "Posso obter um reembolso?",
+      "answer": "A elegibilidade para reembolso depende do status do pedido, da política do vendedor e se o item já foi comprado ou enviado."
+    },
+    "ticketWhen": {
+      "question": "Quando devo abrir um ticket?",
+      "answer": "Abrir um ticket para perguntas sobre pedidos, comprovante de pagamento, exceções de pacote, reembolsos, restrições revisão de itens ou problemas de conta."
+    },
+    "ticketReplies": {
+      "question": "Como posso verificar as respostas dos tickets?",
+      "answer": "Acesse a Central de tickets da conta e abra o tópico do ticket para ver as respostas de suporte e atualizações de status."
+    },
+    "ticketReopen": {
+      "question": "Posso reabrir um ticket resolvido?",
+      "answer": "A V1.0 pode reservar o comportamento de reabertura. Se o problema resolvido persistir, crie um novo ticket e faça referência ao número do ticket antigo."
+    },
+    "packageArrival": {
+      "question": "Como posso saber se meu pacote chegou ao depósito?",
+      "answer": "Verifique os pacotes da conta. O status de recebimento do armazém aparece depois que a equipe combina e processa o pacote recebido."
+    },
+    "accountLanguage": {
+      "question": "Posso alterar o idioma ou a moeda?",
+      "answer": "Sim. Use o alternador de idioma e moeda do frontend ou as preferências do perfil da conta quando conectado."
+    },
+    "affiliateReward": {
+      "question": "Como funcionam as recompensas de afiliados?",
+      "answer": "Compartilhe seu link de indicação. A comissão é calculada a partir de pedidos indicados válidos de acordo com a política de afiliados."
+    }
+  },
+  "filter": {
+    "showing": "Mostrando ajuda para"
+  },
+  "empty": {
+    "articlesTitle": "Ainda não há artigos nesta categoria",
+    "articlesDescription": "Tente outra categoria ou use a pesquisa acima.",
+    "faqTitle": "Ainda não há FAQ nesta categoria",
+    "faqDescription": "A Tickets Center ainda pode ajudar com este tópico."
+  },
+  "articleDialog": {
+    "keywords": "Palavras-chave",
+    "quickAnswer": "Resposta rápida de suporte"
+  },
+  "ticketsCta": {
+    "title": "Ainda precisa de ajuda?",
+    "description": "Abra um ticket de suporte e nossa equipe responderá o mais rápido possível.",
+    "open": "Tickets abertos Central",
+    "create": "Criar novo ticket"
+  }
+}

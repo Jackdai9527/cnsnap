@@ -1,0 +1,240 @@
+{
+  "hero": {
+    "eyebrow": "Zakupy ręczne",
+    "title": "Nie możesz znaleźć produktu? Prześlij zamówienie na DIY.",
+    "subtitle": "Wyślij nam link do produktu, zdjęcie, specyfikację i ilość. Nasz zespół sprawdzi to i prześle Ci wycenę.",
+    "submit": "Prześlij zamówienie DIY",
+    "viewMine": "Wyświetl moje zamówienia DIY",
+    "cards": {
+      "image": {
+        "title": "Obraz lub niejasny wykaz",
+        "description": "Wyślij zdjęcie referencyjne, zrzut ekranu produktu lub niekompletny link."
+      },
+      "spec": {
+        "title": "Złożone specyfikacje",
+        "description": "Powiedz nam kolor, rozmiar, model, wersja, pakiet i wszelkie uwagi sprzedawcy."
+      },
+      "quote": {
+        "title": "Instrukcja wyceny",
+        "description": "Nasz zespół sprawdza dostępność, cenę, ograniczenia i szczegóły zakupu."
+      }
+    }
+  },
+  "when": {
+    "eyebrow": "Kiedy używać zamówienia DIY",
+    "title": "Użyj DIY, gdy automatyzacja nie wystarczy",
+    "description": "Zamówienie DIY jest najlepsze dla zakupy specjalne, które wymagają sprawdzenia przez człowieka przed dokonaniem płatności.",
+    "items": {
+      "cannotParse": {
+        "title": "Nie można przeanalizować linku do produktu",
+        "description": "Użyj DIY, jeśli automatyczny przepływ agenta nie może odczytać strony produktu."
+      },
+      "imageOnly": {
+        "title": "Masz tylko zdjęcie produktu",
+        "description": "Prześlij lub wklej obraz URL, aby nasz zespół mógł ręcznie zidentyfikować przedmiot."
+      },
+      "complexSpecs": {
+        "title": "Złożone specyfikacje",
+        "description": "Użyj DIY, aby spełnić wiele wymagań dotyczących kolorów, rozmiarów, wersji, pakietów lub opcji niestandardowych."
+      },
+      "manualQuote": {
+        "title": "Potrzebujesz ręcznej wyceny",
+        "description": "Możemy zweryfikować aktualną cenę sprzedawcy, wysyłkę krajową i możliwość zakupu."
+      },
+      "multipleItems": {
+        "title": "Kup kilka przedmiotów razem",
+        "description": "Opisz kilka produktów lub sprzedawców, kiedy potrzebujesz łącznego planu zakupów."
+      },
+      "shippingUncertain": {
+        "title": "Kwalifikowalność wysyłki jest niejasna",
+        "description": "Poproś nas o sprawdzenie przedmiotów wrażliwych lub objętych ograniczeniami, zanim zapłacisz."
+      }
+    }
+  },
+  "form": {
+    "eyebrow": "Formularz zamówienia DIY",
+    "title": "Wyślij prośbę o zakup",
+    "description": "Im więcej podasz szczegółów, tym szybciej nasz zespół będzie w stanie dokładnie wycenić.",
+    "guest": "Zaloguj się jest wymagane przed przesłaniem.",
+    "signedIn": "Zalogowano się jako {email}",
+    "fields": {
+      "productUrl": "Produkt URL",
+      "productName": "Nazwa produktu",
+      "productImageUrl": "Zdjęcie produktu URL",
+      "specification": "Specyfikacja",
+      "quantity": "Ilość",
+      "budget": "Budżet USD",
+      "destinationCountry": "Kraj docelowy",
+      "notes": "Uwagi",
+      "contactEmail": "E-mail kontaktowy"
+    },
+    "placeholders": {
+      "productName": "Nazwa produktu lub krótki opis",
+      "specification": "Kolor, rozmiar, model, wersja",
+      "notes": "Przekaż nam uwagi sprzedawcy, preferowaną opcję, obawy dotyczące wysyłki lub cokolwiek innego ważne."
+    },
+    "hints": {
+      "productUrl": "Opcjonalne, ale zalecane, jeśli masz stronę produktu.",
+      "productImageUrl": "W wersji 1.0 obraz URL jest używany jako element zastępczy. Przesyłanie plików można podłączyć później."
+    },
+    "countries": {
+      "US": "Stany Zjednoczone (US)",
+      "CA": "Kanada (CA)",
+      "GB": "Wielka Brytania (GB)",
+      "DE": "Niemcy (DE)",
+      "FR": "Francja (FR)",
+      "NL": "Holandia (NL)",
+      "PL": "Polska (PL)",
+      "JP": "Japonia (JP)",
+      "KR": "Korea (KR)",
+      "AU": "Australia (AU)"
+    },
+    "validation": {
+      "productName": "Nazwa produktu musi składać się z co najmniej 2 znaków.",
+      "quantity": "Ilość musi być liczbą całkowitą większą niż 0.",
+      "destination": "Wybierz kraj docelowy.",
+      "url": "Wprowadź prawidłowy URL.",
+      "email": "Wprowadź prawidłowy adres e-mail adres."
+    },
+    "loginRequired": "Zaloguj się przed złożeniem zamówienia DIY.",
+    "submitted": "Zamówienie DIY zostało przesłane. Wkrótce to sprawdzimy.",
+    "submitting": "Przesyłanie...",
+    "submit": "Wyślij zamówienie DIY",
+    "disclaimer": "Przesłanie nie wymaga płatności. Najpierw sprawdzimy żądanie i wyślemy wycenę."
+  },
+  "steps": {
+    "eyebrow": "Jak działa wycena",
+    "title": "Od zapytania do przybycia do magazynu",
+    "description": "DIY Zamówienie przebiega według ręcznego procesu przeglądu, dzięki czemu przed zakupem można sprawdzić cenę, dostępność i ograniczenia wysyłki.",
+    "items": {
+      "submit": {
+        "title": "Prześlij zapytanie",
+        "description": "Wyślij szczegóły produktu, zdjęcie, specyfikacja, ilość i miejsce docelowe."
+      },
+      "review": {
+        "title": "Nasz zespół sprawdza przedmiot",
+        "description": "Sprawdzamy stronę sprzedawcy, dostępność, cenę i możliwość zakupu."
+      },
+      "quote": {
+        "title": "Wysyłamy Ci wycenę",
+        "description": "Wycena obejmuje koszt produktu, wysyłkę krajową i szacunkową opłatę za usługę."
+      },
+      "confirm": {
+        "title": "Potwierdzasz i płacisz",
+        "description": "Po zaakceptowaniu oferty możesz zapłacić, aby rozpocząć zakupy."
+      },
+      "purchase": {
+        "title": "Kupujemy przedmiot",
+        "description": "Nasz zespół ds. zakupów składa zamówienie u sprzedawcy."
+      },
+      "warehouse": {
+        "title": "Artykuł dociera do magazynu",
+        "description": "Magazyn sprawdza, odbiera i przygotowuje informacje o paczce."
+      },
+      "shipping": {
+        "title": "Zapłać za wysyłkę międzynarodową",
+        "description": "Po spakowaniu i zważeniu wybierasz trasę i płacisz opłatę za wysyłkę."
+      },
+      "receive": {
+        "title": "Odbierz paczkę",
+        "description": "Śledź paczkę aż do dostarczenia do miejsca docelowego adres."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Agent ds. zakupów a zamówienie DIY",
+    "title": "Wybierz odpowiedni przepływ zamówienia",
+    "description": "Standardowe linki są szybsze dzięki Shopping Agent. Produkty specjalne lub niejasne należą do zamówienia DIY.",
+    "columns": {
+      "feature": "Funkcja",
+      "agent": "Agent ds. zakupów",
+      "diy": "Zamówienie DIY"
+    },
+    "rows": {
+      "suitable": {
+        "feature": "Najlepsze dla",
+        "agent": "Standardowe linki do produktów lub wyszukiwanie słów kluczowych",
+        "diy": "Produkty specjalne lub automatyzacja produktów nie mogą zostać przeanalizowane"
+      },
+      "parsing": {
+        "feature": "Dane produktu",
+        "agent": "System automatycznie analizuje cenę i opcje",
+        "diy": "Ręczna recenzja i wycena"
+      },
+      "speed": {
+        "feature": "Szybkość zamówienia",
+        "agent": "Szybka płatność, gdy dane produktu są jasne",
+        "diy": "Wolniejsze, ponieważ wymagana jest weryfikacja manualna"
+      },
+      "price": {
+        "feature": "Źródło ceny",
+        "agent": "Automatycznie odczytywane ze strony produktu",
+        "diy": "Potwierdzane przez personel przed płatnością"
+      },
+      "complexity": {
+        "feature": "Złożone żądania",
+        "agent": "Lepsze w przypadku prostych opcji",
+        "diy": "Lepsze w przypadku zdjęć, paczek, notatek i czeków wysyłkowych"
+      }
+    }
+  },
+  "examples": {
+    "eyebrow": "Przykładowe prośby",
+    "title": "Dobre żądania DIY są szczegółowe",
+    "items": {
+      "imageNoLink": {
+        "title": "Znalazłem zdjęcie produktu, ale nie ma linku.",
+        "description": "Dołącz obraz URL i opisz, co mamy zidentyfikować."
+      },
+      "tooManySku": {
+        "title": "Strona produktu zawiera zbyt wiele opcji SKU.",
+        "description": "Powiedz nam dokładnie, jaki kolor, rozmiar, model lub pakiet chcesz."
+      },
+      "multipleSellers": {
+        "title": "Chcę kupić kilka przedmiotów od różnych sprzedawców.",
+        "description": "Wypisz każdy przedmiot i link do sprzedawcy, abyśmy mogli przygotować łączną ofertę cenową."
+      },
+      "shippingCheck": {
+        "title": "Potrzebuję pomocy w potwierdzeniu możliwości wysyłki tego produktu.",
+        "description": "Wspomnij o kraju docelowym i materiałach produktu, obawach dotyczących baterii, cieczy lub marki."
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "DIY Zamów FAQ",
+    "description": "Krótkie odpowiedzi przed przesłaniem ręcznego zamówienia zakupu.",
+    "items": {
+      "quoteTime": {
+        "question": "Jak długo trwa wycena zamówienia DIY?",
+        "answer": "Większość ofert jest sprawdzana w ciągu 1 dnia roboczego. Złożone przedmioty lub potwierdzenie sprzedawcy mogą zająć więcej czasu."
+      },
+      "imageOnly": {
+        "question": "Czy mogę przesłać tylko zdjęcie produktu?",
+        "answer": "Tak. Zdjęcie produktu jest akceptowane, ale link lub dodatkowy opis pomaga nam szybciej wycenić."
+      },
+      "payBeforeQuote": {
+        "question": "Czy muszę zapłacić przed wyceną?",
+        "answer": "Nie. Najpierw składasz wniosek. Płatność następuje dopiero po zaakceptowaniu oferty."
+      },
+      "afterAccept": {
+        "question": "Co się stanie po zaakceptowaniu oferty?",
+        "answer": "Płacisz podaną kwotę, a następnie nasz zespół zakupowy kupuje produkt od sprzedawcy."
+      },
+      "cancel": {
+        "question": "Czy mogę anulować zamówienie DIY?",
+        "answer": "Możesz anulować przed dokonaniem płatności lub zanim nasz zespół zakupi przedmiot. Po zakupie anulowanie zależy od zasad sprzedawcy."
+      },
+      "restricted": {
+        "question": "Czy można kupić przedmioty objęte ograniczeniami?",
+        "answer": "Niektóre wrażliwe produkty mogą wymagać specjalnych tras lub mogą zostać odrzucone. Nasz zespół sprawdzi kwalifikowalność wysyłki przed zakupem."
+      }
+    }
+  },
+  "cta": {
+    "title": "Chcesz wysłać żądanie ręcznie?",
+    "description": "Prześlij szczegóły teraz lub sprawdź istniejące zamówienia DIY w centrum użytkownika.",
+    "submit": "Prześlij zamówienie DIY",
+    "viewMine": "Wyświetl moje zamówienia DIY"
+  }
+}

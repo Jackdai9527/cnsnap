@@ -1,0 +1,113 @@
+{
+  "mobile": {
+    "eyebrow": "Buscar",
+    "title": "Busca por palabra clave o pega un enlace de marketplace",
+    "description": "Usa la búsqueda por palabra clave para descubrir productos o pega directamente un enlace de Taobao, 1688, Tmall o Weidian para entrar en el flujo de compra.",
+    "platforms": "Plataformas",
+    "results": "Resultados",
+    "resultsReady": "{count} productos para explorar",
+    "noResultsYet": "Sin resultados todavía",
+    "emptyDescription": "Prueba una palabra clave más amplia, cambia de plataforma o pega un enlace directo del producto.",
+    "loadMore": "Cargar más"
+  },
+  "platformLabels": {
+    "all": "Todas las plataformas",
+    "taobao": "Taobao",
+    "tmall": "Tmall",
+    "1688": "1688",
+    "weidian": "Weidian",
+    "jd": "JD",
+    "xianyu": "Xianyu"
+  },
+  "hero": {
+    "eyebrow": "Descubrimiento de productos",
+    "title": "Explora nuestro catálogo y luego deja que CNSnap compre y envíe por ti.",
+    "description": "Explora tus productos publicados, busca por palabra clave o pega un enlace de producto para abrir directamente los detalles y el checkout.",
+    "trustNotes": {
+      "reviewTitle": "Revisión de compra",
+      "reviewText": "Verificamos los detalles del pedido antes de comprar.",
+      "photosTitle": "Fotos de almacén",
+      "photosText": "Las fotos de QC se guardan tras la llegada.",
+      "shipTitle": "Enviar después",
+      "shipText": "El flete internacional se paga después del pesaje."
+    }
+  },
+  "filters": {
+    "eyebrow": "Refinar búsqueda",
+    "title": "Filtros",
+    "marketplace": "Marketplace",
+    "allPlatforms": "Todas las plataformas",
+    "sortBy": "Ordenar por",
+    "priceRange": "Rango de precio CNY",
+    "priceMin": "Min",
+    "priceMax": "Max",
+    "note": "Este catálogo muestra tus productos storefront publicados. Si ya tienes un enlace directo, pégalo en la búsqueda para abrir el artículo correspondiente.",
+    "apply": "Aplicar",
+    "reset": "Restablecer",
+    "activeCount": "{count} activos"
+  },
+  "toolbar": {
+    "page": "Página {page}",
+    "filters": "{count} filtros",
+    "resultsFor": "Resultados para \"{query}\"",
+    "browseAll": "Explorar todos los productos storefront",
+    "description": "{count} productos de tu biblioteca publicada. El precio del producto se muestra antes del flete internacional; el coste final se calcula después del pesaje en almacén.",
+    "catalog": "Catálogo storefront"
+  },
+  "pagination": {
+    "browsingPage": "Estás viendo la página {page}",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "empty": {
+    "title": "No se encontraron productos coincidentes",
+    "description": "Prueba una palabra clave más amplia, elimina filtros de precio o pega el enlace original del producto si ya lo tienes.",
+    "startFromHome": "Empezar desde la página principal",
+    "submitDiyOrder": "Enviar pedido DIY"
+  },
+  "error": {
+    "title": "La busqueda no esta disponible temporalmente",
+    "description": "No pudimos cargar los resultados de busqueda en este momento. Intentalo de nuevo en un momento o vuelve a la pagina de inicio.",
+    "retry": "Intentar de nuevo",
+    "goHome": "Ir a la pagina de inicio",
+    "note": "Tu palabra clave y filtros actuales se conservaran cuando vuelvas a intentarlo."
+  },
+  "risk": {
+    "title": "La búsqueda necesita revisión",
+    "description": "Esta palabra clave puede contener términos restringidos o sensibles. CNSnap no puede mostrar sugerencias de productos para esta búsqueda.",
+    "readRestrictions": "Leer restricciones",
+    "tryAnotherSearch": "Probar otra búsqueda",
+    "mobileNote": "Si ya tienes el enlace directo del producto, pégalo para continuar con una revisión manual."
+  },
+  "sortOptions": {
+    "default": "Mejor coincidencia",
+    "sales": "Más vendidos",
+    "priceAsc": "Precio ascendente",
+    "priceDesc": "Precio descendente"
+  },
+  "panel": {
+    "keyword": "Palabra clave",
+    "url": "URL",
+    "urlPlaceholder": "Pega la URL del artículo de Taobao/Tmall/1688/JD",
+    "keywordPlaceholder": "Busca productos por palabra clave o ID",
+    "submit": "Buscar"
+  },
+  "riskReminder": {
+    "title": "Recordatorio de riesgo",
+    "subtitle": "Este artículo puede implicar {count} {label} restringidos. Elige otro artículo o contacta con soporte.",
+    "riskSingle": "riesgo",
+    "riskPlural": "riesgos",
+    "alertTitle": "Alerta de riesgo",
+    "alertDescription": "El artículo enviado puede pertenecer a categorías restringidas o legalmente sensibles, por lo que no podemos procesar esta solicitud por ahora.",
+    "continueShopping": "Seguir comprando",
+    "noResultTitle": "No podemos mostrar productos para esta búsqueda. Prueba otra palabra clave o contacta con atención al cliente.",
+    "suggestTitle": "CNSnap sugiere:",
+    "suggestions": {
+      "one": "1. Comprueba si la palabra clave contiene términos restringidos o sensibles.",
+      "two": "2. Reformula la búsqueda con palabras más amplias, por ejemplo \"dress\" en lugar de una frase demasiado específica.",
+      "three": "3. Revisa las restricciones de envío antes de enviar productos.",
+      "four": "4. Si tienes un enlace normal de producto, envíalo directamente desde la búsqueda de la página principal.",
+      "five": "5. Contacta con soporte si necesitas ayuda para encontrar una alternativa adecuada."
+    }
+  }
+}

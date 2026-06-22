@@ -1,0 +1,279 @@
+{
+  "search": {
+    "eyebrow": "Help Center",
+    "title": "Find answers before your next China shopping step",
+    "subtitle": "Search guides for Shopping Agent, shipping estimation, DIY Orders, forwarding, payment, packages, tracking and Tickets Center.",
+    "placeholder": "Search shopping agent, shipping fee, estimation, DIY order, forwarding, payment...",
+    "examplesTitle": "Search examples",
+    "results": "Results",
+    "emptyTitle": "No help result found",
+    "emptyDescription": "Try a broader keyword like shipping, payment, package, ticket, or DIY order.",
+    "examples": {
+      "shoppingAgent": "shopping agent",
+      "shippingFee": "shipping fee",
+      "estimation": "estimation",
+      "diyOrder": "DIY order",
+      "forwarding": "forwarding",
+      "payment": "payment",
+      "refund": "refund",
+      "restrictedItems": "restricted items",
+      "package": "package",
+      "tracking": "tracking",
+      "ticket": "ticket"
+    }
+  },
+  "popularTopics": {
+    "eyebrow": "Popular Topics",
+    "title": "Fast answers for common tasks",
+    "description": "Jump into the guides users need most often before ordering, paying or shipping.",
+    "items": {
+      "orderLink": "How to place an order using a product link",
+      "estimation": "How to estimate international shipping fee",
+      "diyOrder": "How to submit a DIY Order",
+      "forwarding": "How forwarding service works",
+      "separateShipping": "Why shipping fee is paid separately",
+      "restricted": "What items are restricted",
+      "recharge": "How to recharge wallet",
+      "tracking": "How to track package",
+      "ticket": "How to open a support ticket"
+    }
+  },
+  "categoriesSection": {
+    "eyebrow": "Help Categories",
+    "title": "Browse by service area",
+    "description": "Choose a category to filter popular articles and FAQ answers.",
+    "showAll": "Show all help",
+    "articleCount": "{count} articles"
+  },
+  "categories": {
+    "howToBuy": {
+      "title": "How to Buy",
+      "description": "Product links, image search, shopping agent checkout and order submission."
+    },
+    "orders": {
+      "title": "Orders",
+      "description": "Order status, purchasing, out-of-stock items, price changes and updates."
+    },
+    "payment": {
+      "title": "Payment & Recharge",
+      "description": "Wallet balance, recharge records, product payments and manual payment notes."
+    },
+    "shippingFee": {
+      "title": "Shipping Fee",
+      "description": "International freight, volumetric weight, chargeable weight and estimates."
+    },
+    "packages": {
+      "title": "Packages",
+      "description": "Warehouse arrival, package creation, tracking, shipping status and delivery."
+    },
+    "forwarding": {
+      "title": "Forwarding",
+      "description": "Buy by yourself, use our warehouse address and submit domestic tracking."
+    },
+    "diyOrders": {
+      "title": "DIY Orders",
+      "description": "Manual quotations for products that cannot be parsed automatically."
+    },
+    "restrictedItems": {
+      "title": "Restricted Items",
+      "description": "Sensitive goods, forbidden items, batteries, liquids, powders and brand risks."
+    },
+    "refunds": {
+      "title": "Refunds",
+      "description": "Out-of-stock refunds, cancelled orders, wallet refunds and review timing."
+    },
+    "affiliate": {
+      "title": "Affiliate",
+      "description": "Referral links, commissions, valid orders and payout basics."
+    },
+    "tickets": {
+      "title": "Tickets Center",
+      "description": "Open tickets, check replies, provide evidence and follow support progress."
+    },
+    "account": {
+      "title": "Account",
+      "description": "Profile, language, currency, Google login, addresses and security settings."
+    }
+  },
+  "articlesSection": {
+    "eyebrow": "Popular Articles",
+    "title": "Guides users read first",
+    "description": "Practical help for ordering, shipping, payment, forwarding and support.",
+    "guideCount": "{count} guides",
+    "updated": "Updated {date}",
+    "read": "Read"
+  },
+  "articles": {
+    "placeOrderLink": {
+      "title": "How to place an order using a product link",
+      "summary": "Paste a Chinese product link, choose variants and quantity, then submit checkout for product cost and domestic shipping review.",
+      "content": "Paste the product URL into CNSnap search or product parser. Review the title, images, variants, price, domestic shipping fee and quantity. Select the exact SKU, confirm the disclaimer, then add to cart or buy now. You pay product cost, domestic shipping and service fee first. International shipping is billed later after warehouse arrival and weighing."
+    },
+    "shoppingAgent": {
+      "title": "How to use the shopping agent service",
+      "summary": "Shopping Agent means our team purchases items for you, receives them at our warehouse and prepares international shipping.",
+      "content": "Use Shopping Agent when you want CNSnap to buy from Chinese platforms for you. After you submit and pay the product order, our purchasing team places the order with the seller. When items arrive at the warehouse, the package is checked, weighed and prepared for international shipping payment."
+    },
+    "submitDiy": {
+      "title": "How to submit a DIY Order",
+      "summary": "Use DIY Order when a product link cannot be parsed, you only have an image, or the request needs manual quotation.",
+      "content": "Open DIY Order, provide a product URL or image URL, product name, specifications, quantity, destination country and notes. Our team reviews availability, seller price, domestic shipping, possible restrictions and sends a quotation. You only pay after accepting the quote."
+    },
+    "forwarding": {
+      "title": "How forwarding service works",
+      "summary": "Forwarding is for users who buy by themselves and ship items to our China warehouse for international forwarding.",
+      "content": "Log in to get your warehouse address and user code. Buy from Chinese websites yourself and include your user code in the recipient or address. After the seller ships, submit the domestic tracking number. The warehouse receives, identifies, stores, weighs and forwards your package internationally."
+    },
+    "shippingFee": {
+      "title": "How is international shipping fee calculated?",
+      "summary": "Shipping fee depends on destination, channel, actual weight, volumetric weight, minimum chargeable weight and product restrictions.",
+      "content": "International shipping is calculated after warehouse weighing. Carriers compare actual weight and volumetric weight, then bill by the larger chargeable weight. Volumetric weight is length × width × height divided by the channel volume divisor. Sensitive products, destination limits and channel rules can change available routes."
+    },
+    "separateShipping": {
+      "title": "Why do I need to pay shipping separately?",
+      "summary": "Product payment happens before purchase. International shipping can only be confirmed after the warehouse receives and weighs the package.",
+      "content": "At checkout you pay product cost, domestic shipping and service fee. International freight cannot be final before the warehouse knows the real packed weight, dimensions, destination and available channel. After arrival, CNSnap creates the package and shipping bill for your confirmation."
+    },
+    "restricted": {
+      "title": "What items are restricted?",
+      "summary": "Battery, liquid, powder, food, cosmetics, branded luxury goods and dangerous items may require review or be rejected.",
+      "content": "Restricted or sensitive items depend on carrier and customs rules. Batteries, liquids, powders, food, cosmetics, medicine, weapons, dangerous goods, counterfeit goods and high-value branded items may require manual review, special lines, extra documents or may not be accepted for shipping."
+    },
+    "recharge": {
+      "title": "How to recharge my wallet?",
+      "summary": "Wallet balance can be used for product payments, shipping payments and service fees after recharge records are confirmed.",
+      "content": "Go to Account Recharge, enter the amount and choose a payment method. V1.0 supports manual payment placeholder records. After payment is confirmed, the balance can be used for product orders, international shipping, adjustments and refunds."
+    },
+    "tracking": {
+      "title": "How to track my package?",
+      "summary": "After a package is shipped internationally, tracking number and shipping status are shown in Account Packages.",
+      "content": "Open Account Packages to see package status, shipping channel, tracking number and shipment time. Tracking may take time to update after dispatch. If tracking stops or shows an exception, open a support ticket with the package number and tracking number."
+    },
+    "ticket": {
+      "title": "How to open a support ticket?",
+      "summary": "Use Tickets Center for order issues, package questions, payment proof, refunds, restricted items or shipping exceptions.",
+      "content": "Open Tickets Center and create a new ticket. Choose the closest category, add order or package numbers, describe the issue and upload any useful evidence later when file upload is connected. Our support team replies in the ticket thread."
+    }
+  },
+  "faqSection": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "description": "Short answers for Shopping Agent, estimation, DIY Orders, forwarding, payment and support tickets."
+  },
+  "faq": {
+    "saTaobao": {
+      "question": "Can you buy from Taobao or 1688 for me?",
+      "answer": "Yes. Use Shopping Agent for supported product links. If a page cannot be parsed, submit a DIY Order for manual review."
+    },
+    "saImage": {
+      "question": "Can I search by product image?",
+      "answer": "Image search can help discover products. If the result is unclear, use DIY Order and provide the image URL or product screenshot."
+    },
+    "saOutStock": {
+      "question": "What happens if the item is out of stock?",
+      "answer": "Our team will update the order and contact you. You can choose replacement, cancellation or refund depending on the seller situation."
+    },
+    "estFinal": {
+      "question": "Is the estimated shipping fee final?",
+      "answer": "No. The estimate is for planning. Final freight is based on warehouse measured weight, packed dimensions, product review and selected channel."
+    },
+    "estVolumetric": {
+      "question": "What is volumetric weight?",
+      "answer": "Volumetric weight converts package size into billable weight. Large light packages can cost more because they occupy more carrier space."
+    },
+    "estChargeable": {
+      "question": "Why is chargeable weight different from actual weight?",
+      "answer": "Carriers bill by the greater value among actual weight, volumetric weight and minimum chargeable weight."
+    },
+    "diyWhen": {
+      "question": "When should I submit a DIY Order?",
+      "answer": "Submit DIY Order when the product link cannot be parsed, you only have an image, specifications are complex, or you need manual quotation."
+    },
+    "diyQuote": {
+      "question": "How long does a DIY Order quote take?",
+      "answer": "Most quotes are reviewed within 1 business day. Complex items or seller confirmation can take longer."
+    },
+    "diyImage": {
+      "question": "Can I submit only a product image?",
+      "answer": "Yes. A product image is accepted, but a link or detailed description helps our team quote faster."
+    },
+    "fwBuySelf": {
+      "question": "Can I buy by myself and only use your warehouse?",
+      "answer": "Yes. Use Forwarding, copy your warehouse address and submit the domestic tracking number after the seller ships."
+    },
+    "fwDifference": {
+      "question": "What is the difference between Shopping Agent and Forwarding?",
+      "answer": "Shopping Agent means CNSnap buys for you. Forwarding means you buy yourself and CNSnap handles warehouse receiving and international shipping."
+    },
+    "fwUserCode": {
+      "question": "Why do I need to include my user code?",
+      "answer": "The user code lets warehouse staff match incoming parcels to your account. Missing user codes can delay receiving."
+    },
+    "payProduct": {
+      "question": "How do I pay for product cost?",
+      "answer": "You can pay during checkout using available balance or supported payment methods. Recharge and manual payment records can be expanded later."
+    },
+    "payShipping": {
+      "question": "Why do I pay international shipping separately?",
+      "answer": "International shipping is calculated after warehouse arrival because final packed weight and dimensions are unknown before receiving."
+    },
+    "payRefund": {
+      "question": "Can I get a refund?",
+      "answer": "Refund eligibility depends on order status, seller policy and whether the item has already been purchased or shipped."
+    },
+    "ticketWhen": {
+      "question": "When should I open a ticket?",
+      "answer": "Open a ticket for order questions, payment proof, package exceptions, refunds, restricted item review or account issues."
+    },
+    "ticketReplies": {
+      "question": "How do I check ticket replies?",
+      "answer": "Go to Account Tickets Center and open the ticket thread to view support replies and status updates."
+    },
+    "ticketReopen": {
+      "question": "Can I reopen a resolved ticket?",
+      "answer": "V1.0 can reserve reopen behavior. If a resolved issue continues, create a new ticket and reference the old ticket number."
+    },
+    "packageArrival": {
+      "question": "How do I know my package arrived at the warehouse?",
+      "answer": "Check Account Packages. Warehouse receiving status appears after staff match and process the incoming parcel."
+    },
+    "accountLanguage": {
+      "question": "Can I change language or currency?",
+      "answer": "Yes. Use the frontend language and currency switcher or Account Profile preferences when connected."
+    },
+    "affiliateReward": {
+      "question": "How do affiliate rewards work?",
+      "answer": "Share your referral link. Commission is calculated from valid referred orders according to the affiliate policy."
+    }
+  },
+  "filter": {
+    "showing": "Showing help for"
+  },
+  "empty": {
+    "articlesTitle": "No articles in this category yet",
+    "articlesDescription": "Try another category or use search above.",
+    "faqTitle": "No FAQ in this category yet",
+    "faqDescription": "Tickets Center can still help with this topic."
+  },
+  "articleDialog": {
+    "keywords": "Keywords",
+    "quickAnswer": "Quick support answer"
+  },
+  "articlePage": {
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Related questions",
+    "guidesEyebrow": "Guides",
+    "guidesTitle": "Related articles",
+    "updated": "Updated {date}",
+    "supportTitle": "Still need help?",
+    "supportDescription": "Open a support ticket and our team will reply as soon as possible.",
+    "backToHelp": "Back to help center",
+    "createTicket": "Create support ticket"
+  },
+  "ticketsCta": {
+    "title": "Still need help?",
+    "description": "Open a support ticket and our team will reply as soon as possible.",
+    "open": "Open Tickets Center",
+    "create": "Create New Ticket"
+  }
+}

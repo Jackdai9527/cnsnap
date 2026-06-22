@@ -1,0 +1,177 @@
+{
+  "common": {
+    "validUntil": "Gültig bis {date}"
+  },
+  "hero": {
+    "eyebrow": "Promotion-Center",
+    "title": "Sparen Sie mehr bei Ihren China-Shopping-Bestellungen",
+    "subtitle": "Genießen Sie Prämien für neue Benutzer, Aufladeboni, Versandgutscheine, Rabatte auf Servicegebühren und Affiliate-Provisionen.",
+    "startShopping": "Beginnen Sie mit dem Einkaufen",
+    "rechargeWallet": "Geldbörse aufladen",
+    "joinAffiliate": "Treten Sie dem Partnerprogramm bei",
+    "highlights": {
+      "newUser": "Gutschein für neue Benutzer",
+      "recharge": "Aufladebonus bis zu",
+      "affiliate": "Affiliate-Provision"
+    }
+  },
+  "newUser": {
+    "eyebrow": "Bonus für neue Benutzer",
+    "title": "Beginnen Sie mit zusätzlichen Ersparnissen",
+    "description": "Registrieren Sie sich, geben Sie Ihre erste Bestellung auf und nutzen Sie die Vorteile Ihres ersten Pakets mit weniger Überraschungen.",
+    "offers": {
+      "shippingCoupon": {
+        "title": "Registrieren Sie sich noch heute und erhalten Sie einen Versandgutschein im Wert von 5 $",
+        "description": "Verwenden Sie es, wenn Sie Ihre erste internationale Versandrechnung nach dem Wiegen im Lager bezahlen.",
+        "action": "Registrieren Sie sich jetzt"
+      },
+      "firstOrder": {
+        "title": "Ermäßigung auf die Servicegebühr für die erste Bestellung",
+        "description": "Profitieren Sie von einer reduzierten Servicegebühr bei Ihrer ersten Einkäuferbestellung.",
+        "action": "Beginnen Sie mit dem Einkaufen"
+      },
+      "diyPriority": {
+        "title": "Vorrangiger Support für die erste DIY-Bestellung",
+        "description": "Neue Benutzer können eine DIY-Anfrage mit geführter manueller Überprüfung und schnellerer Klärung einreichen.",
+        "action": "Senden Sie die DIY-Bestellung"
+      }
+    }
+  },
+  "recharge": {
+    "eyebrow": "Aufladebonus",
+    "title": "Geldbörse aufladen, Bonusguthaben freischalten",
+    "description": "Mit dem Wallet-Guthaben lassen sich Checkout, internationale Versandzahlungen und Rückerstattungen einfacher verwalten.",
+    "rechargeNow": "Jetzt aufladen",
+    "columns": {
+      "rechargeAmount": "Aufladebetrag",
+      "bonusAmount": "Bonusbetrag",
+      "validity": "Gültigkeit",
+      "status": "Status"
+    },
+    "status": {
+      "active": "Aktiv",
+      "limited": "Begrenzt"
+    }
+  },
+  "shippingCoupons": {
+    "eyebrow": "Versandgutscheine",
+    "title": "Reduzieren Sie die internationalen Versandkosten",
+    "description": "Verwenden Sie berechtigte Gutscheine, nachdem die Pakete im Lager eingetroffen sind und Versandkosten anfallen.",
+    "minimum": "Mindestversandgebühr",
+    "countries": "Länder",
+    "channels": "Kanäle",
+    "validUntil": "Bis {date}",
+    "coupons": {
+      "shipping5": {
+        "name": "5 $ Rabatt auf internationalen Versand"
+      },
+      "heavy10": {
+        "name": "10 $ Rabatt für Pakete über 5 kg"
+      },
+      "firstPackage": {
+        "name": "Versandrabatt für das erste Paket"
+      },
+      "countrySpecial": {
+        "name": "Spezieller Länderversandrabatt"
+      }
+    }
+  },
+  "serviceFee": {
+    "eyebrow": "Ermäßigungen auf Servicegebühren",
+    "title": "Niedrigere Servicegebühren für Einkäufer",
+    "description": "Für berechtigte Produktbestellungen gelten Rabatte auf Servicegebühren, bevor der internationale Versand in Rechnung gestellt wird.",
+    "badges": {
+      "new": "Neuer Benutzer",
+      "vip": "VIP",
+      "limited": "Kampagne"
+    },
+    "discounts": {
+      "firstOrder": {
+        "title": "Ermäßigung auf die Servicegebühr für die erste Bestellung",
+        "description": "Entwickelt für Erstbenutzer, die den Einkaufsworkflow testen."
+      },
+      "vip": {
+        "title": "VIP Rabatt auf die Benutzerservicegebühr",
+        "description": "Stammkunden können bei berechtigten Bestellungen niedrigere Servicegebühren erhalten."
+      },
+      "campaign": {
+        "title": "Rabatt auf die Kampagnen-Servicegebühr",
+        "description": "Begrenzte Aktion für ausgewählte Kategorien und saisonale Kampagnen."
+      }
+    }
+  },
+  "affiliate": {
+    "title": "Freunde einladen und Provisionen verdienen",
+    "description": "Teilen Sie CNSnap mit Freunden. Verdienen Sie eine Provision, wenn empfohlene Benutzer gültige Bestellungen aufgeben.",
+    "join": "Treten Sie dem Partnerprogramm bei",
+    "metrics": {
+      "rate": "Provisionssatz",
+      "requirement": "Gültige Bestellanforderung",
+      "payout": "Auszahlungsmethode",
+      "minimum": "Mindestauszahlungsbetrag"
+    }
+  },
+  "campaigns": {
+    "eyebrow": "Zeitlich begrenzte Kampagnen",
+    "title": "Saisonale Angebote und Streckenaktionen",
+    "description": "Kampagnen können sich auf bestimmte Länder, Produktkategorien, Zahlungsmethoden oder Versandkanäle konzentrieren.",
+    "view": "Kampagne ansehen",
+    "status": {
+      "active": "Aktiv",
+      "upcoming": "Demnächst"
+    },
+    "items": {
+      "summer": {
+        "title": "Sommerangebot für Speditionsrouten",
+        "description": "Nutzen Sie ausgewählte Economy- und Luftfrachtrouten für niedrigere Paketversandkosten."
+      },
+      "school": {
+        "title": "Einkaufskampagne zum Schulanfang",
+        "description": "Zusätzliche Ersparnisse für Kleidung, Schuhe, Schreibwaren und Wohnheimbedarf."
+      }
+    }
+  },
+  "rules": {
+    "eyebrow": "Werberegeln",
+    "title": "Klare Regeln, bevor Sie einen Gutschein verwenden",
+    "description": "Die Berechtigung zur Aktion hängt vom Zeitpunkt, der Auftragsart, dem Ziel, der Route und dem Kontoverhalten ab.",
+    "items": {
+      "validTime": {
+        "title": "Gültige Zeit",
+        "description": "Jeder Coupon oder jede Aktion hat einen Gültigkeitszeitraum. Abgelaufene Werbeaktionen können nicht manuell wiederhergestellt oder verlängert werden."
+      },
+      "minimumOrder": {
+        "title": "Mindestbestellmenge",
+        "description": "Für einige Rabatte ist eine Mindestproduktzwischensumme, ein Guthabenaufladebetrag oder eine generierte internationale Versandgebühr erforderlich."
+      },
+      "countries": {
+        "title": "Anwendbare Länder",
+        "description": "Länderspezifische Gutscheine gelten nur, wenn das Paketziel mit der Länderliste der Kampagne übereinstimmt."
+      },
+      "channels": {
+        "title": "Anwendbare Versandkanäle",
+        "description": "Versandgutscheine können auf Express-, Economy-, Sensible-Güter- oder Seeschifffahrtsrouten beschränkt sein."
+      },
+      "refunds": {
+        "title": "Rückerstattungsregeln",
+        "description": "Wenn eine Bestellung storniert oder vollständig erstattet wird, können die damit verbundene Couponverwendung und Bonusprämien rückgängig gemacht werden."
+      },
+      "stacking": {
+        "title": "Regeln zum Stapeln von Coupons",
+        "description": "Die meisten Coupons können nicht mit anderen Coupons desselben Typs kombiniert werden, es sei denn, eine Kampagne erlaubt dies ausdrücklich."
+      },
+      "abuse": {
+        "title": "Missbrauchsprävention",
+        "description": "Betrügerische Konten, Selbstempfehlungen, doppelte Registrierungen oder ungewöhnliche Aktivitäten können zum Verlust der Werbeberechtigung führen."
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "Nutzen Sie Ihre Vorteile",
+    "title": "Wählen Sie die nächstbeste Aktion",
+    "description": "Suchen Sie nach Produkten, füllen Sie Ihren Geldbeutel auf oder laden Sie Freunde ein, um künftige Bestellprämien zu erhalten.",
+    "startShopping": "Beginnen Sie mit dem Einkaufen",
+    "rechargeWallet": "Geldbörse aufladen",
+    "joinAffiliate": "Treten Sie einem Partner bei"
+  }
+}

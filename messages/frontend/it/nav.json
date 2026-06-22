@@ -1,0 +1,19 @@
+{
+  "home": "Home",
+  "shoppingAgent": "Agente degli acquisti",
+  "estimation": "Stima",
+  "promotion": "Promozione",
+  "diyOrder": "DIY Ordine",
+  "forwarding": "Inoltro",
+  "helpCenter": "Centro assistenza",
+  "menu": "Menù",
+  "login": "Accedi",
+  "register": "Registrati",
+  "account": "Conto",
+  "dashboard": "Cruscotto",
+  "orders": "Ordini",
+  "packages": "Pacchetti",
+  "wallet": "Portafoglio",
+  "ticketsCenter": "Centro Biglietteria",
+  "logout": "Esci"
+}

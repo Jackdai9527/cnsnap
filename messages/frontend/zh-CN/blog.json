@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "eyebrow": "SEO 文章",
+    "title": "关于中国采购、物流、转运和找货的实用指南。",
+    "description": "在进入真实下单流程前，通过 CNSnap 博客先了解代购流程、线路预估、限制品和包裹处理。"
+  },
+  "featured": {
+    "label": "精选指南",
+    "read": "阅读精选文章"
+  },
+  "sections": {
+    "categories": "文章分类",
+    "browse": "按主题浏览",
+    "latestTitle": "最新文章",
+    "latestDesc": "这些最新博客内容已经可以独立承担未来 landing page 模块的一部分作用。",
+    "popularTitle": "热门指南",
+    "popularDesc": "为正式进入代购流程前最常见的问题提供快速入口。",
+    "topicsTitle": "主题分区",
+    "topicsDesc": "从最符合你当前需求的主题开始。"
+  },
+  "topicCards": {
+    "shoppingAgentGuides": "代购指南",
+    "shippingEstimation": "物流与运费预估",
+    "forwardingGuides": "转运指南",
+    "diyOrderGuides": "DIY 找货指南",
+    "restrictedItems": "限制品说明",
+    "platformGuides": "平台使用指南",
+    "description": "进入对应的主题中心，查看已发布 SEO 文章和服务型 CTA。"
+  },
+  "articleCard": {
+    "read": "阅读文章",
+    "general": "通用"
+  },
+  "taxonomy": {
+    "categoryHero": "分类页头图",
+    "browseByTag": "标签页头图",
+    "tagPrefix": "标签：",
+    "relatedCategories": "相关分类",
+    "needWorkflowTitle": "下一步需要进入实际流程？",
+    "needWorkflowDescription": "从分类指南继续进入商品搜索、运费预估、DIY 找货或转运服务。",
+    "startShopping": "开始代购",
+    "moveIntoActionTitle": "从文章进入实际操作",
+    "moveIntoActionDescription": "当你准备好开始搜索商品、预估运费或提交找货需求时，可以直接使用对应服务页。",
+    "estimateShipping": "预估运费",
+    "publishedRelated": "与 {name} 相关的已发布 SEO 文章。",
+    "tagTitle": "标签：{name}",
+    "tagMetaTitle": "标签：{name}",
+    "tagMetaDescription": "带有 {name} 标签的文章。",
+    "categoryNotFound": "分类未找到",
+    "tagNotFound": "标签未找到"
+  },
+  "cta": {
+    "startShopping": {
+      "title": "开始代购",
+      "description": "进入商品搜索和链接粘贴流程。"
+    },
+    "estimateShipping": {
+      "title": "预估运费",
+      "description": "结账前先比较物流线路。"
+    },
+    "submitDiyOrder": {
+      "title": "提交 DIY 需求单",
+      "description": "打开人工找货需求流程。"
+    },
+    "useForwarding": {
+      "title": "使用转运服务",
+      "description": "把已购买的包裹发送到仓库。"
+    },
+    "open": "打开"
+  }
+}

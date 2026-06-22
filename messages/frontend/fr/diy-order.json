@@ -1,0 +1,240 @@
+{
+  "hero": {
+    "eyebrow": "Achat manuel",
+    "title": "Vous ne trouvez pas le produit ? Soumettez une commande DIY.",
+    "subtitle": "Envoyez-nous le lien du produit, l'image, les spécifications et la quantité. Notre équipe l’examinera et vous enverra un devis.",
+    "submit": "Soumettre la commande DIY",
+    "viewMine": "Afficher mes commandes DIY",
+    "cards": {
+      "image": {
+        "title": "Image ou liste peu claire",
+        "description": "Envoyez une image de référence, une capture d'écran du produit ou un lien incomplet."
+      },
+      "spec": {
+        "title": "Spécifications complexes",
+        "description": "Dites-nous la couleur, la taille, le modèle, la version, le lot et toutes les notes du vendeur."
+      },
+      "quote": {
+        "title": "Devis manuel",
+        "description": "Notre équipe vérifie la disponibilité, le prix, les restrictions et les détails d'achat."
+      }
+    }
+  },
+  "when": {
+    "eyebrow": "Quand utiliser la commande DIY",
+    "title": "Utilisez DIY lorsque l’automatisation ne suffit pas",
+    "description": "DIY La commande est idéale pour les achats spéciaux qui nécessitent un examen humain avant le paiement.",
+    "items": {
+      "cannotParse": {
+        "title": "Le lien du produit ne peut pas être analysé",
+        "description": "Utilisez DIY lorsqu'une page produit ne peut pas être lue par le flux automatique d'agent d'achat."
+      },
+      "imageOnly": {
+        "title": "Vous n'avez qu'une image du produit",
+        "description": "Téléchargez ou collez une image URL afin que notre équipe puisse identifier l'article manuellement."
+      },
+      "complexSpecs": {
+        "title": "Spécifications complexes",
+        "description": "Utilisez DIY pour de nombreuses exigences en matière de couleur, de taille, de version, d'offre groupée ou d'options personnalisées."
+      },
+      "manualQuote": {
+        "title": "Vous avez besoin d'un devis manuel",
+        "description": "Nous pouvons vérifier le prix actuel du vendeur, l’expédition nationale et la faisabilité de l’achat."
+      },
+      "multipleItems": {
+        "title": "Acheter plusieurs articles ensemble",
+        "description": "Décrivez plusieurs produits ou vendeurs lorsque vous avez besoin d’un plan d’achat combiné."
+      },
+      "shippingUncertain": {
+        "title": "L’éligibilité à l’expédition n’est pas claire",
+        "description": "Demandez-nous d'examiner les articles sensibles ou restreints avant de payer."
+      }
+    }
+  },
+  "form": {
+    "eyebrow": "Formulaire de commande DIY",
+    "title": "Envoyez votre demande d'achat",
+    "description": "Plus vous fournissez de détails, plus vite notre équipe pourra établir un devis précis.",
+    "guest": "La connexion est requise avant la soumission.",
+    "signedIn": "Connecté en tant que {email}",
+    "fields": {
+      "productUrl": "Produit URL",
+      "productName": "Nom du produit",
+      "productImageUrl": "Image du produit URL",
+      "specification": "Spécification",
+      "quantity": "Quantité",
+      "budget": "Budget USD",
+      "destinationCountry": "Pays de destination",
+      "notes": "Remarques",
+      "contactEmail": "E-mail de contact"
+    },
+    "placeholders": {
+      "productName": "Nom du produit ou brève description",
+      "specification": "Couleur, taille, modèle, version",
+      "notes": "Dites-nous les notes du vendeur, l'option préférée, les problèmes d'expédition ou tout autre élément important."
+    },
+    "hints": {
+      "productUrl": "Facultatif, mais recommandé lorsque vous disposez d’une page produit.",
+      "productImageUrl": "La version V1.0 utilise l'image URL comme espace réservé. Le téléchargement de fichiers peut être connecté ultérieurement."
+    },
+    "countries": {
+      "US": "États-Unis (US)",
+      "CA": "Canada (CA)",
+      "GB": "Royaume-Uni (GB)",
+      "DE": "Allemagne (DE)",
+      "FR": "France (FR)",
+      "NL": "Pays-Bas (NL)",
+      "PL": "Pologne (PL)",
+      "JP": "Japon (JP)",
+      "KR": "Corée (KR)",
+      "AU": "Australie (AU)"
+    },
+    "validation": {
+      "productName": "Le nom du produit doit comporter au moins 2 caractères.",
+      "quantity": "La quantité doit être un nombre entier supérieur à 0.",
+      "destination": "Veuillez sélectionner un pays de destination.",
+      "url": "Veuillez saisir un URL valide.",
+      "email": "Veuillez saisir une adresse e-mail valide."
+    },
+    "loginRequired": "Veuillez vous connecter avant de soumettre une commande DIY.",
+    "submitted": "DIY Commande soumise. Nous l'examinerons sous peu.",
+    "submitting": "Envoi...",
+    "submit": "Soumettre la commande DIY",
+    "disclaimer": "La soumission ne nécessite pas de paiement. Nous examinerons d’abord la demande et vous enverrons un devis."
+  },
+  "steps": {
+    "eyebrow": "Comment fonctionne le devis",
+    "title": "De la demande à l'arrivée en entrepôt",
+    "description": "DIY La commande suit un flux de travail de révision manuel afin que le prix, la disponibilité et les restrictions d'expédition puissent être vérifiés avant l'achat.",
+    "items": {
+      "submit": {
+        "title": "Soumettez votre demande",
+        "description": "Envoyez les détails du produit, l’image, les spécifications, la quantité et la destination."
+      },
+      "review": {
+        "title": "Notre équipe examine l'article",
+        "description": "Nous vérifions la page du vendeur, la disponibilité, le prix et la faisabilité d'achat."
+      },
+      "quote": {
+        "title": "Nous vous envoyons un devis",
+        "description": "Le devis comprend le coût du produit, l’expédition nationale et l’estimation des frais de service."
+      },
+      "confirm": {
+        "title": "Vous confirmez et payez",
+        "description": "Après avoir accepté le devis, vous pouvez payer pour commencer à acheter."
+      },
+      "purchase": {
+        "title": "Nous achetons l'article",
+        "description": "Notre équipe d'achat passe la commande auprès du vendeur."
+      },
+      "warehouse": {
+        "title": "L'article arrive à l'entrepôt",
+        "description": "L'entrepôt vérifie, reçoit et prépare les informations sur les colis."
+      },
+      "shipping": {
+        "title": "Payer l'expédition internationale",
+        "description": "Après emballage et pesée, vous choisissez un itinéraire et payez les frais d'expédition."
+      },
+      "receive": {
+        "title": "Recevez votre colis",
+        "description": "Suivez le colis jusqu'à la livraison à votre adresse de destination."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Shopping Agent et commande DIY",
+    "title": "Choisissez le bon flux de commandes",
+    "description": "Les liens standards sont plus rapides avec Shopping Agent. Les produits spéciaux ou peu clairs appartiennent à la commande DIY.",
+    "columns": {
+      "feature": "Caractéristique",
+      "agent": "Agent commercial",
+      "diy": "Commande DIY"
+    },
+    "rows": {
+      "suitable": {
+        "feature": "Idéal pour",
+        "agent": "Liens de produits standards ou recherche par mot-clé",
+        "diy": "Les produits spéciaux ou l'automatisation des produits ne peuvent pas analyser"
+      },
+      "parsing": {
+        "feature": "Données produit",
+        "agent": "Le système analyse automatiquement le prix et les options",
+        "diy": "Examen manuel et devis"
+      },
+      "speed": {
+        "feature": "Vitesse de commande",
+        "agent": "Paiement rapide lorsque les données du produit sont claires",
+        "diy": "Plus lent car un examen humain est nécessaire"
+      },
+      "price": {
+        "feature": "Source de prix",
+        "agent": "Lecture automatique depuis la page produit",
+        "diy": "Confirmé par le personnel avant le paiement"
+      },
+      "complexity": {
+        "feature": "Demandes complexes",
+        "agent": "Mieux pour les options simples",
+        "diy": "Idéal pour les images, les lots, les notes et les chèques d'expédition"
+      }
+    }
+  },
+  "examples": {
+    "eyebrow": "Exemples de demandes",
+    "title": "Les bonnes demandes DIY sont spécifiques",
+    "items": {
+      "imageNoLink": {
+        "title": "J'ai trouvé une image de produit mais pas de lien.",
+        "description": "Joignez une image URL et décrivez ce que vous souhaitez que nous identifiions."
+      },
+      "tooManySku": {
+        "title": "La page produit contient trop d'options SKU.",
+        "description": "Dites-nous la couleur, la taille, le modèle ou le lot exact que vous souhaitez."
+      },
+      "multipleSellers": {
+        "title": "Je souhaite acheter plusieurs articles auprès de différents vendeurs.",
+        "description": "Répertoriez chaque article et lien de vendeur afin que nous puissions préparer un devis combiné."
+      },
+      "shippingCheck": {
+        "title": "J'ai besoin d'aide pour confirmer si ce produit peut être expédié.",
+        "description": "Mentionnez le pays de destination et les matériaux du produit, la batterie, le liquide ou les problèmes de marque."
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "DIY Commande FAQ",
+    "description": "Des réponses courtes avant de soumettre une demande d'achat manuelle.",
+    "items": {
+      "quoteTime": {
+        "question": "Combien de temps prend un devis de commande DIY ?",
+        "answer": "La plupart des devis sont examinés dans un délai d'un jour ouvrable. Les articles complexes ou la confirmation du vendeur peuvent prendre plus de temps."
+      },
+      "imageOnly": {
+        "question": "Puis-je soumettre uniquement une image de produit ?",
+        "answer": "Oui. Une image de produit est acceptée, mais un lien ou une description supplémentaire nous aide à proposer un devis plus rapidement."
+      },
+      "payBeforeQuote": {
+        "question": "Dois-je payer avant le devis ?",
+        "answer": "Non. Vous soumettez d’abord la demande. Le paiement n'a lieu qu'après acceptation du devis."
+      },
+      "afterAccept": {
+        "question": "Que se passe-t-il une fois que j'accepte le devis ?",
+        "answer": "Vous payez le montant indiqué, puis notre équipe d'achat achète le produit au vendeur."
+      },
+      "cancel": {
+        "question": "Puis-je annuler une commande DIY ?",
+        "answer": "Vous pouvez annuler avant le paiement ou avant que notre équipe n'achète l'article. Après l'achat, l'annulation dépend de la politique du vendeur."
+      },
+      "restricted": {
+        "question": "Les articles restreints peuvent-ils être achetés ?",
+        "answer": "Certains produits sensibles peuvent nécessiter des itinéraires particuliers ou être refusés. Notre équipe examinera l’éligibilité à l’expédition avant l’achat."
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt à envoyer une demande manuelle ?",
+    "description": "Soumettez les détails maintenant ou vérifiez vos commandes DIY existantes dans le centre utilisateur.",
+    "submit": "Soumettre la commande DIY",
+    "viewMine": "Afficher mes commandes DIY"
+  }
+}

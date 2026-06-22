@@ -1,0 +1,268 @@
+{
+  "search": {
+    "eyebrow": "Centrum pomocy",
+    "title": "Znajdź odpowiedzi przed następnym krokiem zakupów w Chinach",
+    "subtitle": "Wyszukaj przewodniki dla agenta handlowego, szacowania wysyłki, zamówień DIY, spedycji, płatności, paczek, śledzenia i Centrum biletów.",
+    "placeholder": "Wyszukaj agenta handlowego, opłatę za wysyłkę, oszacowanie, zamówienie DIY, spedycję, płatność...",
+    "examplesTitle": "Przykłady wyszukiwania",
+    "results": "Wyniki",
+    "emptyTitle": "Nie znaleziono wyniku pomocy",
+    "emptyDescription": "Wypróbuj szersze słowo kluczowe, takie jak wysyłka, płatność, paczka, bilet lub zamówienie DIY.",
+    "examples": {
+      "shoppingAgent": "agenta handlowego",
+      "shippingFee": "opłata za wysyłkę",
+      "estimation": "szacowanie",
+      "diyOrder": "Zamówienie DIY",
+      "forwarding": "przesyłanie",
+      "payment": "płatność",
+      "refund": "zwrot pieniędzy",
+      "restrictedItems": "przedmioty objęte ograniczeniami",
+      "package": "pakiet",
+      "tracking": "śledzenie",
+      "ticket": "bilet"
+    }
+  },
+  "popularTopics": {
+    "eyebrow": "Popularne tematy",
+    "title": "Szybkie odpowiedzi na typowe zadania",
+    "description": "Przejdź do poradników, których użytkownicy najczęściej potrzebują przed złożeniem zamówienia, zapłaceniem lub wysyłką.",
+    "items": {
+      "orderLink": "Jak złożyć zamówienie za pomocą linku do produktu",
+      "estimation": "Jak oszacować opłatę za wysyłkę międzynarodową",
+      "diyOrder": "Jak złożyć zamówienie zamówienie DIY",
+      "forwarding": "Jak działa usługa spedycyjna",
+      "separateShipping": "Dlaczego opłata za wysyłkę jest płatna osobno",
+      "restricted": "Jakie produkty podlegają ograniczeniom",
+      "recharge": "Jak doładować portfel",
+      "tracking": "Jak śledzić przesyłkę",
+      "ticket": "Jak otworzyć zgłoszenie do pomocy technicznej"
+    }
+  },
+  "categoriesSection": {
+    "eyebrow": "Pomoc Kategorie",
+    "title": "Przeglądaj według obsługiwanego obszaru",
+    "description": "Wybierz kategorię, aby filtrować popularne artykuły i odpowiedzi FAQ.",
+    "showAll": "Pokaż całą pomoc",
+    "articleCount": "Artykuły {count}"
+  },
+  "categories": {
+    "howToBuy": {
+      "title": "Jak kupować",
+      "description": "Linki do produktów, wyszukiwanie zdjęć, realizacja transakcji przez agenta handlowego i składanie zamówienia."
+    },
+    "orders": {
+      "title": "Zamówienia",
+      "description": "Stan zamówienia, zakupy, pozycje niedostępne, zmiany cen i aktualizacje."
+    },
+    "payment": {
+      "title": "Płatności i doładowania",
+      "description": "Saldo w portfelu, zapisy doładowań, płatności za produkty i płatności ręczne notatki."
+    },
+    "shippingFee": {
+      "title": "Opłata za wysyłkę",
+      "description": "Transport międzynarodowy, waga objętościowa, należna waga i szacunki."
+    },
+    "packages": {
+      "title": "Paczki",
+      "description": "Przybycie do magazynu, utworzenie paczki, śledzenie, status wysyłki i dostawa."
+    },
+    "forwarding": {
+      "title": "Spedycja",
+      "description": "Kupuj samodzielnie, skorzystaj z naszego adresu magazynu i prześlij dane krajowe śledzenie."
+    },
+    "diyOrders": {
+      "title": "Zamówienia DIY",
+      "description": "Ręczne wyceny produktów, których nie można przeanalizować automatycznie."
+    },
+    "restrictedItems": {
+      "title": "Produkty objęte ograniczeniami",
+      "description": "Towary wrażliwe, przedmioty zabronione, baterie, płyny, proszki i ryzyko związane z marką."
+    },
+    "refunds": {
+      "title": "Zwroty pieniędzy",
+      "description": "Zwroty środków za brak towaru, anulowane zamówienia, zwroty środków do portfela i terminy sprawdzania."
+    },
+    "affiliate": {
+      "title": "Partner",
+      "description": "Linki polecające, prowizje, ważne zamówienia i podstawy wypłat."
+    },
+    "tickets": {
+      "title": "Centrum biletów",
+      "description": "Otwieraj zgłoszenia, sprawdzaj odpowiedzi, dostarczaj dowody i śledź postęp pomocy technicznej."
+    },
+    "account": {
+      "title": "Konto",
+      "description": "Profil, język, waluta, login Google, adresy i bezpieczeństwo ustawienia."
+    }
+  },
+  "articlesSection": {
+    "eyebrow": "Popularne artykuły",
+    "title": "Przewodniki, które użytkownicy czytają jako pierwsze",
+    "description": "Praktyczna pomoc dotycząca zamawiania, wysyłki, płatności, spedycji i pomocy technicznej.",
+    "guideCount": "Przewodniki {count}",
+    "updated": "Aktualizacja {date}",
+    "read": "Przeczytaj"
+  },
+  "articles": {
+    "placeOrderLink": {
+      "title": "Jak złożyć zamówienie za pomocą linku do produktu",
+      "summary": "Wklej link do chińskiego produktu, wybierz warianty i ilość, a następnie prześlij zamówienie, aby sprawdzić koszt produktu i ocenę wysyłki krajowej.",
+      "content": "Wklej produkt URL do wyszukiwarki CNSnap lub parsera produktów. Przejrzyj tytuł, zdjęcia, warianty, cenę, opłatę za wysyłkę krajową i ilość. Wybierz dokładny SKU, potwierdź zastrzeżenie, a następnie dodaj do koszyka lub kup teraz. Najpierw płacisz koszt produktu, wysyłkę krajową i opłatę za usługę. Wysyłka międzynarodowa jest rozliczana później po przybyciu do magazynu i zważeniu."
+    },
+    "shoppingAgent": {
+      "title": "Jak korzystać z usługi agenta handlowego",
+      "summary": "Agent ds. zakupów oznacza, że ​​nasz zespół kupuje dla Ciebie produkty, odbiera je w naszym magazynie i przygotowuje wysyłkę międzynarodową.",
+      "content": "Użyj Agenta handlowego, jeśli chcesz, aby CNSnap kupował dla Ciebie na chińskich platformach. Po przesłaniu i opłaceniu zamówienia na produkt nasz zespół ds. zakupów składa zamówienie u sprzedawcy. Kiedy produkty docierają do magazynu, paczka jest sprawdzana, ważona i przygotowywana do płatności za wysyłkę międzynarodową."
+    },
+    "submitDiy": {
+      "title": "Jak złożyć zamówienie DIY",
+      "summary": "Użyj zamówienia DIY, gdy nie można przeanalizować linku do produktu, masz tylko obraz lub żądanie wymaga ręcznej wyceny.",
+      "content": "Otwórz zamówienie DIY, podaj produkt URL lub obraz URL, nazwę produktu, specyfikacje, ilość, kraj docelowy i uwagi. Nasz zespół sprawdza dostępność, cenę sprzedawcy, wysyłkę krajową, możliwe ograniczenia i wysyła wycenę. Płacisz dopiero po zaakceptowaniu wyceny."
+    },
+    "forwarding": {
+      "title": "Jak działa usługa spedycyjna",
+      "summary": "Spedycja przeznaczona jest dla użytkowników, którzy sami kupują i wysyłają produkty do naszego magazynu w Chinach w celu spedycji międzynarodowej.",
+      "content": "Zaloguj się, aby uzyskać adres magazynu i kod użytkownika. Kupuj samodzielnie na chińskich stronach internetowych i podaj swój kod użytkownika w adresie odbiorcy lub adresie. Po wysłaniu przesyłki przez sprzedawcę prześlij krajowy numer śledzenia. Magazyn odbiera, identyfikuje, przechowuje, waży i przekazuje Twoją paczkę za granicę."
+    },
+    "shippingFee": {
+      "title": "Jak obliczana jest opłata za wysyłkę międzynarodową?",
+      "summary": "Opłata za wysyłkę zależy od miejsca docelowego, kanału, rzeczywistej wagi, wagi objętościowej, minimalnej wagi do zapłaty i ograniczeń produktu.",
+      "content": "Wysyłka międzynarodowa jest obliczana po zważeniu magazynu. Przewoźnicy porównują wagę rzeczywistą z wagą objętościową, a następnie wystawiają fakturę na podstawie wyższej należnej wagi. Waga wolumetryczna to długość × szerokość × wysokość podzielona przez dzielnik objętości kanału. Wrażliwe produkty, limity miejsc docelowych i zasady kanałów mogą zmienić dostępne trasy."
+    },
+    "separateShipping": {
+      "title": "Dlaczego muszę osobno płacić za wysyłkę?",
+      "summary": "Płatność za produkt następuje przed zakupem. Wysyłka międzynarodowa może zostać potwierdzona dopiero po otrzymaniu i zważeniu paczki przez magazyn.",
+      "content": "Przy kasie płacisz koszt produktu, wysyłkę krajową i opłatę serwisową. Transport międzynarodowy nie może być ostateczny, zanim magazyn nie pozna rzeczywistej wagi, wymiarów, miejsca docelowego i dostępnego kanału. Po przybyciu CNSnap tworzy pakiet i rachunek za wysyłkę w celu potwierdzenia."
+    },
+    "restricted": {
+      "title": "Jakie produkty podlegają ograniczeniom?",
+      "summary": "Baterie, płyny, proszki, żywność, kosmetyki, markowe towary luksusowe i produkty niebezpieczne mogą wymagać sprawdzenia lub zostać odrzucone.",
+      "content": "Przedmioty objęte ograniczeniami lub wrażliwe zależą od przepisów przewoźnika i celnych. Baterie, płyny, proszki, żywność, kosmetyki, lekarstwa, broń, towary niebezpieczne, podróbki i produkty markowe o wysokiej wartości mogą wymagać ręcznego przeglądu, specjalnych linii, dodatkowych dokumentów lub mogą nie zostać przyjęte do wysyłki."
+    },
+    "recharge": {
+      "title": "Jak doładować mój portfel?",
+      "summary": "Saldo w portfelu można wykorzystać do płatności za produkty, płatności za wysyłkę i opłat za usługi po potwierdzeniu zapisów doładowań.",
+      "content": "Przejdź do konta Doładuj, wprowadź kwotę i wybierz metodę płatności. Wersja 1.0 obsługuje rekordy zastępcze płatności ręcznych. Po potwierdzeniu płatności saldo można wykorzystać na zamówienia produktów, wysyłkę międzynarodową, korekty i zwroty pieniędzy."
+    },
+    "tracking": {
+      "title": "Jak śledzić moją paczkę?",
+      "summary": "Gdy paczka zostanie wysłana za granicę, numer śledzenia i status wysyłki zostaną wyświetlone w Koncie Pakiety.",
+      "content": "Otwórz Konto Pakiety, aby zobaczyć status paczki, kanał wysyłki, numer śledzenia i czas wysyłki. Aktualizacja śledzenia może zająć trochę czasu po wysyłce. Jeśli śledzenie zatrzyma się lub wyświetli wyjątek, otwórz zgłoszenie do pomocy technicznej zawierające numer paczki i numer śledzenia."
+    },
+    "ticket": {
+      "title": "Jak otworzyć zgłoszenie do pomocy?",
+      "summary": "Skorzystaj z Centrum zgłoszeń, aby rozwiązać problemy z zamówieniami, pytania dotyczące paczki, dowody płatności, zwroty kosztów, pozycje objęte ograniczeniami lub wyjątki dotyczące wysyłki.",
+      "content": "Otwórz Centrum zgłoszeń i utwórz nowe zgłoszenie. Wybierz najbliższą kategorię, dodaj numery zamówień lub paczek, opisz problem i prześlij przydatne dowody później, gdy zostanie podłączone przesyłanie plików. Nasz zespół pomocy technicznej odpowiada w wątku dotyczącym zgłoszeń."
+    }
+  },
+  "faqSection": {
+    "eyebrow": "FAQ",
+    "title": "Często zadawane pytania",
+    "description": "Krótkie odpowiedzi dla agenta handlowego, szacunki, zamówienia DIY, przesyłki, płatności i bilety pomocy technicznej."
+  },
+  "faq": {
+    "saTaobao": {
+      "question": "Czy możesz kupować dla mnie w Taobao lub 1688?",
+      "answer": "Tak. Użyj Shopping Agent, aby uzyskać obsługiwane linki do produktów. Jeśli nie można przeanalizować strony, prześlij zamówienie DIY do ręcznego sprawdzenia."
+    },
+    "saImage": {
+      "question": "Czy mogę wyszukiwać według obrazu produktu?",
+      "answer": "Wyszukiwanie obrazów może pomóc w znajdowaniu produktów. Jeśli wynik jest niejasny, użyj DIY Order i prześlij obraz URL lub zrzut ekranu produktu."
+    },
+    "saOutStock": {
+      "question": "Co się stanie, jeśli towaru nie będzie w magazynie?",
+      "answer": "Nasz zespół zaktualizuje zamówienie i skontaktuje się z Tobą. W zależności od sytuacji sprzedawcy możesz wybrać wymianę, anulowanie lub zwrot pieniędzy."
+    },
+    "estFinal": {
+      "question": "Czy szacowana opłata za wysyłkę jest ostateczna?",
+      "answer": "Nie. Szacunek ma charakter planistyczny. Ostateczny transport opiera się na wadze zmierzonej w magazynie, wymiarach opakowania, ocenie produktu i wybranym kanale."
+    },
+    "estVolumetric": {
+      "question": "Co to jest waga objętościowa?",
+      "answer": "Waga wolumetryczna konwertuje wielkość paczki na wagę płatną. Duże, lekkie paczki mogą kosztować więcej, ponieważ zajmują więcej miejsca w bagażniku."
+    },
+    "estChargeable": {
+      "question": "Dlaczego waga należna różni się od wagi rzeczywistej?",
+      "answer": "Przewoźnicy wystawiają fakturę na podstawie większej wartości spośród wagi rzeczywistej, masy objętościowej i minimalnej wagi do zapłaty."
+    },
+    "diyWhen": {
+      "question": "Kiedy powinienem złożyć zamówienie DIY?",
+      "answer": "Złożyć zamówienie DIY, gdy nie można połączyć się z produktem przeanalizowane, masz tylko obraz, specyfikacje są złożone lub potrzebujesz ręcznej wyceny."
+    },
+    "diyQuote": {
+      "question": "Jak długo trwa wycena zamówienia DIY?",
+      "answer": "Większość ofert jest sprawdzana w ciągu 1 dnia roboczego. Złożone przedmioty lub potwierdzenie sprzedawcy mogą zająć więcej czasu."
+    },
+    "diyImage": {
+      "question": "Czy mogę przesłać tylko zdjęcie produktu?",
+      "answer": "Tak. Zdjęcie produktu jest akceptowane, ale link lub szczegółowy opis pomaga naszemu zespołowi szybciej wycenić produkt."
+    },
+    "fwBuySelf": {
+      "question": "Czy mogę kupować sam i korzystać wyłącznie z Twojego magazynu?",
+      "answer": "Tak. Skorzystaj z usługi spedycyjnej, skopiuj adres magazynu i podaj krajowy numer śledzenia po wysłaniu przesyłki przez sprzedawcę."
+    },
+    "fwDifference": {
+      "question": "Jaka jest różnica między agentem handlowym a spedycją?",
+      "answer": "Agent zakupowy oznacza, że ​​CNSnap kupuje za Ciebie. Spedycja oznacza, że ​​kupujesz sam, a CNSnap zajmuje się przyjęciem do magazynu i wysyłką międzynarodową."
+    },
+    "fwUserCode": {
+      "question": "Dlaczego muszę dołączać mój kod użytkownika?",
+      "answer": "Kod użytkownika pozwala pracownikom magazynu dopasować przesyłki przychodzące do Twojego konta. Brakujące kody użytkownika mogą opóźnić otrzymanie."
+    },
+    "payProduct": {
+      "question": "Jak zapłacić koszt produktu?",
+      "answer": "Możesz zapłacić podczas realizacji transakcji, korzystając z dostępnego salda lub obsługiwanych metod płatności. Rekordy doładowań i płatności ręcznych można później rozszerzyć."
+    },
+    "payShipping": {
+      "question": "Dlaczego za wysyłkę międzynarodową płacę osobno?",
+      "answer": "Wysyłka międzynarodowa jest obliczana po przybyciu do magazynu, ponieważ ostateczna waga i wymiary opakowania nie są znane przed odbiorem."
+    },
+    "payRefund": {
+      "question": "Czy mogę otrzymać zwrot pieniędzy?",
+      "answer": "Kwalifikowalność zwrotu zależy od statusu zamówienia, zasad sprzedawcy oraz tego, czy przedmiot został już zakupiony lub wysłany."
+    },
+    "ticketWhen": {
+      "question": "Kiedy powinienem otworzyć zgłoszenie?",
+      "answer": "Otwórz zgłoszenie, aby uzyskać odpowiedzi na pytania dotyczące zamówienia, dowód płatności, wyjątki dotyczące przesyłek, zwroty pieniędzy, ograniczone sprawdzanie przedmiotów lub problemy z kontem."
+    },
+    "ticketReplies": {
+      "question": "Jak sprawdzić odpowiedzi na zgłoszenia?",
+      "answer": "Przejdź do Centrum zgłoszeń do konta i otwórz wątek dotyczący zgłoszeń, aby wyświetlić odpowiedzi do pomocy technicznej i aktualizacje statusu."
+    },
+    "ticketReopen": {
+      "question": "Czy mogę ponownie otworzyć rozwiązane zgłoszenie?",
+      "answer": "W wersji 1.0 można zarezerwować zachowanie ponownego otwarcia. Jeśli rozwiązany problem będzie się powtarzał, utwórz nowe zgłoszenie i odwołaj się do starego numeru zgłoszenia."
+    },
+    "packageArrival": {
+      "question": "Skąd mam wiedzieć, że moja paczka dotarła do magazynu?",
+      "answer": "Sprawdź pakiety na koncie. Status odbioru magazynu pojawia się po dopasowaniu personelu i przetworzeniu przychodzącej przesyłki."
+    },
+    "accountLanguage": {
+      "question": "Czy mogę zmienić język lub walutę?",
+      "answer": "Tak. Po połączeniu użyj przełącznika języka i waluty interfejsu lub preferencji profilu konta."
+    },
+    "affiliateReward": {
+      "question": "Jak działają nagrody partnerskie?",
+      "answer": "Udostępnij swój link polecający. Prowizja jest obliczana na podstawie prawidłowych poleconych zamówień zgodnie z polityką partnerską."
+    }
+  },
+  "filter": {
+    "showing": "Pokazuję pomoc dla"
+  },
+  "empty": {
+    "articlesTitle": "Brak jeszcze artykułów w tej kategorii",
+    "articlesDescription": "Wypróbuj inną kategorię lub użyj wyszukiwarki powyżej.",
+    "faqTitle": "Nie ma jeszcze FAQ w tej kategorii",
+    "faqDescription": "Centrum zgłoszeń nadal może pomóc w tej sprawie."
+  },
+  "articleDialog": {
+    "keywords": "Słowa kluczowe",
+    "quickAnswer": "Krótka odpowiedź pomocy technicznej"
+  },
+  "ticketsCta": {
+    "title": "Nadal potrzebujesz pomocy?",
+    "description": "Otwórz zgłoszenie do pomocy technicznej, a nasz zespół odpowie tak szybko, jak to możliwe.",
+    "open": "Otwórz Centrum biletów",
+    "create": "Utwórz nowy bilet"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "empty": {
+    "title": "Ihr Checkout ist leer",
+    "description": "Fügen Sie zuerst Produkte hinzu und kommen Sie dann zurück, um Versand und Bestellung zu bestätigen.",
+    "action": "Produkte finden"
+  },
+  "breadcrumbs": {
+    "cart": "Warenkorb",
+    "information": "Informationen",
+    "payment": "Zahlung"
+  },
+  "panels": {
+    "contact": "Kontakt",
+    "delivery": "Lieferung",
+    "valueAdded": "Zusatzleistungen",
+    "notes": "Einkaufsnotizen"
+  },
+  "actions": {
+    "account": "Konto",
+    "login": "Anmelden",
+    "addAddress": "Neue Adresse hinzufügen",
+    "returnToCart": "Zurück zum Warenkorb",
+    "submitOrder": "Bestellung absenden",
+    "submitting": "Wird gesendet...",
+    "edit": "Bearbeiten",
+    "quantity": "Menge",
+    "serviceNote": "Servicenotiz"
+  },
+  "guestEmail": "guest@checkout.local",
+  "valueAdded": {
+    "selectedCount": "{count} ausgewählt",
+    "title": "Wählen Sie optionale Zusatzleistungen vor dem Absenden",
+    "description": "Verpackung, Prüfung, Fotos und Lagerbearbeitung werden jetzt hier ausgewählt, damit Buy-Now-Bestellungen nichts verpassen.",
+    "applicable": "Gilt für",
+    "notePlaceholder": "Optional: Verpackung, Fotowinkel, Entfernungsanweisung..."
+  },
+  "notesPlaceholder": "Größenbestätigung, Nachricht an den Verkäufer, Verpackungswunsch oder Risikohinweise für das Einkaufsteam",
+  "shippingNotice": "Nach abgeschlossener Zahlung müssen Sie das Paket für den internationalen Versand einreichen, sobald es im Lager angekommen und eingelagert ist.",
+  "summary": {
+    "title": "Bestellübersicht",
+    "secure": "Sicherer Einkaufs-Checkout",
+    "subtotal": "Artikelsumme",
+    "domesticShipping": "China-Versand",
+    "serviceFee": "Servicegebühr",
+    "valueAddedServices": "Zusatzleistungen",
+    "total": "Bestellgesamtbetrag"
+  },
+  "addressForm": {
+    "addTitle": "Lieferadresse hinzufügen",
+    "editTitle": "Lieferadresse bearbeiten",
+    "useSaved": "Gespeicherte Adresse verwenden",
+    "label": "Adressbezeichnung",
+    "contactName": "Kontaktname",
+    "phone": "Telefon",
+    "city": "Stadt",
+    "postalCode": "Postleitzahl",
+    "line1": "Adresszeile 1",
+    "line2": "Adresszeile 2",
+    "default": "Als Standard-Lieferadresse speichern"
+  },
+  "confirmDeleteAddress": "Diese Lieferadresse löschen? Bestellungen behalten ihre Artikel, aber die gespeicherte Lieferadresse wird entfernt.",
+  "errors": {
+    "addressLimit": "Sie können maximal 3 Lieferadressen speichern. Bitte löschen Sie zuerst eine andere Adresse.",
+    "saveAddress": "Lieferadresse konnte nicht gespeichert werden.",
+    "createOrder": "Bestellung konnte nicht erstellt werden.",
+    "checkoutFailed": "Checkout fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "deleteAddress": "Adresse konnte nicht gelöscht werden."
+  }
+}

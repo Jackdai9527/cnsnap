@@ -1,0 +1,28 @@
+{
+  "page": {
+    "kicker": "内容中心",
+    "title": "页面",
+    "addPage": "添加页面",
+    "search": "搜索页面..."
+  },
+  "table": {
+    "title": "标题",
+    "slug": "Slug",
+    "status": "状态",
+    "updated": "更新时间",
+    "actions": "操作",
+    "edit": "编辑",
+    "delete": "删除"
+  },
+  "editor": {
+    "addTitle": "添加页面",
+    "editTitle": "编辑 {title}",
+    "save": "保存页面",
+    "published": "已发布",
+    "placeholders": {
+      "title": "标题",
+      "slug": "page-slug",
+      "content": ""
+    }
+  }
+}

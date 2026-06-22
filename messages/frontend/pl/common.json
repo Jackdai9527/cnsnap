@@ -1,0 +1,78 @@
+{
+  "seoLanding": {
+    "readRelatedGuides": "Przeczytaj powiazane przewodniki",
+    "faq": "FAQ"
+  },
+  "header": {
+    "switcher": {
+      "language": "Jezyk",
+      "currency": "Waluta"
+    },
+    "cart": {
+      "title": "Koszyk",
+      "previewTitle": "Podglad koszyka",
+      "itemsReady": "{count} produktow gotowych do platnosci",
+      "defaultSku": "Domyslny SKU",
+      "quantity": "Ilosc {count}",
+      "moreItems": "{count} kolejnych produktow w koszyku",
+      "viewCart": "Zobacz koszyk",
+      "checkout": "Platnosc",
+      "emptyTitle": "Twoj koszyk jest pusty",
+      "emptyDescription": "Wyszukaj produkty lub wklej link do produktu, aby rozpoczec zamowienie przez agenta zakupowego.",
+      "searchProducts": "Szukaj produktow"
+    },
+    "search": {
+      "placeholder": "Wklej link do produktu lub szukaj po slowie kluczowym",
+      "submit": "Szukaj",
+      "historyTitle": "Historia wyszukiwania",
+      "clearAll": "Wyczysc wszystko"
+    },
+    "footer": {
+      "feature1Title": "Darmowe zdjecia QC",
+      "feature1Description": "Sprawdz produkty przed wysylka miedzynarodowa.",
+      "feature2Title": "Inteligentna konsolidacja",
+      "feature2Description": "Polacz paczki i obniz koncowe koszty wysylki.",
+      "feature3Title": "Ochrona agenta",
+      "feature3Description": "Wyszukiwanie, zakup, magazynowanie i wysylka z mozliwoscia sledzenia kazdego etapu.",
+      "ctaTitle": "CNSnap",
+      "ctaDescription": "Wklej link Taobao, Tmall, 1688, JD lub Weidian. Kupujemy, kontrolujemy, magazynujemy i wysylamy na caly swiat.",
+      "ctaAction": "Rozpocznij sourcing",
+      "serviceTitle": "OBSLUGA KLIENTA",
+      "guidanceTitle": "PRZEWODNIK AGENTA ZAKUPOWEGO",
+      "paymentTitle": "PLATNOSC",
+      "deliveryTitle": "DOSTAWA",
+      "afterSalesTitle": "OBSLUGA POSPRZEDAZOWA",
+      "helpCenter": "Centrum pomocy",
+      "contactUs": "Kontakt z nami",
+      "expertService": "Usluga ekspercka",
+      "counterfeitPolicy": "Polityka dotyczaca podrobek",
+      "tutorial": "Samouczek",
+      "serviceFees": "Serwis i oplaty",
+      "orderStatus": "Status zamowienia",
+      "returnsRefunds": "Zwroty i refundacje",
+      "topUp": "Doladuj",
+      "wise": "Wise",
+      "creditCard": "Miedzynarodowa karta kredytowa",
+      "walletBalance": "Saldo portfela",
+      "charges": "Oplaty",
+      "mailRestrictions": "Ograniczenia wysylki",
+      "customsTaxation": "Clo i podatki",
+      "receiptInformation": "Informacje o odbiorze",
+      "storage": "Magazynowanie",
+      "inspectionInfo": "Informacje o kontroli",
+      "afterSalesPolicy": "Polityka posprzedazowa",
+      "insurance": "Ubezpieczenie",
+      "serviceHotline": "Infolinia 9/7 (09:00-18:00 czasu pekienskiego, platna): +852 60990980",
+      "serviceEmail": "Email obslugi: care@cnsnap.com",
+      "businessEmail": "Email biznesowy: biz@cnsnap.com",
+      "reportEmail": "Email zgloszen podrobek: report-counterfeits@cnsnap.com",
+      "companyName": "Nazwa firmy: MOOR SPOT TECH CO., LIMITED",
+      "companyAddress": "Adres firmy: FLAT A 15/F GOLDFIELD IND BLDG 144-150 TAI LIN PAI RD",
+      "payment": "Platnosc",
+      "aboutUs": "O nas",
+      "terms": "Warunki korzystania z uslugi",
+      "privacy": "Polityka prywatnosci",
+      "copyright": "Copyright©2026 CNSnap Wszelkie prawa zastrzezone"
+    }
+  }
+}

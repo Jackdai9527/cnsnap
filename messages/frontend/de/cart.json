@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Warenkorb",
+    "description": "Prüfen Sie Ihren Einkaufswagen vor dem Checkout."
+  },
+  "page": {
+    "label": "Einkaufswagen",
+    "title": "Artikel prüfen und Bestellung absenden",
+    "description": "Bestätigen Sie zuerst Mengen und Inlandsversand. Zusatzleistungen werden jetzt vor dem Absenden auf der Checkout-Seite gewählt."
+  },
+  "cart": {
+    "defaultSku": "Standardvariante",
+    "domesticShipping": "China-Versand",
+    "remove": "Artikel entfernen",
+    "confirmDelete": "Diesen Artikel aus dem Warenkorb entfernen?"
+  },
+  "empty": {
+    "title": "Ihr Warenkorb wartet auf Sie.",
+    "description": "Fügen Sie zuerst ein Produkt aus Suche oder Detailseite hinzu, um eine Einkaufsbestellung zu erstellen.",
+    "action": "Suche starten"
+  },
+  "summary": {
+    "title": "Checkout-Vorschau",
+    "products": "Produkte",
+    "domesticShipping": "China-Versand",
+    "serviceFee": "Servicegebühr",
+    "notice": "Internationaler Versand wird später nach der Lagerverwiegung bezahlt. Zusatzleistungen werden vor dem Absenden auf der Checkout-Seite ausgewählt.",
+    "total": "Gesamt",
+    "savedAddressNotice": "{count} gespeicherte Lieferadresse(n) verfügbar. Wählen Sie die endgültige Lieferadresse beim Checkout.",
+    "noAddressNotice": "Fügen Sie vor der Zahlung eine Lieferadresse im Benutzerzentrum hinzu. Bestellungen können dennoch zur Prüfung eingereicht werden.",
+    "action": "Weiter zum Checkout",
+    "selectedItems": "{count} ausgewaehlte Artikel"
+  }
+}

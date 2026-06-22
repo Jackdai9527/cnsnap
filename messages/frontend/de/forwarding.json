@@ -1,0 +1,274 @@
+{
+  "hero": {
+    "eyebrow": "Speditionsdienst",
+    "title": "Kaufen Sie selbst. An unser Lager versenden. Wir versenden weltweit.",
+    "subtitle": "Nutzen Sie unsere China-Lageradresse, wenn Sie auf chinesischen Websites einkaufen. Wir empfangen, lagern, konsolidieren und versenden Ihre Artikel international.",
+    "warehouseAddress": "Lageradresse abrufen",
+    "submitParcel": "Eingehendes Paket einreichen",
+    "estimateFee": "Geschätzte Versandkosten",
+    "cards": {
+      "warehouse": {
+        "title": "Nutzen Sie unser China-Lager",
+        "description": "Kopieren Sie Ihre persönliche Adresse und fügen Sie Ihren Benutzercode hinzu, wenn Sie auf chinesischen Websites bezahlen."
+      },
+      "code": {
+        "title": "Identifizieren Sie Ihr Paket",
+        "description": "Geben Sie die inländische Sendungsverfolgungsnummer ein, damit das Lagerpersonal das Paket Ihrem Konto zuordnen kann."
+      },
+      "consolidate": {
+        "title": "International weiterleiten",
+        "description": "Wählen Sie nach dem Wiegen und Verpacken einen Versandkanal und bezahlen Sie die internationale Fracht."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Shopping Agent vs. Spedition",
+    "title": "Zwei Möglichkeiten, Produkte aus China zu beziehen",
+    "description": "Nutzen Sie Shopping Agent, wenn Sie möchten, dass wir für Sie einkaufen. Nutzen Sie die Weiterleitung, wenn Sie die Artikel bereits selbst gekauft haben.",
+    "columns": {
+      "feature": "Funktion",
+      "agent": "Einkaufsagent",
+      "forwarding": "Weiterleitung"
+    },
+    "rows": {
+      "owner": {
+        "feature": "Wer kauft",
+        "agent": "Wir helfen Ihnen beim Kauf von Produkten bei Verkäufern.",
+        "forwarding": "Sie kaufen selbst Produkte auf chinesischen Websites."
+      },
+      "payment": {
+        "feature": "Erste Zahlung",
+        "agent": "Sie zahlen die Produktkosten, den Inlandsversand und die Servicegebühr.",
+        "forwarding": "Sie bezahlen den Verkäufer direkt vor Eintreffen des Pakets."
+      },
+      "workflow": {
+        "feature": "Auftragsablauf",
+        "agent": "Wir geben die Bestellung auf, kaufen ein, empfangen, verpacken und versenden.",
+        "forwarding": "Sie schicken Artikel an unser Lager, dann nehmen wir sie entgegen, wiegen sie und leiten sie weiter."
+      },
+      "warehouse": {
+        "feature": "Lagerrolle",
+        "agent": "Das Lager empfängt die von unserem Team gekauften Artikel.",
+        "forwarding": "Warehouse identifiziert Pakete anhand Ihres Benutzercodes und Ihrer Sendungsverfolgungsnummer."
+      },
+      "shipping": {
+        "feature": "Internationaler Versand",
+        "agent": "Sie bezahlen den internationalen Versand nach der Verwiegung im Lager.",
+        "forwarding": "Sie bezahlen den internationalen Versand nach dem Wiegen der Speditionspakete."
+      }
+    }
+  },
+  "steps": {
+    "eyebrow": "So funktioniert die Weiterleitung",
+    "title": "Von Ihrer Verkäuferbestellung bis zur internationalen Lieferung",
+    "description": "Die Spedition ist am besten, wenn Sie selbst einkaufen können, aber ein Lager in China, Konsolidierung und internationalen Versand benötigen.",
+    "items": {
+      "register": {
+        "title": "Registrieren Sie ein Konto",
+        "description": "Erstellen Sie ein Konto, damit das Lager Ihrem Benutzerprofil Pakete zuordnen kann."
+      },
+      "address": {
+        "title": "Holen Sie sich Ihre Lageradresse",
+        "description": "Kopieren Sie Ihre persönliche Lageradresse und Ihren Benutzercode von dieser Seite."
+      },
+      "buy": {
+        "title": "Kaufen Sie selbst auf chinesischen Websites",
+        "description": "Geben Sie die Bestellung direkt beim Verkäufer oder Marktplatz auf."
+      },
+      "userCode": {
+        "title": "Verwenden Sie Ihren Benutzercode in der Adresse",
+        "description": "Geben Sie Ihren Benutzercode in den Namen oder die Adresse des Empfängers ein, damit wir das Paket identifizieren können."
+      },
+      "tracking": {
+        "title": "Geben Sie die Inlandsverfolgungsnummer ein",
+        "description": "Teilen Sie uns die Kurier- und Sendungsverfolgungsnummer mit, nachdem der Verkäufer innerhalb Chinas versendet hat."
+      },
+      "receive": {
+        "title": "Das Lager nimmt Ihre Artikel entgegen",
+        "description": "Wir gleichen den Paketdatensatz ab, prüfen, speichern und aktualisieren ihn."
+      },
+      "chooseShipping": {
+        "title": "Wählen Sie internationalen Versand",
+        "description": "Wählen Sie nach dem Wiegen einen Versandkanal basierend auf Kosten, Geschwindigkeit und Einschränkungen aus."
+      },
+      "payShipping": {
+        "title": "Versandkosten bezahlen",
+        "description": "Die Abrechnung internationaler Fracht erfolgt nach Bestätigung des endgültigen Paketgewichts und der endgültigen Abmessungen."
+      },
+      "ship": {
+        "title": "Wir versenden in Ihr Land",
+        "description": "Verfolgen Sie Ihr Paket, bis es Ihre Zieladresse erreicht."
+      }
+    }
+  },
+  "warehouse": {
+    "eyebrow": "Leitfaden zur Lageradresse",
+    "title": "Ihre Lageradresse in China",
+    "description": "Verwenden Sie diese Adresse, wenn Sie auf chinesischen Websites einkaufen. Ihr Benutzercode wird benötigt, damit das Lagerpersonal Ihre Pakete identifizieren kann.",
+    "guest": "Melden Sie sich an, um Ihre persönliche Lageradresse zu erhalten.",
+    "signedIn": "Angemeldet als {email}",
+    "recipientName": "Empfängername",
+    "warehouseAddress": "Lageradresse",
+    "phoneNumber": "Telefonnummer",
+    "postalCode": "Postleitzahl",
+    "userCode": "Benutzercode / Kunde ID",
+    "importantTitle": "Wichtige Adressregel",
+    "importantDescription": "Geben Sie bei Ihrer Verkäuferbestellung Ihren Benutzercode im Namen oder in der Adresse des Empfängers an. Bei Paketen ohne Benutzercode kann es zu Verzögerungen kommen.",
+    "example": "Beispiel: Empfänger: Jack Dai – UID10086",
+    "copy": "Adresse kopieren",
+    "copied": "Lageradresse kopiert.",
+    "loginTitle": "Melden Sie sich an, um Ihre persönliche Lageradresse zu erhalten.",
+    "loginDescription": "Jeder Benutzer benötigt einen eindeutigen Benutzercode. Bitte melden Sie sich an, bevor Sie Pakete an das Lager senden.",
+    "login": "Anmelden"
+  },
+  "form": {
+    "eyebrow": "Eingehendes Paket einreichen",
+    "title": "Sagen Sie uns, was ankommt",
+    "description": "Geben Sie die Inlandsverfolgungsnummer ein, nachdem Ihr Verkäufer das Paket an unser Lager in China versendet hat.",
+    "guest": "Vor der Einreichung ist eine Anmeldung erforderlich.",
+    "signedIn": "Angemeldet als {email}",
+    "fields": {
+      "domesticTrackingNumber": "Inländische Sendungsverfolgungsnummer",
+      "courierCompany": "Kurierunternehmen",
+      "productName": "Produktname",
+      "productCategory": "Produktkategorie",
+      "quantity": "Menge",
+      "estimatedValue": "Geschätzter Wert USD",
+      "productUrl": "Produkt URL",
+      "notes": "Notizen"
+    },
+    "placeholders": {
+      "courierCompany": "Kurier auswählen",
+      "productCategory": "Kategorie auswählen",
+      "productName": "Produktname oder Kurzbeschreibung",
+      "notes": "Fügen Sie Paketdetails, Verkäufernotizen, Konsolidierungsanfragen oder Bearbeitungspräferenzen hinzu."
+    },
+    "hints": {
+      "domesticTrackingNumber": "Senden Sie es, nachdem der Verkäufer eine Inlandsverfolgungsnummer für China angegeben hat."
+    },
+    "categories": {
+      "general": "Allgemeine Güter",
+      "clothing": "Kleidung",
+      "shoes": "Schuhe",
+      "electronics": "Elektronik",
+      "battery": "Batterieprodukte",
+      "liquid": "Flüssigkeit",
+      "cosmetics": "Kosmetik",
+      "food": "Essen",
+      "luxury": "Luxusgüter",
+      "other": "Andere"
+    },
+    "validation": {
+      "tracking": "Inländische Sendungsverfolgungsnummer ist erforderlich.",
+      "courier": "Bitte wählen Sie ein Kurierunternehmen aus.",
+      "productName": "Produktname ist erforderlich.",
+      "productCategory": "Bitte wählen Sie eine Produktkategorie aus.",
+      "quantity": "Die Menge muss eine ganze Zahl größer als 0 sein.",
+      "url": "Bitte geben Sie einen gültigen URL ein."
+    },
+    "loginRequired": "Bitte melden Sie sich an, bevor Sie ein eingehendes Paket aufgeben.",
+    "submitted": "Eingehendes Paket eingereicht. Wir werden es nach der Ankunft im Lager abgleichen.",
+    "submitting": "Einreichen...",
+    "submit": "Eingehendes Paket einreichen",
+    "disclaimer": "Durch die Übermittlung eines Paketdatensatzes wird keine Versandrechnung erstellt. Die Berechnung der internationalen Fracht erfolgt nach der Verwiegung im Lager."
+  },
+  "services": {
+    "eyebrow": "Paketbearbeitungsdienste",
+    "title": "Was das Lager für Ihre Pakete tun kann",
+    "description": "Die Spedition umfasst den Empfang, die Lagerung und die internationale Versandunterstützung. Zusätzliche Handhabungsmöglichkeiten können später mit kostenpflichtigen Diensten verbunden werden.",
+    "items": {
+      "receiving": {
+        "title": "Lagerannahme",
+        "description": "Wir nehmen Inlandspakete entgegen und ordnen sie Ihrem Konto zu."
+      },
+      "storage": {
+        "title": "Kostenloser Speicherplatz",
+        "description": "Kostenlose Speichertage können später basierend auf der Servicerichtlinie konfiguriert werden."
+      },
+      "consolidation": {
+        "title": "Paketkonsolidierung",
+        "description": "Fassen Sie nach Möglichkeit mehrere Pakete zu einer internationalen Sendung zusammen."
+      },
+      "photoInspection": {
+        "title": "Fotoinspektion",
+        "description": "Lagerfotos können dabei helfen, den sichtbaren Zustand des Artikels vor dem Versand zu bestätigen."
+      },
+      "removePackaging": {
+        "title": "Originalverpackung entfernen",
+        "description": "Reduzieren Sie gegebenenfalls unnötige Verkäuferverpackungen."
+      },
+      "repackaging": {
+        "title": "Umpacken",
+        "description": "Verbessern Sie den Paketschutz und das Volumen vor dem internationalen Versand."
+      },
+      "internationalShipping": {
+        "title": "Internationaler Versand",
+        "description": "Wählen Sie die verfügbaren Versandkanäle aus, nachdem das Endgewicht bestätigt wurde."
+      },
+      "trackingUpdate": {
+        "title": "Tracking-Update",
+        "description": "Die internationale Sendungsverfolgung wird nach dem Versand des Pakets aktualisiert."
+      }
+    }
+  },
+  "restrictions": {
+    "eyebrow": "Einschränkungen",
+    "title": "Weiterleitungsregeln, bevor Sie an uns versenden",
+    "description": "Die Weiterleitung ist bequem, es gelten jedoch weiterhin die Vorschriften des Spediteurs und des Zolls. Bitte überprüfen Sie die Risiken, bevor Sie Artikel an das Lager senden.",
+    "items": {
+      "restricted": "Versenden Sie keine eingeschränkten Artikel.",
+      "sensitive": "Batterien, Flüssigkeiten, Pulver, Lebensmittel und Luxusgüter müssen möglicherweise überprüft werden.",
+      "userCode": "Verwenden Sie Ihren Benutzercode in der Adresse.",
+      "trackingNumber": "Senden Sie nach dem Kauf die Sendungsverfolgungsnummer.",
+      "storage": "Die Lagerzeit kann begrenzt sein.",
+      "finalFee": "Die endgültige Versandkostenpauschale richtet sich nach dem Gewicht und den Abmessungen des Lagers.",
+      "customsTax": "Die Zollsteuer ist nicht inbegriffen, sofern nicht anders angegeben."
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Weiterleitung FAQ",
+    "description": "Kurze Antworten für Benutzer, die selbst kaufen und an unser Lager versenden.",
+    "items": {
+      "whatIsForwarding": {
+        "question": "Was ist ein Speditionsdienst?",
+        "answer": "Mit der Spedition können Sie Produkte selbst kaufen, sie an unser Lager in China versenden und uns dann für den Empfang, die Lagerung, die Konsolidierung und die internationale Lieferung nutzen."
+      },
+      "difference": {
+        "question": "Was ist der Unterschied zwischen Shopping Agent und Forwarding?",
+        "answer": "Shopping Agent bedeutet, dass wir für Sie einkaufen. Spedition bedeutet, dass Sie selbst einkaufen und wir nach der Ankunft den Lager- und internationalen Versand übernehmen."
+      },
+      "warehouseAddress": {
+        "question": "Wie erhalte ich meine Lageradresse?",
+        "answer": "Melden Sie sich bei Ihrem Konto an und kopieren Sie die auf dieser Seite angezeigte persönliche Lageradresse."
+      },
+      "userCode": {
+        "question": "Warum muss ich meinen Benutzercode angeben?",
+        "answer": "Mit dem Benutzercode können Lagermitarbeiter Pakete Ihrem Konto zuordnen. Fehlende Codes können den Empfang verzögern."
+      },
+      "consolidation": {
+        "question": "Kann ich mehrere Pakete konsolidieren?",
+        "answer": "Ja, wenn Paketgröße, Produkttyp und Versandkanalregeln eine Konsolidierung zulassen."
+      },
+      "forgotTracking": {
+        "question": "Was passiert, wenn ich vergesse, die Sendungsverfolgungsnummer anzugeben?",
+        "answer": "Das Lager erhält das Paket möglicherweise trotzdem, wenn Ihr Benutzercode vorhanden ist, der Abgleich kann jedoch langsamer sein. Senden Sie die Sendungsverfolgung so schnell wie möglich."
+      },
+      "restrictedItems": {
+        "question": "Welche Artikel können nicht weitergeleitet werden?",
+        "answer": "Verbotene, gefährliche, gefälschte, flüssige, pulverförmige, Lebensmittel-, Batterie- oder Markenluxusartikel können abgelehnt werden oder erfordern eine besondere Überprüfung."
+      },
+      "feeCalculated": {
+        "question": "Wie wird die Versandkostenpauschale berechnet?",
+        "answer": "Die Gebühr richtet sich nach dem endgültigen Verpackungsgewicht, den Abmessungen, dem Zielland, dem Versandkanal und den Produktbeschränkungen nach dem Wiegen im Lager."
+      }
+    }
+  },
+  "cta": {
+    "title": "Sind Sie bereit, Ihre China-Pakete weiterzuleiten?",
+    "description": "Kopieren Sie Ihre Lageradresse, übermitteln Sie die eingehende Inlandsverfolgungsnummer oder schätzen Sie den internationalen Versand, bevor Sie Artikel versenden.",
+    "warehouseAddress": "Lageradresse abrufen",
+    "submitParcel": "Eingehendes Paket einreichen",
+    "estimateFee": "Geschätzte Versandkosten"
+  }
+}

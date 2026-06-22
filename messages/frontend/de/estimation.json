@@ -1,0 +1,207 @@
+{
+  "hero": {
+    "eyebrow": "Versandkalkulator",
+    "title": "Geschätzte internationale Versandkosten",
+    "subtitle": "Geben Sie das Zielland, die Produktkategorie, das Gewicht und die Abmessungen ein, um Ihre internationalen Versandkosten abzuschätzen, bevor das Lager das endgültige Verpackungsgewicht bestätigt.",
+    "startShopping": "Beginnen Sie mit dem Einkaufen",
+    "submitDiyOrder": "Senden Sie die DIY-Bestellung",
+    "steps": {
+      "actual": {
+        "title": "Geben Sie die Paketgrundlagen ein",
+        "description": "Wählen Sie Zielort, Produkttyp und tatsächliches Gewicht vom Verkäufer oder Ihrem Kostenvoranschlag."
+      },
+      "volumetric": {
+        "title": "Fügen Sie nach Möglichkeit Abmessungen hinzu",
+        "description": "Große, aber leichte Pakete können nach Volumengewicht statt nach tatsächlichem Gewicht abgerechnet werden."
+      },
+      "warehouse": {
+        "title": "Endgültige Gebühr nach Ankunft im Lager",
+        "description": "Der internationale Versand wird nach Kauf, Ankunft, Verpackung und Lagerwiegung bezahlt."
+      }
+    }
+  },
+  "calculator": {
+    "title": "Versandrechner",
+    "description": "V1.0 verwendet Scheinversandregeln. Die endgültige Verfügbarkeit und der Preis werden nach der Lagerbesichtigung bestätigt.",
+    "destinationCountry": "Zielland",
+    "productCategory": "Produktkategorie",
+    "actualWeightKg": "Tatsächliches Gewicht kg",
+    "lengthCm": "Länge cm",
+    "widthCm": "Breite cm",
+    "heightCm": "Höhe cm",
+    "shippingChannel": "Versandkanal",
+    "allChannels": "Alle verfügbaren Kanäle",
+    "dimensionHint": "Abmessungen sind optional. Wenn Sie eine Abmessung eingeben, geben Sie bitte Länge, Breite und Höhe ein, damit das Volumengewicht geschätzt werden kann.",
+    "dimensionUnit": "Zentimeter",
+    "calculate": "Berechnen",
+    "reset": "Zurücksetzen",
+    "toastSuccess": "Versandkostenvoranschlag berechnet.",
+    "toastReview": "Kein direkter Kanal gefunden. Bitte reichen Sie es zur manuellen Überprüfung ein.",
+    "validation": {
+      "required": "Dieses Feld ist erforderlich.",
+      "positive": "Muss größer als 0 sein.",
+      "destination": "Bitte wählen Sie ein Zielland aus.",
+      "dimensionsComplete": "Wenn Sie Paketabmessungen eingeben, geben Sie bitte Länge, Breite und Höhe ein."
+    },
+    "categories": {
+      "general": "Allgemeine Güter",
+      "clothing": "Kleidung",
+      "shoes": "Schuhe",
+      "electronics": "Elektronik",
+      "battery": "Batterieprodukte",
+      "liquid": "Flüssigkeit",
+      "cosmetics": "Kosmetik",
+      "food": "Essen",
+      "powder": "Pulver",
+      "luxury": "Luxusgüter",
+      "other": "Andere"
+    }
+  },
+  "result": {
+    "emptyTitle": "Geben Sie Paketdetails ein, um die Fracht einzuschätzen",
+    "emptyDescription": "Der Rechner vergleicht verfügbare Kanäle, Volumengewicht, gebührenpflichtiges Mindestgewicht und Kategoriebeschränkungen.",
+    "title": "Berechnungsergebnis",
+    "description": "Der geschätzte Preis dient nur der Planung. Das Packgewicht im Lager und die Überprüfung durch den Spediteur entscheiden über die endgültige Gebühr.",
+    "lowestEstimate": "Niedrigste Schätzung",
+    "actualWeight": "Tatsächliches Gewicht",
+    "volumetricWeight": "Volumengewicht",
+    "chargeableWeight": "Aufladbares Gewicht",
+    "availableChannels": "Verfügbare Kanäle",
+    "unavailableChannels": "Nicht verfügbare Kanäle",
+    "noAvailable": "Kein verfügbarer Kanal stimmte mit diesen Angaben überein. Bitte reichen Sie eine DIY-Bestellung ein oder wenden Sie sich für eine manuelle Überprüfung an den Support.",
+    "unavailableReasons": {
+      "unsupportedCountry": "Das Ziel {value} wird von diesem Kanal nicht unterstützt.",
+      "restrictedCategory": "Für diese Produktkategorie ist ein weiterer Kanal oder eine manuelle Überprüfung erforderlich.",
+      "maxWeight": "Das frachtpflichtige Gewicht übersteigt {value} kg."
+    },
+    "restrictionNotices": {
+      "sensitive": "Diese Kategorie erfordert möglicherweise eine manuelle Überprüfung. Die endgültige Verfügbarkeit des Kanals hängt von den Produktdetails, dem Zielland und den Richtlinien des Mobilfunkanbieters ab.",
+      "general": "Allgemeine Waren werden in der Regel über mehrere Kanäle betreut, die endgültige Verfügbarkeit wird jedoch nach der Lagerinspektion bestätigt."
+    }
+  },
+  "channels": {
+    "eyebrow": "Versandkanäle",
+    "title": "Verfügbare Versandkanäle",
+    "description": "Vergleichen Sie gängige Versandoptionen, bevor Sie eine Bestellung aufgeben. Die Verfügbarkeit kann sich je nach Bestimmungsort, Kategorie und Lagerkontrolle ändern."
+  },
+  "channelDetails": {
+    "dhl": {
+      "name": "DHL Express",
+      "deliveryTime": "3-6 Werktage",
+      "suitableFor": "Schnelle Zustellung für allgemeine Waren, Kleidung, Schuhe und Premium-Pakete.",
+      "notes": "Geeignet für zeitkritische Sendungen. Empfindliche Kategorien müssen vor dem Versand geprüft werden."
+    },
+    "fedex": {
+      "name": "FedEx",
+      "deliveryTime": "4-8 Werktage",
+      "suitableFor": "Ausgewogene Expressoption für die meisten Standardprodukte.",
+      "notes": "Stabile Sendungsverfolgung und gute Abdeckung. Für Luxusartikel kann eine zusätzliche Prüfung erforderlich sein."
+    },
+    "ups": {
+      "name": "UPS",
+      "deliveryTime": "4-8 Werktage",
+      "suitableFor": "Geeignet für Geschäftssendungen, Schuhe, Kleidung und größere Standardpakete.",
+      "notes": "Besonders stark auf Nordamerika- und Europa-Routen."
+    },
+    "ems": {
+      "name": "EMS",
+      "deliveryTime": "7-15 Werktage",
+      "suitableFor": "Für kostenbewusste Sendungen mit breiter Postabdeckung.",
+      "notes": "Die Laufzeit kann je nach Zollabfertigung und lokaler Postzustellung variieren."
+    },
+    "air-cargo": {
+      "name": "Luftfracht",
+      "deliveryTime": "8-14 Werktage",
+      "suitableFor": "Für mittlere und schwere Pakete, wenn Kosten wichtiger sind als maximale Geschwindigkeit.",
+      "notes": "Oft besser für Pakete über 3 kg. Der Endpreis hängt von der verpackten Größe ab."
+    },
+    "economy": {
+      "name": "Economy Line",
+      "deliveryTime": "12-25 Werktage",
+      "suitableFor": "Günstiger Versand für allgemeine Waren, Kleidung und nicht dringende Bestellungen.",
+      "notes": "Niedrigere Kosten, aber längere Laufzeit. Tracking-Updates können seltener sein."
+    },
+    "sensitive": {
+      "name": "Sensitive Goods Line",
+      "deliveryTime": "8-18 Werktage",
+      "suitableFor": "Für Batterieprodukte, Kosmetik und ausgewählte sensible Waren nach Prüfung.",
+      "notes": "Empfindliche Routen erfordern eine Produktprüfung. Flüssigkeiten, Pulver und Lebensmittel können trotzdem abgelehnt werden."
+    },
+    "sea": {
+      "name": "Seefracht",
+      "deliveryTime": "30-55 Werktage",
+      "suitableFor": "Für schwere, nicht dringende Pakete und Sammelsendungen.",
+      "notes": "Am besten für sperrige und schwere Pakete. Nicht für eilige Lieferungen geeignet."
+    }
+  },
+  "weightGuide": {
+    "eyebrow": "Aufladbares Gewicht",
+    "title": "Warum das in Rechnung gestellte Gewicht vom tatsächlichen Gewicht abweichen kann",
+    "description": "Spediteure berechnen den Betrag nach dem größeren Wert zwischen tatsächlichem Gewicht, Volumengewicht und gebührenpflichtigem Mindestgewicht. Dies schützt die Routenkapazität, wenn ein Paket groß, aber leicht ist.",
+    "formula": "Zuschlagspflichtiges Gewicht = max. (Tatsächliches Gewicht, Volumengewicht, Mindestzuschlagsgewicht)",
+    "actual": {
+      "title": "Tatsächliches Gewicht",
+      "description": "Das physische Gewicht, das von der Lagerwaage gemessen wird, nachdem Ihre Artikel angekommen und verpackt sind."
+    },
+    "volumetric": {
+      "title": "Volumengewicht",
+      "description": "Ein berechnetes Gewicht basierend auf der Paketgröße: Länge × Breite × Höhe geteilt durch den Kanalvolumenteiler."
+    },
+    "why": {
+      "title": "Große, leichte Pakete",
+      "description": "Schuhkartons, Plüschtiere und sperrige Verpackungen nehmen im Flugzeug oder LKW möglicherweise mehr Platz ein, als ihr Waagengewicht vermuten lässt."
+    },
+    "final": {
+      "title": "Lagerbestätigung",
+      "description": "Der Kostenvoranschlag hilft bei der Planung, aber die endgültige Versandkostenpauschale basiert auf den tatsächlich verpackten Paketdaten aus dem Lager."
+    }
+  },
+  "restricted": {
+    "title": "Hinweis zu eingeschränkten Artikeln",
+    "description": "Für einige Artikel kann je nach Zielland eine Überprüfung durch den Spediteur oder eine Sonderroute erforderlich sein oder sie können vollständig abgelehnt werden.",
+    "items": [
+      "Einige Artikel können eingeschränkt oder verboten sein.",
+      "Batterien, Flüssigkeiten, Pulver, Lebensmittel, Kosmetika und Luxusgüter müssen möglicherweise überprüft werden.",
+      "Die endgültige Versandverfügbarkeit hängt vom Produkttyp und dem Zielland ab.",
+      "Die Zollsteuer ist nicht inbegriffen, sofern nicht anders angegeben."
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Versandvoranschlag FAQ",
+    "description": "Kurze Antworten auf die häufigsten Fragen zu sekundären Versandkosten und internationaler Lieferung.",
+    "items": {
+      "separateShipping": {
+        "question": "Warum muss ich den internationalen Versand separat bezahlen?",
+        "answer": "Sie zahlen zunächst die Produktkosten, die Versand- und Servicegebühren des inländischen Verkäufers. Der internationale Versand wird später berechnet, nachdem das Lager das Paket erhalten, verpackt und gewogen hat."
+      },
+      "volumetricWeight": {
+        "question": "Was ist das Volumengewicht?",
+        "answer": "Das Volumengewicht wandelt die Paketgröße in ein abrechenbares Gewicht um. Der Versand eines großen Leuchtkastens kann teurer sein, da er mehr Platz auf dem Transportweg einnimmt."
+      },
+      "finalFee": {
+        "question": "Ist die geschätzte Versandkostenpauschale endgültig?",
+        "answer": "Nein. Der Kostenvoranschlag dient nur der Planung. Die endgültige Gebühr basiert auf dem im Lager gemessenen Gewicht, den Verpackungsabmessungen, der Produktbewertung und dem ausgewählten Kanal."
+      },
+      "restrictedItems": {
+        "question": "Welche Artikel sind eingeschränkt?",
+        "answer": "Batterieprodukte, Flüssigkeiten, Pulver, Lebensmittel, Kosmetika, Markenluxusgüter und ähnliche Produkte erfordern möglicherweise eine Überprüfung oder eine spezielle Versandlinie."
+      },
+      "chooseChannel": {
+        "question": "Kann ich den Versandkanal selbst wählen?",
+        "answer": "Ja, wenn mehrere Kanäle verfügbar sind. Wenn es sich um einen sensiblen Artikel handelt oder für den Bestimmungsort Beschränkungen gelten, muss der letzte Kanal den Richtlinien des Transportunternehmens entsprechen."
+      },
+      "deliveryTime": {
+        "question": "Wie lange dauert der internationale Versand?",
+        "answer": "Expresslinien können einige Werktage dauern, während Economy- oder Seetransporte mehrere Wochen dauern können. Der Zoll und die Zustellung vor Ort können die Zeit verlängern."
+      }
+    }
+  },
+  "cta": {
+    "title": "Bereit, in China einzukaufen?",
+    "description": "Suchen Sie nach Produkten, senden Sie eine manuelle Kaufanfrage oder nutzen Sie die Weiterleitung, wenn bereits Artikel in unserem Lager eintreffen.",
+    "startShopping": "Beginnen Sie mit dem Einkaufen",
+    "submitDiyOrder": "Senden Sie die DIY-Bestellung",
+    "forwarding": "Nutzen Sie den Weiterleitungsdienst"
+  }
+}

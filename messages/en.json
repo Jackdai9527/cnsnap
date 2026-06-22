@@ -1,0 +1,1135 @@
+{
+  "MainNav": {
+    "shoppingAgent": "Shopping Agent",
+    "estimation": "Estimation",
+    "promotion": "Promotion",
+    "diyOrder": "DIY Order",
+    "forwarding": "Forwarding",
+    "helpCenter": "Help Center",
+    "menu": "Menu",
+    "login": "Login",
+    "register": "Register",
+    "account": "Account",
+    "dashboard": "Dashboard",
+    "orders": "Orders",
+    "packages": "Packages",
+    "wallet": "Wallet",
+    "ticketsCenter": "Tickets Center",
+    "logout": "Logout"
+  },
+  "Promotion": {
+    "common": {
+      "validUntil": "Valid until {date}"
+    },
+    "hero": {
+      "eyebrow": "Promotion Center",
+      "title": "Save More on Your China Shopping Orders",
+      "subtitle": "Enjoy new user rewards, recharge bonuses, shipping coupons, service fee discounts and affiliate commissions.",
+      "startShopping": "Start Shopping",
+      "rechargeWallet": "Recharge Wallet",
+      "joinAffiliate": "Join Affiliate Program",
+      "highlights": {
+        "newUser": "New user coupon",
+        "recharge": "Recharge bonus up to",
+        "affiliate": "Affiliate commission"
+      }
+    },
+    "newUser": {
+      "eyebrow": "New User Bonus",
+      "title": "Start with extra savings",
+      "description": "Register, place your first order and use your first package benefits with fewer surprises.",
+      "offers": {
+        "shippingCoupon": {
+          "title": "Register today and get a $5 shipping coupon",
+          "description": "Use it when paying your first international shipping bill after warehouse weighing.",
+          "action": "Register Now"
+        },
+        "firstOrder": {
+          "title": "First order service fee discount",
+          "description": "Enjoy a reduced service fee on your first purchasing-agent order.",
+          "action": "Start Shopping"
+        },
+        "diyPriority": {
+          "title": "Priority support for first DIY Order",
+          "description": "New users can submit one DIY request with guided manual review and faster clarification.",
+          "action": "Submit DIY Order"
+        }
+      }
+    },
+    "recharge": {
+      "eyebrow": "Recharge Bonus",
+      "title": "Recharge wallet, unlock bonus balance",
+      "description": "Wallet balance makes checkout, international shipping payment and refunds easier to manage.",
+      "rechargeNow": "Recharge Now",
+      "columns": {
+        "rechargeAmount": "Recharge Amount",
+        "bonusAmount": "Bonus Amount",
+        "validity": "Validity",
+        "status": "Status"
+      },
+      "status": {
+        "active": "Active",
+        "limited": "Limited"
+      }
+    },
+    "shippingCoupons": {
+      "eyebrow": "Shipping Coupons",
+      "title": "Reduce international shipping cost",
+      "description": "Use eligible coupons after packages arrive at the warehouse and shipping fees are generated.",
+      "minimum": "Minimum shipping fee",
+      "countries": "Countries",
+      "channels": "Channels",
+      "validUntil": "Until {date}",
+      "coupons": {
+        "shipping5": {
+          "name": "$5 off international shipping"
+        },
+        "heavy10": {
+          "name": "$10 off for packages over 5kg"
+        },
+        "firstPackage": {
+          "name": "Shipping discount for first package"
+        },
+        "countrySpecial": {
+          "name": "Special country shipping discount"
+        }
+      }
+    },
+    "serviceFee": {
+      "eyebrow": "Service Fee Discounts",
+      "title": "Lower purchasing-agent service fees",
+      "description": "Service fee discounts apply to eligible product orders before international shipping is billed.",
+      "badges": {
+        "new": "New User",
+        "vip": "VIP",
+        "limited": "Campaign"
+      },
+      "discounts": {
+        "firstOrder": {
+          "title": "First order service fee discount",
+          "description": "Designed for first-time users testing the purchasing workflow."
+        },
+        "vip": {
+          "title": "VIP user service fee discount",
+          "description": "Repeat customers can receive lower service fees on eligible orders."
+        },
+        "campaign": {
+          "title": "Campaign service fee discount",
+          "description": "Limited promotion for selected categories and seasonal campaigns."
+        }
+      }
+    },
+    "affiliate": {
+      "title": "Invite friends and earn commission",
+      "description": "Share CNSnap with friends. Earn commission when referred users place valid orders.",
+      "join": "Join Affiliate Program",
+      "metrics": {
+        "rate": "Commission rate",
+        "requirement": "Valid order requirement",
+        "payout": "Payout method",
+        "minimum": "Minimum payout amount"
+      }
+    },
+    "campaigns": {
+      "eyebrow": "Limited-Time Campaigns",
+      "title": "Seasonal offers and route campaigns",
+      "description": "Campaigns may focus on certain countries, product categories, payment methods or shipping channels.",
+      "view": "View Campaign",
+      "status": {
+        "active": "Active",
+        "upcoming": "Upcoming"
+      },
+      "items": {
+        "summer": {
+          "title": "Summer forwarding route deal",
+          "description": "Use selected economy and air cargo routes for lower package shipping cost."
+        },
+        "school": {
+          "title": "Back-to-school shopping campaign",
+          "description": "Extra savings for clothing, shoes, stationery and dorm essentials."
+        }
+      }
+    },
+    "rules": {
+      "eyebrow": "Promotion Rules",
+      "title": "Clear rules before you use a coupon",
+      "description": "Promotion eligibility depends on timing, order type, destination, route and account behavior.",
+      "items": {
+        "validTime": {
+          "title": "Valid time",
+          "description": "Each coupon or campaign has a valid period. Expired promotions cannot be restored or extended manually."
+        },
+        "minimumOrder": {
+          "title": "Minimum order amount",
+          "description": "Some discounts require a minimum product subtotal, wallet recharge amount, or generated international shipping fee."
+        },
+        "countries": {
+          "title": "Applicable countries",
+          "description": "Country-specific coupons only apply when the package destination matches the campaign country list."
+        },
+        "channels": {
+          "title": "Applicable shipping channels",
+          "description": "Shipping coupons may be limited to express, economy, sensitive-goods or sea-shipping routes."
+        },
+        "refunds": {
+          "title": "Refund rules",
+          "description": "If an order is cancelled or fully refunded, related coupon usage and bonus rewards may be reversed."
+        },
+        "stacking": {
+          "title": "Coupon stacking rules",
+          "description": "Most coupons cannot be stacked with another coupon of the same type unless a campaign explicitly allows it."
+        },
+        "abuse": {
+          "title": "Abuse prevention",
+          "description": "Fraudulent accounts, self-referrals, duplicate registrations or abnormal activity may lose promotion eligibility."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Use Your Benefits",
+      "title": "Pick the next best action",
+      "description": "Search products, top up your wallet, or invite friends to earn future order rewards.",
+      "startShopping": "Start Shopping",
+      "rechargeWallet": "Recharge Wallet",
+      "joinAffiliate": "Join Affiliate"
+    }
+  },
+  "DiyOrder": {
+    "hero": {
+      "eyebrow": "Manual Purchasing",
+      "title": "Can't find the product? Submit a DIY Order.",
+      "subtitle": "Send us the product link, image, specifications and quantity. Our team will review it and send you a quotation.",
+      "submit": "Submit DIY Order",
+      "viewMine": "View My DIY Orders",
+      "cards": {
+        "image": {
+          "title": "Image or unclear listing",
+          "description": "Send a reference image, product screenshot, or incomplete link."
+        },
+        "spec": {
+          "title": "Complex specifications",
+          "description": "Tell us color, size, model, version, bundle and any seller notes."
+        },
+        "quote": {
+          "title": "Manual quotation",
+          "description": "Our team checks availability, price, restrictions and purchasing details."
+        }
+      }
+    },
+    "when": {
+      "eyebrow": "When to Use DIY Order",
+      "title": "Use DIY when automation is not enough",
+      "description": "DIY Order is best for special purchases that need human review before payment.",
+      "items": {
+        "cannotParse": {
+          "title": "Product link cannot be parsed",
+          "description": "Use DIY when a product page cannot be read by the automatic shopping-agent flow."
+        },
+        "imageOnly": {
+          "title": "You only have a product image",
+          "description": "Upload or paste an image URL so our team can identify the item manually."
+        },
+        "complexSpecs": {
+          "title": "Complex specifications",
+          "description": "Use DIY for many color, size, version, bundle or custom option requirements."
+        },
+        "manualQuote": {
+          "title": "You need a manual quotation",
+          "description": "We can verify current seller price, domestic shipping and purchase feasibility."
+        },
+        "multipleItems": {
+          "title": "Buy multiple items together",
+          "description": "Describe several products or sellers when you need a combined purchase plan."
+        },
+        "shippingUncertain": {
+          "title": "Shipping eligibility is unclear",
+          "description": "Ask us to review sensitive or restricted items before you pay."
+        }
+      }
+    },
+    "form": {
+      "eyebrow": "DIY Order Form",
+      "title": "Send your purchase request",
+      "description": "The more details you provide, the faster our team can quote accurately.",
+      "guest": "Sign in is required before submission.",
+      "signedIn": "Signed in as {email}",
+      "fields": {
+        "productUrl": "Product URL",
+        "productName": "Product name",
+        "productImageUrl": "Product image URL",
+        "specification": "Specification",
+        "quantity": "Quantity",
+        "budget": "Budget USD",
+        "destinationCountry": "Destination country",
+        "notes": "Notes",
+        "contactEmail": "Contact email"
+      },
+      "placeholders": {
+        "productName": "Product name or short description",
+        "specification": "Color, size, model, version",
+        "notes": "Tell us seller notes, preferred option, shipping concerns, or anything important."
+      },
+      "hints": {
+        "productUrl": "Optional, but recommended when you have a product page.",
+        "productImageUrl": "V1.0 uses image URL as a placeholder. File upload can be connected later."
+      },
+      "countries": {
+        "US": "United States (US)",
+        "CA": "Canada (CA)",
+        "GB": "United Kingdom (GB)",
+        "DE": "Germany (DE)",
+        "FR": "France (FR)",
+        "NL": "Netherlands (NL)",
+        "PL": "Poland (PL)",
+        "JP": "Japan (JP)",
+        "KR": "Korea (KR)",
+        "AU": "Australia (AU)"
+      },
+      "validation": {
+        "productName": "Product name must be at least 2 characters.",
+        "quantity": "Quantity must be a whole number greater than 0.",
+        "destination": "Please select a destination country.",
+        "url": "Please enter a valid URL.",
+        "email": "Please enter a valid email address."
+      },
+      "loginRequired": "Please log in before submitting a DIY Order.",
+      "submitted": "DIY Order submitted. We will review it shortly.",
+      "submitting": "Submitting...",
+      "submit": "Submit DIY Order",
+      "disclaimer": "Submitting does not require payment. We will review the request first and send a quotation."
+    },
+    "steps": {
+      "eyebrow": "How Quotation Works",
+      "title": "From request to warehouse arrival",
+      "description": "DIY Order follows a manual review workflow so price, availability and shipping restrictions can be checked before purchase.",
+      "items": {
+        "submit": {
+          "title": "Submit your request",
+          "description": "Send product details, image, specification, quantity and destination."
+        },
+        "review": {
+          "title": "Our team reviews the item",
+          "description": "We check seller page, availability, price and purchasing feasibility."
+        },
+        "quote": {
+          "title": "We send you a quotation",
+          "description": "The quote includes product cost, domestic shipping and service fee estimate."
+        },
+        "confirm": {
+          "title": "You confirm and pay",
+          "description": "After you accept the quotation, you can pay to start purchasing."
+        },
+        "purchase": {
+          "title": "We purchase the item",
+          "description": "Our purchasing team places the order with the seller."
+        },
+        "warehouse": {
+          "title": "Item arrives at warehouse",
+          "description": "Warehouse checks, receives and prepares package information."
+        },
+        "shipping": {
+          "title": "Pay international shipping",
+          "description": "After packing and weighing, you choose a route and pay the shipping fee."
+        },
+        "receive": {
+          "title": "Receive your package",
+          "description": "Track the package until delivery at your destination address."
+        }
+      }
+    },
+    "comparison": {
+      "eyebrow": "Shopping Agent vs DIY Order",
+      "title": "Choose the right order flow",
+      "description": "Standard links are faster with Shopping Agent. Special or unclear products belong in DIY Order.",
+      "columns": {
+        "feature": "Feature",
+        "agent": "Shopping Agent",
+        "diy": "DIY Order"
+      },
+      "rows": {
+        "suitable": {
+          "feature": "Best for",
+          "agent": "Standard product links or keyword search",
+          "diy": "Special products or products automation cannot parse"
+        },
+        "parsing": {
+          "feature": "Product data",
+          "agent": "System automatically parses price and options",
+          "diy": "Manual review and quotation"
+        },
+        "speed": {
+          "feature": "Order speed",
+          "agent": "Fast checkout when product data is clear",
+          "diy": "Slower because human review is needed"
+        },
+        "price": {
+          "feature": "Price source",
+          "agent": "Automatically read from the product page",
+          "diy": "Confirmed by staff before payment"
+        },
+        "complexity": {
+          "feature": "Complex requests",
+          "agent": "Better for simple options",
+          "diy": "Better for images, bundles, notes and shipping checks"
+        }
+      }
+    },
+    "examples": {
+      "eyebrow": "Example Requests",
+      "title": "Good DIY requests are specific",
+      "items": {
+        "imageNoLink": {
+          "title": "I found a product image but no link.",
+          "description": "Attach an image URL and describe what you want us to identify."
+        },
+        "tooManySku": {
+          "title": "The product page has too many SKU options.",
+          "description": "Tell us the exact color, size, model or bundle you want."
+        },
+        "multipleSellers": {
+          "title": "I want to buy several items from different sellers.",
+          "description": "List each item and seller link so we can prepare a combined quotation."
+        },
+        "shippingCheck": {
+          "title": "I need help confirming if this product can be shipped.",
+          "description": "Mention destination country and product materials, battery, liquid or brand concerns."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "DIY Order FAQ",
+      "description": "Short answers before you submit a manual purchase request.",
+      "items": {
+        "quoteTime": {
+          "question": "How long does a DIY Order quote take?",
+          "answer": "Most quotes are reviewed within 1 business day. Complex items or seller confirmation can take longer."
+        },
+        "imageOnly": {
+          "question": "Can I submit only a product image?",
+          "answer": "Yes. A product image is accepted, but a link or additional description helps us quote faster."
+        },
+        "payBeforeQuote": {
+          "question": "Do I need to pay before quotation?",
+          "answer": "No. You submit the request first. Payment happens only after you accept the quotation."
+        },
+        "afterAccept": {
+          "question": "What happens after I accept the quotation?",
+          "answer": "You pay the quoted amount, then our purchasing team buys the product from the seller."
+        },
+        "cancel": {
+          "question": "Can I cancel a DIY Order?",
+          "answer": "You can cancel before payment or before our team purchases the item. After purchase, cancellation depends on seller policy."
+        },
+        "restricted": {
+          "question": "Can restricted items be purchased?",
+          "answer": "Some sensitive products may require special routes or may be rejected. Our team will review shipping eligibility before purchase."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to send a manual request?",
+      "description": "Submit details now or check your existing DIY Orders in the user center.",
+      "submit": "Submit DIY Order",
+      "viewMine": "View My DIY Orders"
+    }
+  },
+  "Estimation": {
+    "hero": {
+      "eyebrow": "Shipping Estimator",
+      "title": "Estimate International Shipping Fee",
+      "subtitle": "Enter destination country, product category, weight and dimensions to estimate your international shipping cost before the warehouse confirms final packed weight.",
+      "startShopping": "Start Shopping",
+      "submitDiyOrder": "Submit DIY Order",
+      "steps": {
+        "actual": {
+          "title": "Enter parcel basics",
+          "description": "Choose destination, product type and actual weight from the seller or your estimate."
+        },
+        "volumetric": {
+          "title": "Add dimensions when possible",
+          "description": "Large but light parcels may be billed by volumetric weight instead of actual weight."
+        },
+        "warehouse": {
+          "title": "Final fee after warehouse arrival",
+          "description": "International shipping is paid after purchase, arrival, packing and warehouse weighing."
+        }
+      }
+    },
+    "calculator": {
+      "title": "Shipping Calculator",
+      "description": "V1.0 uses mock shipping rules. Final availability and price will be confirmed after warehouse inspection.",
+      "destinationCountry": "Destination country",
+      "productCategory": "Product category",
+      "actualWeightKg": "Actual weight kg",
+      "lengthCm": "Length cm",
+      "widthCm": "Width cm",
+      "heightCm": "Height cm",
+      "shippingChannel": "Shipping channel",
+      "allChannels": "All available channels",
+      "dimensionHint": "Dimensions are optional. If you enter one dimension, please enter length, width and height so volumetric weight can be estimated.",
+      "dimensionUnit": "centimeters",
+      "calculate": "Calculate",
+      "reset": "Reset",
+      "toastSuccess": "Shipping estimate calculated.",
+      "toastReview": "No direct channel found. Please submit for manual review.",
+      "validation": {
+        "required": "This field is required.",
+        "positive": "Must be greater than 0.",
+        "destination": "Please select a destination country.",
+        "dimensionsComplete": "If you enter parcel dimensions, please fill length, width and height."
+      },
+      "categories": {
+        "general": "General Goods",
+        "clothing": "Clothing",
+        "shoes": "Shoes",
+        "electronics": "Electronics",
+        "battery": "Battery Products",
+        "liquid": "Liquid",
+        "cosmetics": "Cosmetics",
+        "food": "Food",
+        "powder": "Powder",
+        "luxury": "Luxury Goods",
+        "other": "Other"
+      }
+    },
+    "result": {
+      "emptyTitle": "Enter parcel details to estimate freight",
+      "emptyDescription": "The calculator compares available channels, volumetric weight, minimum chargeable weight and category restrictions.",
+      "title": "Calculation Result",
+      "description": "Estimated price is for planning only. Warehouse packed weight and carrier review decide the final fee.",
+      "lowestEstimate": "Lowest estimate",
+      "actualWeight": "Actual Weight",
+      "volumetricWeight": "Volumetric Weight",
+      "chargeableWeight": "Chargeable Weight",
+      "availableChannels": "Available Channels",
+      "unavailableChannels": "Unavailable Channels",
+      "noAvailable": "No available channel matched these details. Please submit a DIY Order or contact support for manual review.",
+      "unavailableReasons": {
+        "unsupportedCountry": "Destination {value} is not supported by this channel.",
+        "restrictedCategory": "This product category requires another channel or manual review.",
+        "maxWeight": "Chargeable weight exceeds {value} kg."
+      },
+      "restrictionNotices": {
+        "sensitive": "This category may require manual review. Final channel availability depends on product details, destination country and carrier policy.",
+        "general": "General goods are usually supported by multiple channels, but final availability is confirmed after warehouse inspection."
+      }
+    },
+    "channels": {
+      "eyebrow": "Shipping Channels",
+      "title": "Available Shipping Channels",
+      "description": "Compare common shipping options before you place an order. Availability may change by destination, category and warehouse inspection."
+    },
+    "weightGuide": {
+      "eyebrow": "Chargeable Weight",
+      "title": "Why the billed weight can differ from actual weight",
+      "description": "Carriers charge by the larger value between actual weight, volumetric weight and minimum chargeable weight. This protects route capacity when a parcel is large but light.",
+      "formula": "Chargeable Weight = max(Actual Weight, Volumetric Weight, Minimum Chargeable Weight)",
+      "actual": {
+        "title": "Actual weight",
+        "description": "The physical weight measured by the warehouse scale after your items arrive and are packed."
+      },
+      "volumetric": {
+        "title": "Volumetric weight",
+        "description": "A calculated weight based on parcel size: length × width × height divided by the channel volume divisor."
+      },
+      "why": {
+        "title": "Large light parcels",
+        "description": "Shoeboxes, plush toys and bulky packaging may occupy more aircraft or truck space than their scale weight suggests."
+      },
+      "final": {
+        "title": "Warehouse confirmation",
+        "description": "The estimate helps planning, but final shipping fee is based on actual packed parcel data from the warehouse."
+      }
+    },
+    "restricted": {
+      "title": "Restricted Item Notice",
+      "description": "Some items can require carrier review, special routes or may be rejected entirely depending on the destination country.",
+      "items": [
+        "Some items may be restricted or forbidden.",
+        "Battery, liquid, powder, food, cosmetics and luxury goods may require review.",
+        "Final shipping availability depends on product type and destination country.",
+        "Customs tax is not included unless stated."
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Shipping Estimation FAQ",
+      "description": "Short answers for the most common questions about secondary shipping fees and international delivery.",
+      "items": {
+        "separateShipping": {
+          "question": "Why do I need to pay international shipping separately?",
+          "answer": "You first pay product cost, domestic seller shipping and service fees. International shipping is calculated later after the warehouse receives, packs and weighs the parcel."
+        },
+        "volumetricWeight": {
+          "question": "What is volumetric weight?",
+          "answer": "Volumetric weight converts parcel size into a billable weight. A large light box may cost more to ship because it occupies more carrier space."
+        },
+        "finalFee": {
+          "question": "Is the estimated shipping fee final?",
+          "answer": "No. The estimate is for planning only. The final fee is based on warehouse measured weight, packed dimensions, product review and selected channel."
+        },
+        "restrictedItems": {
+          "question": "What items are restricted?",
+          "answer": "Battery products, liquids, powders, food, cosmetics, branded luxury goods and similar products may require review or a special shipping line."
+        },
+        "chooseChannel": {
+          "question": "Can I choose the shipping channel myself?",
+          "answer": "Yes, when multiple channels are available. If an item is sensitive or a destination has limits, the final channel must follow carrier policy."
+        },
+        "deliveryTime": {
+          "question": "How long does international shipping take?",
+          "answer": "Express lines can take a few business days, while economy or sea shipping can take several weeks. Customs and local delivery may add time."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to buy from China?",
+      "description": "Search products, submit a manual purchasing request, or use forwarding when you already have items arriving at our warehouse.",
+      "startShopping": "Start Shopping",
+      "submitDiyOrder": "Submit DIY Order",
+      "forwarding": "Use Forwarding Service"
+    }
+  },
+  "Forwarding": {
+    "hero": {
+      "eyebrow": "Forwarding Service",
+      "title": "Buy by yourself. Ship to our warehouse. We forward worldwide.",
+      "subtitle": "Use our China warehouse address when you shop on Chinese websites. We receive, store, consolidate and ship your items internationally.",
+      "warehouseAddress": "Get Warehouse Address",
+      "submitParcel": "Submit Incoming Parcel",
+      "estimateFee": "Estimate Shipping Fee",
+      "cards": {
+        "warehouse": {
+          "title": "Use our China warehouse",
+          "description": "Copy your personal address and add your user code when checking out on Chinese websites."
+        },
+        "code": {
+          "title": "Identify your parcel",
+          "description": "Submit the domestic tracking number so warehouse staff can match the package to your account."
+        },
+        "consolidate": {
+          "title": "Forward internationally",
+          "description": "After weighing and packing, choose a shipping channel and pay the international freight."
+        }
+      }
+    },
+    "comparison": {
+      "eyebrow": "Shopping Agent vs Forwarding",
+      "title": "Two ways to get products from China",
+      "description": "Use Shopping Agent when you want us to purchase for you. Use Forwarding when you already bought the items yourself.",
+      "columns": {
+        "feature": "Feature",
+        "agent": "Shopping Agent",
+        "forwarding": "Forwarding"
+      },
+      "rows": {
+        "owner": {
+          "feature": "Who buys",
+          "agent": "We help you purchase products from sellers.",
+          "forwarding": "You buy products by yourself on Chinese websites."
+        },
+        "payment": {
+          "feature": "First payment",
+          "agent": "You pay product cost, domestic shipping and service fee.",
+          "forwarding": "You pay the seller directly before the package arrives."
+        },
+        "workflow": {
+          "feature": "Order workflow",
+          "agent": "We place the order, purchase, receive, pack and ship.",
+          "forwarding": "You send items to our warehouse, then we receive, weigh and forward."
+        },
+        "warehouse": {
+          "feature": "Warehouse role",
+          "agent": "Warehouse receives items purchased by our team.",
+          "forwarding": "Warehouse identifies parcels using your user code and tracking number."
+        },
+        "shipping": {
+          "feature": "International shipping",
+          "agent": "You pay international shipping after warehouse weighing.",
+          "forwarding": "You pay international shipping after forwarding parcels are weighed."
+        }
+      }
+    },
+    "steps": {
+      "eyebrow": "How Forwarding Works",
+      "title": "From your seller order to international delivery",
+      "description": "Forwarding is best when you can shop yourself but need a China warehouse, consolidation and international shipping.",
+      "items": {
+        "register": {
+          "title": "Register an account",
+          "description": "Create an account so the warehouse can assign parcels to your user profile."
+        },
+        "address": {
+          "title": "Get your warehouse address",
+          "description": "Copy your personal warehouse address and user code from this page."
+        },
+        "buy": {
+          "title": "Buy from Chinese websites yourself",
+          "description": "Place the order directly with the seller or marketplace."
+        },
+        "userCode": {
+          "title": "Use your user code in the address",
+          "description": "Put your user code in recipient name or address so we can identify the parcel."
+        },
+        "tracking": {
+          "title": "Submit domestic tracking number",
+          "description": "Tell us the courier and tracking number after the seller ships inside China."
+        },
+        "receive": {
+          "title": "Warehouse receives your items",
+          "description": "We match, inspect, store and update the package record."
+        },
+        "chooseShipping": {
+          "title": "Choose international shipping",
+          "description": "After weighing, select a shipping channel based on cost, speed and restrictions."
+        },
+        "payShipping": {
+          "title": "Pay shipping fee",
+          "description": "International freight is billed after final package weight and dimensions are confirmed."
+        },
+        "ship": {
+          "title": "We ship to your country",
+          "description": "Track your parcel until it reaches your destination address."
+        }
+      }
+    },
+    "warehouse": {
+      "eyebrow": "Warehouse Address Guide",
+      "title": "Your China warehouse address",
+      "description": "Use this address when you buy from Chinese websites. Your user code is required so warehouse staff can identify your parcels.",
+      "guest": "Login to get your personal warehouse address.",
+      "signedIn": "Signed in as {email}",
+      "recipientName": "Recipient Name",
+      "warehouseAddress": "Warehouse Address",
+      "phoneNumber": "Phone Number",
+      "postalCode": "Postal Code",
+      "userCode": "User Code / Customer ID",
+      "importantTitle": "Important address rule",
+      "importantDescription": "When placing your seller order, include your user code in the recipient name or address. Parcels without a user code may be delayed.",
+      "example": "Example: Recipient: Jack Dai - UID10086",
+      "copy": "Copy Address",
+      "copied": "Warehouse address copied.",
+      "loginTitle": "Login to get your personal warehouse address.",
+      "loginDescription": "Each user needs a unique user code. Please sign in before sending parcels to the warehouse.",
+      "login": "Login"
+    },
+    "form": {
+      "eyebrow": "Submit Incoming Parcel",
+      "title": "Tell us what is arriving",
+      "description": "Submit the domestic tracking number after your seller ships the parcel to our China warehouse.",
+      "guest": "Sign in is required before submission.",
+      "signedIn": "Signed in as {email}",
+      "fields": {
+        "domesticTrackingNumber": "Domestic tracking number",
+        "courierCompany": "Courier company",
+        "productName": "Product name",
+        "productCategory": "Product category",
+        "quantity": "Quantity",
+        "estimatedValue": "Estimated value USD",
+        "productUrl": "Product URL",
+        "notes": "Notes"
+      },
+      "placeholders": {
+        "courierCompany": "Select courier",
+        "productCategory": "Select category",
+        "productName": "Product name or short description",
+        "notes": "Add package details, seller notes, consolidation requests or handling preferences."
+      },
+      "hints": {
+        "domesticTrackingNumber": "Submit after the seller provides a China domestic tracking number."
+      },
+      "categories": {
+        "general": "General Goods",
+        "clothing": "Clothing",
+        "shoes": "Shoes",
+        "electronics": "Electronics",
+        "battery": "Battery Products",
+        "liquid": "Liquid",
+        "cosmetics": "Cosmetics",
+        "food": "Food",
+        "luxury": "Luxury Goods",
+        "other": "Other"
+      },
+      "validation": {
+        "tracking": "Domestic tracking number is required.",
+        "courier": "Please select a courier company.",
+        "productName": "Product name is required.",
+        "productCategory": "Please select a product category.",
+        "quantity": "Quantity must be a whole number greater than 0.",
+        "url": "Please enter a valid URL."
+      },
+      "loginRequired": "Please log in before submitting an incoming parcel.",
+      "submitted": "Incoming parcel submitted. We will match it after warehouse arrival.",
+      "submitting": "Submitting...",
+      "submit": "Submit Incoming Parcel",
+      "disclaimer": "Submitting a parcel record does not create a shipping bill. International freight is calculated after warehouse weighing."
+    },
+    "services": {
+      "eyebrow": "Package Handling Services",
+      "title": "What the warehouse can do for your parcels",
+      "description": "Forwarding includes receiving, storage and international shipping support. Extra handling options can be connected to paid services later.",
+      "items": {
+        "receiving": {
+          "title": "Warehouse receiving",
+          "description": "We receive domestic parcels and match them to your account."
+        },
+        "storage": {
+          "title": "Free storage",
+          "description": "Free storage days can be configured later based on the service policy."
+        },
+        "consolidation": {
+          "title": "Package consolidation",
+          "description": "Combine multiple parcels into one international shipment when possible."
+        },
+        "photoInspection": {
+          "title": "Photo inspection",
+          "description": "Warehouse photos can help confirm visible item condition before shipping."
+        },
+        "removePackaging": {
+          "title": "Remove original packaging",
+          "description": "Reduce unnecessary seller packaging where appropriate."
+        },
+        "repackaging": {
+          "title": "Repackaging",
+          "description": "Improve package protection and volume before international shipping."
+        },
+        "internationalShipping": {
+          "title": "International shipping",
+          "description": "Choose available shipping channels after final weight is confirmed."
+        },
+        "trackingUpdate": {
+          "title": "Tracking update",
+          "description": "International tracking is updated after the parcel is dispatched."
+        }
+      }
+    },
+    "restrictions": {
+      "eyebrow": "Restrictions",
+      "title": "Forwarding rules before you ship to us",
+      "description": "Forwarding is convenient, but carrier and customs rules still apply. Please review risks before sending items to the warehouse.",
+      "items": {
+        "restricted": "Do not ship restricted items.",
+        "sensitive": "Battery, liquid, powder, food and luxury goods may require review.",
+        "userCode": "Use your user code in the address.",
+        "trackingNumber": "Submit tracking number after purchase.",
+        "storage": "Storage time may be limited.",
+        "finalFee": "Final shipping fee is based on warehouse weight and dimensions.",
+        "customsTax": "Customs tax is not included unless stated."
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Forwarding FAQ",
+      "description": "Short answers for users who buy themselves and ship to our warehouse.",
+      "items": {
+        "whatIsForwarding": {
+          "question": "What is forwarding service?",
+          "answer": "Forwarding lets you buy products yourself, ship them to our China warehouse, then use us for receiving, storage, consolidation and international delivery."
+        },
+        "difference": {
+          "question": "What is the difference between Shopping Agent and Forwarding?",
+          "answer": "Shopping Agent means we purchase for you. Forwarding means you purchase yourself and we handle warehouse and international shipping after arrival."
+        },
+        "warehouseAddress": {
+          "question": "How do I get my warehouse address?",
+          "answer": "Log in to your account and copy the personal warehouse address shown on this page."
+        },
+        "userCode": {
+          "question": "Why do I need to include my user code?",
+          "answer": "The user code lets warehouse staff match parcels to your account. Missing codes can delay receiving."
+        },
+        "consolidation": {
+          "question": "Can I consolidate multiple packages?",
+          "answer": "Yes, when package size, product type and shipping channel rules allow consolidation."
+        },
+        "forgotTracking": {
+          "question": "What happens if I forget to submit tracking number?",
+          "answer": "The warehouse may still receive the parcel if your user code is present, but matching can be slower. Submit tracking as soon as possible."
+        },
+        "restrictedItems": {
+          "question": "What items cannot be forwarded?",
+          "answer": "Forbidden, dangerous, counterfeit, liquid, powder, food, battery or branded luxury items may be rejected or require special review."
+        },
+        "feeCalculated": {
+          "question": "How is forwarding shipping fee calculated?",
+          "answer": "The fee is based on the final packed weight, dimensions, destination country, shipping channel and product restrictions after warehouse weighing."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to forward your China parcels?",
+      "description": "Copy your warehouse address, submit the incoming domestic tracking number, or estimate international shipping before sending items.",
+      "warehouseAddress": "Get Warehouse Address",
+      "submitParcel": "Submit Incoming Parcel",
+      "estimateFee": "Estimate Shipping Fee"
+    }
+  },
+  "HelpCenter": {
+    "search": {
+      "eyebrow": "Help Center",
+      "title": "Find answers before your next China shopping step",
+      "subtitle": "Search guides for Shopping Agent, shipping estimation, DIY Orders, forwarding, payment, packages, tracking and Tickets Center.",
+      "placeholder": "Search shopping agent, shipping fee, estimation, DIY order, forwarding, payment...",
+      "examplesTitle": "Search examples",
+      "results": "Results",
+      "emptyTitle": "No help result found",
+      "emptyDescription": "Try a broader keyword like shipping, payment, package, ticket, or DIY order.",
+      "examples": {
+        "shoppingAgent": "shopping agent",
+        "shippingFee": "shipping fee",
+        "estimation": "estimation",
+        "diyOrder": "DIY order",
+        "forwarding": "forwarding",
+        "payment": "payment",
+        "refund": "refund",
+        "restrictedItems": "restricted items",
+        "package": "package",
+        "tracking": "tracking",
+        "ticket": "ticket"
+      }
+    },
+    "popularTopics": {
+      "eyebrow": "Popular Topics",
+      "title": "Fast answers for common tasks",
+      "description": "Jump into the guides users need most often before ordering, paying or shipping.",
+      "items": {
+        "orderLink": "How to place an order using a product link",
+        "estimation": "How to estimate international shipping fee",
+        "diyOrder": "How to submit a DIY Order",
+        "forwarding": "How forwarding service works",
+        "separateShipping": "Why shipping fee is paid separately",
+        "restricted": "What items are restricted",
+        "recharge": "How to recharge wallet",
+        "tracking": "How to track package",
+        "ticket": "How to open a support ticket"
+      }
+    },
+    "categoriesSection": {
+      "eyebrow": "Help Categories",
+      "title": "Browse by service area",
+      "description": "Choose a category to filter popular articles and FAQ answers.",
+      "showAll": "Show all help",
+      "articleCount": "{count} articles"
+    },
+    "categories": {
+      "howToBuy": {
+        "title": "How to Buy",
+        "description": "Product links, image search, shopping agent checkout and order submission."
+      },
+      "orders": {
+        "title": "Orders",
+        "description": "Order status, purchasing, out-of-stock items, price changes and updates."
+      },
+      "payment": {
+        "title": "Payment & Recharge",
+        "description": "Wallet balance, recharge records, product payments and manual payment notes."
+      },
+      "shippingFee": {
+        "title": "Shipping Fee",
+        "description": "International freight, volumetric weight, chargeable weight and estimates."
+      },
+      "packages": {
+        "title": "Packages",
+        "description": "Warehouse arrival, package creation, tracking, shipping status and delivery."
+      },
+      "forwarding": {
+        "title": "Forwarding",
+        "description": "Buy by yourself, use our warehouse address and submit domestic tracking."
+      },
+      "diyOrders": {
+        "title": "DIY Orders",
+        "description": "Manual quotations for products that cannot be parsed automatically."
+      },
+      "restrictedItems": {
+        "title": "Restricted Items",
+        "description": "Sensitive goods, forbidden items, batteries, liquids, powders and brand risks."
+      },
+      "refunds": {
+        "title": "Refunds",
+        "description": "Out-of-stock refunds, cancelled orders, wallet refunds and review timing."
+      },
+      "affiliate": {
+        "title": "Affiliate",
+        "description": "Referral links, commissions, valid orders and payout basics."
+      },
+      "tickets": {
+        "title": "Tickets Center",
+        "description": "Open tickets, check replies, provide evidence and follow support progress."
+      },
+      "account": {
+        "title": "Account",
+        "description": "Profile, language, currency, Google login, addresses and security settings."
+      }
+    },
+    "articlesSection": {
+      "eyebrow": "Popular Articles",
+      "title": "Guides users read first",
+      "description": "Practical help for ordering, shipping, payment, forwarding and support.",
+      "guideCount": "{count} guides",
+      "updated": "Updated {date}",
+      "read": "Read"
+    },
+    "articles": {
+      "placeOrderLink": {
+        "title": "How to place an order using a product link",
+        "summary": "Paste a Chinese product link, choose variants and quantity, then submit checkout for product cost and domestic shipping review.",
+        "content": "Paste the product URL into CNSnap search or product parser. Review the title, images, variants, price, domestic shipping fee and quantity. Select the exact SKU, confirm the disclaimer, then add to cart or buy now. You pay product cost, domestic shipping and service fee first. International shipping is billed later after warehouse arrival and weighing."
+      },
+      "shoppingAgent": {
+        "title": "How to use the shopping agent service",
+        "summary": "Shopping Agent means our team purchases items for you, receives them at our warehouse and prepares international shipping.",
+        "content": "Use Shopping Agent when you want CNSnap to buy from Chinese platforms for you. After you submit and pay the product order, our purchasing team places the order with the seller. When items arrive at the warehouse, the package is checked, weighed and prepared for international shipping payment."
+      },
+      "submitDiy": {
+        "title": "How to submit a DIY Order",
+        "summary": "Use DIY Order when a product link cannot be parsed, you only have an image, or the request needs manual quotation.",
+        "content": "Open DIY Order, provide a product URL or image URL, product name, specifications, quantity, destination country and notes. Our team reviews availability, seller price, domestic shipping, possible restrictions and sends a quotation. You only pay after accepting the quote."
+      },
+      "forwarding": {
+        "title": "How forwarding service works",
+        "summary": "Forwarding is for users who buy by themselves and ship items to our China warehouse for international forwarding.",
+        "content": "Log in to get your warehouse address and user code. Buy from Chinese websites yourself and include your user code in the recipient or address. After the seller ships, submit the domestic tracking number. The warehouse receives, identifies, stores, weighs and forwards your package internationally."
+      },
+      "shippingFee": {
+        "title": "How is international shipping fee calculated?",
+        "summary": "Shipping fee depends on destination, channel, actual weight, volumetric weight, minimum chargeable weight and product restrictions.",
+        "content": "International shipping is calculated after warehouse weighing. Carriers compare actual weight and volumetric weight, then bill by the larger chargeable weight. Volumetric weight is length × width × height divided by the channel volume divisor. Sensitive products, destination limits and channel rules can change available routes."
+      },
+      "separateShipping": {
+        "title": "Why do I need to pay shipping separately?",
+        "summary": "Product payment happens before purchase. International shipping can only be confirmed after the warehouse receives and weighs the package.",
+        "content": "At checkout you pay product cost, domestic shipping and service fee. International freight cannot be final before the warehouse knows the real packed weight, dimensions, destination and available channel. After arrival, CNSnap creates the package and shipping bill for your confirmation."
+      },
+      "restricted": {
+        "title": "What items are restricted?",
+        "summary": "Battery, liquid, powder, food, cosmetics, branded luxury goods and dangerous items may require review or be rejected.",
+        "content": "Restricted or sensitive items depend on carrier and customs rules. Batteries, liquids, powders, food, cosmetics, medicine, weapons, dangerous goods, counterfeit goods and high-value branded items may require manual review, special lines, extra documents or may not be accepted for shipping."
+      },
+      "recharge": {
+        "title": "How to recharge my wallet?",
+        "summary": "Wallet balance can be used for product payments, shipping payments and service fees after recharge records are confirmed.",
+        "content": "Go to Account Recharge, enter the amount and choose a payment method. V1.0 supports manual payment placeholder records. After payment is confirmed, the balance can be used for product orders, international shipping, adjustments and refunds."
+      },
+      "tracking": {
+        "title": "How to track my package?",
+        "summary": "After a package is shipped internationally, tracking number and shipping status are shown in Account Packages.",
+        "content": "Open Account Packages to see package status, shipping channel, tracking number and shipment time. Tracking may take time to update after dispatch. If tracking stops or shows an exception, open a support ticket with the package number and tracking number."
+      },
+      "ticket": {
+        "title": "How to open a support ticket?",
+        "summary": "Use Tickets Center for order issues, package questions, payment proof, refunds, restricted items or shipping exceptions.",
+        "content": "Open Tickets Center and create a new ticket. Choose the closest category, add order or package numbers, describe the issue and upload any useful evidence later when file upload is connected. Our support team replies in the ticket thread."
+      }
+    },
+    "faqSection": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "description": "Short answers for Shopping Agent, estimation, DIY Orders, forwarding, payment and support tickets."
+    },
+    "faq": {
+      "saTaobao": {
+        "question": "Can you buy from Taobao or 1688 for me?",
+        "answer": "Yes. Use Shopping Agent for supported product links. If a page cannot be parsed, submit a DIY Order for manual review."
+      },
+      "saImage": {
+        "question": "Can I search by product image?",
+        "answer": "Image search can help discover products. If the result is unclear, use DIY Order and provide the image URL or product screenshot."
+      },
+      "saOutStock": {
+        "question": "What happens if the item is out of stock?",
+        "answer": "Our team will update the order and contact you. You can choose replacement, cancellation or refund depending on the seller situation."
+      },
+      "estFinal": {
+        "question": "Is the estimated shipping fee final?",
+        "answer": "No. The estimate is for planning. Final freight is based on warehouse measured weight, packed dimensions, product review and selected channel."
+      },
+      "estVolumetric": {
+        "question": "What is volumetric weight?",
+        "answer": "Volumetric weight converts package size into billable weight. Large light packages can cost more because they occupy more carrier space."
+      },
+      "estChargeable": {
+        "question": "Why is chargeable weight different from actual weight?",
+        "answer": "Carriers bill by the greater value among actual weight, volumetric weight and minimum chargeable weight."
+      },
+      "diyWhen": {
+        "question": "When should I submit a DIY Order?",
+        "answer": "Submit DIY Order when the product link cannot be parsed, you only have an image, specifications are complex, or you need manual quotation."
+      },
+      "diyQuote": {
+        "question": "How long does a DIY Order quote take?",
+        "answer": "Most quotes are reviewed within 1 business day. Complex items or seller confirmation can take longer."
+      },
+      "diyImage": {
+        "question": "Can I submit only a product image?",
+        "answer": "Yes. A product image is accepted, but a link or detailed description helps our team quote faster."
+      },
+      "fwBuySelf": {
+        "question": "Can I buy by myself and only use your warehouse?",
+        "answer": "Yes. Use Forwarding, copy your warehouse address and submit the domestic tracking number after the seller ships."
+      },
+      "fwDifference": {
+        "question": "What is the difference between Shopping Agent and Forwarding?",
+        "answer": "Shopping Agent means CNSnap buys for you. Forwarding means you buy yourself and CNSnap handles warehouse receiving and international shipping."
+      },
+      "fwUserCode": {
+        "question": "Why do I need to include my user code?",
+        "answer": "The user code lets warehouse staff match incoming parcels to your account. Missing user codes can delay receiving."
+      },
+      "payProduct": {
+        "question": "How do I pay for product cost?",
+        "answer": "You can pay during checkout using available balance or supported payment methods. Recharge and manual payment records can be expanded later."
+      },
+      "payShipping": {
+        "question": "Why do I pay international shipping separately?",
+        "answer": "International shipping is calculated after warehouse arrival because final packed weight and dimensions are unknown before receiving."
+      },
+      "payRefund": {
+        "question": "Can I get a refund?",
+        "answer": "Refund eligibility depends on order status, seller policy and whether the item has already been purchased or shipped."
+      },
+      "ticketWhen": {
+        "question": "When should I open a ticket?",
+        "answer": "Open a ticket for order questions, payment proof, package exceptions, refunds, restricted item review or account issues."
+      },
+      "ticketReplies": {
+        "question": "How do I check ticket replies?",
+        "answer": "Go to Account Tickets Center and open the ticket thread to view support replies and status updates."
+      },
+      "ticketReopen": {
+        "question": "Can I reopen a resolved ticket?",
+        "answer": "V1.0 can reserve reopen behavior. If a resolved issue continues, create a new ticket and reference the old ticket number."
+      },
+      "packageArrival": {
+        "question": "How do I know my package arrived at the warehouse?",
+        "answer": "Check Account Packages. Warehouse receiving status appears after staff match and process the incoming parcel."
+      },
+      "accountLanguage": {
+        "question": "Can I change language or currency?",
+        "answer": "Yes. Use the frontend language and currency switcher or Account Profile preferences when connected."
+      },
+      "affiliateReward": {
+        "question": "How do affiliate rewards work?",
+        "answer": "Share your referral link. Commission is calculated from valid referred orders according to the affiliate policy."
+      }
+    },
+    "filter": {
+      "showing": "Showing help for"
+    },
+    "empty": {
+      "articlesTitle": "No articles in this category yet",
+      "articlesDescription": "Try another category or use search above.",
+      "faqTitle": "No FAQ in this category yet",
+      "faqDescription": "Tickets Center can still help with this topic."
+    },
+    "articleDialog": {
+      "keywords": "Keywords"
+    },
+    "ticketsCta": {
+      "title": "Still need help?",
+      "description": "Open a support ticket and our team will reply as soon as possible.",
+      "open": "Open Tickets Center",
+      "create": "Create New Ticket"
+    }
+  }
+}

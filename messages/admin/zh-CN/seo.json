@@ -1,0 +1,548 @@
+{
+  "dashboard": {
+    "kicker": "SEO 中心",
+    "title": "SEO 仪表盘",
+    "description": "独立管理服务页元数据、robots 默认策略、站点地图策略，以及临时业务页面的锁定 noindex 覆盖。",
+    "stats": {
+      "indexedPages": "已索引页面",
+      "noindexPages": "Noindex 页面",
+      "pagesMissingTitle": "缺少标题的页面",
+      "pagesMissingDescription": "缺少描述的页面",
+      "sitemapUrls": "站点地图 URL 数",
+      "robotsDisallowRules": "Robots Disallow 规则",
+      "temporaryProductPagesNoindex": "临时商品页 Noindex",
+      "searchPagesNoindex": "搜索页 Noindex",
+      "publishedArticles": "已发布文章",
+      "draftArticles": "草稿文章",
+      "scheduledArticles": "定时文章",
+      "archivedArticles": "归档文章",
+      "articlesMissingSeoTitle": "缺少 SEO 标题的文章",
+      "articlesMissingMetaDescription": "缺少 Meta 描述的文章",
+      "articlesWithoutFaq": "无 FAQ 的文章",
+      "articlesWithoutCta": "无 CTA 的文章",
+      "publishedLandingPages": "已发布落地页",
+      "draftLandingPages": "草稿落地页",
+      "platformLandingPages": "平台页",
+      "shippingCountryLandingPages": "国家页",
+      "campaignLandingPages": "活动页",
+      "landingPagesMissingFaq": "缺少 FAQ 的落地页",
+      "landingPagesMissingCta": "缺少 CTA 的落地页",
+      "redirectRules": "重定向规则",
+      "enabledRedirects": "启用的重定向",
+      "disabledRedirects": "停用的重定向",
+      "redirectHits": "重定向命中",
+      "seoErrors": "SEO 错误",
+      "seoWarnings": "SEO 警告",
+      "seoNotices": "SEO 提示",
+      "missingTitles": "缺少标题",
+      "missingDescriptions": "缺少描述",
+      "sitemapConflicts": "站点地图冲突"
+    },
+    "actions": {
+      "manageArticles": "管理文章",
+      "manageLandingPages": "管理落地页",
+      "managePages": "管理页面",
+      "seoLanguages": "SEO 语言",
+      "redirects": "重定向",
+      "audit": "SEO 审计",
+      "settings": "SEO 设置",
+      "sitemapRobots": "站点地图与 Robots"
+    },
+    "panels": {
+      "latestArticles": "最新已发布文章",
+      "latestArticlesDesc": "最近发布、可通过独立 `/blog` 模块被发现的博客文章。",
+      "openArticles": "打开文章",
+      "latestLandingPages": "最新落地页",
+      "latestLandingPagesDesc": "SEO 模块中最新的平台页、国家页和活动页。",
+      "openLandingPages": "打开落地页",
+      "latestIssues": "最新 SEO 问题",
+      "latestIssuesDesc": "内置 SEO 审计检查中最近出现的警告和错误。",
+      "openAudit": "打开审计",
+      "latestRedirects": "最新重定向规则",
+      "latestRedirectsDesc": "当前由 SEO Center 管理的重定向定义。",
+      "openRedirects": "打开重定向",
+      "pageHealth": "页面健康度",
+      "pageHealthDesc": "当前 6 个 SEO 管理服务页的状态。",
+      "lastUpdated": "最后更新"
+    },
+    "states": {
+      "preview": "预览",
+      "enabled": "启用",
+      "disabled": "停用",
+      "hits": "次命中",
+      "inSitemap": "已进入站点地图",
+      "excludedFromSitemap": "未进入站点地图"
+    },
+    "cards": {
+      "errors": "SEO 错误",
+      "warnings": "SEO 警告",
+      "notices": "SEO 提示",
+      "missingTitles": "缺少标题",
+      "missingDescriptions": "缺少描述",
+      "sitemapConflicts": "站点地图冲突"
+    }
+  },
+  "articles": {
+    "kicker": "SEO 中心",
+    "title": "SEO 文章",
+    "description": "独立于临时商品页和业务搜索流，创建、编辑、发布、归档并预览 SEO 文章。",
+    "newArticle": "新建文章"
+  },
+  "tables": {
+    "columns": {
+      "title": "标题",
+      "category": "分类",
+      "status": "状态",
+      "language": "语言",
+      "robots": "Robots",
+      "publishedAt": "发布时间",
+      "updatedAt": "更新时间",
+      "author": "作者",
+      "type": "类型",
+      "path": "路径",
+      "pageType": "页面类型",
+      "description": "描述",
+      "indexPolicy": "索引策略",
+      "sitemap": "站点地图",
+      "enabled": "启用状态",
+      "updated": "更新",
+      "actions": "操作",
+      "fromPath": "来源路径",
+      "toPath": "目标路径",
+      "statusCode": "状态码",
+      "hits": "命中次数",
+      "lastHitAt": "最后命中时间",
+      "severity": "严重级别",
+      "area": "区域",
+      "entity": "对象",
+      "rule": "规则",
+      "message": "问题说明",
+      "recommendation": "建议"
+    },
+    "actions": {
+      "edit": "编辑",
+      "preview": "预览",
+      "archive": "归档",
+      "delete": "删除",
+      "enable": "启用",
+      "disable": "停用"
+    },
+    "filters": {
+      "searchArticles": "搜索文章...",
+      "searchLandingPages": "搜索落地页...",
+      "searchRedirects": "搜索重定向...",
+      "searchAuditIssues": "搜索审计问题...",
+      "status": "状态",
+      "category": "分类",
+      "language": "语言",
+      "robots": "Robots",
+      "type": "类型",
+      "enabled": "启用状态",
+      "statusCode": "状态码",
+      "severity": "严重级别",
+      "area": "区域",
+      "rule": "规则"
+    },
+    "states": {
+      "uncategorized": "未分类",
+      "yes": "是",
+      "no": "否",
+      "enabled": "启用",
+      "disabled": "停用"
+    }
+  },
+  "pageEditor": {
+    "saved": "SEO 页面设置已保存。",
+    "saveFailed": "无法保存 SEO 页面设置。",
+    "edit": "编辑",
+    "title": "编辑 SEO 页面",
+    "description": "{path} 的简化编辑模式。这里仅聚焦标题、描述、canonical 和 robots 等页面级配置。",
+    "lockedTitle": "noindex 策略已锁定",
+    "lockedFallback": "当前阶段该页面类型不能切换为可索引。",
+    "defaultsNotice": "标题模板、默认 OG/Twitter 图片和其它共享元数据将沿用 SEO Settings 中的全局默认值。只有在当前页面确实需要独立搜索摘要时才建议在这里覆盖。",
+    "fields": {
+      "title": "标题",
+      "canonicalUrl": "Canonical URL",
+      "description": "描述",
+      "robots": "Robots",
+      "enabled": "启用"
+    },
+    "enabledLabel": "启用页面 SEO",
+    "save": "保存 SEO 页面"
+  },
+  "settingsForm": {
+    "saved": "SEO 设置已保存。",
+    "saveFailed": "无法保存 SEO 设置。",
+    "fields": {
+      "siteName": "站点名称",
+      "canonicalBaseUrl": "Canonical 基础 URL",
+      "defaultTitle": "默认标题",
+      "titleTemplate": "标题模板",
+      "defaultDescription": "默认描述",
+      "defaultOgImage": "默认 OG 图片",
+      "defaultTwitterImage": "默认 Twitter 图片",
+      "defaultRobots": "默认 Robots",
+      "googleSiteVerification": "Google 站点验证",
+      "googleAnalyticsId": "Google Analytics ID",
+      "googleTagManagerId": "Google Tag Manager ID"
+    },
+    "placeholders": {
+      "titleTemplate": "%s | CNSnap"
+    },
+    "save": "保存 SEO 默认设置"
+  },
+  "articleEditor": {
+    "saved": "SEO 文章已保存。",
+    "saveFailed": "无法保存文章。",
+    "generateSlugFailed": "无法生成 slug。",
+    "readingTimeFailed": "无法计算阅读时长。",
+    "tocFailed": "无法生成目录。",
+    "readingTimeSuccess": "预估阅读时长：{minutes} 分钟",
+    "tocSuccess": "已生成 {count} 个目录项{suffix}。",
+    "sections": {
+      "content": "文章内容",
+      "contentDescription": "编写文章正文，并构建将发布在 `/blog/[slug]` 下的博客内容。",
+      "seo": "SEO 字段",
+      "enhancement": "增强字段"
+    },
+    "actions": {
+      "generateSlug": "根据标题生成 Slug",
+      "useTitleAsSeoTitle": "使用标题作为 SEO 标题",
+      "useExcerptAsMetaDescription": "使用摘要作为 Meta 描述",
+      "calculateReadingTime": "计算阅读时长",
+      "generateToc": "生成目录",
+      "cancel": "取消",
+      "save": "保存文章",
+      "create": "创建文章"
+    },
+    "fields": {
+      "title": "标题",
+      "slug": "Slug",
+      "localizedSlug": "本地化 Slug",
+      "excerpt": "摘要",
+      "coverImage": "封面图",
+      "content": "内容",
+      "category": "分类",
+      "status": "状态",
+      "language": "语言",
+      "sourceLanguage": "源语言",
+      "publishedAt": "发布时间",
+      "tags": "标签",
+      "seoTitle": "SEO 标题",
+      "canonicalUrl": "Canonical URL",
+      "seoDescription": "SEO 描述",
+      "robots": "Robots",
+      "ctaType": "CTA 类型",
+      "ogTitle": "OG 标题",
+      "ogImage": "OG 图片",
+      "twitterTitle": "Twitter 标题",
+      "twitterImage": "Twitter 图片",
+      "ogDescription": "OG 描述",
+      "twitterDescription": "Twitter 描述",
+      "faqJson": "FAQ JSON",
+      "relatedArticles": "相关文章",
+      "relatedLinksJson": "相关链接 JSON"
+    },
+    "states": {
+      "notCalculated": "未计算",
+      "noneGenerated": "尚未生成",
+      "selectCategory": "选择分类"
+    },
+    "meta": {
+      "readingTime": "阅读时长",
+      "tocItems": "目录项"
+    },
+    "placeholders": {
+      "coverImage": "/brand/cnsnap-logo.svg",
+      "faqJson": "[{\"question\":\"...\",\"answer\":\"...\"}]",
+      "relatedLinksJson": "[{\"label\":\"Start Shopping\",\"href\":\"/\"}]"
+    }
+  },
+  "landingEditor": {
+    "saved": "SEO 落地页已保存。",
+    "saveFailed": "无法保存落地页。",
+    "generateSlugFailed": "无法生成 slug。",
+    "generatePathFailed": "无法生成路径。",
+    "sections": {
+      "content": "落地页内容",
+      "contentDescription": "像发布 WordPress 页面一样，用 HTML 编辑器直接编辑落地页主体内容。结构化字段仅在需要补充 section 或 FAQ 数据时使用。",
+      "structured": "结构化补充内容",
+      "structuredDescription": "可选的结构化内容，用于可复用 section 卡片、FAQ 输出或下游渲染逻辑。",
+      "advancedStructured": "高级结构化字段",
+      "seo": "SEO 字段"
+    },
+    "actions": {
+      "generateSlug": "根据标题生成 Slug",
+      "generatePath": "根据类型和 Slug 生成路径",
+      "useHeroTitleAsSeoTitle": "使用 Hero 标题作为 SEO 标题",
+      "useHeroSubtitleAsMetaDescription": "使用 Hero 副标题作为 Meta 描述",
+      "addSection": "新增 section",
+      "removeSection": "移除 section",
+      "addFaq": "新增 FAQ",
+      "removeFaq": "移除 FAQ",
+      "cancel": "取消",
+      "save": "保存落地页",
+      "create": "创建落地页"
+    },
+    "fields": {
+      "title": "标题",
+      "slug": "Slug",
+      "localizedPath": "本地化路径",
+      "type": "类型",
+      "path": "路径",
+      "language": "语言",
+      "sourceLanguage": "源语言",
+      "heroTitle": "Hero 标题",
+      "heroSubtitle": "Hero 副标题",
+      "pageContent": "页面正文",
+      "pageContentHelp": "这里是落地页的主要详情内容，按普通长页面内容来编辑即可。",
+      "sections": "Sections",
+      "sectionTitle": "Section 标题",
+      "sectionDescription": "Section 描述",
+      "sectionBullets": "Section 要点",
+      "faqItems": "FAQ 条目",
+      "faqQuestion": "问题",
+      "faqAnswer": "答案",
+      "sectionsJson": "Sections JSON",
+      "faqJson": "FAQ JSON",
+      "ctaText": "CTA 文案",
+      "ctaHref": "CTA 链接",
+      "status": "状态",
+      "publishedAt": "发布时间",
+      "seoTitle": "SEO 标题",
+      "canonicalUrl": "Canonical URL",
+      "seoDescription": "SEO 描述",
+      "robots": "Robots",
+      "structuredDataJson": "结构化数据 JSON",
+      "ogTitle": "OG 标题",
+      "ogImage": "OG 图片",
+      "ogDescription": "OG 描述",
+      "twitterDescription": "Twitter 描述",
+      "twitterTitle": "Twitter 标题",
+      "twitterImage": "Twitter 图片"
+    },
+    "placeholders": {
+      "sectionsJson": "[{\"title\":\"Hero\",\"description\":\"...\",\"bullets\":[\"...\"]}]",
+      "faqJson": "[{\"question\":\"...\",\"answer\":\"...\"}]",
+      "sectionBullets": "每行一个要点",
+      "ctaHref": "/estimation or https://example.com",
+      "ogImage": "/brand/cnsnap-logo.svg",
+      "twitterImage": "/brand/cnsnap-logo.svg"
+    },
+    "states": {
+      "sectionLabel": "Section {index}",
+      "faqLabel": "FAQ {index}",
+      "noSections": "还没有详情 section，先添加第一块正文结构。",
+      "noFaq": "还没有 FAQ 条目，添加问答后就能更接近文章式发布流程。"
+    },
+    "meta": {
+      "sectionCount": "Section 数量",
+      "faqCount": "FAQ 数量"
+    }
+  },
+  "languages": {
+    "kicker": "SEO 中心",
+    "title": "SEO 语言",
+    "description": "查看哪些语言已启用为后台 UI、前台 UI 和 SEO URL 生成。V1 先以统一配置矩阵展示，方便后续安全扩展新语言。",
+    "count": "{count} 个语言",
+    "empty": "暂无语言配置。",
+    "runtimeTitle": "运行时语言开关",
+    "runtimeDescription": "更新前台和 SEO 可见性，同时保留历史语言元数据。",
+    "saveLocale": "保存语言",
+    "flags": {
+      "global": "全局",
+      "frontend": "前台",
+      "seo": "SEO",
+      "default": "默认"
+    },
+    "save": "保存"
+  },
+  "pages": {
+    "kicker": "SEO 中心",
+    "title": "页面 SEO",
+    "description": "管理 6 个核心服务页的元数据。临时商品页和搜索页等锁定页面类型会按策略保持 noindex，不能在这里覆盖。"
+  },
+  "settingsPage": {
+    "kicker": "SEO 中心",
+    "title": "SEO 设置",
+    "description": "设置标题模板、canonical 基础 URL、社交分享图片、robots 基线和验证 ID 的全局默认值。当前阶段仍使用 mock 保存逻辑，后续可升级为 Prisma 持久化。"
+  },
+  "redirectsPage": {
+    "kicker": "SEO 中心",
+    "title": "重定向",
+    "description": "先在这里管理 mock 重定向规则，不直接接入 middleware 或业务路由。",
+    "createTitle": "创建重定向规则",
+    "createDescription": "适用于 SEO 清理和旧路由迁移场景。"
+  },
+  "redirectEditor": {
+    "saved": "重定向规则已保存。",
+    "saveFailed": "无法保存重定向。",
+    "fields": {
+      "fromPath": "来源路径",
+      "toPath": "目标路径",
+      "statusCode": "状态码",
+      "enabled": "启用状态"
+    },
+    "placeholders": {
+      "fromPath": "/old-path",
+      "toPath": "/new-path or https://example.com"
+    },
+    "states": {
+      "enabled": "enabled",
+      "disabled": "disabled"
+    },
+    "add": "添加重定向"
+  },
+  "taxonomy": {
+    "categories": {
+      "kicker": "SEO 中心",
+      "title": "文章分类",
+      "description": "管理独立 SEO 文章主题分区所使用的博客分类体系。",
+      "add": "添加分类",
+      "search": "搜索文章分类...",
+      "modal": {
+        "add": "添加分类",
+        "edit": "编辑 {name}",
+        "save": "保存分类"
+      },
+      "fields": {
+        "name": "名称",
+        "slug": "Slug",
+        "localizedSlug": "本地化 Slug",
+        "description": "描述",
+        "language": "语言",
+        "sortOrder": "排序",
+        "status": "状态",
+        "seoTitle": "SEO 标题",
+        "seoDescription": "SEO 描述",
+        "actions": "操作"
+      },
+      "placeholders": {
+        "name": "分类名称",
+        "slug": "category-slug",
+        "localizedSlug": "localized-category-slug",
+        "description": "分类描述",
+        "seoTitle": "SEO 标题",
+        "seoDescription": "SEO 描述"
+      },
+      "createTranslation": "创建 {locale} 版本"
+    },
+    "tags": {
+      "kicker": "SEO 中心",
+      "title": "文章标签",
+      "description": "管理可复用的文章标签，用于博客筛选和主题发现页面。",
+      "add": "添加标签",
+      "search": "搜索文章标签...",
+      "modal": {
+        "add": "添加标签",
+        "edit": "编辑 {name}",
+        "save": "保存标签"
+      },
+      "fields": {
+        "name": "名称",
+        "slug": "Slug",
+        "description": "描述",
+        "actions": "操作",
+        "delete": "删除"
+      },
+      "placeholders": {
+        "name": "标签名称",
+        "slug": "tag-slug",
+        "description": "标签描述"
+      }
+    }
+  },
+  "taxonomyPages": {
+    "categoryHero": "分类头图",
+    "relatedCategories": "相关分类",
+    "needWorkflowTitle": "下一步要进入实际流程？",
+    "needWorkflowDescription": "从分类指南继续进入商品搜索、运费预估、DIY 找货或转运服务。",
+    "startShopping": "开始代购",
+    "tagHero": "标签头图",
+    "general": "通用",
+    "moveIntoActionTitle": "从文章进入实际操作",
+    "moveIntoActionDescription": "当你准备好搜索商品、预估运费或提交找货需求时，可以直接使用对应服务页。",
+    "estimateShipping": "预估运费"
+  },
+  "articlePages": {
+    "new": {
+      "kicker": "SEO 中心",
+      "title": "创建 SEO 文章",
+      "description": "构建可独立发布在 `/blog` 下的博客文章，并拥有自己的元数据、schema、FAQ、CTA 和站点地图资格。"
+    },
+    "edit": {
+      "kicker": "SEO 中心",
+      "title": "编辑 SEO 文章",
+      "description": "更新文章内容、发布状态、元数据、FAQ 和 CTA，而不会影响第一层索引策略模块。",
+      "createTranslation": "创建 {locale} 版本"
+    }
+  },
+  "landingPagesPage": {
+    "kicker": "SEO 中心",
+    "title": "落地页",
+    "description": "将平台页、物流国家页和活动页作为独立 SEO 内容层进行管理。",
+    "new": "新建落地页"
+  },
+  "languagesTable": {
+    "columns": {
+      "locale": "语言代码",
+      "name": "名称",
+      "nativeName": "本地名称",
+      "enabled": "启用",
+      "adminEnabled": "后台",
+      "frontendEnabled": "前台 UI",
+      "seoEnabled": "SEO",
+      "default": "默认",
+      "sortOrder": "排序"
+    },
+    "details": {
+      "locale": "语言代码",
+      "englishName": "英文名称",
+      "nativeName": "本地名称",
+      "enabled": "是否启用",
+      "adminEnabled": "后台启用",
+      "frontendEnabled": "前台启用",
+      "seoEnabled": "SEO 启用",
+      "defaultLocale": "默认语言",
+      "sortOrder": "排序值"
+    }
+  },
+  "landingPagePages": {
+    "new": {
+      "kicker": "SEO 中心",
+      "title": "创建落地页",
+      "description": "创建一个可发布在 `/platforms`、`/shipping-to` 或 `/campaign` 下的新 SEO 落地页。"
+    },
+    "edit": {
+      "kicker": "SEO 中心",
+      "title": "编辑落地页",
+      "description": "更新该落地页的路由结构、Hero 文案、SEO 字段、FAQ 和 CTA 行为。",
+      "createTranslation": "创建 {locale} 版本"
+    }
+  },
+  "auditPage": {
+    "kicker": "SEO 中心",
+    "title": "SEO 审计",
+    "description": "查看页面、文章和落地页中的元数据缺失、FAQ/CTA 缺口、重复内容信号和重定向问题。"
+  },
+  "sitemapRobotsPage": {
+    "kicker": "SEO 中心",
+    "title": "站点地图与 Robots",
+    "description": "查看抓取控制和站点地图收录情况。临时商品页和搜索页会按策略被排除，不依赖单独的 robots-only 阻断。",
+    "robotsRules": "Robots 规则",
+    "table": {
+      "path": "路径",
+      "enabled": "启用",
+      "changeFrequency": "更新频率",
+      "priority": "优先级",
+      "indexPolicy": "索引策略",
+      "yes": "是",
+      "no": "否",
+      "included": "已包含",
+      "excluded": "已排除",
+      "temporaryProductPages": "临时商品页",
+      "searchPages": "搜索页",
+      "na": "N/A"
+    }
+  }
+}

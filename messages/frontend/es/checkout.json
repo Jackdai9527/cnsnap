@@ -1,0 +1,29 @@
+{
+  "actions": {
+    "edit": "Editar",
+    "quantity": "Cantidad",
+    "serviceNote": "Nota del servicio"
+  },
+  "summary": {
+    "title": "Resumen del pedido",
+    "secure": "Checkout seguro",
+    "subtotal": "Subtotal de articulos",
+    "domesticShipping": "Envío en China",
+    "serviceFee": "Tarifa de servicio",
+    "valueAddedServices": "Servicios de valor añadido",
+    "total": "Total del pedido"
+  },
+  "addressForm": {
+    "addTitle": "Agregar dirección de envío",
+    "editTitle": "Editar dirección de envío",
+    "useSaved": "Usar dirección guardada",
+    "label": "Etiqueta de la dirección",
+    "contactName": "Nombre del contacto",
+    "phone": "Teléfono",
+    "city": "Ciudad",
+    "postalCode": "Código postal",
+    "line1": "Dirección línea 1",
+    "line2": "Dirección línea 2",
+    "default": "Guardar como dirección predeterminada"
+  }
+}

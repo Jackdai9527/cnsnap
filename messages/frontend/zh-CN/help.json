@@ -1,0 +1,279 @@
+{
+  "search": {
+    "eyebrow": "帮助中心",
+    "title": "在下一步中国购物之前找到答案",
+    "subtitle": "搜索代购、运费估算、DIY订单、转发、付款、包裹、跟踪和票务中心指南。",
+    "placeholder": "搜索代购、运费、估算、DIY订单、转发、付款...",
+    "examplesTitle": "搜索示例",
+    "results": "结果",
+    "emptyTitle": "未找到帮助结果",
+    "emptyDescription": "尝试更广泛的关键字，例如运费、付款、包裹、票证或 DIY 订单。",
+    "examples": {
+      "shoppingAgent": "购物代理",
+      "shippingFee": "运费",
+      "estimation": "估算",
+      "diyOrder": "DIY订单",
+      "forwarding": "转发",
+      "payment": "付款",
+      "refund": "退款",
+      "restrictedItems": "受限商品",
+      "package": "包裹",
+      "tracking": "跟踪",
+      "ticket": "票证"
+    }
+  },
+  "popularTopics": {
+    "eyebrow": "热门主题",
+    "title": "常见任务的快速解答",
+    "description": "跳转到用户在订购、付款或发货之前最需要的指南。",
+    "items": {
+      "orderLink": "如何使用产品链接下订单",
+      "estimation": "如何估算国际运费",
+      "diyOrder": "如何提交订单DIY订单",
+      "forwarding": "转运服务如何运作",
+      "separateShipping": "为什么要单独支付运费",
+      "restricted": "哪些物品受到限制",
+      "recharge": "如何充值钱包",
+      "tracking": "如何追踪包裹",
+      "ticket": "如何开立支持票"
+    }
+  },
+  "categoriesSection": {
+    "eyebrow": "帮助类别",
+    "title": "按服务区域浏览",
+    "description": "选择类别来过滤热门文章和 FAQ 答案。",
+    "showAll": "显示所有帮助",
+    "articleCount": "{count} 文章"
+  },
+  "categories": {
+    "howToBuy": {
+      "title": "如何购买",
+      "description": "产品链接、图片搜索、代购结帐和订单提交。"
+    },
+    "orders": {
+      "title": "订单",
+      "description": "订单状态、购买、缺货商品、价格变动和更新。"
+    },
+    "payment": {
+      "title": "付款和充值",
+      "description": "钱包余额、充值记录、产品付款和人工付款备注。"
+    },
+    "shippingFee": {
+      "title": "运费",
+      "description": "国际运费、体积重量、计费重量和估算。"
+    },
+    "packages": {
+      "title": "包裹",
+      "description": "仓库到达、包裹创建、跟踪、运输状态和交付。"
+    },
+    "forwarding": {
+      "title": "转发",
+      "description": "自己购买，使用我们的仓库地址并提交国内"
+    },
+    "diyOrders": {
+      "title": "DIY订单",
+      "description": "无法自动解析的产品的手动报价。"
+    },
+    "restrictedItems": {
+      "title": "限制物品",
+      "description": "敏感商品、违禁物品、电池、液体、粉末和品牌风险。"
+    },
+    "refunds": {
+      "title": "退款",
+      "description": "缺货退款、取消订单、钱包退款和审核时间。"
+    },
+    "affiliate": {
+      "title": "附属机构",
+      "description": "推荐链接、佣金、有效订单和付款基础知识。"
+    },
+    "tickets": {
+      "title": "工单中心",
+      "description": "打开工单、检查回复、提供证据并跟踪支持进度。"
+    },
+    "account": {
+      "title": "帐户",
+      "description": "个人资料、语言、货币、Google 登录信息、地址和安全设置。"
+    }
+  },
+  "articlesSection": {
+    "eyebrow": "热门文章",
+    "title": "指导用户首先阅读",
+    "description": "有关订购、运输、付款、转发和支持的实用帮助。",
+    "guideCount": "{count} 指南",
+    "updated": "更新了 {date}",
+    "read": "阅读"
+  },
+  "articles": {
+    "placeOrderLink": {
+      "title": "如何使用下单产品链接",
+      "summary": "粘贴中文产品链接，选择款式和数量，然后提交产品成本结账和国内运费审核。",
+      "content": "将产品 URL 粘贴到 CNSnap 搜索或产品解析器中。查看标题、图片、款式、价格、国内运费和数量。选择确切的 SKU，确认免责声明，然后添加到购物车或立即购买。您先支付产品成本、国内运费和服务费。国际运费在到达仓库并称重后计费。"
+    },
+    "shoppingAgent": {
+      "title": "如何使用代购服务",
+      "summary": "代购是指我们的团队为您采购商品，在我们的仓库接收商品并准备国际运输。",
+      "content": "当您希望 CNSnap 为您在中国平台购买商品时，请使用代购。在您提交并支付产品订单后，我们的采购团队向卖家下订单。当物品到达仓库时，包裹将被检查、称重并准备国际运费付款。"
+    },
+    "submitDiy": {
+      "title": "如何提交DIY订单",
+      "summary": "当产品链接无法解析、您只有图片或请求需要手动报价时，使用DIY订单。",
+      "content": "打开DIY订单，提供产品URL或图片URL、产品名称、规格、数量、目的地国家和备注。我们的团队会审核库存情况、卖家价格、国内运输、可能的限制并发送报价。您只需在接受报价后付款。"
+    },
+    "forwarding": {
+      "title": "转运服务如何运作",
+      "summary": "转运适用于自行购买并将物品运送到我们的中国仓库进行国际转运的用户。",
+      "content": "登录以获取您的仓库地址和用户代码。您可以自行从中文网站购买，并在收件人或地址中包含您的用户代码。卖家发货后，提交国内追踪号码。仓库接收、识别、存储、称重并在国际范围内转发您的包裹。"
+    },
+    "shippingFee": {
+      "title": "国际运费如何计算？",
+      "summary": "运费取决于目的地、渠道、实际重量、体积重量、最低计费重量和产品限制。",
+      "content": "国际运费是在仓库称重后计算的。承运人比较实际重量和体积重量，然后按较大的计费重量计费。体积重量为长×宽×高除以通道体积除数。敏感产品、目的地限制和渠道规则可能会更改可用路线。"
+    },
+    "separateShipping": {
+      "title": "为什么我需要单独支付运费？",
+      "summary": "产品付款在购买前进行。国际运费只有在仓库收到包裹并称重后才能确认。",
+      "content": "结帐时，您需要支付产品成本、国内运费和服务费。在仓库知道实际包装重量、尺寸、目的地和可用渠道之前，国际货运无法最终确定。抵达后，CNSnap 会创建包裹和运费单以供您确认。"
+    },
+    "restricted": {
+      "title": "哪些物品受限制？",
+      "summary": "电池、液体、粉末、食品、化妆品、品牌奢侈品和危险物品可能需要审核或被拒绝。",
+      "content": "受限制或敏感物品取决于承运商和海关规则。电池、液体、粉末、食品、化妆品、药品、武器、危险品、假冒商品和高价值品牌物品可能需要人工审核、专线、额外文件或可能无法接受运输。"
+    },
+    "recharge": {
+      "title": "如何为我的钱包充值？",
+      "summary": "确认充值记录后，钱包余额可用于产品付款、运费付款和服务费。",
+      "content": "前往账户充值，输入金额并选择付款方式。 V1.0支持手动支付占位记录。确认付款后，余额可用于产品订单、国际运输、调整和退款。"
+    },
+    "tracking": {
+      "title": "如何追踪我的包裹？",
+      "summary": "包裹进行国际运送后，追踪号码和运送状态会显示在帐户包裹中。",
+      "content": "打开帐户包裹可查看包裹状态、运送渠道、追踪号码和运送时间。发货后追踪可能需要一段时间才能更新。如果跟踪停止或显示异常，请使用包裹编号和跟踪编号开立支持票证。"
+    },
+    "ticket": {
+      "title": "如何开立支持票证？",
+      "summary": "使用票证中心解决订单问题、包裹问题、付款证明、退款、受限物品或运输例外情况。",
+      "content": "打开票证中心并创建新票证。选择最接近的类别，添加订单号或包裹号，描述问题并稍后在连接文件上传时上传任何有用的证据。我们的支持团队会在工单帖子中回复。"
+    }
+  },
+  "faqSection": {
+    "eyebrow": "FAQ",
+    "title": "常见问题",
+    "description": "代购、估价、DIY 订单、转发、付款和支持工单的简短解答。"
+  },
+  "faq": {
+    "saTaobao": {
+      "question": "您可以帮我从淘宝或 1688 购买吗？",
+      "answer": "可以。使用 Shopping Agent 获取支持的产品链接。如果页面无法解析，请提交 DIY 订单进行人工审核。"
+    },
+    "saImage": {
+      "question": "我可以通过产品图片搜索吗？",
+      "answer": "图片搜索可以帮助发现产品。如果结果不清楚，请使用 DIY 订单并提供图片 URL 或产品屏幕截图。"
+    },
+    "saOutStock": {
+      "question": "如果商品缺货怎么办？",
+      "answer": "我们的团队将更新订单并与您联系。您可以根据卖家情况选择换货、取消或退款。"
+    },
+    "estFinal": {
+      "question": "预估运费是最终的吗？",
+      "answer": "不是。估算是为了规划。最终运费取决于仓库测量的重量、包装尺寸、产品评论和所选渠道。"
+    },
+    "estVolumetric": {
+      "question": "什么是体积重量？",
+      "answer": "体积重量将包裹尺寸转换为计费重量。大件轻型包裹会占用更多承运人空间，因此费用较高。"
+    },
+    "estChargeable": {
+      "question": "为什么计费重量与实际重量不同？",
+      "answer": "承运人按实际重量、体积重量和最小计费重量中较大的值计费。"
+    },
+    "diyWhen": {
+      "question": "我应该何时提交 DIY 订单？",
+      "answer": "在无法解析产品链接时提交 DIY 订单，您只能有图片、规格复杂或需要手动报价。"
+    },
+    "diyQuote": {
+      "question": "DIY 订单报价需要多长时间？",
+      "answer": "大多数报价会在 1 个工作日内审核。复杂的商品或卖家确认可能需要更长的时间。"
+    },
+    "diyImage": {
+      "question": "我可以只提交产品图片吗？",
+      "answer": "可以。接受产品图片，但链接或详细说明有助于我们的团队更快地报价。"
+    },
+    "fwBuySelf": {
+      "question": "我可以自己购买并仅使用您的仓库吗？",
+      "answer": "可以。使用转发，复制您的仓库地址，并在卖家发货后提交国内追踪号码。"
+    },
+    "fwDifference": {
+      "question": "代购和转发有什么区别？",
+      "answer": "代购是指 CNSnap 为您代购。转发意味着您自己购买，CNSnap 负责仓库接收和国际运输。"
+    },
+    "fwUserCode": {
+      "question": "为什么我需要包含我的用户代码？",
+      "answer": "用户代码可让仓库工作人员将传入的包裹与您的帐户进行匹配。缺少用户代码可能会延迟接收。"
+    },
+    "payProduct": {
+      "question": "我如何支付产品费用？",
+      "answer": "您可以在结帐时使用可用余额或支持的付款方式进行付款。充值和人工付款记录可以稍后扩展。"
+    },
+    "payShipping": {
+      "question": "为什么我要单独支付国际运费？",
+      "answer": "国际运费是在仓库到达后计算的，因为最终包装重量和尺寸在收货前未知。"
+    },
+    "payRefund": {
+      "question": "我可以退款吗？",
+      "answer": "退款资格取决于订单状态、卖家政策以及商品是否已购买或发货。"
+    },
+    "ticketWhen": {
+      "question": "我应该何时开票？",
+      "answer": "针对订单问题、付款证明、包裹例外情况开票，退款、受限商品审核或帐户问题。"
+    },
+    "ticketReplies": {
+      "question": "如何查看请求回复？",
+      "answer": "前往帐户请求中心并打开请求线程以查看支持回复和状态更新。"
+    },
+    "ticketReopen": {
+      "question": "我可以重新打开已解决的请求吗？",
+      "answer": "V1.0 可以保留重新打开行为。如果已解决的问题仍然存在，请创建新票并引用旧票号。"
+    },
+    "packageArrival": {
+      "question": "我如何知道我的包裹已到达仓库？",
+      "answer": "检查帐户包裹。工作人员匹配并处理传入包裹后，仓库接收状态将显示。"
+    },
+    "accountLanguage": {
+      "question": "我可以更改语言或货币吗？",
+      "answer": "可以。连接时使用前端语言和货币切换器或帐户个人资料首选项。"
+    },
+    "affiliateReward": {
+      "question": "联盟奖励如何运作？",
+      "answer": "分享您的推荐链接。佣金是根据联属网络营销政策根据有效推荐订单计算的。"
+    }
+  },
+  "filter": {
+    "showing": "显示帮助"
+  },
+  "empty": {
+    "articlesTitle": "此类别中尚无文章",
+    "articlesDescription": "尝试其他类别或使用上面的搜索。",
+    "faqTitle": "此类别中尚无 FAQ",
+    "faqDescription": "工单中心仍然可以帮助解决此主题。"
+  },
+  "articleDialog": {
+    "keywords": "关键字",
+    "quickAnswer": "快速支持解答"
+  },
+  "articlePage": {
+    "faqEyebrow": "FAQ",
+    "faqTitle": "相关问题",
+    "guidesEyebrow": "指南",
+    "guidesTitle": "相关文章",
+    "updated": "更新于 {date}",
+    "supportTitle": "仍需要帮助吗？",
+    "supportDescription": "打开支持工单，我们的团队将尽快回复。",
+    "backToHelp": "返回帮助中心",
+    "createTicket": "创建支持工单"
+  },
+  "ticketsCta": {
+    "title": "仍需要帮助吗？",
+    "description": "打开支持工单，我们的团队将尽快回复。",
+    "open": "开放工单中心",
+    "create": "创建新工单"
+  }
+}

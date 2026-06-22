@@ -1,0 +1,268 @@
+{
+  "search": {
+    "eyebrow": "Centro de ayuda",
+    "title": "Encuentre respuestas antes de su próximo paso de compras en China",
+    "subtitle": "Guías de búsqueda para agente de compras, estimación de envío, pedidos de DIY, reenvío, pago, paquetes, seguimiento y centro de tickets.",
+    "placeholder": "Buscar agente de compras, tarifa de envío, estimación, pedido de DIY, reenvío, pago...",
+    "examplesTitle": "Buscar ejemplos",
+    "results": "Resultados",
+    "emptyTitle": "No se encontró ningún resultado de ayuda",
+    "emptyDescription": "Pruebe con una palabra clave más amplia como envío, pago, paquete, boleto o pedido DIY.",
+    "examples": {
+      "shoppingAgent": "agente de compras",
+      "shippingFee": "tarifa de envío",
+      "estimation": "estimación",
+      "diyOrder": "DIY pedido",
+      "forwarding": "reenvío",
+      "payment": "pago",
+      "refund": "reembolso",
+      "restrictedItems": "artículos restringidos",
+      "package": "paquete",
+      "tracking": "seguimiento",
+      "ticket": "ticket"
+    }
+  },
+  "popularTopics": {
+    "eyebrow": "Temas populares",
+    "title": "Respuestas rápidas para tareas comunes",
+    "description": "Consulte las guías que los usuarios necesitan con mayor frecuencia antes de realizar un pedido, pagar o realizar un envío.",
+    "items": {
+      "orderLink": "Cómo realizar un pedido mediante un enlace de producto",
+      "estimation": "Cómo estimar la tarifa de envío internacional",
+      "diyOrder": "Cómo enviar un pedido DIY",
+      "forwarding": "Cómo funciona el servicio de reenvío",
+      "separateShipping": "Por qué la tarifa de envío se paga por separado",
+      "restricted": "Qué artículos están restringidos",
+      "recharge": "Cómo recargar la billetera",
+      "tracking": "Cómo rastrear el paquete",
+      "ticket": "Cómo abrir un ticket de soporte"
+    }
+  },
+  "categoriesSection": {
+    "eyebrow": "Categorías de ayuda",
+    "title": "Buscar por área de servicio",
+    "description": "Elija una categoría para filtrar artículos populares y respuestas de FAQ.",
+    "showAll": "Mostrar toda la ayuda",
+    "articleCount": "Artículos de {count}"
+  },
+  "categories": {
+    "howToBuy": {
+      "title": "Cómo comprar",
+      "description": "Enlaces de productos, búsqueda de imágenes, pago del agente de compras y envío de pedidos."
+    },
+    "orders": {
+      "title": "Pedidos",
+      "description": "Estado del pedido, compras, artículos agotados, cambios de precios y actualizaciones."
+    },
+    "payment": {
+      "title": "Pago y recarga",
+      "description": "Saldo de billetera, registros de recarga, pagos de productos y pago manual notas."
+    },
+    "shippingFee": {
+      "title": "Tarifa de envío",
+      "description": "Flete internacional, peso volumétrico, peso facturable y estimaciones."
+    },
+    "packages": {
+      "title": "Paquetes",
+      "description": "Llegada al almacén, creación de paquetes, seguimiento, estado de envío y entrega."
+    },
+    "forwarding": {
+      "title": "Reenvío",
+      "description": "Compre usted mismo, use nuestra dirección de almacén y envíe el envío nacional seguimiento."
+    },
+    "diyOrders": {
+      "title": "DIY Pedidos",
+      "description": "Cotizaciones manuales para productos que no se pueden analizar automáticamente."
+    },
+    "restrictedItems": {
+      "title": "Artículos restringidos",
+      "description": "Bienes sensibles, artículos prohibidos, baterías, líquidos, polvos y riesgos de marca."
+    },
+    "refunds": {
+      "title": "Reembolsos",
+      "description": "Reembolsos por falta de existencias, pedidos cancelados, reembolsos de billetera y tiempos de revisión."
+    },
+    "affiliate": {
+      "title": "Afiliado",
+      "description": "Enlaces de referencia, comisiones, pedidos válidos y conceptos básicos de pago."
+    },
+    "tickets": {
+      "title": "Centro de entradas",
+      "description": "Abra tickets, compruebe las respuestas, proporcione pruebas y siga el progreso del soporte."
+    },
+    "account": {
+      "title": "Cuenta",
+      "description": "Perfil, idioma, moneda, inicio de sesión de Google, direcciones y seguridad settings."
+    }
+  },
+  "articlesSection": {
+    "eyebrow": "Artículos populares",
+    "title": "Guías que los usuarios leen primero",
+    "description": "Ayuda práctica para realizar pedidos, envíos, pagos, reenvíos y soporte.",
+    "guideCount": "Guías {count}",
+    "updated": "{date} actualizado",
+    "read": "Leer"
+  },
+  "articles": {
+    "placeOrderLink": {
+      "title": "Cómo realizar un pedido usando el enlace de un producto",
+      "summary": "Pegue el enlace de un producto chino, elija variantes y cantidad, luego envíe el pago para conocer el costo del producto y la revisión del envío nacional.",
+      "content": "Pegue el producto URL en la búsqueda de CNSnap o en el analizador de productos. Revise el título, las imágenes, las variantes, el precio, la tarifa de envío nacional y la cantidad. Seleccione el SKU exacto, confirme el descargo de responsabilidad, luego agréguelo al carrito o cómprelo ahora. Primero paga el costo del producto, el envío nacional y la tarifa de servicio. El envío internacional se factura más tarde después de la llegada al almacén y el pesaje."
+    },
+    "shoppingAgent": {
+      "title": "Cómo utilizar el servicio de agente de compras",
+      "summary": "Agente de compras significa que nuestro equipo compra artículos por usted, los recibe en nuestro almacén y prepara el envío internacional.",
+      "content": "Utilice el Agente de compras cuando desee que CNSnap compre en plataformas chinas por usted. Después de enviar y pagar el pedido del producto, nuestro equipo de compras realiza el pedido al vendedor. Cuando los artículos llegan al almacén, el paquete se revisa, pesa y prepara para el pago del envío internacional."
+    },
+    "submitDiy": {
+      "title": "Cómo enviar un pedido DIY",
+      "summary": "Utilice el pedido DIY cuando no se pueda analizar el enlace de un producto, solo tenga una imagen o la solicitud necesite una cotización manual.",
+      "content": "Abra el pedido DIY, proporcione un producto URL o una imagen URL, el nombre del producto, las especificaciones, la cantidad, el país de destino y las notas. Nuestro equipo revisa la disponibilidad, el precio del vendedor, el envío nacional, las posibles restricciones y envía una cotización. Solo paga después de aceptar la cotización."
+    },
+    "forwarding": {
+      "title": "Cómo funciona el servicio de reenvío",
+      "summary": "El reenvío es para usuarios que compran por sí mismos y envían artículos a nuestro almacén de China para su envío internacional.",
+      "content": "Inicie sesión para obtener la dirección de su almacén y su código de usuario. Compre usted mismo en sitios web chinos e incluya su código de usuario en el destinatario o la dirección. Después de que el vendedor realice el envío, envíe el número de seguimiento nacional. El almacén recibe, identifica, almacena, pesa y reenvía su paquete internacionalmente."
+    },
+    "shippingFee": {
+      "title": "¿Cómo se calcula la tarifa de envío internacional?",
+      "summary": "La tarifa de envío depende del destino, canal, peso real, peso volumétrico, peso mínimo cobrable y restricciones del producto.",
+      "content": "El envío internacional se calcula después del pesaje en almacén. Los transportistas comparan el peso real y el peso volumétrico y luego facturan según el peso facturable mayor. El peso volumétrico es largo × ancho × alto dividido por el divisor de volumen del canal. Los productos sensibles, los límites de destino y las reglas del canal pueden cambiar las rutas disponibles."
+    },
+    "separateShipping": {
+      "title": "¿Por qué debo pagar el envío por separado?",
+      "summary": "El pago del producto se realiza antes de la compra. El envío internacional solo se puede confirmar después de que el almacén reciba y pese el paquete.",
+      "content": "Al finalizar la compra, usted paga el costo del producto, el envío nacional y la tarifa de servicio. El flete internacional no puede ser definitivo antes de que el almacén conozca el peso real del embalaje, las dimensiones, el destino y el canal disponible. Después de su llegada, CNSnap crea el paquete y la factura de envío para su confirmación."
+    },
+    "restricted": {
+      "title": "¿Qué artículos están restringidos?",
+      "summary": "Las baterías, líquidos, polvos, alimentos, cosméticos, artículos de lujo de marca y artículos peligrosos pueden requerir revisión o ser rechazados.",
+      "content": "Los artículos restringidos o sensibles dependen del transportista y de las normas aduaneras. Es posible que las baterías, líquidos, polvos, alimentos, cosméticos, medicinas, armas, mercancías peligrosas, productos falsificados y artículos de marca de alto valor requieran revisión manual, líneas especiales, documentos adicionales o no se acepten para el envío."
+    },
+    "recharge": {
+      "title": "¿Cómo recargar mi billetera?",
+      "summary": "El saldo de la billetera se puede utilizar para pagos de productos, pagos de envío y tarifas de servicio después de que se confirmen los registros de recarga.",
+      "content": "Vaya a Recarga de cuenta, ingrese el monto y elija un método de pago. V1.0 admite registros de marcador de posición de pago manual. Una vez confirmado el pago, el saldo se puede utilizar para pedidos de productos, envíos internacionales, ajustes y reembolsos."
+    },
+    "tracking": {
+      "title": "¿Cómo rastrear mi paquete?",
+      "summary": "Después de que un paquete se envía internacionalmente, el número de seguimiento y el estado del envío se muestran en Paquetes de cuenta.",
+      "content": "Abra Paquetes de cuenta para ver el estado del paquete, el canal de envío, el número de seguimiento y el tiempo de envío. El seguimiento puede tardar en actualizarse después del envío. Si el seguimiento se detiene o muestra una excepción, abra un ticket de soporte con el número de paquete y el número de seguimiento."
+    },
+    "ticket": {
+      "title": "¿Cómo abrir un ticket de soporte?",
+      "summary": "Utilice el Centro de tickets para problemas con pedidos, preguntas sobre paquetes, comprobantes de pago, reembolsos, artículos restringidos o excepciones de envío.",
+      "content": "Abra el Centro de tickets y cree un ticket nuevo. Elija la categoría más cercana, agregue números de pedido o paquete, describa el problema y cargue cualquier evidencia útil más adelante cuando se conecte la carga de archivos. Nuestro equipo de soporte responde en el hilo del ticket."
+    }
+  },
+  "faqSection": {
+    "eyebrow": "FAQ",
+    "title": "Preguntas frecuentes",
+    "description": "Respuestas breves para agente de compras, estimación, pedidos de DIY, reenvío, pago y tickets de soporte."
+  },
+  "faq": {
+    "saTaobao": {
+      "question": "¿Puedes comprar en Taobao o 1688 por mí?",
+      "answer": "Sí. Utilice Shopping Agent para obtener enlaces de productos compatibles. Si no se puede analizar una página, envíe un pedido DIY para revisión manual."
+    },
+    "saImage": {
+      "question": "¿Puedo buscar por imagen de producto?",
+      "answer": "La búsqueda de imágenes puede ayudar a descubrir productos. Si el resultado no está claro, utilice Pedido DIY y proporcione la imagen URL o la captura de pantalla del producto."
+    },
+    "saOutStock": {
+      "question": "¿Qué sucede si el artículo está agotado?",
+      "answer": "Nuestro equipo actualizará el pedido y se comunicará con usted. Puede elegir reemplazo, cancelación o reembolso dependiendo de la situación del vendedor."
+    },
+    "estFinal": {
+      "question": "¿La tarifa de envío estimada es definitiva?",
+      "answer": "No. El presupuesto es para planificación. El flete final se basa en el peso medido en el almacén, las dimensiones empaquetadas, la revisión del producto y el canal seleccionado."
+    },
+    "estVolumetric": {
+      "question": "¿Qué es el peso volumétrico?",
+      "answer": "El peso volumétrico convierte el tamaño del paquete en peso facturable. Los paquetes grandes y livianos pueden costar más porque ocupan más espacio en el transportista."
+    },
+    "estChargeable": {
+      "question": "¿Por qué el peso facturable es diferente del peso real?",
+      "answer": "Los transportistas facturan por el valor mayor entre el peso real, el peso volumétrico y el peso mínimo facturable."
+    },
+    "diyWhen": {
+      "question": "¿Cuándo debo enviar un pedido de DIY?",
+      "answer": "Enviar el pedido de DIY cuando no se puede analizar el enlace del producto, solo usted tiene una imagen, las especificaciones son complejas o necesita una cotización manual."
+    },
+    "diyQuote": {
+      "question": "¿Cuánto tiempo lleva una cotización de pedido DIY?",
+      "answer": "La mayoría de las cotizaciones se revisan dentro de 1 día hábil. Los artículos complejos o la confirmación del vendedor pueden tardar más."
+    },
+    "diyImage": {
+      "question": "¿Puedo enviar solo una imagen del producto?",
+      "answer": "Sí. Se acepta una imagen de producto, pero un enlace o una descripción detallada ayuda a nuestro equipo a cotizar más rápido."
+    },
+    "fwBuySelf": {
+      "question": "¿Puedo comprar yo solo y usar solo su almacén?",
+      "answer": "Sí. Utilice Reenvío, copie la dirección de su almacén y envíe el número de seguimiento nacional después del envío del vendedor."
+    },
+    "fwDifference": {
+      "question": "¿Cuál es la diferencia entre Agente de compras y Reenvío?",
+      "answer": "Agente de compras significa que CNSnap compra por usted. Reenvío significa que usted compra usted mismo y CNSnap se encarga de la recepción en el almacén y del envío internacional."
+    },
+    "fwUserCode": {
+      "question": "¿Por qué necesito incluir mi código de usuario?",
+      "answer": "El código de usuario permite al personal del almacén relacionar los paquetes entrantes con su cuenta. Los códigos de usuario faltantes pueden retrasar la recepción."
+    },
+    "payProduct": {
+      "question": "¿Cómo pago el costo del producto?",
+      "answer": "Puede pagar durante el pago utilizando el saldo disponible o los métodos de pago admitidos. Los registros de recarga y pago manual se pueden ampliar más adelante."
+    },
+    "payShipping": {
+      "question": "¿Por qué pago el envío internacional por separado?",
+      "answer": "El envío internacional se calcula después de la llegada al almacén porque el peso y las dimensiones finales del embalaje se desconocen antes de recibirlo."
+    },
+    "payRefund": {
+      "question": "¿Puedo obtener un reembolso?",
+      "answer": "La elegibilidad para el reembolso depende del estado del pedido, la política del vendedor y si el artículo ya se compró o se envió."
+    },
+    "ticketWhen": {
+      "question": "¿Cuándo debo abrir un ticket?",
+      "answer": "Abrir un ticket para preguntas sobre el pedido, comprobante de pago y paquete excepciones, reembolsos, revisión de artículos restringidos o problemas de cuenta."
+    },
+    "ticketReplies": {
+      "question": "¿Cómo verifico las respuestas a los tickets?",
+      "answer": "Vaya al Centro de tickets de cuenta y abra el hilo del ticket para ver las respuestas de soporte y las actualizaciones de estado."
+    },
+    "ticketReopen": {
+      "question": "¿Puedo reabrir un ticket resuelto?",
+      "answer": "V1.0 puede reservar el comportamiento de reapertura. Si el problema resuelto continúa, cree un ticket nuevo y haga referencia al número de ticket anterior."
+    },
+    "packageArrival": {
+      "question": "¿Cómo sé que mi paquete llegó al almacén?",
+      "answer": "Verifique los paquetes de la cuenta. El estado de recepción del almacén aparece después de que el personal coteje y procese el paquete entrante."
+    },
+    "accountLanguage": {
+      "question": "¿Puedo cambiar el idioma o la moneda?",
+      "answer": "Sí. Utilice el selector de idioma y moneda de la interfaz o las preferencias de perfil de cuenta cuando esté conectado."
+    },
+    "affiliateReward": {
+      "question": "¿Cómo funcionan las recompensas de afiliados?",
+      "answer": "Comparta su enlace de referencia. La comisión se calcula a partir de pedidos recomendados válidos de acuerdo con la política de afiliados."
+    }
+  },
+  "filter": {
+    "showing": "Mostrando ayuda para"
+  },
+  "empty": {
+    "articlesTitle": "Aún no hay artículos en esta categoría",
+    "articlesDescription": "Pruebe con otra categoría o utilice la búsqueda anterior.",
+    "faqTitle": "Aún no hay FAQ en esta categoría",
+    "faqDescription": "Tickets Center aún puede ayudar con este tema."
+  },
+  "articleDialog": {
+    "keywords": "Palabras clave",
+    "quickAnswer": "Respuesta de soporte rápida"
+  },
+  "ticketsCta": {
+    "title": "¿Aún necesitas ayuda?",
+    "description": "Abre un ticket de soporte y nuestro equipo te responderá lo antes posible.",
+    "open": "Abrir centro de tickets",
+    "create": "Crear nuevo ticket"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "hero": {
+    "eyebrow": "Usługa spedycyjna",
+    "title": "Kupuj sam. Wyślij do naszego magazynu. Wysyłamy na cały świat.",
+    "subtitle": "Kiedy robisz zakupy na chińskich stronach internetowych, skorzystaj z adresu naszego magazynu w Chinach. Odbieramy, przechowujemy, konsolidujemy i wysyłamy Twoje produkty za granicę.",
+    "warehouseAddress": "Uzyskaj adres magazynu",
+    "submitParcel": "Prześlij przychodzącą paczkę",
+    "estimateFee": "Oszacuj opłatę za wysyłkę",
+    "cards": {
+      "warehouse": {
+        "title": "Skorzystaj z naszego magazynu w Chinach",
+        "description": "Skopiuj swój adres osobisty i dodaj kod użytkownika podczas dokonywania zakupów na chińskich stronach internetowych."
+      },
+      "code": {
+        "title": "Zidentyfikuj swoją przesyłkę",
+        "description": "Prześlij krajowy numer śledzenia, aby pracownicy magazynu mogli dopasować paczkę do Twojego konta."
+      },
+      "consolidate": {
+        "title": "Wysyłaj za granicę",
+        "description": "Po zważeniu i spakowaniu wybierz kanał wysyłki i zapłać za fracht międzynarodowy."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Agent handlowy kontra spedycja",
+    "title": "Dwa sposoby uzyskania produkty z Chin",
+    "description": "Korzystaj z Agenta handlowego, jeśli chcesz, żebyśmy kupili dla Ciebie. Skorzystaj z opcji Przesyłanie, jeśli sam kupiłeś już produkty.",
+    "columns": {
+      "feature": "Funkcja",
+      "agent": "Agent ds. zakupów",
+      "forwarding": "Przesyłanie"
+    },
+    "rows": {
+      "owner": {
+        "feature": "Kto kupuje",
+        "agent": "Pomagamy Ci kupować produkty od sprzedawców.",
+        "forwarding": "Sam kupujesz produkty na chińskich stronach internetowych."
+      },
+      "payment": {
+        "feature": "Pierwsza płatność",
+        "agent": "Płacisz koszt produktu, opłatę za wysyłkę krajową i usługę.",
+        "forwarding": "Płacisz sprzedającemu bezpośrednio przed dotarciem paczki."
+      },
+      "workflow": {
+        "feature": "Zamów przepływ pracy",
+        "agent": "Składamy zamówienie, kupujemy, odbieramy, pakujemy i wysyłamy.",
+        "forwarding": "Ty wysyłasz produkty do naszego magazynu, następnie my odbieramy, ważymy i przekazujemy."
+      },
+      "warehouse": {
+        "feature": "Rola magazynu",
+        "agent": "Magazyn odbiera produkty zakupione przez nasz zespół.",
+        "forwarding": "Magazyn identyfikuje przesyłki na podstawie Twojego kodu użytkownika i numeru śledzenia."
+      },
+      "shipping": {
+        "feature": "Wysyłka międzynarodowa",
+        "agent": "Za przesyłkę międzynarodową płacisz po zważeniu w magazynie.",
+        "forwarding": "Za przesyłkę międzynarodową płacisz po zważeniu przesyłek spedycyjnych."
+      }
+    }
+  },
+  "steps": {
+    "eyebrow": "Jak działa spedycja",
+    "title": "Od zamówienia sprzedawcy do dostawy międzynarodowej",
+    "description": "Spedycja jest najlepsza, gdy możesz zrobić zakupy samodzielnie, ale potrzebujesz magazynu w Chinach, konsolidacja i wysyłka międzynarodowa.",
+    "items": {
+      "register": {
+        "title": "Zarejestruj konto",
+        "description": "Utwórz konto, aby hurtownia mogła przypisywać przesyłki do Twojego profilu użytkownika."
+      },
+      "address": {
+        "title": "Uzyskaj adres magazynu",
+        "description": "Skopiuj swój osobisty adres magazynu i kod użytkownika z tej strony."
+      },
+      "buy": {
+        "title": "Kupuj samodzielnie na chińskich stronach internetowych",
+        "description": "Złóż zamówienie bezpośrednio u sprzedawcy lub na rynku."
+      },
+      "userCode": {
+        "title": "Użyj swojego kodu użytkownika w adresie",
+        "description": "Wpisz swój kod użytkownika w nazwie lub adresie odbiorcy, abyśmy mogli zidentyfikować przesyłkę."
+      },
+      "tracking": {
+        "title": "Prześlij krajowy numer śledzenia",
+        "description": "Podaj nam numer przesyłki kurierskiej i śledzenia, gdy sprzedawca wyśle Twoje produkty do Chin."
+      },
+      "receive": {
+        "title": "Magazyn otrzyma Twoje produkty",
+        "description": "Dopasowujemy, sprawdzamy, przechowujemy i aktualizujemy zapis przesyłki."
+      },
+      "chooseShipping": {
+        "title": "Wybierz wysyłkę międzynarodową",
+        "description": "Po zważeniu wybierz kanał wysyłki w oparciu o koszt, prędkość i ograniczenia."
+      },
+      "payShipping": {
+        "title": "Zapłać opłatę za wysyłkę",
+        "description": "Facht międzynarodowy jest rozliczany po potwierdzeniu ostatecznej wagi i wymiarów paczki."
+      },
+      "ship": {
+        "title": "Wysyłamy do Twojego kraju",
+        "description": "Śledź swoją przesyłkę aż dotrze pod adres docelowy."
+      }
+    }
+  },
+  "warehouse": {
+    "eyebrow": "Przewodnik po adresach magazynu",
+    "title": "Adres Twojego magazynu w Chinach",
+    "description": "Użyj tego adresu, gdy kupujesz na chińskich stronach internetowych. Twój kod użytkownika jest wymagany, aby pracownicy magazynu mogli zidentyfikować Twoje przesyłki.",
+    "guest": "Zaloguj się, aby uzyskać osobisty adres magazynu.",
+    "signedIn": "Zalogowano się jako {email}",
+    "recipientName": "Nazwa odbiorcy",
+    "warehouseAddress": "Adres magazynu",
+    "phoneNumber": "Numer telefonu",
+    "postalCode": "Kod pocztowy",
+    "userCode": "Kod użytkownika / Klient ID",
+    "importantTitle": "Ważna zasada dotycząca adresu",
+    "importantDescription": "Podczas składania zamówienia sprzedawcy podaj swój kod użytkownika w nazwie lub adresie odbiorcy. Przesyłki bez kodu użytkownika mogą być opóźnione.",
+    "example": "Przykład: Odbiorca: Jack Dai - UID10086",
+    "copy": "Skopiuj adres",
+    "copied": "Adres magazynu skopiowany.",
+    "loginTitle": "Zaloguj się, aby uzyskać swój osobisty adres magazynu.",
+    "loginDescription": "Każdy użytkownik potrzebuje unikalnego kodu użytkownika. Przed wysłaniem przesyłek do magazynu prosimy o zalogowanie się.",
+    "login": "Zaloguj się"
+  },
+  "form": {
+    "eyebrow": "Wyślij przychodzącą paczkę",
+    "title": "Poinformuj nas o dostawie",
+    "description": "Prześlij krajowy numer śledzenia po tym, jak sprzedawca wyśle paczkę do naszego magazynu w Chinach.",
+    "guest": "Przed wysłaniem wymagane jest zalogowanie się.",
+    "signedIn": "Zalogowano się jako {email}",
+    "fields": {
+      "domesticTrackingNumber": "Śledzenie krajowe numer",
+      "courierCompany": "Firma kurierska",
+      "productName": "Nazwa produktu",
+      "productCategory": "Kategoria produktu",
+      "quantity": "Ilość",
+      "estimatedValue": "Szacowana wartość USD",
+      "productUrl": "Produkt URL",
+      "notes": "Uwagi"
+    },
+    "placeholders": {
+      "courierCompany": "Wybierz kuriera",
+      "productCategory": "Wybierz kategorię",
+      "productName": "Nazwa produktu lub krótki opis",
+      "notes": "Dodaj szczegóły paczki, notatki sprzedawcy, prośby o konsolidację lub preferencje dotyczące obsługi."
+    },
+    "hints": {
+      "domesticTrackingNumber": "Prześlij po dostarczeniu przez sprzedawcę krajowego numeru śledzenia w Chinach."
+    },
+    "categories": {
+      "general": "Towary ogólne",
+      "clothing": "Odzież",
+      "shoes": "Obuwie",
+      "electronics": "Elektronika",
+      "battery": "Produkty akumulatorowe",
+      "liquid": "Płyny",
+      "cosmetics": "Kosmetyki",
+      "food": "Żywność",
+      "luxury": "Luksusowe Towar",
+      "other": "Inne"
+    },
+    "validation": {
+      "tracking": "Wymagany krajowy numer śledzenia.",
+      "courier": "Wybierz firmę kurierską.",
+      "productName": "Wymagana jest nazwa produktu.",
+      "productCategory": "Wybierz kategorię produktu.",
+      "quantity": "Ilość musi być liczbą całkowitą większą niż 0.",
+      "url": "Wprowadź prawidłowy kod URL."
+    },
+    "loginRequired": "Zaloguj się przed wysłaniem przesyłki przychodzącej.",
+    "submitted": "Przesłano przesyłkę przychodzącą. Dopasujemy go po przybyciu do magazynu.",
+    "submitting": "Przesyłanie...",
+    "submit": "Prześlij przychodzącą paczkę",
+    "disclaimer": "Przesłanie rejestru przesyłki nie powoduje utworzenia rachunku za wysyłkę. Transport międzynarodowy jest obliczany po zważeniu magazynu."
+  },
+  "services": {
+    "eyebrow": "Usługi obsługi paczek",
+    "title": "Co magazyn może zrobić dla Twoich przesyłek",
+    "description": "Spedycja obejmuje odbiór, przechowywanie i obsługę wysyłki międzynarodowej. Dodatkowe opcje obsługi można później połączyć z usługami płatnymi.",
+    "items": {
+      "receiving": {
+        "title": "Odbiór z magazynu",
+        "description": "Odbieramy przesyłki krajowe i dopasowujemy je do Twojego konta."
+      },
+      "storage": {
+        "title": "Bezpłatne przechowywanie",
+        "description": "Dni bezpłatnego przechowywania można skonfigurować później w oparciu o politykę usługi."
+      },
+      "consolidation": {
+        "title": "Konsolidacja paczek",
+        "description": "Połącz wiele paczek w jedną międzynarodową wysyłka, jeśli to możliwe."
+      },
+      "photoInspection": {
+        "title": "Kontrola fotograficzna",
+        "description": "Zdjęcia magazynu mogą pomóc w potwierdzeniu widocznego stanu przedmiotu przed wysyłką."
+      },
+      "removePackaging": {
+        "title": "Usuń oryginalne opakowanie",
+        "description": "Zmniejsz niepotrzebne opakowanie sprzedawcy, jeśli to konieczne."
+      },
+      "repackaging": {
+        "title": "Przepakowanie",
+        "description": "Popraw ochronę i objętość przesyłki przed transportem międzynarodowym wysyłka."
+      },
+      "internationalShipping": {
+        "title": "Wysyłka międzynarodowa",
+        "description": "Wybierz dostępne kanały wysyłki po potwierdzeniu wagi końcowej."
+      },
+      "trackingUpdate": {
+        "title": "Aktualizacja śledzenia",
+        "description": "Śledzenie przesyłki międzynarodowej jest aktualizowane po wysłaniu paczki."
+      }
+    }
+  },
+  "restrictions": {
+    "eyebrow": "Ograniczenia",
+    "title": "Zasady spedycji przed wysyłką do nas",
+    "description": "Przesyłanie jest wygodne, ale nadal obowiązują zasady przewoźnika i celne. Przed wysłaniem produktów do magazynu sprawdź ryzyko.",
+    "items": {
+      "restricted": "Nie wysyłaj przedmiotów objętych ograniczeniami.",
+      "sensitive": "Baterie, płyny, proszki, żywność i towary luksusowe mogą wymagać sprawdzenia.",
+      "userCode": "Wpisz kod użytkownika w adresie.",
+      "trackingNumber": "Prześlij numer śledzenia po zakupie.",
+      "storage": "Czas przechowywania może być ograniczony.",
+      "finalFee": "Ostateczna opłata za wysyłkę na podstawie wagi i wymiarów magazynu.",
+      "customsTax": "Podatek celny nie jest wliczony w cenę, chyba że jest podany."
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Spedycja FAQ",
+    "description": "Krótkie odpowiedzi dla użytkowników, którzy sami kupują i wysyłają do naszego magazynu.",
+    "items": {
+      "whatIsForwarding": {
+        "question": "Co to jest usługa spedycyjna?",
+        "answer": "Spedycja umożliwia samodzielne kupowanie produktów, wysyłanie ich do naszego magazynu w Chinach, a następnie korzystanie z usług nas w celu odbioru, przechowywania, konsolidacji i dostawy międzynarodowej."
+      },
+      "difference": {
+        "question": "Jaka jest różnica między agentem handlowym a spedycją?",
+        "answer": "Agent zakupowy oznacza, że ​​kupujemy za Ciebie. Spedycja oznacza, że ​​dokonujesz zakupów samodzielnie, a my zajmujemy się wysyłką magazynową i międzynarodową po przybyciu."
+      },
+      "warehouseAddress": {
+        "question": "Jak uzyskać adres magazynu?",
+        "answer": "Zaloguj się na swoje konto i skopiuj osobisty adres magazynu widoczny na tej stronie."
+      },
+      "userCode": {
+        "question": "Dlaczego muszę podać mój kod użytkownika?",
+        "answer": "Kod użytkownika pozwala pracownikom magazynu dopasować przesyłki do Twojego konta. Brakujące kody mogą opóźnić otrzymanie."
+      },
+      "consolidation": {
+        "question": "Czy mogę połączyć wiele paczek?",
+        "answer": "Tak, jeśli rozmiar paczki, rodzaj produktu i zasady kanału wysyłki pozwalają na konsolidację."
+      },
+      "forgotTracking": {
+        "question": "Co się stanie, jeśli zapomnę podać numer śledzenia?",
+        "answer": "Magazyn może mimo to odebrać paczkę, jeśli obecny jest Twój kod użytkownika, ale dopasowywanie może przebiegać wolniej. Jak najszybciej prześlij śledzenie."
+      },
+      "restrictedItems": {
+        "question": "Jakich przedmiotów nie można przesyłać dalej?",
+        "answer": "Zabronione, niebezpieczne, podrabiane, w płynie, w proszku, żywność, baterie lub markowe przedmioty luksusowe mogą zostać odrzucone lub wymagać specjalnego sprawdzenia."
+      },
+      "feeCalculated": {
+        "question": "W jaki sposób obliczana jest opłata za wysyłkę?",
+        "answer": "Opłata naliczana jest na podstawie ostatecznej wagi i wymiarów opakowania, kraju docelowego, kanału wysyłki i ograniczeń produktu po ważenie magazynu."
+      }
+    }
+  },
+  "cta": {
+    "title": "Chcesz wysłać swoje paczki do Chin?",
+    "description": "Skopiuj adres magazynu, prześlij numer przesyłki krajowej lub oszacuj wysyłkę międzynarodową przed wysłaniem produktów.",
+    "warehouseAddress": "Uzyskaj adres magazynu",
+    "submitParcel": "Prześlij przychodzącą paczkę",
+    "estimateFee": "Oszacuj opłatę za wysyłkę"
+  }
+}

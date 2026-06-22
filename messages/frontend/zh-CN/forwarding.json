@@ -1,0 +1,274 @@
+{
+  "hero": {
+    "eyebrow": "转发服务",
+    "title": "自行购买。运送到我们的仓库。我们向全球转发。",
+    "subtitle": "当您在中国网站上购物时，请使用我们的中国仓库地址。我们在全球范围内接收、存储、整合和运送您的物品。",
+    "warehouseAddress": "获取仓库地址",
+    "submitParcel": "提交传入包裹",
+    "estimateFee": "预估运费",
+    "cards": {
+      "warehouse": {
+        "title": "使用我们的中国仓库",
+        "description": "在中国网站结帐时复制您的个人地址并添加您的用户代码。"
+      },
+      "code": {
+        "title": "识别您的身份包裹",
+        "description": "提交国内追踪号码，以便仓库工作人员将包裹与您的帐户进行匹配。"
+      },
+      "consolidate": {
+        "title": "国际转发",
+        "description": "称重和包装后，选择运输渠道并支付国际运费。"
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "代购与转发",
+    "title": "从中国获取产品的两种方式",
+    "description": "使用代购当您希望我们为您购买时。当您自己购买了商品时，请使用转发。",
+    "columns": {
+      "feature": "功能",
+      "agent": "购物代理",
+      "forwarding": "转发"
+    },
+    "rows": {
+      "owner": {
+        "feature": "谁购买",
+        "agent": "我们帮助您从卖家那里购买产品。",
+        "forwarding": "您自己在中国网站上购买产品。"
+      },
+      "payment": {
+        "feature": "首次付款",
+        "agent": "您支付产品成本、国内运费和服务费。",
+        "forwarding": "您在包裹到达之前直接向卖家付款。"
+      },
+      "workflow": {
+        "feature": "订单工作流程",
+        "agent": "我们下订单、购买、接收、包装和运输。",
+        "forwarding": "您将物品发送到我们的仓库，然后我们接收、称重并转发。"
+      },
+      "warehouse": {
+        "feature": "仓库角色",
+        "agent": "仓库接收我们团队购买的物品。",
+        "forwarding": "仓库使用您的用户代码和追踪号码识别包裹。"
+      },
+      "shipping": {
+        "feature": "国际运费",
+        "agent": "您在仓库称重后支付国际运费。",
+        "forwarding": "您在转发包裹称重后支付国际运费。"
+      }
+    }
+  },
+  "steps": {
+    "eyebrow": "转发如何运作",
+    "title": "从卖家订单到国际交付",
+    "description": "当您可以自己购物但需要中国仓库、拼箱和国际运输时，转发是最好的选择。",
+    "items": {
+      "register": {
+        "title": "注册帐户",
+        "description": "创建一个帐户，以便仓库可以将包裹分配到您的用户个人资料。"
+      },
+      "address": {
+        "title": "获取您的仓库地址",
+        "description": "从此页面复制您的个人仓库地址和用户代码。"
+      },
+      "buy": {
+        "title": "自己从中国网站购买",
+        "description": "直接向卖家或市场下订单。"
+      },
+      "userCode": {
+        "title": "在地址中使用您的用户代码",
+        "description": "在收件人姓名或地址中输入您的用户代码，以便我们识别包裹。"
+      },
+      "tracking": {
+        "title": "提交国内追踪号码",
+        "description": "卖家在中国境内发货后告诉我们快递和追踪号码。"
+      },
+      "receive": {
+        "title": "仓库收到您的物品",
+        "description": "我们匹配、检查、存储和更新包裹记录。"
+      },
+      "chooseShipping": {
+        "title": "选择国际运输",
+        "description": "称重后，根据成本、速度和限制选择运输渠道。"
+      },
+      "payShipping": {
+        "title": "支付运费",
+        "description": "国际运费在确认最终包裹重量和尺寸后计费。"
+      },
+      "ship": {
+        "title": "我们运送到您所在的国家/地区",
+        "description": "跟踪您的包裹，直至到达您的目的地目标地址。"
+      }
+    }
+  },
+  "warehouse": {
+    "eyebrow": "仓库地址指南",
+    "title": "您的中国仓库地址",
+    "description": "从中国网站购买时使用此地址。需要您的用户代码，以便仓库工作人员识别您的包裹。",
+    "guest": "登录以获取您的个人仓库地址。",
+    "signedIn": "以 {email} 身份登录",
+    "recipientName": "收件人姓名",
+    "warehouseAddress": "仓库地址",
+    "phoneNumber": "电话号码",
+    "postalCode": "邮政编码",
+    "userCode": "用户代码/客户 ID",
+    "importantTitle": "重要地址规则",
+    "importantDescription": "向卖家下订单时，请在收件人姓名或地址中包含您的用户代码。没有用户代码的包裹可能会延迟。",
+    "example": "示例：收件人：Jack Dai - UID10086",
+    "copy": "复制地址",
+    "copied": "已复制仓库地址。",
+    "loginTitle": "登录获取您的个人仓库地址。",
+    "loginDescription": "每个用户都需要一个唯一的用户代码。发送包裹至仓库前请先登录。",
+    "login": "登录"
+  },
+  "form": {
+    "eyebrow": "提交收到的包裹",
+    "title": "告诉我们到达的货物",
+    "description": "卖家将包裹运送到我们的中国仓库后，请提交国内追踪号码。",
+    "guest": "提交前需要登录。",
+    "signedIn": "以 {email} 身份登录",
+    "fields": {
+      "domesticTrackingNumber": "国内追踪号码",
+      "courierCompany": "快递公司",
+      "productName": "产品名称",
+      "productCategory": "产品类别",
+      "quantity": "数量",
+      "estimatedValue": "预估价值USD",
+      "productUrl": "产品URL",
+      "notes": "备注"
+    },
+    "placeholders": {
+      "courierCompany": "选择快递",
+      "productCategory": "选择类别",
+      "productName": "产品名称或简短描述",
+      "notes": "添加包裹详细信息、卖家备注、合并请求或处理偏好。"
+    },
+    "hints": {
+      "domesticTrackingNumber": "在卖家提供中国国内追踪号码后提交。"
+    },
+    "categories": {
+      "general": "一般商品",
+      "clothing": "服装",
+      "shoes": "鞋子",
+      "electronics": "电子产品",
+      "battery": "电池产品",
+      "liquid": "液体",
+      "cosmetics": "化妆品",
+      "food": "食品",
+      "luxury": "奢侈品商品",
+      "other": "其他"
+    },
+    "validation": {
+      "tracking": "必填国内追踪号码。",
+      "courier": "请选择快递公司。",
+      "productName": "必填产品名称。",
+      "productCategory": "请选择产品类别。",
+      "quantity": "数量必须是大于0的整数。",
+      "url": "请输入有效的 URL。"
+    },
+    "loginRequired": "请先登录，然后再提交传入包裹。",
+    "submitted": "已提交传入包裹。到货后我们会进行匹配。",
+    "submitting": "正在提交...",
+    "submit": "提交传入包裹",
+    "disclaimer": "提交包裹记录不会创建运费单。国际运费是在仓库称重后计算的。"
+  },
+  "services": {
+    "eyebrow": "包裹处理服务",
+    "title": "仓库可以为您的包裹做什么",
+    "description": "转发包括接收、存储和国际运输支持。额外的处理选项可以稍后连接到付费服务。",
+    "items": {
+      "receiving": {
+        "title": "仓库收货",
+        "description": "我们接收国内包裹，并将其与您的帐户匹配。"
+      },
+      "storage": {
+        "title": "免费存储",
+        "description": "稍后可以根据服务政策配置免费存储天数。"
+      },
+      "consolidation": {
+        "title": "包裹合并",
+        "description": "在以下情况下将多个包裹合并为一件国际货件：可能。"
+      },
+      "photoInspection": {
+        "title": "照片检查",
+        "description": "仓库照片有助于在发货前确认可见的商品状况。"
+      },
+      "removePackaging": {
+        "title": "拆除原始包装",
+        "description": "酌情减少不必要的卖家包装。"
+      },
+      "repackaging": {
+        "title": "重新包装",
+        "description": "在国际运输前改善包装保护和体积。"
+      },
+      "internationalShipping": {
+        "title": "国际运输",
+        "description": "确认最终重量后选择可用的运输渠道。"
+      },
+      "trackingUpdate": {
+        "title": "跟踪更新",
+        "description": "国际跟踪在包裹发出后更新。"
+      }
+    }
+  },
+  "restrictions": {
+    "eyebrow": "限制",
+    "title": "运送给我们之前的转发规则",
+    "description": "转发很方便，但承运商和海关规则仍然适用。在将物品发送到仓库之前，请先检查风险。",
+    "items": {
+      "restricted": "请勿运送受限制的物品。",
+      "sensitive": "电池、液体、粉末、食品和奢侈品可能需要检查。",
+      "userCode": "在地址中使用您的用户代码。",
+      "trackingNumber": "购买后提交跟踪号码。",
+      "storage": "存储时间可能有限。",
+      "finalFee": "最终运费根据仓库重量和尺寸而定。",
+      "customsTax": "除非另有说明，否则不包含关税。"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "转发 FAQ",
+    "description": "针对自行购买并运送到我们仓库的用户的简短回答。",
+    "items": {
+      "whatIsForwarding": {
+        "question": "什么是转发服务？",
+        "answer": "转发让您自己购买产品，将其运送到我们的中国仓库，然后由我们进行收货、存储、整合和国际配送。"
+      },
+      "difference": {
+        "question": "代购和转发有什么区别？",
+        "answer": "代购是指我们为您代购。转运是指您自行购买，我们在抵达后处理仓库和国际运输。"
+      },
+      "warehouseAddress": {
+        "question": "如何获取我的仓库地址？",
+        "answer": "登录您的帐户并复制此页面上显示的个人仓库地址。"
+      },
+      "userCode": {
+        "question": "为什么我需要包含我的用户代码？",
+        "answer": "用户代码可让仓库工作人员将包裹与您的帐户进行匹配。缺少代码可能会延迟接收。"
+      },
+      "consolidation": {
+        "question": "我可以合并多个包裹吗？",
+        "answer": "可以，当包裹尺寸、产品类型和运输渠道规则允许合并时。"
+      },
+      "forgotTracking": {
+        "question": "如果我忘记提交追踪号码会怎样？",
+        "answer": "如果您的用户代码存在，仓库仍可能收到包裹，但匹配速度可能会较慢。尽快提交追踪信息。"
+      },
+      "restrictedItems": {
+        "question": "哪些物品不能转发？",
+        "answer": "违禁品、危险品、假冒品、液体、粉末、食品、电池或品牌奢侈品可能会被拒绝或需要特殊审核。"
+      },
+      "feeCalculated": {
+        "question": "转发运费如何计算？",
+        "answer": "该费用根据最终包装重量、尺寸、目的地国家/地区、运输渠道和产品限制而定。仓库称重。"
+      }
+    }
+  },
+  "cta": {
+    "title": "准备好转发您的中国包裹了吗？",
+    "description": "复制您的仓库地址，提交传入的国内追踪号码，或在发送物品之前估算国际运费。",
+    "warehouseAddress": "获取仓库地址",
+    "submitParcel": "提交收到的包裹",
+    "estimateFee": "预估运费"
+  }
+}

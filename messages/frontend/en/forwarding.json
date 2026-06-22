@@ -1,0 +1,274 @@
+{
+  "hero": {
+    "eyebrow": "Forwarding Service",
+    "title": "Buy by yourself. Ship to our warehouse. We forward worldwide.",
+    "subtitle": "Use our China warehouse address when you shop on Chinese websites. We receive, store, consolidate and ship your items internationally.",
+    "warehouseAddress": "Get Warehouse Address",
+    "submitParcel": "Submit Incoming Parcel",
+    "estimateFee": "Estimate Shipping Fee",
+    "cards": {
+      "warehouse": {
+        "title": "Use our China warehouse",
+        "description": "Copy your personal address and add your user code when checking out on Chinese websites."
+      },
+      "code": {
+        "title": "Identify your parcel",
+        "description": "Submit the domestic tracking number so warehouse staff can match the package to your account."
+      },
+      "consolidate": {
+        "title": "Forward internationally",
+        "description": "After weighing and packing, choose a shipping channel and pay the international freight."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Shopping Agent vs Forwarding",
+    "title": "Two ways to get products from China",
+    "description": "Use Shopping Agent when you want us to purchase for you. Use Forwarding when you already bought the items yourself.",
+    "columns": {
+      "feature": "Feature",
+      "agent": "Shopping Agent",
+      "forwarding": "Forwarding"
+    },
+    "rows": {
+      "owner": {
+        "feature": "Who buys",
+        "agent": "We help you purchase products from sellers.",
+        "forwarding": "You buy products by yourself on Chinese websites."
+      },
+      "payment": {
+        "feature": "First payment",
+        "agent": "You pay product cost, domestic shipping and service fee.",
+        "forwarding": "You pay the seller directly before the package arrives."
+      },
+      "workflow": {
+        "feature": "Order workflow",
+        "agent": "We place the order, purchase, receive, pack and ship.",
+        "forwarding": "You send items to our warehouse, then we receive, weigh and forward."
+      },
+      "warehouse": {
+        "feature": "Warehouse role",
+        "agent": "Warehouse receives items purchased by our team.",
+        "forwarding": "Warehouse identifies parcels using your user code and tracking number."
+      },
+      "shipping": {
+        "feature": "International shipping",
+        "agent": "You pay international shipping after warehouse weighing.",
+        "forwarding": "You pay international shipping after forwarding parcels are weighed."
+      }
+    }
+  },
+  "steps": {
+    "eyebrow": "How Forwarding Works",
+    "title": "From your seller order to international delivery",
+    "description": "Forwarding is best when you can shop yourself but need a China warehouse, consolidation and international shipping.",
+    "items": {
+      "register": {
+        "title": "Register an account",
+        "description": "Create an account so the warehouse can assign parcels to your user profile."
+      },
+      "address": {
+        "title": "Get your warehouse address",
+        "description": "Copy your personal warehouse address and user code from this page."
+      },
+      "buy": {
+        "title": "Buy from Chinese websites yourself",
+        "description": "Place the order directly with the seller or marketplace."
+      },
+      "userCode": {
+        "title": "Use your user code in the address",
+        "description": "Put your user code in recipient name or address so we can identify the parcel."
+      },
+      "tracking": {
+        "title": "Submit domestic tracking number",
+        "description": "Tell us the courier and tracking number after the seller ships inside China."
+      },
+      "receive": {
+        "title": "Warehouse receives your items",
+        "description": "We match, inspect, store and update the package record."
+      },
+      "chooseShipping": {
+        "title": "Choose international shipping",
+        "description": "After weighing, select a shipping channel based on cost, speed and restrictions."
+      },
+      "payShipping": {
+        "title": "Pay shipping fee",
+        "description": "International freight is billed after final package weight and dimensions are confirmed."
+      },
+      "ship": {
+        "title": "We ship to your country",
+        "description": "Track your parcel until it reaches your destination address."
+      }
+    }
+  },
+  "warehouse": {
+    "eyebrow": "Warehouse Address Guide",
+    "title": "Your China warehouse address",
+    "description": "Use this address when you buy from Chinese websites. Your user code is required so warehouse staff can identify your parcels.",
+    "guest": "Login to get your personal warehouse address.",
+    "signedIn": "Signed in as {email}",
+    "recipientName": "Recipient Name",
+    "warehouseAddress": "Warehouse Address",
+    "phoneNumber": "Phone Number",
+    "postalCode": "Postal Code",
+    "userCode": "User Code / Customer ID",
+    "importantTitle": "Important address rule",
+    "importantDescription": "When placing your seller order, include your user code in the recipient name or address. Parcels without a user code may be delayed.",
+    "example": "Example: Recipient: Jack Dai - UID10086",
+    "copy": "Copy Address",
+    "copied": "Warehouse address copied.",
+    "loginTitle": "Login to get your personal warehouse address.",
+    "loginDescription": "Each user needs a unique user code. Please sign in before sending parcels to the warehouse.",
+    "login": "Login"
+  },
+  "form": {
+    "eyebrow": "Submit Incoming Parcel",
+    "title": "Tell us what is arriving",
+    "description": "Submit the domestic tracking number after your seller ships the parcel to our China warehouse.",
+    "guest": "Sign in is required before submission.",
+    "signedIn": "Signed in as {email}",
+    "fields": {
+      "domesticTrackingNumber": "Domestic tracking number",
+      "courierCompany": "Courier company",
+      "productName": "Product name",
+      "productCategory": "Product category",
+      "quantity": "Quantity",
+      "estimatedValue": "Estimated value USD",
+      "productUrl": "Product URL",
+      "notes": "Notes"
+    },
+    "placeholders": {
+      "courierCompany": "Select courier",
+      "productCategory": "Select category",
+      "productName": "Product name or short description",
+      "notes": "Add package details, seller notes, consolidation requests or handling preferences."
+    },
+    "hints": {
+      "domesticTrackingNumber": "Submit after the seller provides a China domestic tracking number."
+    },
+    "categories": {
+      "general": "General Goods",
+      "clothing": "Clothing",
+      "shoes": "Shoes",
+      "electronics": "Electronics",
+      "battery": "Battery Products",
+      "liquid": "Liquid",
+      "cosmetics": "Cosmetics",
+      "food": "Food",
+      "luxury": "Luxury Goods",
+      "other": "Other"
+    },
+    "validation": {
+      "tracking": "Domestic tracking number is required.",
+      "courier": "Please select a courier company.",
+      "productName": "Product name is required.",
+      "productCategory": "Please select a product category.",
+      "quantity": "Quantity must be a whole number greater than 0.",
+      "url": "Please enter a valid URL."
+    },
+    "loginRequired": "Please log in before submitting an incoming parcel.",
+    "submitted": "Incoming parcel submitted. We will match it after warehouse arrival.",
+    "submitting": "Submitting...",
+    "submit": "Submit Incoming Parcel",
+    "disclaimer": "Submitting a parcel record does not create a shipping bill. International freight is calculated after warehouse weighing."
+  },
+  "services": {
+    "eyebrow": "Package Handling Services",
+    "title": "What the warehouse can do for your parcels",
+    "description": "Forwarding includes receiving, storage and international shipping support. Extra handling options can be connected to paid services later.",
+    "items": {
+      "receiving": {
+        "title": "Warehouse receiving",
+        "description": "We receive domestic parcels and match them to your account."
+      },
+      "storage": {
+        "title": "Free storage",
+        "description": "Free storage days can be configured later based on the service policy."
+      },
+      "consolidation": {
+        "title": "Package consolidation",
+        "description": "Combine multiple parcels into one international shipment when possible."
+      },
+      "photoInspection": {
+        "title": "Photo inspection",
+        "description": "Warehouse photos can help confirm visible item condition before shipping."
+      },
+      "removePackaging": {
+        "title": "Remove original packaging",
+        "description": "Reduce unnecessary seller packaging where appropriate."
+      },
+      "repackaging": {
+        "title": "Repackaging",
+        "description": "Improve package protection and volume before international shipping."
+      },
+      "internationalShipping": {
+        "title": "International shipping",
+        "description": "Choose available shipping channels after final weight is confirmed."
+      },
+      "trackingUpdate": {
+        "title": "Tracking update",
+        "description": "International tracking is updated after the parcel is dispatched."
+      }
+    }
+  },
+  "restrictions": {
+    "eyebrow": "Restrictions",
+    "title": "Forwarding rules before you ship to us",
+    "description": "Forwarding is convenient, but carrier and customs rules still apply. Please review risks before sending items to the warehouse.",
+    "items": {
+      "restricted": "Do not ship restricted items.",
+      "sensitive": "Battery, liquid, powder, food and luxury goods may require review.",
+      "userCode": "Use your user code in the address.",
+      "trackingNumber": "Submit tracking number after purchase.",
+      "storage": "Storage time may be limited.",
+      "finalFee": "Final shipping fee is based on warehouse weight and dimensions.",
+      "customsTax": "Customs tax is not included unless stated."
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Forwarding FAQ",
+    "description": "Short answers for users who buy themselves and ship to our warehouse.",
+    "items": {
+      "whatIsForwarding": {
+        "question": "What is forwarding service?",
+        "answer": "Forwarding lets you buy products yourself, ship them to our China warehouse, then use us for receiving, storage, consolidation and international delivery."
+      },
+      "difference": {
+        "question": "What is the difference between Shopping Agent and Forwarding?",
+        "answer": "Shopping Agent means we purchase for you. Forwarding means you purchase yourself and we handle warehouse and international shipping after arrival."
+      },
+      "warehouseAddress": {
+        "question": "How do I get my warehouse address?",
+        "answer": "Log in to your account and copy the personal warehouse address shown on this page."
+      },
+      "userCode": {
+        "question": "Why do I need to include my user code?",
+        "answer": "The user code lets warehouse staff match parcels to your account. Missing codes can delay receiving."
+      },
+      "consolidation": {
+        "question": "Can I consolidate multiple packages?",
+        "answer": "Yes, when package size, product type and shipping channel rules allow consolidation."
+      },
+      "forgotTracking": {
+        "question": "What happens if I forget to submit tracking number?",
+        "answer": "The warehouse may still receive the parcel if your user code is present, but matching can be slower. Submit tracking as soon as possible."
+      },
+      "restrictedItems": {
+        "question": "What items cannot be forwarded?",
+        "answer": "Forbidden, dangerous, counterfeit, liquid, powder, food, battery or branded luxury items may be rejected or require special review."
+      },
+      "feeCalculated": {
+        "question": "How is forwarding shipping fee calculated?",
+        "answer": "The fee is based on the final packed weight, dimensions, destination country, shipping channel and product restrictions after warehouse weighing."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to forward your China parcels?",
+    "description": "Copy your warehouse address, submit the incoming domestic tracking number, or estimate international shipping before sending items.",
+    "warehouseAddress": "Get Warehouse Address",
+    "submitParcel": "Submit Incoming Parcel",
+    "estimateFee": "Estimate Shipping Fee"
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "page": {
+    "kicker": "Operations cockpit",
+    "title": "Dashboard",
+    "description": "Operations dashboard for purchasing, warehouse, package billing, shipping, finance, API health, and risk exceptions."
+  },
+  "actions": {
+    "refresh": "Refresh",
+    "range": "Range",
+    "today": "Today",
+    "last7d": "7d",
+    "last30d": "30d",
+    "last90d": "90d"
+  },
+  "metricsCatalog": {
+    "common": {
+      "cnyEstimate": "CNY estimate"
+    },
+    "todayOrders": {
+      "label": "Today orders",
+      "description": "New purchasing-agent orders created today."
+    },
+    "todayPaidOrders": {
+      "label": "Today paid orders",
+      "description": "Orders with product payment captured today."
+    },
+    "todayPaidAmount": {
+      "label": "Today paid amount",
+      "description": "Real paid payment records captured today."
+    },
+    "pendingPurchase": {
+      "label": "Pending purchase",
+      "description": "Paid orders waiting for buyer action."
+    },
+    "purchasing": {
+      "label": "Purchasing",
+      "description": "Orders currently assigned to purchasing staff."
+    },
+    "warehousePending": {
+      "label": "Warehouse pending",
+      "description": "Purchased orders waiting for inbound confirmation."
+    },
+    "pendingWeight": {
+      "label": "Pending weight",
+      "description": "Packages waiting for actual or volumetric weight entry."
+    },
+    "waitingShippingPayment": {
+      "label": "Waiting shipping payment",
+      "description": "International shipping bills generated but not paid."
+    },
+    "readyToShip": {
+      "label": "Ready to ship",
+      "description": "Shipping paid packages waiting for dispatch."
+    },
+    "riskOrders": {
+      "label": "Risk orders",
+      "description": "Orders that need risk or restricted-goods review."
+    },
+    "refundPending": {
+      "label": "Refund pending",
+      "description": "Refund requests waiting for finance approval."
+    },
+    "apiErrorsToday": {
+      "label": "API errors today",
+      "description": "Failed OneBound product/search calls today."
+    }
+  },
+  "tasks": {
+    "pendingPurchase": {
+      "title": "Pending purchase orders",
+      "description": "Paid orders waiting for purchasing staff."
+    },
+    "overduePurchase": {
+      "title": "Overdue purchase orders",
+      "description": "Paid for more than 24 hours and still not purchased."
+    },
+    "warehouseAbnormal": {
+      "title": "Warehouse abnormal",
+      "description": "Inbound mismatches, damage, restricted goods, and missing items."
+    },
+    "waitingShippingPayment": {
+      "title": "Waiting shipping payment",
+      "description": "Packages with generated international shipping bills."
+    },
+    "readyToShip": {
+      "title": "Ready to ship",
+      "description": "Shipping paid packages waiting for dispatch."
+    },
+    "shippingExceptions": {
+      "title": "Shipping exceptions",
+      "description": "Carrier exceptions and stale tracking records."
+    },
+    "apiErrors": {
+      "title": "API errors",
+      "description": "Recent product/search API failures that need fallback handling."
+    },
+    "loadingTitle": "Loading tasks",
+    "loadingDescription": "Fetching operations queue.",
+    "emptyTitle": "No dashboard tasks",
+    "emptyDescription": "There are no operational tasks for the selected range.",
+    "emptyQueueTitle": "No tasks",
+    "emptyQueueDescription": "This queue is clear for the selected range."
+  },
+  "errors": {
+    "loadTitle": "Dashboard data could not load",
+    "loadDescription": "The mock API request failed. Retry after confirming the admin session is active.",
+    "retry": "Retry"
+  },
+  "charts": {
+    "emptyFooter": "Connect `/api/admin/dashboard/stats` when real operational data is ready.",
+    "ordersTrend": {
+      "title": "Orders trend",
+      "description": "Created, paid, and completed orders across the selected period.",
+      "empty": "No order trend data available.",
+      "series": {
+        "created": "Created",
+        "paid": "Paid",
+        "completed": "Completed"
+      }
+    },
+    "paidAmountTrend": {
+      "title": "Paid amount trend",
+      "description": "Product payment, international shipping, recharge, and refunds.",
+      "empty": "No payment trend data available.",
+      "series": {
+        "productPayment": "Product payment",
+        "shippingPayment": "Shipping payment",
+        "recharge": "Recharge",
+        "refund": "Refund"
+      }
+    },
+    "orderStatus": {
+      "title": "Order status distribution",
+      "description": "Purchasing-agent workflow states, including abnormal and refund states.",
+      "empty": "No order status data available.",
+      "series": {
+        "orders": "Orders"
+      },
+      "statuses": {
+        "pendingPayment": "Pending payment",
+        "paid": "Paid",
+        "purchasing": "Purchasing",
+        "warehousePending": "Warehouse pending",
+        "shippingPending": "Shipping pending",
+        "shipped": "Shipped",
+        "completed": "Completed",
+        "cancelled": "Cancelled",
+        "refunded": "Refunded",
+        "abnormal": "Abnormal"
+      }
+    },
+    "paymentMethod": {
+      "title": "Payment method share",
+      "description": "Wallet, cards, PayPal, Stripe, and manual payments.",
+      "empty": "No payment method data available.",
+      "labels": {
+        "wallet": "Wallet",
+        "payPal": "PayPal",
+        "stripe": "Stripe",
+        "manualPayment": "Manual payment",
+        "creditCard": "Credit card"
+      }
+    },
+    "countryOrders": {
+      "title": "Country orders",
+      "description": "Destination-country volume for buying-agent orders.",
+      "empty": "No country order data available.",
+      "series": {
+        "orders": "Orders"
+      }
+    },
+    "shippingChannel": {
+      "title": "Shipping channel usage",
+      "description": "Channel share after package shipping fee generation.",
+      "empty": "No shipping channel data available.",
+      "series": {
+        "packages": "Packages"
+      },
+      "labels": {
+        "dhl": "DHL",
+        "fedEx": "FedEx",
+        "ups": "UPS",
+        "ems": "EMS",
+        "airCargo": "Air cargo",
+        "seaShipping": "Sea shipping",
+        "economyLine": "Economy line"
+      }
+    },
+    "orderSource": {
+      "title": "Order source",
+      "description": "How users entered the purchasing flow.",
+      "empty": "No order source data available.",
+      "labels": {
+        "urlSearch": "URL search",
+        "keywordSearch": "Keyword search",
+        "imageSearch": "Image search",
+        "shopSearch": "Shop search",
+        "diyOrder": "DIY order",
+        "adminCreated": "Admin created"
+      }
+    }
+  },
+  "apiHealth": {
+    "title": "API health",
+    "description": "OneBound calls by success rate, latency, error reason, and endpoint type.",
+    "stats": {
+      "callsToday": "Calls today",
+      "failed": "Failed",
+      "successRate": "Success rate",
+      "avgResponse": "Avg response"
+    },
+    "topErrorReasons": "Top error reasons",
+    "typeDistribution": "API type distribution",
+    "apiTypes": {
+      "detail": "Detail",
+      "search": "Search",
+      "image": "Image",
+      "shop": "Shop",
+      "priceRefresh": "Price refresh"
+    },
+    "errorReasons": {
+      "sellerThrottledItemDetail": "Seller throttled item detail",
+      "variantImageMissing": "Variant image missing",
+      "searchTimeout": "Search timeout",
+      "priceRefreshMismatch": "Price refresh mismatch",
+      "shopPageUnavailable": "Shop page unavailable"
+    }
+  },
+  "riskAlerts": {
+    "title": "Risk alerts",
+    "description": "Restricted goods, high-value orders, payment exceptions, and risky users.",
+    "rows": {
+      "riskOrders": "Risk orders",
+      "sensitiveGoodsOrders": "Sensitive goods",
+      "forbiddenGoodsOrders": "Forbidden goods",
+      "highValueGoodsOrders": "High value goods",
+      "paymentAbnormalOrders": "Payment abnormal",
+      "riskUsers": "Risk users"
+    }
+  }
+}

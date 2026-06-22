@@ -1,0 +1,240 @@
+{
+  "hero": {
+    "eyebrow": "手动购买",
+    "title": "找不到产品？提交 DIY 订单。",
+    "subtitle": "向我们发送产品链接、图片、规格和数量。我们的团队将对其进行审核并向您发送报价。",
+    "submit": "提交 DIY 订单",
+    "viewMine": "查看我的 DIY 订单",
+    "cards": {
+      "image": {
+        "title": "图片或不清楚的列表",
+        "description": "发送参考图片、产品屏幕截图或不完整的链接。"
+      },
+      "spec": {
+        "title": "复杂规格",
+        "description": "告诉我们颜色，尺寸、型号、版本、捆绑包和任何卖家备注。"
+      },
+      "quote": {
+        "title": "手动报价",
+        "description": "我们的团队会检查库存情况、价格、限制和购买详细信息。"
+      }
+    }
+  },
+  "when": {
+    "eyebrow": "何时使用 DIY 订单",
+    "title": "自动化不够时使用 DIY",
+    "description": "DIY 订单最适合需要人工的特殊购买付款前审核。",
+    "items": {
+      "cannotParse": {
+        "title": "无法解析产品链接",
+        "description": "当自动购物代理流程无法读取产品页面时，请使用 DIY。"
+      },
+      "imageOnly": {
+        "title": "您只有产品图片",
+        "description": "上传或粘贴图片 URL，以便我们的团队可以手动识别该商品。"
+      },
+      "complexSpecs": {
+        "title": "复杂规格",
+        "description": "使用 DIY 满足多种颜色、尺寸、版本、捆绑或自定义选项要求。"
+      },
+      "manualQuote": {
+        "title": "您需要手动报价",
+        "description": "我们可以验证当前卖家价格、国内运输和购买可行性。"
+      },
+      "multipleItems": {
+        "title": "一起购买多件商品",
+        "description": "当您需要合并购买时，描述多个产品或卖家计划。"
+      },
+      "shippingUncertain": {
+        "title": "送货资格不明确",
+        "description": "请在付款前要求我们检查敏感或受限商品。"
+      }
+    }
+  },
+  "form": {
+    "eyebrow": "DIY 订单",
+    "title": "发送您的购买请求",
+    "description": "您提供的详细信息越多，我们的团队就能越快准确报价。",
+    "guest": "之前需要登录",
+    "signedIn": "以{email}身份登录",
+    "fields": {
+      "productUrl": "产品URL",
+      "productName": "产品名称",
+      "productImageUrl": "产品图片URL",
+      "specification": "规格",
+      "quantity": "数量",
+      "budget": "预算 USD",
+      "destinationCountry": "目的地国家/地区",
+      "notes": "备注",
+      "contactEmail": "联系电子邮件"
+    },
+    "placeholders": {
+      "productName": "产品名称或简短说明",
+      "specification": "颜色、尺寸、型号、版本",
+      "notes": "告诉我们卖家备注、首选选项、运输问题或任何信息重要。"
+    },
+    "hints": {
+      "productUrl": "可选，但当您有产品页面时建议使用。",
+      "productImageUrl": "V1.0 使用图像 URL 作为占位符。稍后即可连接文件上传。"
+    },
+    "countries": {
+      "US": "美国 (US)",
+      "CA": "加拿大 (CA)",
+      "GB": "英国 (GB)",
+      "DE": "德国 (DE)",
+      "FR": "法国(FR)",
+      "NL": "荷兰(NL)",
+      "PL": "波兰(PL)",
+      "JP": "日本(JP)",
+      "KR": "韩国(KR)",
+      "AU": "澳大利亚 (AU)"
+    },
+    "validation": {
+      "productName": "产品名称必须至少包含 2 个字符。",
+      "quantity": "数量必须是大于 0 的整数。",
+      "destination": "请选择目的地国家/地区。",
+      "url": "请输入有效的 URL。",
+      "email": "请输入有效的电子邮件地址地址。"
+    },
+    "loginRequired": "请先登录，然后再提交 DIY 订单。",
+    "submitted": "DIY 订单已提交。我们将尽快审核。",
+    "submitting": "正在提交...",
+    "submit": "提交 DIY 订单",
+    "disclaimer": "提交不需要付款。我们将首先审核请求并发送报价。"
+  },
+  "steps": {
+    "eyebrow": "报价工作原理",
+    "title": "从请求到仓库到达",
+    "description": "DIY 订单遵循手动审核工作流程，因此可以在购买前检查价格、库存情况和运输限制。",
+    "items": {
+      "submit": {
+        "title": "提交您的请求",
+        "description": "发送产品详细信息、图片、规格、数量和目的地。"
+      },
+      "review": {
+        "title": "我们的团队会审核该商品",
+        "description": "我们会检查卖家页面、库存情况、价格和购买可行性。"
+      },
+      "quote": {
+        "title": "我们向您发送报价",
+        "description": "报价包含产品成本、国内运费和服务费估算。"
+      },
+      "confirm": {
+        "title": "您确认并付款",
+        "description": "接受报价后，您可以付款开始购买。"
+      },
+      "purchase": {
+        "title": "我们购买商品",
+        "description": "我们的采购团队向卖家下订单。"
+      },
+      "warehouse": {
+        "title": "商品到达仓库",
+        "description": "仓库检查、接收并准备包裹信息。"
+      },
+      "shipping": {
+        "title": "支付国际运费",
+        "description": "包装和称重后，您选择路线并支付运费。"
+      },
+      "receive": {
+        "title": "接收包裹",
+        "description": "跟踪包裹，直至送达您的目的地地址。"
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "代购与代购DIY 订单",
+    "title": "选择正确的订单流程",
+    "description": "使用 Shopping Agent 时，标准链接速度更快。特殊或不明确的产品属于DIY订单。",
+    "columns": {
+      "feature": "功能",
+      "agent": "代购",
+      "diy": "DIY订单"
+    },
+    "rows": {
+      "suitable": {
+        "feature": "最适合",
+        "agent": "标准产品链接或关键字搜索",
+        "diy": "特殊产品或产品自动化无法解析"
+      },
+      "parsing": {
+        "feature": "产品数据",
+        "agent": "系统自动解析价格和选项",
+        "diy": "手动审核和报价"
+      },
+      "speed": {
+        "feature": "订单速度",
+        "agent": "快速结帐产品数据清晰时",
+        "diy": "由于需要人工审核，速度较慢"
+      },
+      "price": {
+        "feature": "价格来源",
+        "agent": "自动从产品页面读取",
+        "diy": "付款前由工作人员确认"
+      },
+      "complexity": {
+        "feature": "复杂请求",
+        "agent": "更适合简单选项",
+        "diy": "更适合图片、捆绑包、备注和运费检查"
+      }
+    }
+  },
+  "examples": {
+    "eyebrow": "请求示例",
+    "title": "良好的 DIY 请求是具体的",
+    "items": {
+      "imageNoLink": {
+        "title": "我找到了产品图片，但没有链接。",
+        "description": "附上 URL 图片并描述您希望我们识别的内容。"
+      },
+      "tooManySku": {
+        "title": "产品页面有太多 SKU 选项。",
+        "description": "请告诉我们您想要的确切颜色、尺寸、型号或捆绑包。"
+      },
+      "multipleSellers": {
+        "title": "我想从不同卖家那里购买多件商品。",
+        "description": "列出每件商品和卖家链接，以便我们做好准备合并报价。"
+      },
+      "shippingCheck": {
+        "title": "我需要帮助确认此产品是否可以发货。",
+        "description": "提及目的地国家/地区和产品材料、电池、液体或品牌问题。"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "DIY 订购 FAQ",
+    "description": "在提交手动购买请求之前简短回答。",
+    "items": {
+      "quoteTime": {
+        "question": "DIY 订单报价需要多长时间？",
+        "answer": "大多数报价会在 1 个工作日内审核。复杂的商品或卖家确认可能需要更长的时间。"
+      },
+      "imageOnly": {
+        "question": "我可以只提交产品图片吗？",
+        "answer": "可以。接受产品图片，但链接或附加说明可以帮助我们更快地报价。"
+      },
+      "payBeforeQuote": {
+        "question": "我需要在报价前付款吗？",
+        "answer": "不需要。您先提交请求。只有在您接受报价后才会付款。"
+      },
+      "afterAccept": {
+        "question": "我接受报价后会发生什么？",
+        "answer": "您支付报价金额，然后我们的采购团队从卖家那里购买产品。"
+      },
+      "cancel": {
+        "question": "我可以取消 DIY 订单吗？",
+        "answer": "您可以在付款前或我们的团队购买该商品前取消。购买后，取消取决于卖家政策。"
+      },
+      "restricted": {
+        "question": "可以购买受限商品吗？",
+        "answer": "某些敏感商品可能需要特殊途径或可能被拒绝。我们的团队将在购买前审核发货资格。"
+      }
+    }
+  },
+  "cta": {
+    "title": "准备好发送手动请求了吗？",
+    "description": "立即提交详细信息或在用户中心查看您现有的 DIY 订单。",
+    "submit": "提交 DIY 订单",
+    "viewMine": "查看我的 DIY 订单"
+  }
+}

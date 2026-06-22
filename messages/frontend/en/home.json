@@ -1,0 +1,182 @@
+{
+  "hero": {
+    "eyebrow": "Your Trusted China Online Shopping Solution Agent",
+    "titlePrefix": "All-in-one shopping agent for",
+    "titleHighlight": "Taobao, 1688, Weidian",
+    "description": "Paste a product link or search keywords. CNSnap helps you buy from China, inspect items, store parcels, and ship them worldwide."
+  },
+  "why": {
+    "title": "Why Choose CNSnap?",
+    "description": "A simple purchasing flow with secure payment, warehouse quality control, free storage, and fast customer support."
+  },
+  "sections": {
+    "agentTools": "Agent tools",
+    "beforeCheckout": "Everything you need before checkout",
+    "exploreHelp": "Explore help center",
+    "storefrontPicks": "Storefront picks",
+    "hotSellers": "Hot Sellers",
+    "viewMore": "View more"
+  },
+  "steps": {
+    "step": "STEP",
+    "pasteLink": {
+      "title": "Paste Link",
+      "description": "Drop any China marketplace product URL or search by keyword."
+    },
+    "wePurchase": {
+      "title": "We Purchase",
+      "description": "Agent confirms product, variant, domestic shipping, and pays seller."
+    },
+    "qcWarehouse": {
+      "title": "QC Warehouse",
+      "description": "Items arrive at warehouse for photos, storage, and consolidation."
+    },
+    "shipGlobal": {
+      "title": "Ship Global",
+      "description": "Choose route, submit parcel, and track international delivery."
+    }
+  },
+  "services": {
+    "expertSourcing": {
+      "title": "Expert Sourcing",
+      "description": "Can’t find it? Submit a DIY request and let an agent source it."
+    },
+    "shippingCalculator": {
+      "title": "Shipping Calculator",
+      "description": "Compare routes before purchasing and avoid surprise costs."
+    },
+    "parcelConsolidation": {
+      "title": "Parcel Consolidation",
+      "description": "Combine multiple orders into one smart international parcel."
+    },
+    "riskReview": {
+      "title": "Risk Review",
+      "description": "Restricted categories get manual review before shipment."
+    }
+  },
+  "perks": {
+    "safePayments": "Safe Payments",
+    "qualityInspection": "1:1 Quality Inspection",
+    "support247": "24/7 Support",
+    "storage": "90-Day Free Storage",
+    "shipping": "Worldwide Shipping"
+  },
+  "featureTabs": {
+    "shoppingAgent": "Shopping Agent",
+    "forwarding": "Forwarding",
+    "expertSourcing": "Expert Sourcing",
+    "shippingCalculator": "Shipping Calculator"
+  },
+  "solutions": {
+    "title": "CNSnap solutions for buying and shipping from China",
+    "description": "Use one workflow to purchase from Chinese marketplaces, consolidate parcels, request sourcing help, and estimate international shipping before you pay.",
+    "items": {
+      "shoppingAgent": {
+        "title": "Shopping agent service",
+        "description": "Buy from Taobao, Tmall, 1688, Weidian, and other China marketplaces with one CNSnap workflow.",
+        "cta": "Start purchasing"
+      },
+      "forwarding": {
+        "title": "Forwarding and parcel consolidation",
+        "description": "Ship to the CNSnap warehouse, combine parcels, and choose the delivery route that fits your budget and timeline.",
+        "cta": "Use forwarding"
+      },
+      "sourcing": {
+        "title": "Expert sourcing support",
+        "description": "Need supplier help, bulk buying, or a custom order? Let our team handle sourcing, follow-up, and communication for you.",
+        "cta": "Request sourcing"
+      },
+      "estimation": {
+        "title": "Shipping cost planning",
+        "description": "Estimate delivery fees before checkout so you can compare routes, control costs, and plan orders more confidently.",
+        "cta": "Check calculator"
+      }
+    }
+  },
+  "process": {
+    "title": "One-stop shopping service",
+    "items": {
+      "purchaseOrders": {
+        "title": "Purchase orders",
+        "description": "Paste a product link or send a request to CNSnap and our team will confirm the item, options, pricing, and seller details before purchase."
+      },
+      "shipToWarehouse": {
+        "title": "Ship to warehouse",
+        "description": "Orders from different sellers can arrive at the CNSnap warehouse first, so you can hold, sort, and prepare everything in one place."
+      },
+      "qualityCheck": {
+        "title": "Quality check",
+        "description": "After arrival, we inspect your items, provide warehouse photos, and help you review condition, quantity, color, and other key details."
+      },
+      "globalShipping": {
+        "title": "Global shipping",
+        "description": "When your parcel is ready, choose your shipping line, submit the package, and track delivery from China to your destination."
+      }
+    }
+  },
+  "advantages": {
+    "items": {
+      "multiPlatform": {
+        "title": "Multi-Platform Purchasing",
+        "description": "Search by keyword, paste product links, or shop directly from Taobao, Tmall, 1688, and more."
+      },
+      "imageSearch": {
+        "title": "Smart image search",
+        "description": "Upload a photo to find matching items quickly, even when you do not know the original listing language."
+      },
+      "warehouseQc": {
+        "title": "Warehouse quality check",
+        "description": "Receive detailed item photos before shipping and confirm each order with more confidence."
+      },
+      "globalShipping": {
+        "title": "Flexible global shipping",
+        "description": "Compare air and sea routes with tracking visibility and clear shipping options before checkout."
+      },
+      "transparentFees": {
+        "title": "No hidden fees",
+        "description": "See product, service, and shipping costs more clearly with transparent pricing and multi-currency support."
+      }
+    }
+  },
+  "mobile": {
+    "quickActions": {
+      "diyOrder": "Manual quote and sourcing request",
+      "forwarding": "Send self-purchased parcels to the warehouse",
+      "estimation": "Check routes and shipping fees before payment",
+      "cart": "Review saved items and continue checkout",
+      "orders": "Track purchase progress and payment status"
+    },
+    "services": {
+      "title": "Service entry points",
+      "shoppingAgentDescription": "Buy from Taobao, Tmall, 1688, Weidian, and other China marketplaces with one CNSnap workflow.",
+      "forwardingDescription": "Ship to the CNSnap warehouse, combine parcels, and choose the delivery route that fits your budget and timeline.",
+      "diyOrderDescription": "Need supplier help, bulk buying, or a custom order? Let our team handle sourcing, follow-up, and communication for you.",
+      "estimationDescription": "Estimate delivery fees before checkout so you can compare routes, control costs, and plan orders more confidently."
+    },
+    "howItWorks": {
+      "eyebrow": "How it works",
+      "title": "From product link to international delivery"
+    },
+    "help": {
+      "title": "Help center shortcuts"
+    },
+    "blog": {
+      "eyebrow": "Guides",
+      "title": "Read before you place an order",
+      "viewAll": "View all guides",
+      "openHelp": "Open help center"
+    },
+    "next": {
+      "eyebrow": "Need next steps?",
+      "title": "Move straight into the right workflow",
+      "diyOrderDescription": "Submit a manual sourcing request when a product needs human review.",
+      "forwardingDescription": "Use the warehouse if you already bought the product yourself."
+    },
+    "why": {
+      "title": "Why buyers keep using CNSnap"
+    },
+    "actions": {
+      "open": "Open"
+    }
+  }
+}

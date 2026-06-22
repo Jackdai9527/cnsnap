@@ -1,0 +1,113 @@
+{
+  "mobile": {
+    "eyebrow": "Pesquisar",
+    "title": "Pesquise por palavra-chave ou cole um link de marketplace",
+    "description": "Use a busca por palavra-chave para descobrir produtos ou cole diretamente um link Taobao, 1688, Tmall ou Weidian para entrar no fluxo de compra.",
+    "platforms": "Plataformas",
+    "results": "Resultados",
+    "resultsReady": "{count} produtos para navegar",
+    "noResultsYet": "Ainda sem resultados",
+    "emptyDescription": "Tente uma palavra-chave mais ampla, mude de plataforma ou cole um link direto do produto.",
+    "loadMore": "Carregar mais"
+  },
+  "platformLabels": {
+    "all": "Todas as plataformas",
+    "taobao": "Taobao",
+    "tmall": "Tmall",
+    "1688": "1688",
+    "weidian": "Weidian",
+    "jd": "JD",
+    "xianyu": "Xianyu"
+  },
+  "hero": {
+    "eyebrow": "Descoberta de produtos",
+    "title": "Navegue pelo nosso catálogo e depois deixe o CNSnap comprar e enviar por você.",
+    "description": "Explore seus produtos publicados, pesquise por palavra-chave ou cole um link para abrir diretamente os detalhes e o checkout.",
+    "trustNotes": {
+      "reviewTitle": "Revisão de compra",
+      "reviewText": "Verificamos os detalhes do pedido antes da compra.",
+      "photosTitle": "Fotos do armazém",
+      "photosText": "As fotos de QC são armazenadas após a chegada.",
+      "shipTitle": "Enviar depois",
+      "shipText": "O frete internacional é pago após a pesagem."
+    }
+  },
+  "filters": {
+    "eyebrow": "Refinar pesquisa",
+    "title": "Filtros",
+    "marketplace": "Marketplace",
+    "allPlatforms": "Todas as plataformas",
+    "sortBy": "Ordenar por",
+    "priceRange": "Faixa de preço CNY",
+    "priceMin": "Min",
+    "priceMax": "Max",
+    "note": "Este catálogo mostra seus produtos storefront publicados. Se você já tiver um link direto, cole-o na busca para abrir o item correspondente.",
+    "apply": "Aplicar",
+    "reset": "Redefinir",
+    "activeCount": "{count} ativos"
+  },
+  "toolbar": {
+    "page": "Página {page}",
+    "filters": "{count} filtros",
+    "resultsFor": "Resultados para \"{query}\"",
+    "browseAll": "Navegar por todos os produtos storefront",
+    "description": "{count} produtos da sua biblioteca publicada. O preço do produto é mostrado antes do frete internacional; o valor final é calculado após a pesagem no armazém.",
+    "catalog": "Catálogo storefront"
+  },
+  "pagination": {
+    "browsingPage": "Você está na página {page}",
+    "previous": "Anterior",
+    "next": "Próxima"
+  },
+  "empty": {
+    "title": "Nenhum produto correspondente encontrado",
+    "description": "Tente uma palavra-chave mais ampla, remova filtros de preço ou cole o link original do produto se já o tiver.",
+    "startFromHome": "Começar pela página inicial",
+    "submitDiyOrder": "Enviar pedido DIY"
+  },
+  "error": {
+    "title": "A pesquisa esta temporariamente indisponivel",
+    "description": "Nao foi possivel carregar os resultados da pesquisa agora. Tente novamente em instantes ou volte para a pagina inicial.",
+    "retry": "Tentar novamente",
+    "goHome": "Ir para a pagina inicial",
+    "note": "Sua palavra-chave e filtros atuais serao mantidos ao tentar novamente."
+  },
+  "risk": {
+    "title": "A pesquisa precisa de revisão",
+    "description": "Esta palavra-chave pode conter termos restritos ou sensíveis. O CNSnap não pode mostrar sugestões de produtos para esta busca.",
+    "readRestrictions": "Ler restrições",
+    "tryAnotherSearch": "Tentar outra busca",
+    "mobileNote": "Se você já tiver o link direto do produto, cole-o para continuar com uma revisão manual."
+  },
+  "sortOptions": {
+    "default": "Melhor correspondência",
+    "sales": "Mais vendidos",
+    "priceAsc": "Preço crescente",
+    "priceDesc": "Preço decrescente"
+  },
+  "panel": {
+    "keyword": "Palavra-chave",
+    "url": "URL",
+    "urlPlaceholder": "Cole a URL do item Taobao/Tmall/1688/JD",
+    "keywordPlaceholder": "Pesquise produtos por palavra-chave ou ID",
+    "submit": "Pesquisar"
+  },
+  "riskReminder": {
+    "title": "Lembrete de risco",
+    "subtitle": "Este item pode envolver {count} {label} restritos. Escolha outro item ou fale com o suporte.",
+    "riskSingle": "risco",
+    "riskPlural": "riscos",
+    "alertTitle": "Alerta de risco",
+    "alertDescription": "O item enviado pode pertencer a categorias restritas ou juridicamente sensíveis, então não podemos processar esta solicitação no momento.",
+    "continueShopping": "Continuar comprando",
+    "noResultTitle": "Não podemos mostrar produtos para esta pesquisa. Tente outra palavra-chave ou fale com o atendimento.",
+    "suggestTitle": "O CNSnap sugere:",
+    "suggestions": {
+      "one": "1. Verifique se a palavra-chave contém termos restritos ou sensíveis.",
+      "two": "2. Reformule a pesquisa com palavras mais amplas, como \"dress\" em vez de uma frase muito específica.",
+      "three": "3. Revise as restrições de envio antes de enviar produtos.",
+      "four": "4. Se você tiver um link normal do produto, envie-o diretamente pela busca da página inicial.",
+      "five": "5. Fale com o suporte se precisar de ajuda para encontrar uma alternativa adequada."
+    }
+  }
+}

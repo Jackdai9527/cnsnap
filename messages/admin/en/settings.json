@@ -1,0 +1,243 @@
+{
+  "page": {
+    "kicker": "Global configuration",
+    "title": "Settings",
+    "description": "This page only contains core pricing, product API, and purchasing toggles. Auth, footer, shipping, pages, and help content now live in their own admin sections."
+  },
+  "links": {
+    "apiSettings": "API Settings",
+    "smtpSettings": "SMTP Settings",
+    "shippingChannels": "Shipping Channels",
+    "helpArticles": "Help Articles"
+  },
+  "table": {
+    "setting": "Setting",
+    "value": "Value",
+    "save": "Save settings"
+  },
+  "generalPage": {
+    "kicker": "Global configuration",
+    "title": "Settings",
+    "description": "This page only contains core pricing, product API, and purchasing toggles. Auth, footer, shipping, pages, and help content now live in their own admin sections.",
+    "links": {
+      "apiSettings": "API Settings",
+      "smtpSettings": "SMTP Settings",
+      "shippingChannels": "Shipping Channels",
+      "helpArticles": "Help Articles"
+    },
+    "save": "Save settings",
+    "setting": "Setting",
+    "value": "Value"
+  },
+  "modules": {
+    "systemKicker": "System settings",
+    "financeKicker": "Finance configuration",
+    "marketingKicker": "Marketing configuration",
+    "adminModuleKicker": "Admin module",
+    "notConfiguredTitle": "Module Not Configured",
+    "notConfiguredDescription": "The route /admin/{route} is registered by the admin shell but has no dedicated module yet.",
+    "path": "Path",
+    "status": "Status",
+    "backToDashboard": "Back to dashboard",
+    "generalSettings": "General Settings",
+    "apiSettings": "API Settings",
+    "smtpSettings": "SMTP Settings",
+    "languageSettings": "Language Settings",
+    "exchangeRate": "Exchange Rate",
+    "serviceFeeSettings": "Service Fee Settings",
+    "affiliateSettings": "Affiliate Settings",
+    "adminUsers": "Admin Users"
+  },
+  "modulePage": {
+    "description": "This module only contains settings related to {title}. Values are stored in the local SQLite Setting table for V1.0.",
+    "save": "Save {title}",
+    "setting": "Setting",
+    "value": "Value"
+  },
+  "financeDefinitions": {
+    "exchangeRateApiKey": {
+      "label": "ExchangeRate-API Key",
+      "description": "API key for https://www.exchangerate-api.com/ CNY latest rates."
+    },
+    "enabledFrontendCurrencies": {
+      "label": "Frontend Currencies",
+      "description": "Comma-separated currency codes shown in the frontend currency switcher."
+    },
+    "defaultCurrency": {
+      "label": "Default Currency",
+      "description": "Default customer-facing currency."
+    },
+    "settlementCurrency": {
+      "label": "Settlement Currency",
+      "description": "Source shopping and purchasing settlement currency."
+    },
+    "currencyDecimalPlaces": {
+      "label": "Decimal Places",
+      "description": "Displayed decimal precision for prices."
+    },
+    "exchangeRateUpdatedAt": {
+      "label": "Legacy Rate Updated At",
+      "description": "Legacy manual timestamp retained for compatibility."
+    },
+    "serviceFeeEnabled": {
+      "label": "Enable Service Fee",
+      "description": "Apply service fee to product pricing."
+    },
+    "serviceFeeRate": {
+      "label": "Service Fee Rate",
+      "description": "Accepts decimal or percentage, for example 0.05 or 5."
+    },
+    "minServiceFeeUsd": {
+      "label": "Minimum Service Fee",
+      "description": "Minimum service fee charged per order in USD."
+    },
+    "manualPriceAdjustment": {
+      "label": "Allow Price Adjustment",
+      "description": "Allow admin or customer submitted price corrections."
+    }
+  },
+  "generalDefinitions": {
+    "siteName": {
+      "label": "Website Name",
+      "description": "Brand name displayed in the frontend header and emails."
+    },
+    "siteLogoText": {
+      "label": "Logo Text",
+      "description": "Text fallback for logo display."
+    },
+    "supportEmail": {
+      "label": "Support Email",
+      "description": "Customer support mailbox used in the frontend floating bar and account pages."
+    },
+    "floatingAppQrCodeUrl": {
+      "label": "Floating App QR Code URL",
+      "description": "Public image URL used in the desktop floating bar download panel."
+    },
+    "floatingIosDownloadUrl": {
+      "label": "Floating iOS Download URL",
+      "description": "App Store or TestFlight link used in the desktop floating bar."
+    },
+    "floatingAndroidDownloadUrl": {
+      "label": "Floating Android Download URL",
+      "description": "Google Play or APK landing link used in the desktop floating bar."
+    },
+    "floatingDiscordUrl": {
+      "label": "Floating Discord URL",
+      "description": "Discord community link used by the desktop floating bar."
+    },
+    "defaultLanguage": {
+      "label": "Default Language",
+      "description": "Default frontend UI language for first-time visitors."
+    },
+    "adminLanguage": {
+      "label": "Admin Language",
+      "description": "Default language used in the admin console."
+    },
+    "defaultCurrency": {
+      "label": "Default Currency",
+      "description": "Default settlement currency."
+    },
+    "defaultTimezone": {
+      "label": "Default Timezone",
+      "description": "Timezone used for operation dashboards."
+    },
+    "orderNoPrefix": {
+      "label": "Order Number Prefix",
+      "description": "Prefix used when generating order numbers."
+    },
+    "packageNoPrefix": {
+      "label": "Package Number Prefix",
+      "description": "Prefix used when generating package numbers."
+    },
+    "registrationEnabled": {
+      "label": "Open Registration",
+      "description": "Allow new frontend user registrations."
+    },
+    "diyOrderEnabled": {
+      "label": "Enable DIY Order",
+      "description": "Allow customers to submit manual quote requests."
+    },
+    "affiliateEnabled": {
+      "label": "Enable Affiliate",
+      "description": "Enable referral and commission features."
+    },
+    "maintenanceMode": {
+      "label": "Maintenance Mode",
+      "description": "Reserve flag for temporary frontend maintenance."
+    }
+  },
+  "apiDefinitions": {
+    "oneboundGateway": {
+      "label": "OneBound Base URL",
+      "description": "Gateway base URL for product parsing and search."
+    },
+    "oneboundApiKey": {
+      "label": "OneBound API Key",
+      "description": "API key for item_get and item_search."
+    },
+    "oneboundApiSecret": {
+      "label": "OneBound API Secret",
+      "description": "Secret key for OneBound requests."
+    },
+    "oneboundTimeoutMs": {
+      "label": "API Timeout",
+      "description": "Request timeout in milliseconds."
+    },
+    "oneboundRetryCount": {
+      "label": "Retry Count",
+      "description": "Retry attempts for transient gateway failures."
+    },
+    "productCacheHours": {
+      "label": "Product Cache Hours",
+      "description": "How long product detail cache remains fresh."
+    },
+    "searchCacheMinutes": {
+      "label": "Search Cache Minutes",
+      "description": "Reserved cache TTL for keyword search results."
+    }
+  },
+  "smtpDefinitions": {
+    "smtpHost": {
+      "label": "SMTP Host",
+      "description": "SMTP server hostname."
+    },
+    "smtpPort": {
+      "label": "SMTP Port",
+      "description": "SMTP port."
+    },
+    "smtpUser": {
+      "label": "SMTP User",
+      "description": "SMTP username."
+    },
+    "smtpPassword": {
+      "label": "SMTP Password",
+      "description": "SMTP password or app password."
+    },
+    "smtpFromEmail": {
+      "label": "From Email",
+      "description": "Default sender email."
+    },
+    "smtpFromName": {
+      "label": "From Name",
+      "description": "Default sender name."
+    },
+    "smtpSecure": {
+      "label": "SSL/TLS",
+      "description": "Use secure SMTP connection."
+    }
+  },
+  "languageDefinitions": {
+    "adminLanguage": {
+      "label": "Admin Language",
+      "description": "Admin interface language."
+    },
+    "frontendLanguage": {
+      "label": "Frontend Source Language",
+      "description": "Legacy setting kept only for backward compatibility. Frontend translations now come from local message files and database content."
+    },
+    "translateLanguages": {
+      "label": "Frontend UI Locales",
+      "description": "Legacy setting kept only for backward compatibility. Active frontend locales now come from runtime locale configuration."
+    }
+  }
+}

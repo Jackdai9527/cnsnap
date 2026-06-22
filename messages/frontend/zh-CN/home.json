@@ -1,0 +1,182 @@
+{
+  "hero": {
+    "eyebrow": "您值得信赖的中国网上购物解决方案代理",
+    "titlePrefix": "一站式购物代理",
+    "titleHighlight": "淘宝、1688、微店",
+    "description": "粘贴产品链接或搜索关键字。 CNSnap 帮助您从中国采购、检查商品、存储包裹并将其运送到世界各地。"
+  },
+  "why": {
+    "title": "为什么选择 CNSnap？",
+    "description": "简单的采购流程，安全付款、仓库质量控制、免费存储和快速客户支持。"
+  },
+  "sections": {
+    "agentTools": "代理工具",
+    "beforeCheckout": "结账前您需要的一切",
+    "exploreHelp": "探索帮助中心",
+    "storefrontPicks": "店面精选",
+    "hotSellers": "热销产品",
+    "viewMore": "查看更多"
+  },
+  "steps": {
+    "step": "STEP",
+    "pasteLink": {
+      "title": "粘贴链接",
+      "description": "删除任何中国市场产品URL或按关键字搜索。"
+    },
+    "wePurchase": {
+      "title": "我们购买",
+      "description": "代理确认产品、型号、国内运费并向卖家付款。"
+    },
+    "qcWarehouse": {
+      "title": "QC 仓库",
+      "description": "物品到达仓库进行拍照、存储和整合。"
+    },
+    "shipGlobal": {
+      "title": "运送全球",
+      "description": "选择路线、提交包裹并跟踪国际配送。"
+    }
+  },
+  "services": {
+    "expertSourcing": {
+      "title": "专家采购",
+      "description": "找不到它？提交 DIY 请求并让代理获取。"
+    },
+    "shippingCalculator": {
+      "title": "运费计算器",
+      "description": "购买前比较路线并避免意外费用。"
+    },
+    "parcelConsolidation": {
+      "title": "包裹合并",
+      "description": "将多个订单合并到一个智能国际包裹中。"
+    },
+    "riskReview": {
+      "title": "风险审查",
+      "description": "受限类别获得发货前人工审核。"
+    }
+  },
+  "perks": {
+    "safePayments": "安全付款",
+    "qualityInspection": "1:1 质量检验",
+    "support247": "24/7 支持",
+    "storage": "90 天免费存储",
+    "shipping": "全球运送"
+  },
+  "featureTabs": {
+    "shoppingAgent": "代购",
+    "forwarding": "转发",
+    "expertSourcing": "专家采购",
+    "shippingCalculator": "运费计算器"
+  },
+  "solutions": {
+    "title": "CNSnap 提供的中国采购与转运方案",
+    "description": "你可以通过同一套流程完成中国平台代购、包裹合箱、人工寻源和国际运费预估。",
+    "items": {
+      "shoppingAgent": {
+        "title": "代购服务",
+        "description": "通过 CNSnap 一套流程即可购买淘宝、天猫、1688、微店等中国平台商品。",
+        "cta": "开始代购"
+      },
+      "forwarding": {
+        "title": "转运与包裹合箱",
+        "description": "商品先寄到 CNSnap 仓库，再合并包裹并选择适合预算和时效的国际线路。",
+        "cta": "使用转运"
+      },
+      "sourcing": {
+        "title": "专家寻源支持",
+        "description": "如果需要找供应商、批量采购或定制商品，可让团队协助沟通与跟进。",
+        "cta": "提交寻源"
+      },
+      "estimation": {
+        "title": "运费成本规划",
+        "description": "在付款前先估算国际运费，便于比较线路、控制成本和规划订单。",
+        "cta": "查看预估"
+      }
+    }
+  },
+  "process": {
+    "title": "一站式购物服务流程",
+    "items": {
+      "purchaseOrders": {
+        "title": "提交采购订单",
+        "description": "粘贴商品链接或向 CNSnap 提交需求，我们会在购买前确认商品、选项、价格和卖家信息。"
+      },
+      "shipToWarehouse": {
+        "title": "寄送到仓库",
+        "description": "不同卖家的订单可以先到 CNSnap 仓库，便于统一暂存、分拣和打包。"
+      },
+      "qualityCheck": {
+        "title": "仓库质检",
+        "description": "商品到仓后，我们会检查物品并提供仓库照片，帮助你确认状态、数量、颜色等关键细节。"
+      },
+      "globalShipping": {
+        "title": "国际发货",
+        "description": "当包裹准备完成后，你可以选择运输线路、提交包裹，并跟踪从中国到目的地的配送。"
+      }
+    }
+  },
+  "advantages": {
+    "items": {
+      "multiPlatform": {
+        "title": "多平台采购",
+        "description": "可通过关键词、商品链接，或直接在淘宝、天猫、1688 等平台下单。"
+      },
+      "imageSearch": {
+        "title": "智能图片搜索",
+        "description": "上传图片即可快速查找相似商品，即使你不知道原始商品语言也能使用。"
+      },
+      "warehouseQc": {
+        "title": "仓库质检",
+        "description": "发货前可查看详细商品照片，更安心地确认每一笔订单。"
+      },
+      "globalShipping": {
+        "title": "灵活国际运输",
+        "description": "可比较空运和海运路线，并在付款前查看运输选项与追踪能力。"
+      },
+      "transparentFees": {
+        "title": "费用透明",
+        "description": "商品、服务和运费成本展示更清晰，并支持多币种查看。"
+      }
+    }
+  },
+  "mobile": {
+    "quickActions": {
+      "diyOrder": "人工报价与代购需求提交",
+      "forwarding": "把自购包裹发送到仓库",
+      "estimation": "付款前先查看路线与运费",
+      "cart": "查看已保存商品并继续结算",
+      "orders": "跟踪采购进度与付款状态"
+    },
+    "services": {
+      "title": "服务入口",
+      "shoppingAgentDescription": "通过 CNSnap 一套流程即可购买淘宝、天猫、1688、微店等中国平台商品。",
+      "forwardingDescription": "商品先寄到 CNSnap 仓库，再合并包裹并选择适合预算和时效的国际线路。",
+      "diyOrderDescription": "如果需要找供应商、批量采购或定制商品，可让团队协助沟通与跟进。",
+      "estimationDescription": "在付款前先估算国际运费，便于比较线路、控制成本和规划订单。"
+    },
+    "howItWorks": {
+      "eyebrow": "流程说明",
+      "title": "从商品链接到国际配送"
+    },
+    "help": {
+      "title": "帮助中心快捷入口"
+    },
+    "blog": {
+      "eyebrow": "指南",
+      "title": "下单前先阅读这些内容",
+      "viewAll": "查看全部指南",
+      "openHelp": "打开帮助中心"
+    },
+    "next": {
+      "eyebrow": "下一步要做什么？",
+      "title": "直接进入对应流程",
+      "diyOrderDescription": "当商品需要人工确认时，提交 DIY 订单请求。",
+      "forwardingDescription": "如果商品已经自行购买，可直接使用仓库转运。"
+    },
+    "why": {
+      "title": "为什么买家会持续使用 CNSnap"
+    },
+    "actions": {
+      "open": "进入"
+    }
+  }
+}

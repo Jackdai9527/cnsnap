@@ -1,0 +1,279 @@
+{
+  "search": {
+    "eyebrow": "Hilfecenter",
+    "title": "Finden Sie Antworten vor Ihrem nächsten China-Einkaufsschritt",
+    "subtitle": "Suchanleitungen für Shopping Agent, Versandschätzung, DIY-Bestellungen, Weiterleitung, Zahlung, Pakete, Sendungsverfolgung und Tickets Center.",
+    "placeholder": "Suchen Sie nach Einkaufsagenten, Versandkosten, Kostenvoranschlag, DIY-Bestellung, Weiterleitung, Zahlung ...",
+    "examplesTitle": "Suchbeispiele",
+    "results": "Ergebnisse",
+    "emptyTitle": "Kein Hilfeergebnis gefunden",
+    "emptyDescription": "Versuchen Sie es mit einem umfassenderen Schlüsselwort wie Versand, Zahlung, Paket, Ticket oder DIY-Bestellung.",
+    "examples": {
+      "shoppingAgent": "Einkaufsagent",
+      "shippingFee": "Versandkosten",
+      "estimation": "Schätzung",
+      "diyOrder": "DIY-Bestellung",
+      "forwarding": "Weiterleitung",
+      "payment": "Zahlung",
+      "refund": "Rückerstattung",
+      "restrictedItems": "eingeschränkte Artikel",
+      "package": "Paket",
+      "tracking": "Verfolgung",
+      "ticket": "Fahrkarte"
+    }
+  },
+  "popularTopics": {
+    "eyebrow": "Beliebte Themen",
+    "title": "Schnelle Antworten auf häufige Aufgaben",
+    "description": "Sehen Sie sich die Leitfäden an, die Benutzer am häufigsten benötigen, bevor sie bestellen, bezahlen oder versenden.",
+    "items": {
+      "orderLink": "So geben Sie eine Bestellung über einen Produktlink auf",
+      "estimation": "So schätzen Sie die internationalen Versandkosten ein",
+      "diyOrder": "So übermitteln Sie eine DIY-Bestellung",
+      "forwarding": "So funktioniert der Speditionsservice",
+      "separateShipping": "Warum die Versandkosten separat bezahlt werden",
+      "restricted": "Welche Artikel sind eingeschränkt?",
+      "recharge": "So laden Sie Ihr Portemonnaie auf",
+      "tracking": "So verfolgen Sie das Paket",
+      "ticket": "So eröffnen Sie ein Support-Ticket"
+    }
+  },
+  "categoriesSection": {
+    "eyebrow": "Hilfekategorien",
+    "title": "Durchsuchen Sie nach Servicebereich",
+    "description": "Wählen Sie eine Kategorie, um beliebte Artikel und FAQ-Antworten zu filtern.",
+    "showAll": "Alle Hilfe anzeigen",
+    "articleCount": "{count}-Artikel"
+  },
+  "categories": {
+    "howToBuy": {
+      "title": "So kaufen Sie",
+      "description": "Produktlinks, Bildsuche, Checkout über Shopping-Agenten und Auftragserteilung."
+    },
+    "orders": {
+      "title": "Bestellungen",
+      "description": "Bestellstatus, Einkauf, nicht vorrätige Artikel, Preisänderungen und Aktualisierungen."
+    },
+    "payment": {
+      "title": "Bezahlen und Aufladen",
+      "description": "Wallet-Guthaben, Aufladeaufzeichnungen, Produktzahlungen und manuelle Zahlungsbelege."
+    },
+    "shippingFee": {
+      "title": "Versandkosten",
+      "description": "Internationale Fracht, Volumengewicht, frachtpflichtiges Gewicht und Schätzungen."
+    },
+    "packages": {
+      "title": "Pakete",
+      "description": "Lagerankunft, Paketerstellung, Sendungsverfolgung, Versandstatus und Lieferung."
+    },
+    "forwarding": {
+      "title": "Weiterleitung",
+      "description": "Kaufen Sie selbst, nutzen Sie unsere Lageradresse und übermitteln Sie die Sendungsverfolgung im Inland."
+    },
+    "diyOrders": {
+      "title": "DIY-Bestellungen",
+      "description": "Manuelle Angebote für Produkte, die nicht automatisch analysiert werden können."
+    },
+    "restrictedItems": {
+      "title": "Eingeschränkte Artikel",
+      "description": "Sensible Güter, verbotene Gegenstände, Batterien, Flüssigkeiten, Pulver und Markenrisiken."
+    },
+    "refunds": {
+      "title": "Rückerstattungen",
+      "description": "Rückerstattungen für nicht vorrätige Waren, stornierte Bestellungen, Rückerstattungen für den Geldbeutel und Überprüfungszeitpunkt."
+    },
+    "affiliate": {
+      "title": "Partner",
+      "description": "Empfehlungslinks, Provisionen, gültige Bestellungen und Auszahlungsgrundlagen."
+    },
+    "tickets": {
+      "title": "Ticketcenter",
+      "description": "Öffnen Sie Tickets, prüfen Sie Antworten, liefern Sie Beweise und verfolgen Sie den Support-Fortschritt."
+    },
+    "account": {
+      "title": "Konto",
+      "description": "Profil, Sprache, Währung, Google-Login, Adressen und Sicherheitseinstellungen."
+    }
+  },
+  "articlesSection": {
+    "eyebrow": "Beliebte Artikel",
+    "title": "Leitfäden, die Benutzer zuerst lesen",
+    "description": "Praktische Hilfe bei Bestellung, Versand, Bezahlung, Weiterleitung und Support.",
+    "guideCount": "{count}-Anleitungen",
+    "updated": "{date} aktualisiert",
+    "read": "Lesen"
+  },
+  "articles": {
+    "placeOrderLink": {
+      "title": "So geben Sie eine Bestellung über einen Produktlink auf",
+      "summary": "Fügen Sie einen chinesischen Produktlink ein, wählen Sie Varianten und Menge aus und senden Sie dann den Checkout ab, um die Produktkosten und den Inlandsversand zu überprüfen.",
+      "content": "Fügen Sie das Produkt URL in die CNSnap-Suche oder den Produktparser ein. Überprüfen Sie Titel, Bilder, Varianten, Preis, Inlandsversandgebühr und Menge. Wählen Sie den genauen SKU aus, bestätigen Sie den Haftungsausschluss und legen Sie ihn dann in den Warenkorb oder kaufen Sie ihn jetzt. Sie zahlen zuerst die Produktkosten, den Inlandsversand und die Servicegebühr. Der internationale Versand wird später nach Eintreffen und Wiegen im Lager abgerechnet."
+    },
+    "shoppingAgent": {
+      "title": "So nutzen Sie den Shopping-Agent-Service",
+      "summary": "Shopping Agent bedeutet, dass unser Team Artikel für Sie kauft, sie in unserem Lager entgegennimmt und den internationalen Versand vorbereitet.",
+      "content": "Verwenden Sie Shopping Agent, wenn Sie möchten, dass CNSnap für Sie auf chinesischen Plattformen einkauft. Nachdem Sie die Produktbestellung aufgegeben und bezahlt haben, gibt unser Einkaufsteam die Bestellung beim Verkäufer auf. Wenn die Artikel im Lager eintreffen, wird das Paket überprüft, gewogen und für die Bezahlung des internationalen Versands vorbereitet."
+    },
+    "submitDiy": {
+      "title": "So übermitteln Sie eine DIY-Bestellung",
+      "summary": "Verwenden Sie DIY Order, wenn ein Produktlink nicht analysiert werden kann, Sie nur ein Bild haben oder die Anfrage ein manuelles Angebot erfordert.",
+      "content": "Öffnen Sie die DIY-Bestellung, geben Sie ein Produkt URL oder ein Bild URL, Produktnamen, Spezifikationen, Menge, Zielland und Notizen an. Unser Team überprüft die Verfügbarkeit, den Verkäuferpreis, den Inlandsversand und mögliche Einschränkungen und sendet ein Angebot. Sie zahlen erst nach Annahme des Angebots."
+    },
+    "forwarding": {
+      "title": "So funktioniert der Speditionsservice",
+      "summary": "Die Weiterleitung ist für Benutzer gedacht, die selbst einkaufen und Artikel zur internationalen Weiterleitung an unser China-Lager versenden.",
+      "content": "Melden Sie sich an, um Ihre Lageradresse und Ihren Benutzercode zu erhalten. Kaufen Sie selbst auf chinesischen Websites und geben Sie Ihren Benutzercode in den Empfänger oder die Adresse ein. Geben Sie nach dem Versand durch den Verkäufer die inländische Sendungsverfolgungsnummer ein. Das Lager empfängt, identifiziert, lagert, wiegt und versendet Ihr Paket international."
+    },
+    "shippingFee": {
+      "title": "Wie werden die internationalen Versandkosten berechnet?",
+      "summary": "Die Versandkosten hängen vom Bestimmungsort, dem Kanal, dem tatsächlichen Gewicht, dem Volumengewicht, dem frachtpflichtigen Mindestgewicht und den Produktbeschränkungen ab.",
+      "content": "Der internationale Versand wird nach dem Wiegen im Lager berechnet. Spediteure vergleichen das tatsächliche Gewicht und das Volumengewicht und rechnen dann mit dem höheren gebührenpflichtigen Gewicht ab. Das volumetrische Gewicht ist Länge × Breite × Höhe geteilt durch den Kanalvolumenteiler. Sensible Produkte, Zielgrenzen und Kanalregeln können die verfügbaren Routen verändern."
+    },
+    "separateShipping": {
+      "title": "Warum muss ich den Versand separat bezahlen?",
+      "summary": "Die Bezahlung des Produkts erfolgt vor dem Kauf. Der internationale Versand kann erst bestätigt werden, nachdem das Lager das Paket erhalten und gewogen hat.",
+      "content": "An der Kasse zahlen Sie die Produktkosten, den Inlandsversand und die Servicegebühr. Die internationale Fracht kann erst dann endgültig sein, wenn das Lager das tatsächliche Packgewicht, die Abmessungen, den Bestimmungsort und den verfügbaren Kanal kennt. Nach der Ankunft erstellt CNSnap die Paket- und Versandrechnung für Ihre Bestätigung."
+    },
+    "restricted": {
+      "title": "Welche Artikel sind eingeschränkt?",
+      "summary": "Batterien, Flüssigkeiten, Pulver, Lebensmittel, Kosmetika, Markenluxusgüter und gefährliche Artikel müssen möglicherweise überprüft oder abgelehnt werden.",
+      "content": "Beschränkte oder sensible Artikel hängen von den Spediteur- und Zollbestimmungen ab. Batterien, Flüssigkeiten, Pulver, Lebensmittel, Kosmetika, Medikamente, Waffen, gefährliche Güter, gefälschte Waren und hochwertige Markenartikel erfordern möglicherweise eine manuelle Überprüfung, spezielle Zeilen oder zusätzliche Dokumente oder werden möglicherweise nicht zum Versand angenommen."
+    },
+    "recharge": {
+      "title": "Wie lade ich mein Portemonnaie auf?",
+      "summary": "Das Wallet-Guthaben kann für Produktzahlungen, Versandzahlungen und Servicegebühren verwendet werden, nachdem die Aufladedaten bestätigt wurden.",
+      "content": "Gehen Sie zu „Konto aufladen“, geben Sie den Betrag ein und wählen Sie eine Zahlungsmethode. V1.0 unterstützt manuelle Zahlungsplatzhalterdatensätze. Nachdem die Zahlung bestätigt wurde, kann der Restbetrag für Produktbestellungen, internationalen Versand, Anpassungen und Rückerstattungen verwendet werden."
+    },
+    "tracking": {
+      "title": "Wie kann ich mein Paket verfolgen?",
+      "summary": "Nachdem ein Paket international versendet wurde, werden die Sendungsverfolgungsnummer und der Versandstatus unter „Kontopakete“ angezeigt.",
+      "content": "Öffnen Sie das Konto „Pakete“, um den Paketstatus, den Versandkanal, die Sendungsverfolgungsnummer und die Versandzeit anzuzeigen. Es kann einige Zeit dauern, bis die Sendungsverfolgung nach dem Versand aktualisiert wird. Wenn die Sendungsverfolgung stoppt oder eine Ausnahme anzeigt, öffnen Sie ein Support-Ticket mit der Paketnummer und der Sendungsverfolgungsnummer."
+    },
+    "ticket": {
+      "title": "Wie öffne ich ein Support-Ticket?",
+      "summary": "Nutzen Sie das Tickets Center für Bestellprobleme, Fragen zum Paket, Zahlungsnachweise, Rückerstattungen, eingeschränkte Artikel oder Versandausnahmen.",
+      "content": "Öffnen Sie das Ticketcenter und erstellen Sie ein neues Ticket. Wählen Sie die nächstgelegene Kategorie, fügen Sie Bestell- oder Paketnummern hinzu, beschreiben Sie das Problem und laden Sie alle nützlichen Beweise später hoch, wenn der Datei-Upload verbunden ist. Unser Support-Team antwortet im Ticket-Thread."
+    }
+  },
+  "faqSection": {
+    "eyebrow": "FAQ",
+    "title": "Häufig gestellte Fragen",
+    "description": "Kurze Antworten für Shopping Agent, Kostenvoranschlag, DIY-Bestellungen, Weiterleitung, Zahlung und Support-Tickets."
+  },
+  "faq": {
+    "saTaobao": {
+      "question": "Können Sie für mich bei Taobao oder 1688 kaufen?",
+      "answer": "Ja. Verwenden Sie Shopping Agent für unterstützte Produktlinks. Wenn eine Seite nicht geparst werden kann, senden Sie eine DIY-Bestellung zur manuellen Überprüfung."
+    },
+    "saImage": {
+      "question": "Kann ich nach Produktbild suchen?",
+      "answer": "Die Bildersuche kann dabei helfen, Produkte zu entdecken. Wenn das Ergebnis unklar ist, verwenden Sie DIY Order und geben Sie das Bild URL oder einen Produkt-Screenshot an."
+    },
+    "saOutStock": {
+      "question": "Was passiert, wenn der Artikel nicht vorrätig ist?",
+      "answer": "Unser Team wird die Bestellung aktualisieren und Sie kontaktieren. Je nach Situation des Verkäufers können Sie zwischen Ersatz, Stornierung oder Rückerstattung wählen."
+    },
+    "estFinal": {
+      "question": "Ist die geschätzte Versandkostenpauschale endgültig?",
+      "answer": "Nein. Der Kostenvoranschlag dient der Planung. Die endgültige Fracht basiert auf dem im Lager gemessenen Gewicht, den Packmaßen, der Produktbewertung und dem ausgewählten Kanal."
+    },
+    "estVolumetric": {
+      "question": "Was ist das Volumengewicht?",
+      "answer": "Das Volumengewicht wandelt die Paketgröße in das abrechenbare Gewicht um. Große Lichtpakete können teurer sein, da sie mehr Platz auf dem Träger beanspruchen."
+    },
+    "estChargeable": {
+      "question": "Warum unterscheidet sich das anrechenbare Gewicht vom tatsächlichen Gewicht?",
+      "answer": "Spediteure rechnen nach dem höheren Wert aus tatsächlichem Gewicht, Volumengewicht und frachtpflichtigem Mindestgewicht ab."
+    },
+    "diyWhen": {
+      "question": "Wann sollte ich eine DIY-Bestellung aufgeben?",
+      "answer": "Senden Sie eine DIY-Bestellung, wenn der Produktlink nicht analysiert werden kann, Sie nur ein Bild haben, die Spezifikationen komplex sind oder Sie ein manuelles Angebot benötigen."
+    },
+    "diyQuote": {
+      "question": "Wie lange dauert ein DIY-Bestellangebot?",
+      "answer": "Die meisten Angebote werden innerhalb eines Werktages überprüft. Komplexe Artikel oder die Bestätigung des Verkäufers können länger dauern."
+    },
+    "diyImage": {
+      "question": "Kann ich nur ein Produktbild einreichen?",
+      "answer": "Ja. Ein Produktbild wird akzeptiert, aber ein Link oder eine detaillierte Beschreibung hilft unserem Team, schneller ein Angebot abzugeben."
+    },
+    "fwBuySelf": {
+      "question": "Kann ich selbst einkaufen und nur Ihr Lager nutzen?",
+      "answer": "Ja. Verwenden Sie die Weiterleitung, kopieren Sie Ihre Lageradresse und übermitteln Sie die inländische Sendungsverfolgungsnummer, nachdem der Verkäufer versendet hat."
+    },
+    "fwDifference": {
+      "question": "Was ist der Unterschied zwischen Shopping Agent und Forwarding?",
+      "answer": "Shopping Agent bedeutet, dass CNSnap für Sie einkauft. Spedition bedeutet, dass Sie selbst kaufen und CNSnap kümmert sich um den Lagereingang und den internationalen Versand."
+    },
+    "fwUserCode": {
+      "question": "Warum muss ich meinen Benutzercode angeben?",
+      "answer": "Mit dem Benutzercode können Lagermitarbeiter eingehende Pakete Ihrem Konto zuordnen. Fehlende Benutzercodes können den Empfang verzögern."
+    },
+    "payProduct": {
+      "question": "Wie bezahle ich die Produktkosten?",
+      "answer": "Sie können während des Bezahlvorgangs mit dem verfügbaren Guthaben oder unterstützten Zahlungsmethoden bezahlen. Auflade- und manuelle Zahlungsaufzeichnungen können später erweitert werden."
+    },
+    "payShipping": {
+      "question": "Warum bezahle ich den internationalen Versand separat?",
+      "answer": "Der internationale Versand wird nach Ankunft im Lager berechnet, da das endgültige Gewicht und die Abmessungen der Verpackung vor dem Empfang nicht bekannt sind."
+    },
+    "payRefund": {
+      "question": "Kann ich eine Rückerstattung erhalten?",
+      "answer": "Die Rückerstattungsberechtigung hängt vom Bestellstatus, den Verkäuferrichtlinien und davon ab, ob der Artikel bereits gekauft oder versendet wurde."
+    },
+    "ticketWhen": {
+      "question": "Wann sollte ich ein Ticket eröffnen?",
+      "answer": "Öffnen Sie ein Ticket für Bestellfragen, Zahlungsnachweise, Paketausnahmen, Rückerstattungen, eingeschränkte Artikelüberprüfungen oder Kontoprobleme."
+    },
+    "ticketReplies": {
+      "question": "Wie überprüfe ich Ticketantworten?",
+      "answer": "Gehen Sie zum Konto-Ticket-Center und öffnen Sie den Ticket-Thread, um Support-Antworten und Statusaktualisierungen anzuzeigen."
+    },
+    "ticketReopen": {
+      "question": "Kann ich ein gelöstes Ticket erneut öffnen?",
+      "answer": "V1.0 kann das Verhalten beim erneuten Öffnen reservieren. Wenn ein gelöstes Problem weiterhin besteht, erstellen Sie ein neues Ticket und verweisen Sie auf die alte Ticketnummer."
+    },
+    "packageArrival": {
+      "question": "Woher weiß ich, dass mein Paket im Lager angekommen ist?",
+      "answer": "Überprüfen Sie die Kontopakete. Der Lagereingangsstatus wird angezeigt, nachdem die Mitarbeiter das eingehende Paket abgeglichen und bearbeitet haben."
+    },
+    "accountLanguage": {
+      "question": "Kann ich die Sprache oder Währung ändern?",
+      "answer": "Ja. Verwenden Sie bei bestehender Verbindung den Frontend-Sprach- und Währungsumschalter oder die Kontoprofileinstellungen."
+    },
+    "affiliateReward": {
+      "question": "Wie funktionieren Affiliate-Prämien?",
+      "answer": "Teilen Sie Ihren Empfehlungslink. Die Provision wird aus gültigen weitergeleiteten Bestellungen gemäß der Affiliate-Richtlinie berechnet."
+    }
+  },
+  "filter": {
+    "showing": "Hilfe anzeigen für"
+  },
+  "empty": {
+    "articlesTitle": "Noch keine Artikel in dieser Kategorie",
+    "articlesDescription": "Versuchen Sie es mit einer anderen Kategorie oder verwenden Sie die Suche oben.",
+    "faqTitle": "Noch kein FAQ in dieser Kategorie",
+    "faqDescription": "Das Ticketcenter kann bei diesem Thema weiterhin weiterhelfen."
+  },
+  "articleDialog": {
+    "keywords": "Schlüsselwörter",
+    "quickAnswer": "Schnelle Support-Antwort"
+  },
+  "articlePage": {
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Verwandte Fragen",
+    "guidesEyebrow": "Leitfäden",
+    "guidesTitle": "Ähnliche Artikel",
+    "updated": "Aktualisiert {date}",
+    "supportTitle": "Brauchen Sie noch Hilfe?",
+    "supportDescription": "Öffnen Sie ein Support-Ticket und unser Team wird so schnell wie möglich antworten.",
+    "backToHelp": "Zurück zum Hilfe-Center",
+    "createTicket": "Support-Ticket erstellen"
+  },
+  "ticketsCta": {
+    "title": "Brauchen Sie noch Hilfe?",
+    "description": "Öffnen Sie ein Support-Ticket und unser Team wird so schnell wie möglich antworten.",
+    "open": "Öffnen Sie das Ticketcenter",
+    "create": "Neues Ticket erstellen"
+  }
+}

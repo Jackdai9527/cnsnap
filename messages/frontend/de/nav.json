@@ -1,0 +1,19 @@
+{
+  "home": "Startseite",
+  "shoppingAgent": "Einkaufsagent",
+  "estimation": "Schätzung",
+  "promotion": "Beförderung",
+  "diyOrder": "DIY Bestellung",
+  "forwarding": "Weiterleitung",
+  "helpCenter": "Hilfecenter",
+  "menu": "Menü",
+  "login": "Anmelden",
+  "register": "Registrieren",
+  "account": "Konto",
+  "dashboard": "Armaturenbrett",
+  "orders": "Bestellungen",
+  "packages": "Pakete",
+  "wallet": "Geldbörse",
+  "ticketsCenter": "Ticketcenter",
+  "logout": "Abmelden"
+}

@@ -1,0 +1,141 @@
+{
+  "page": {
+    "kicker": "Carrier rules and country pricing",
+    "title": "Shipping Channels",
+    "importDgeub": "Import Guangzhou EUB",
+    "addChannel": "Add channel",
+    "search": "Search shipping channels...",
+    "table": {
+      "channel": "Channel",
+      "status": "Status",
+      "countries": "Countries",
+      "rates": "Rates",
+      "eta": "ETA",
+      "rule": "Rule",
+      "actions": "Actions",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "sortable": {
+      "title": "Shipping Channel Sort Order",
+      "description": "Drag active and inactive logistics channels into the order customers and admins should see first.",
+      "saving": "Saving",
+      "autoSaves": "Auto-saves",
+      "saved": "Shipping channel order saved.",
+      "saveFailed": "Could not save shipping channel order.",
+      "empty": "No shipping channels yet.",
+      "active": "Active",
+      "inactive": "Inactive",
+      "countryCount": "{count} countries",
+      "rateCount": "{count} rates"
+    },
+    "deliveryTime": "{min}-{max} days",
+    "modals": {
+      "addChannelTitle": "Add channel",
+      "editChannelTitle": "Edit {name}",
+      "addRateTitle": "Add country rate",
+      "editRateTitle": "Edit {name}",
+      "channelDescription": "{count} country rates",
+      "createChannelDescription": "Create a carrier channel"
+    },
+    "forms": {
+      "saveChannel": "Save channel",
+      "channelNamePlaceholder": "Channel name",
+      "codePlaceholder": "Code",
+      "supportedCountries": "Supported countries",
+      "supportedCategoriesPlaceholder": "Supported categories",
+      "forbiddenCategoriesPlaceholder": "Forbidden categories",
+      "calculationRulePlaceholder": "Calculation rule",
+      "trackingUrlPlaceholder": "Tracking URL",
+      "activeChannel": "Active channel"
+    },
+    "rates": {
+      "title": "Country rates",
+      "description": "{count} rate rows. Countries are shown with ISO2 codes.",
+      "addRate": "Add rate",
+      "search": "Search country rates...",
+      "emptyState": "Create the channel first, then open it to edit country rates. DGEUB defaults include {count} supported countries.",
+      "columns": {
+        "country": "Country",
+        "code": "Code",
+        "rmbPerKg": "RMB/KG",
+        "fee": "Fee",
+        "start": "Start",
+        "limit": "Limit",
+        "actions": "Actions"
+      }
+    },
+    "rateForm": {
+      "save": "Save rate",
+      "countryNamePlaceholder": "Country name, e.g. United States",
+      "countryCodePlaceholder": "ISO2, e.g. US",
+      "freightPlaceholder": "RMB/KG",
+      "handlingPlaceholder": "Handling RMB",
+      "startPlaceholder": "Start KG",
+      "maxPlaceholder": "Max KG",
+      "delete": "Delete rate"
+    }
+  },
+  "adminModules": {
+    "countries": {
+      "kicker": "Shipping center",
+      "title": "Shipping Countries",
+      "description": "Country availability assembled from active shipping channels and country rate rows.",
+      "countLabel": "{count} countries",
+      "manageChannels": "Manage channels",
+      "columns": {
+        "country": "Country",
+        "code": "Code",
+        "enabled": "Enabled",
+        "currency": "Currency",
+        "channels": "Channels",
+        "rates": "Rate Rows"
+      }
+    },
+    "rateRules": {
+      "kicker": "Shipping center",
+      "title": "Shipping Rate Rules",
+      "description": "DGEUB rate rows and future carrier rules. Formula: max(actual, volume, min) × RMB/KG + handling fee.",
+      "countLabel": "{count} rules",
+      "editRateRows": "Edit rate rows",
+      "search": "Search shipping rate rules...",
+      "importDialog": {
+        "title": "Import Shipping Rate Rules",
+        "description": "Upload a CSV, review parsed rows, fix any validation errors, then confirm to update channels and country rate rows."
+      },
+      "columns": {
+        "rule": "Rule",
+        "channel": "Channel",
+        "country": "Country",
+        "weight": "Weight Range",
+        "rate": "Rate",
+        "volume": "Volume Divisor",
+        "status": "Status"
+      }
+    },
+    "restrictions": {
+      "kicker": "Shipping center",
+      "title": "Shipping Restriction Rules",
+      "description": "Product category restrictions by carrier and country. Empty country means the rule applies globally.",
+      "countLabel": "{count} rules",
+      "columns": {
+        "category": "Category",
+        "channel": "Channel",
+        "countries": "Countries",
+        "type": "Type",
+        "review": "Review",
+        "userTip": "User Tip"
+      },
+      "values": {
+        "countries": "{count} countries",
+        "reviewRequired": "Required",
+        "userTip": "Final carrier audit applies"
+      }
+    },
+    "calculator": {
+      "kicker": "Shipping center",
+      "title": "Shipping Calculator",
+      "description": "Operational freight test tool using the configured DGEUB country rates and chargeable weight rules."
+    }
+  }
+}

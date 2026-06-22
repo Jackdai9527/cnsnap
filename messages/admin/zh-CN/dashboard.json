@@ -1,0 +1,241 @@
+{
+  "page": {
+    "kicker": "运营驾驶舱",
+    "title": "仪表盘",
+    "description": "采购、仓库、包裹计费、发货、财务、API 健康和风控异常的运营总览。"
+  },
+  "actions": {
+    "refresh": "刷新",
+    "range": "范围",
+    "today": "今天",
+    "last7d": "近 7 天",
+    "last30d": "近 30 天",
+    "last90d": "近 90 天"
+  },
+  "metricsCatalog": {
+    "common": {
+      "cnyEstimate": "人民币预估"
+    },
+    "todayOrders": {
+      "label": "今日订单",
+      "description": "今天新创建的代购订单。"
+    },
+    "todayPaidOrders": {
+      "label": "今日已付款订单",
+      "description": "今天完成商品付款的订单。"
+    },
+    "todayPaidAmount": {
+      "label": "今日支付金额",
+      "description": "今天已入账的真实付款记录。"
+    },
+    "pendingPurchase": {
+      "label": "待采购",
+      "description": "已付款但仍等待采购员处理的订单。"
+    },
+    "purchasing": {
+      "label": "采购中",
+      "description": "当前已分配给采购员处理的订单。"
+    },
+    "warehousePending": {
+      "label": "待入库",
+      "description": "已采购、等待仓库确认入库的订单。"
+    },
+    "pendingWeight": {
+      "label": "待录重量",
+      "description": "等待录入实重或体积重的包裹。"
+    },
+    "waitingShippingPayment": {
+      "label": "待付运费",
+      "description": "已生成国际运费账单但尚未付款的包裹。"
+    },
+    "readyToShip": {
+      "label": "待发货",
+      "description": "国际运费已支付，等待出库发货的包裹。"
+    },
+    "riskOrders": {
+      "label": "风控订单",
+      "description": "需要风控或敏感品审核的订单。"
+    },
+    "refundPending": {
+      "label": "待退款",
+      "description": "等待财务审核处理的退款申请。"
+    },
+    "apiErrorsToday": {
+      "label": "今日 API 异常",
+      "description": "今天 OneBound 商品/搜索调用失败次数。"
+    }
+  },
+  "tasks": {
+    "pendingPurchase": {
+      "title": "待采购订单",
+      "description": "已付款、等待采购员下单处理的订单。"
+    },
+    "overduePurchase": {
+      "title": "采购超时订单",
+      "description": "已付款超过 24 小时仍未完成采购的订单。"
+    },
+    "warehouseAbnormal": {
+      "title": "仓库异常",
+      "description": "入库差异、破损、敏感品和缺件等异常。"
+    },
+    "waitingShippingPayment": {
+      "title": "待付国际运费",
+      "description": "已生成国际运费账单、等待用户付款的包裹。"
+    },
+    "readyToShip": {
+      "title": "待出库发货",
+      "description": "国际运费已支付、等待仓库发货的包裹。"
+    },
+    "shippingExceptions": {
+      "title": "物流异常",
+      "description": "承运商异常、轨迹停滞和配送问题。"
+    },
+    "apiErrors": {
+      "title": "API 异常",
+      "description": "近期商品/搜索接口失败，需人工兜底处理。"
+    },
+    "loadingTitle": "正在加载任务",
+    "loadingDescription": "正在获取运营队列数据。",
+    "emptyTitle": "当前没有仪表盘任务",
+    "emptyDescription": "所选时间范围内暂无待处理运营任务。",
+    "emptyQueueTitle": "当前无任务",
+    "emptyQueueDescription": "该队列在当前时间范围内已清空。"
+  },
+  "errors": {
+    "loadTitle": "仪表盘数据加载失败",
+    "loadDescription": "模拟 API 请求失败，请确认管理员会话仍然有效后重试。",
+    "retry": "重试"
+  },
+  "charts": {
+    "emptyFooter": "当真实运营数据接入后，可连接 `/api/admin/dashboard/stats`。",
+    "ordersTrend": {
+      "title": "订单趋势",
+      "description": "所选时间范围内的创建、付款和完成订单趋势。",
+      "empty": "暂无订单趋势数据。",
+      "series": {
+        "created": "创建",
+        "paid": "已付款",
+        "completed": "已完成"
+      }
+    },
+    "paidAmountTrend": {
+      "title": "支付金额趋势",
+      "description": "商品付款、国际运费、充值和退款的金额变化。",
+      "empty": "暂无支付金额趋势数据。",
+      "series": {
+        "productPayment": "商品付款",
+        "shippingPayment": "国际运费",
+        "recharge": "充值",
+        "refund": "退款"
+      }
+    },
+    "orderStatus": {
+      "title": "订单状态分布",
+      "description": "代购订单流程各状态分布，包含异常与退款状态。",
+      "empty": "暂无订单状态数据。",
+      "series": {
+        "orders": "订单"
+      },
+      "statuses": {
+        "pendingPayment": "待付款",
+        "paid": "已付款",
+        "purchasing": "采购中",
+        "warehousePending": "待入库",
+        "shippingPending": "待发货付款",
+        "shipped": "已发货",
+        "completed": "已完成",
+        "cancelled": "已取消",
+        "refunded": "已退款",
+        "abnormal": "异常"
+      }
+    },
+    "paymentMethod": {
+      "title": "支付方式占比",
+      "description": "钱包、银行卡、PayPal、Stripe 和人工支付的占比。",
+      "empty": "暂无支付方式数据。",
+      "labels": {
+        "wallet": "钱包",
+        "payPal": "PayPal",
+        "stripe": "Stripe",
+        "manualPayment": "人工支付",
+        "creditCard": "信用卡"
+      }
+    },
+    "countryOrders": {
+      "title": "国家订单分布",
+      "description": "代购订单按收货国家/地区的数量分布。",
+      "empty": "暂无国家订单数据。",
+      "series": {
+        "orders": "订单"
+      }
+    },
+    "shippingChannel": {
+      "title": "物流渠道使用情况",
+      "description": "生成国际运费账单后的渠道占比。",
+      "empty": "暂无物流渠道数据。",
+      "series": {
+        "packages": "包裹"
+      },
+      "labels": {
+        "dhl": "DHL",
+        "fedEx": "FedEx",
+        "ups": "UPS",
+        "ems": "EMS",
+        "airCargo": "空运专线",
+        "seaShipping": "海运",
+        "economyLine": "经济线"
+      }
+    },
+    "orderSource": {
+      "title": "订单来源",
+      "description": "用户进入代购流程的主要入口分布。",
+      "empty": "暂无订单来源数据。",
+      "labels": {
+        "urlSearch": "链接搜索",
+        "keywordSearch": "关键词搜索",
+        "imageSearch": "图片搜索",
+        "shopSearch": "店铺搜索",
+        "diyOrder": "DIY 订单",
+        "adminCreated": "后台创建"
+      }
+    }
+  },
+  "apiHealth": {
+    "title": "API 健康度",
+    "description": "按成功率、延迟、错误原因和接口类型查看 OneBound 调用情况。",
+    "stats": {
+      "callsToday": "今日调用",
+      "failed": "失败数",
+      "successRate": "成功率",
+      "avgResponse": "平均响应"
+    },
+    "topErrorReasons": "主要错误原因",
+    "typeDistribution": "接口类型分布",
+    "apiTypes": {
+      "detail": "详情",
+      "search": "搜索",
+      "image": "图片",
+      "shop": "店铺",
+      "priceRefresh": "价格刷新"
+    },
+    "errorReasons": {
+      "sellerThrottledItemDetail": "卖家限制了商品详情抓取",
+      "variantImageMissing": "商品变体图片缺失",
+      "searchTimeout": "搜索超时",
+      "priceRefreshMismatch": "价格刷新结果不一致",
+      "shopPageUnavailable": "店铺页面不可用"
+    }
+  },
+  "riskAlerts": {
+    "title": "风控提醒",
+    "description": "敏感/违禁品、高货值订单、支付异常和高风险用户概览。",
+    "rows": {
+      "riskOrders": "风控订单",
+      "sensitiveGoodsOrders": "敏感商品",
+      "forbiddenGoodsOrders": "违禁商品",
+      "highValueGoodsOrders": "高货值商品",
+      "paymentAbnormalOrders": "支付异常",
+      "riskUsers": "风险用户"
+    }
+  }
+}

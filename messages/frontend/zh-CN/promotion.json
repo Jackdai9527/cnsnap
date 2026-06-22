@@ -1,0 +1,177 @@
+{
+  "common": {
+    "validUntil": "有效期至{date}"
+  },
+  "hero": {
+    "eyebrow": "促销中心",
+    "title": "中国购物订单节省更多",
+    "subtitle": "享受新用户奖励、充值奖金、运费优惠券、服务费折扣和联盟佣金。",
+    "startShopping": "开始购物",
+    "rechargeWallet": "充值钱包",
+    "joinAffiliate": "加入联盟计划",
+    "highlights": {
+      "newUser": "新用户优惠券",
+      "recharge": "充值奖金高达",
+      "affiliate": "联盟佣金"
+    }
+  },
+  "newUser": {
+    "eyebrow": "新用户奖金",
+    "title": "开始享受额外优惠",
+    "description": "注册、下第一个订单并以更少的费用使用您的第一个套餐优惠惊喜。",
+    "offers": {
+      "shippingCoupon": {
+        "title": "立即注册即可获得 5 美元运费优惠券",
+        "description": "在仓库称重后支付第一笔国际运费时使用它。",
+        "action": "立即注册"
+      },
+      "firstOrder": {
+        "title": "首单服务费折扣",
+        "description": "在您的首笔代购订单中享受服务费折扣。",
+        "action": "开始购物"
+      },
+      "diyPriority": {
+        "title": "优先支持第一个 DIY 订单",
+        "description": "新用户可以提交一个 DIY 请求，并获得指导性手动审核和更快的澄清。",
+        "action": "提交 DIY 订单"
+      }
+    }
+  },
+  "recharge": {
+    "eyebrow": "充值奖金",
+    "title": "为钱包充值，解锁奖金余额",
+    "description": "电子钱包余额使结帐、国际运费付款和退款更易于管理。",
+    "rechargeNow": "立即充值",
+    "columns": {
+      "rechargeAmount": "充值金额",
+      "bonusAmount": "奖金金额",
+      "validity": "有效性",
+      "status": "状态"
+    },
+    "status": {
+      "active": "活跃",
+      "limited": "有限"
+    }
+  },
+  "shippingCoupons": {
+    "eyebrow": "运费优惠券",
+    "title": "降低国际运费",
+    "description": "在包裹到达仓库并产生运费后使用符合条件的优惠券。",
+    "minimum": "最低运费",
+    "countries": "国家/地区",
+    "channels": "渠道",
+    "validUntil": "直到{date}",
+    "coupons": {
+      "shipping5": {
+        "name": "国际运费优惠5美元"
+      },
+      "heavy10": {
+        "name": "超过5公斤的包裹优惠10美元"
+      },
+      "firstPackage": {
+        "name": "第一个包裹的运费折扣"
+      },
+      "countrySpecial": {
+        "name": "特殊国家/地区运费折扣"
+      }
+    }
+  },
+  "serviceFee": {
+    "eyebrow": "服务费折扣",
+    "title": "较低的代购服务费",
+    "description": "在收取国际运费之前，服务费折扣适用于符合条件的产品订单。",
+    "badges": {
+      "new": "新用户",
+      "vip": "VIP",
+      "limited": "活动"
+    },
+    "discounts": {
+      "firstOrder": {
+        "title": "首单服务费折扣",
+        "description": "专为首次测试购买工作流程的用户而设计。"
+      },
+      "vip": {
+        "title": "VIP 用户服务费折扣",
+        "description": "老客户可以在符合条件的订单上获得更低的服务费。"
+      },
+      "campaign": {
+        "title": "活动服务费折扣",
+        "description": "针对选定类别和季节性活动进行有限促销。"
+      }
+    }
+  },
+  "affiliate": {
+    "title": "邀请朋友并赚取佣金",
+    "description": "与朋友分享 CNSnap。当推荐用户下有效订单时即可赚取佣金。",
+    "join": "加入联盟计划",
+    "metrics": {
+      "rate": "佣金率",
+      "requirement": "有效订单要求",
+      "payout": "付款方式",
+      "minimum": "最低付款金额"
+    }
+  },
+  "campaigns": {
+    "eyebrow": "限时活动",
+    "title": "季节性优惠和路线广告系列",
+    "description": "广告系列可能会针对特定国家/地区、产品类别、付款方式或运输渠道。",
+    "view": "查看广告系列",
+    "status": {
+      "active": "有效",
+      "upcoming": "即将推出"
+    },
+    "items": {
+      "summer": {
+        "title": "夏季转运路线优惠",
+        "description": "使用选定的经济和航空货运路线以降低包裹运输成本。"
+      },
+      "school": {
+        "title": "返校购物活动",
+        "description": "衣服、鞋子、文具和宿舍必需品额外优惠。"
+      }
+    }
+  },
+  "rules": {
+    "eyebrow": "促销规则",
+    "title": "使用优惠券前明确规则",
+    "description": "促销资格取决于时间、订单类型、目的地、路线和帐户行为。",
+    "items": {
+      "validTime": {
+        "title": "有效时间",
+        "description": "每张优惠券或活动都有有效期。过期的促销活动无法手动恢复或延长。"
+      },
+      "minimumOrder": {
+        "title": "最低订单金额",
+        "description": "某些折扣需要最低产品小计、钱包充值金额或生成的国际运费。"
+      },
+      "countries": {
+        "title": "适用的国家/地区",
+        "description": "特定国家/地区的优惠券仅在包裹目的地与活动国家/地区列表匹配时适用。"
+      },
+      "channels": {
+        "title": "适用的运费渠道",
+        "description": "运输优惠券可能仅限于快递、经济、敏感货或海运路线。"
+      },
+      "refunds": {
+        "title": "退款规则",
+        "description": "如果订单被取消或全额退款，相关优惠券的使用和奖金奖励可能会被撤销。"
+      },
+      "stacking": {
+        "title": "优惠券叠加规则",
+        "description": "大多数优惠券无法叠加除非活动明确允许，否则可以与其他同类型优惠券一起使用。"
+      },
+      "abuse": {
+        "title": "防止滥用",
+        "description": "欺诈帐户、自我推荐、重复注册或异常活动可能会失去促销资格。"
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "使用您的福利",
+    "title": "选择下一个最佳操作",
+    "description": "搜索产品、充值钱包或邀请朋友赚取未来的订单奖励。",
+    "startShopping": "开始购物",
+    "rechargeWallet": "为钱包充值",
+    "joinAffiliate": "加入联盟"
+  }
+}

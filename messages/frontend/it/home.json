@@ -1,0 +1,179 @@
+{
+  "hero": {
+    "eyebrow": "Il tuo fidato agente di soluzioni per lo shopping online in Cina",
+    "titlePrefix": "Agente di shopping tutto in uno per",
+    "titleHighlight": "Taobao, 1688, Weidian",
+    "description": "Incolla il collegamento di un prodotto o cerca parole chiave. CNSnap ti aiuta ad acquistare dalla Cina, ispezionare articoli, immagazzinare pacchi e spedirli in tutto il mondo."
+  },
+  "why": {
+    "title": "Perché scegliere CNSnap?",
+    "description": "Un flusso di acquisto semplice con pagamento sicuro, controllo qualità del magazzino, stoccaggio gratuito e assistenza clienti rapida."
+  },
+  "sections": {
+    "agentTools": "Strumenti dell'agente",
+    "beforeCheckout": "Tutto ciò di cui hai bisogno prima del checkout",
+    "exploreHelp": "Esplora il Centro assistenza",
+    "storefrontPicks": "Scelte del negozio",
+    "hotSellers": "Venditori caldi",
+    "viewMore": "Visualizza altro"
+  },
+  "steps": {
+    "step": "STEP",
+    "pasteLink": {
+      "title": "Incolla collegamento",
+      "description": "Rilascia qualsiasi prodotto URL del mercato cinese o cerca per parola chiave."
+    },
+    "wePurchase": {
+      "title": "Acquistiamo",
+      "description": "L'agente conferma il prodotto, la variante, la spedizione nazionale e paga il venditore."
+    },
+    "qcWarehouse": {
+      "title": "QC Magazzino",
+      "description": "Gli articoli arrivano al magazzino per foto, stoccaggio e consolidamento."
+    },
+    "shipGlobal": {
+      "title": "Spedisci in tutto il mondo",
+      "description": "Scegli il percorso, invia il pacco e monitora la consegna internazionale."
+    }
+  },
+  "services": {
+    "expertSourcing": {
+      "title": "Approvvigionamento esperto",
+      "description": "Non riesci a trovarlo? Invia una richiesta DIY e lascia che un agente la generi."
+    },
+    "shippingCalculator": {
+      "title": "Calcolatore di spedizione",
+      "description": "Confronta i percorsi prima dell'acquisto ed evita costi a sorpresa."
+    },
+    "parcelConsolidation": {
+      "title": "Consolidamento dei pacchi",
+      "description": "Combina più ordini in un unico pacco internazionale intelligente."
+    },
+    "riskReview": {
+      "title": "Revisione del rischio",
+      "description": "Le categorie limitate ricevono una revisione manuale prima della spedizione."
+    }
+  },
+  "perks": {
+    "safePayments": "Pagamenti sicuri",
+    "qualityInspection": "Ispezione di qualità 1:1",
+    "support247": "Assistenza 24 ore su 24, 7 giorni su 7",
+    "storage": "Archiviazione gratuita per 90 giorni",
+    "shipping": "Spedizione in tutto il mondo"
+  },
+  "featureTabs": {
+    "shoppingAgent": "Agente degli acquisti",
+    "forwarding": "Inoltro",
+    "expertSourcing": "Approvvigionamento esperto",
+    "shippingCalculator": "Calcolatore di spedizione"
+  },
+  "solutions": {
+    "title": "Soluzioni CNSnap per acquistare e spedire dalla Cina",
+    "description": "Usa un unico flusso per acquistare dai marketplace cinesi, consolidare pacchi, richiedere supporto di sourcing e stimare la spedizione internazionale prima del pagamento.",
+    "items": {
+      "shoppingAgent": {
+        "title": "Servizio di shopping agent",
+        "description": "Acquista da Taobao, Tmall, 1688, Weidian e altri marketplace cinesi con un unico flusso CNSnap.",
+        "cta": "Inizia l'acquisto"
+      },
+      "forwarding": {
+        "title": "Inoltro e consolidamento pacchi",
+        "description": "Spedisci gli articoli al magazzino CNSnap, consolida i pacchi e scegli la rotta internazionale più adatta a budget e tempi.",
+        "cta": "Usa inoltro"
+      },
+      "sourcing": {
+        "title": "Supporto esperto per il sourcing",
+        "description": "Se hai bisogno di aiuto con fornitori, acquisti all'ingrosso o ordini personalizzati, il nostro team può occuparsi del coordinamento.",
+        "cta": "Richiedi sourcing"
+      },
+      "estimation": {
+        "title": "Pianificazione dei costi di spedizione",
+        "description": "Stima i costi di consegna prima del pagamento per confrontare le rotte, controllare i costi e pianificare gli ordini.",
+        "cta": "Controlla il calcolatore"
+      }
+    }
+  },
+  "process": {
+    "title": "Servizio di acquisto completo",
+    "items": {
+      "purchaseOrders": {
+        "title": "Inviare ordini",
+        "description": "Incolla un link prodotto o invia una richiesta a CNSnap e il nostro team confermerà articolo, opzioni, prezzo e dettagli del venditore prima dell'acquisto."
+      },
+      "shipToWarehouse": {
+        "title": "Spedisci al magazzino",
+        "description": "Gli ordini di venditori diversi possono arrivare prima al magazzino CNSnap per essere raccolti e preparati nello stesso luogo."
+      },
+      "qualityCheck": {
+        "title": "Controllo qualità",
+        "description": "Dopo l'arrivo, ispezioniamo gli articoli, forniamo foto dal magazzino e ti aiutiamo a verificare stato, quantità, colore e altri dettagli chiave."
+      },
+      "globalShipping": {
+        "title": "Spedizione globale",
+        "description": "Quando il tuo pacco è pronto, scegli la linea di spedizione, invialo e monitora la consegna dalla Cina fino alla destinazione."
+      }
+    }
+  },
+  "advantages": {
+    "items": {
+      "multiPlatform": {
+        "title": "Acquisto multi-piattaforma",
+        "description": "Cerca per parola chiave, incolla link prodotto o acquista direttamente su Taobao, Tmall, 1688 e altro."
+      },
+      "imageSearch": {
+        "title": "Ricerca intelligente per immagine",
+        "description": "Carica una foto per trovare rapidamente articoli simili, anche se non conosci la lingua originale del listing."
+      },
+      "warehouseQc": {
+        "title": "Controllo qualità in magazzino",
+        "description": "Ricevi foto dettagliate degli articoli prima della spedizione e conferma ogni ordine con maggiore sicurezza."
+      },
+      "globalShipping": {
+        "title": "Spedizione globale flessibile",
+        "description": "Confronta rotte aeree e marittime con visibilità sul tracking e opzioni chiare prima del pagamento."
+      },
+      "transparentFees": {
+        "title": "Nessun costo nascosto",
+        "description": "Visualizza in modo più chiaro costi di prodotto, servizio e spedizione con prezzi trasparenti e supporto multi-valuta."
+      }
+    }
+  },
+  "mobile": {
+    "quickActions": {
+      "diyOrder": "Richiesta manuale di preventivo e sourcing",
+      "forwarding": "Invia i pacchi gia acquistati al magazzino",
+      "estimation": "Controlla rotte e costi prima del pagamento",
+      "cart": "Rivedi gli articoli salvati e continua il checkout",
+      "orders": "Monitora avanzamento acquisto e stato pagamenti"
+    },
+    "services": {
+      "title": "Accessi ai servizi",
+      "shoppingAgentDescription": "Acquista su Taobao, Tmall, 1688, Weidian e altri marketplace cinesi con un unico flusso CNSnap.",
+      "forwardingDescription": "Spedisci gli articoli al magazzino CNSnap, consolida i pacchi e scegli la rotta internazionale adatta a budget e tempi.",
+      "diyOrderDescription": "Se hai bisogno di aiuto con fornitori, acquisti in volume o un ordine personalizzato, il nostro team puo occuparsi del coordinamento.",
+      "estimationDescription": "Stima i costi di consegna prima del pagamento per confrontare le rotte, controllare i costi e pianificare meglio gli ordini."
+    },
+    "howItWorks": {
+      "eyebrow": "Come funziona",
+      "title": "Dal link del prodotto alla consegna internazionale"
+    },
+    "help": {
+      "title": "Scorciatoie del centro assistenza"
+    },
+    "blog": {
+      "eyebrow": "Guide",
+      "title": "Leggi prima di effettuare un ordine",
+      "viewAll": "Vedi tutte le guide",
+      "openHelp": "Apri il centro assistenza"
+    },
+    "next": {
+      "eyebrow": "Ti serve il prossimo passo?",
+      "title": "Entra subito nel flusso giusto",
+      "diyOrderDescription": "Invia una richiesta manuale di sourcing quando un prodotto richiede una revisione umana.",
+      "forwardingDescription": "Usa il magazzino se hai gia acquistato il prodotto da solo."
+    },
+    "actions": {
+      "open": "Apri"
+    }
+  }
+}

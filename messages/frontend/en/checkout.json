@@ -1,0 +1,69 @@
+{
+  "empty": {
+    "title": "Your checkout is empty",
+    "description": "Add products first, then come back here to confirm shipping and submit the purchasing order.",
+    "action": "Find products"
+  },
+  "breadcrumbs": {
+    "cart": "Cart",
+    "information": "Information",
+    "payment": "Payment"
+  },
+  "panels": {
+    "contact": "Contact",
+    "delivery": "Delivery",
+    "valueAdded": "Value-added services",
+    "notes": "Purchasing notes"
+  },
+  "actions": {
+    "account": "Account",
+    "login": "Log in",
+    "addAddress": "Add new address",
+    "returnToCart": "Return to cart",
+    "submitOrder": "Submit order",
+    "submitting": "Submitting...",
+    "edit": "Edit",
+    "quantity": "Quantity",
+    "serviceNote": "Service note"
+  },
+  "guestEmail": "guest@checkout.local",
+  "valueAdded": {
+    "selectedCount": "{count} selected",
+    "title": "Choose optional extra handling before you submit",
+    "description": "Packaging, inspection, photos, and warehouse handling are now selected here so Buy Now orders do not miss them.",
+    "applicable": "Applicable",
+    "notePlaceholder": "Optional: packaging, photo angle, removal instruction..."
+  },
+  "notesPlaceholder": "Size confirmation, seller message, packaging request, or risk notes for the purchasing team",
+  "shippingNotice": "After payment is completed, you would need to submit the parcel for international delivery once the parcel has arrived and stored in the warehouse.",
+  "summary": {
+    "title": "Order Summary",
+    "secure": "Secure purchasing checkout",
+    "subtotal": "Items subtotal",
+    "domesticShipping": "China shipping",
+    "serviceFee": "Service fee",
+    "valueAddedServices": "Value-added services",
+    "total": "Order total"
+  },
+  "addressForm": {
+    "addTitle": "Add shipping address",
+    "editTitle": "Edit shipping address",
+    "useSaved": "Use saved address",
+    "label": "Address label",
+    "contactName": "Contact name",
+    "phone": "Phone",
+    "city": "City",
+    "postalCode": "Postal code",
+    "line1": "Address line 1",
+    "line2": "Address line 2",
+    "default": "Save as default shipping address"
+  },
+  "confirmDeleteAddress": "Delete this delivery address? Orders using it will keep their order items, but the saved delivery address will be removed.",
+  "errors": {
+    "addressLimit": "You can save up to 3 delivery addresses. Please delete another address first.",
+    "saveAddress": "Unable to save shipping address.",
+    "createOrder": "Unable to create order.",
+    "checkoutFailed": "Checkout failed. Please try again.",
+    "deleteAddress": "Unable to delete address."
+  }
+}

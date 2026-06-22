@@ -1,0 +1,29 @@
+{
+  "actions": {
+    "edit": "Editar",
+    "quantity": "Quantidade",
+    "serviceNote": "Nota do servico"
+  },
+  "summary": {
+    "title": "Resumo do pedido",
+    "secure": "Checkout seguro",
+    "subtotal": "Subtotal dos itens",
+    "domesticShipping": "Frete na China",
+    "serviceFee": "Taxa de servico",
+    "valueAddedServices": "Servicos adicionais",
+    "total": "Total do pedido"
+  },
+  "addressForm": {
+    "addTitle": "Adicionar endereco de entrega",
+    "editTitle": "Editar endereco de entrega",
+    "useSaved": "Usar endereco salvo",
+    "label": "Rotulo do endereco",
+    "contactName": "Nome do contato",
+    "phone": "Telefone",
+    "city": "Cidade",
+    "postalCode": "Codigo postal",
+    "line1": "Endereco linha 1",
+    "line2": "Endereco linha 2",
+    "default": "Salvar como endereco padrao"
+  }
+}

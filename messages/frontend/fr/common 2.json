@@ -1,0 +1,12 @@
+{
+  "seoLanding": {
+    "readRelatedGuides": "Read related guides",
+    "faq": "FAQ"
+  },
+  "header": {
+    "switcher": {
+      "language": "Langue",
+      "currency": "Devise"
+    }
+  }
+}

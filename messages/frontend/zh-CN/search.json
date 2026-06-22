@@ -1,0 +1,113 @@
+{
+  "mobile": {
+    "eyebrow": "搜索",
+    "title": "按关键词搜索或粘贴商品链接",
+    "description": "可通过关键词发现商品，也可直接粘贴 Taobao、1688、Tmall、Weidian 商品链接，快速进入购买流程。",
+    "platforms": "平台",
+    "results": "结果",
+    "resultsReady": "{count} 个商品可浏览",
+    "noResultsYet": "暂无结果",
+    "emptyDescription": "请尝试更宽泛的关键词、切换平台，或直接粘贴商品链接。",
+    "loadMore": "加载更多"
+  },
+  "platformLabels": {
+    "all": "全部平台",
+    "taobao": "淘宝",
+    "tmall": "天猫",
+    "1688": "1688",
+    "weidian": "微店",
+    "jd": "京东",
+    "xianyu": "闲鱼"
+  },
+  "hero": {
+    "eyebrow": "商品发现",
+    "title": "浏览已收录商品，然后让 CNSnap 帮你代购与发货。",
+    "description": "你可以浏览已发布商品、按关键词搜索，或直接粘贴商品链接进入详情与下单流程。",
+    "trustNotes": {
+      "reviewTitle": "代购审核",
+      "reviewText": "下单前我们会核对商品与订单细节。",
+      "photosTitle": "仓库拍照",
+      "photosText": "商品到仓后会保留质检照片。",
+      "shipTitle": "稍后支付运费",
+      "shipText": "国际运费会在称重后支付。"
+    }
+  },
+  "filters": {
+    "eyebrow": "筛选搜索",
+    "title": "筛选器",
+    "marketplace": "平台",
+    "allPlatforms": "全部平台",
+    "sortBy": "排序",
+    "priceRange": "价格区间 CNY",
+    "priceMin": "最低价",
+    "priceMax": "最高价",
+    "note": "当前目录展示的是已发布的前台商品。如果你有具体商品链接，请直接粘贴到搜索框中打开对应商品。",
+    "apply": "应用筛选",
+    "reset": "重置",
+    "activeCount": "{count} 个已启用"
+  },
+  "toolbar": {
+    "page": "第 {page} 页",
+    "filters": "{count} 个筛选",
+    "resultsFor": "“{query}” 的结果",
+    "browseAll": "浏览全部前台商品",
+    "description": "当前展示 {count} 个已发布商品。页面价格不含国际运费，最终运费将在仓库称重后计算。",
+    "catalog": "商品目录"
+  },
+  "pagination": {
+    "browsingPage": "当前浏览第 {page} 页",
+    "previous": "上一页",
+    "next": "下一页"
+  },
+  "empty": {
+    "title": "没有找到匹配商品",
+    "description": "请尝试更宽泛的关键词、移除价格筛选，或直接粘贴原始商品链接。",
+    "startFromHome": "返回首页开始",
+    "submitDiyOrder": "提交 DIY 订单"
+  },
+  "error": {
+    "title": "搜索暂时不可用",
+    "description": "当前无法加载搜索结果。请稍后重试，或先返回首页继续浏览。",
+    "retry": "重新尝试",
+    "goHome": "返回首页",
+    "note": "重试时会保留你当前的关键词和筛选条件。"
+  },
+  "risk": {
+    "title": "搜索需要人工审核",
+    "description": "该关键词可能包含限制或敏感内容，CNSnap 无法直接展示相关商品推荐。",
+    "readRestrictions": "查看限制说明",
+    "tryAnotherSearch": "尝试其他搜索",
+    "mobileNote": "如果你已经有具体商品链接，也可以直接粘贴商品链接继续进入人工审核购买流程。"
+  },
+  "sortOptions": {
+    "default": "最佳匹配",
+    "sales": "销量优先",
+    "priceAsc": "价格从低到高",
+    "priceDesc": "价格从高到低"
+  },
+  "panel": {
+    "keyword": "关键词",
+    "url": "链接",
+    "urlPlaceholder": "粘贴 Taobao/Tmall/1688/JD 商品链接",
+    "keywordPlaceholder": "按关键词或商品编号搜索",
+    "submit": "搜索"
+  },
+  "riskReminder": {
+    "title": "风险提醒",
+    "subtitle": "该商品可能涉及 {count} 个受限{label}。请更换商品，或联系客服获取帮助。",
+    "riskSingle": "风险",
+    "riskPlural": "风险",
+    "alertTitle": "风险警告",
+    "alertDescription": "提交的商品可能属于受限或法律敏感类别，因此当前无法处理此代购请求。",
+    "continueShopping": "继续选购",
+    "noResultTitle": "当前无法展示此搜索的商品结果。请尝试其他关键词，或联系客服获取帮助。",
+    "suggestTitle": "CNSnap 建议：",
+    "suggestions": {
+      "one": "1. 检查关键词是否包含受限或敏感词。",
+      "two": "2. 使用更宽泛的词语重新搜索，例如用“dress”替代过于具体的受限短语。",
+      "three": "3. 提交商品前先查看运输和邮寄限制。",
+      "four": "4. 如果你有正常商品链接，可直接在首页搜索框中提交。",
+      "five": "5. 如果需要帮助寻找合规替代品，请联系客服。"
+    }
+  }
+}
