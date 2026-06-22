@@ -22,7 +22,7 @@
     "db:seed": "tsx prisma/seed.ts",
     "db:reset": "prisma db push --force-reset && tsx prisma/seed.ts",
     "build:ci": "npm run prisma:generate && next build",
-    "build:hostinger": "npm run prisma:generate:mysql && next build"
+    "build:hostinger": "npm install --include=dev && npm run prisma:generate:mysql && next build"
   },
   "dependencies": {
     "@auth/core": "^0.34.3",
