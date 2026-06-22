@@ -28,8 +28,8 @@ export function SeoLandingPageEditorForm({ page, initialValues, seoLocales, onSa
   const [isPending, startTransition] = useTransition();
   const sectionsJson = form.watch("sectionsJson");
   const faqJson = form.watch("faqJson");
-  const sections = useMemo(() => parseSections(sectionsJson), [sectionsJson]);
-  const faqItems = useMemo(() => parseFaqItems(faqJson), [faqJson]);
+  const sections = useMemo(() => parseSections(sectionsJson || ""), [sectionsJson]);
+  const faqItems = useMemo(() => parseFaqItems(faqJson || ""), [faqJson]);
 
   function submit(values: SeoLandingPageEditorValues) {
     const formData = new FormData();
